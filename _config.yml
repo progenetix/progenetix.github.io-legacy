@@ -1,0 +1,128 @@
+title: 'Progenetix - Structural Cancer Genomics Resources'
+label: 'Progenetix :: Info'
+tagline: 'Structural Cancer Genomics Resource Documentation and Example Pages'
+description: |
+  Code & info website of the progenetix.org cancer genomics information resource : baudisgroup @ UZH & SIB
+show_downloads: true
+google_analytics: UA-572981-2
+destination: '/Library/WebServer/Documents/Sites/org.progenetix.info/'
+plugins:
+ - jekyll-seo-tag
+keywords:
+  - genomics
+  - cancer
+  - CGH
+  - arrays
+  - Beacon
+  - Baudis
+  - DNA
+  - 'data sharing'
+  - 'FAIR'
+  - GA4GH
+  - Zurich
+site_domain_name: info.progenetix.org
+url: 'http://info.progenetix.org'
+baseurl: ""
+site_parent_link: 'http://progenetix.org'
+site_parent_link_name: 'Progenetix Data'
+
+# instructions for processing specific directories
+
+include:        # usually only pages in / and /_posts are "seen" => processed
+  - categories  # contains landing pages for each category
+  - tags        # contains landing pages for each tag
+
+# Collections are used to organise pages into logical groups; these do not need
+# to have a relation to the "categories", though this is highly recommended
+# Collection directories reside in "/collections_dir/_(collection name)".
+
+collections:
+  doc:
+    output: true
+    permalink: /doc/:path/
+  pages:
+    output: true
+    permalink: /pages/:path/
+  schemas:
+    output: true
+    permalink: /schemas/:path/
+
+collections_dir: pages  # optional; here, all collections are inside "/pages"
+
+# navigation blocks can be used to separate different categories and add e.g.
+# external link block(s), in combination with a properly modified layout
+
+nav_cat_blocks: # comma-separated "label,type,label_visibility"
+  General: 'General,categories,hide'
+  related_sites: 'Related Sites,related_sites,show'
+  github_projects: 'Github Projects,github_projects,show'
+
+General:
+  news: News
+  about: About...
+  API: API
+  howto: 'Documentation'
+  publications: Publications
+
+# links added to the "General" categories block
+general_outlinks:
+  'Progenetix Home': 'http://progenetix.org'
+
+related_sites:
+  'arrayMap': 'http://arraymap.org'
+  'Baudisgroup @ UZH': 'http://info.baudisgroup.org'
+  'Beacon<span style="color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org/ui/'
+  'SchemaBlocks {S}[B]': 'http://schemablocks.org'
+  'ELIXIR Beacon': 'http://ga4gh-beacon.github.io'
+  'Baudisgroup Internal': 'http://internal.baudisgroup.org'
+
+github_projects:
+  baudisgroup: 'http://github.com/baudisgroup/'
+  progenetix: 'http://github.com/progenetix/'
+  'ELIXIR Beacon': 'https://github.com/ga4gh-beacon/'
+
+categories-date-sorted:
+  - news
+  - statistics
+  - howto
+
+tags-date-sorted:
+  - API
+  - documentation
+
+cloud_tags:
+  - API
+  - article
+  - Beacon
+  - BeaconPlus
+  - bycon
+  - code
+  - documentation
+  - GA4GH
+  - maps
+  - ontologies
+  - prefixes
+  - resource
+  - licensing
+  - statistics
+  - schemas
+  - services
+  - tools
+  - Perl
+  - JavaScript
+  - Python
+
+
+# additional Jekyll instructions
+
+plugins:
+ - jekyll-seo-tag
+type: website
+navigation_max_items: 4 # number of shown links in current category
+emptyArray: []          # dummy element for array initialisation
+
+# local build specific
+
+include:
+  - .htaccess
+markdown: kramdown

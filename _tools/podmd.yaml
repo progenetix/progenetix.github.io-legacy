@@ -1,0 +1,98 @@
+output_dir: '../pages/_doc'
+output_pre: '__generated-doc'
+category: howto
+tags:
+  - code
+  - documentation
+md_starts:
+  - '^=podmd'               # Perl
+  - '^\/\*podmd'            # JavaScript
+  - '^# podmd'              # Python
+  - '^\s*?\"\"\"podmd'      # Python (preferred)
+md_stops:
+  - '^=cut'
+  - '^# end_podmd'
+  - 'end_podmd\*\/'
+  - '^\s*?podmd\"\"\"'
+packages:
+  BeaconPlus:
+    input:
+      - '/Library/WebServer/cgi-bin/BeaconPlus'
+    web_project_link: 'https://github.com/progenetix/BeaconPlus'
+    web_source_link: 'https://github.com/progenetix/BeaconPlus/blob/master'
+    extensions:
+      - .pm
+    language: Perl
+    tags:
+      - Beacon
+  ByconLibs:
+    input:
+      - '/Library/WebServer/cgi-bin/bycon/bycon/doc'
+    web_project_link: 'https://github.com/progenetix/bycon'
+    web_source_link: 'https://github.com/progenetix/bycon/blob/master/bycon/doc'
+    extensions:
+      - .md
+    language: Python
+    tags:
+      - Beacon
+      - bycon
+  # PgyLibs:
+  #   input:
+  #     - '/Library/WebServer/cgi-bin/bycon/pgy'
+  #   web_project_link: 'https://github.com/progenetix/bycon'
+  #   web_source_link: 'https://github.com/progenetix/bycon/blob/master/pgy'
+  #   extensions:
+  #     - .py
+  #   language: Python
+  #   tags:
+  #     - Beacon
+  #     - bycon
+  Bycon:
+    input:
+      - '/Library/WebServer/cgi-bin/bycon/services/doc'
+    web_project_link: 'https://github.com/progenetix/bycon'
+    web_source_link: 'https://github.com/progenetix/bycon/blob/master/services/doc'
+    extensions:
+      - .md
+    language: Python
+    tags:
+      - Beacon
+      - bycon
+  ProgenetixInfo:
+    input: '.'
+    extensions:
+      - .pl
+    language: Perl
+  PGXJS:
+    input:
+      - '../assets/js/pgxjs'
+    web_source_link: '/assets/js/pgxjs'
+    extensions:
+      - .js
+    language: JavaScript
+  API:
+    input:
+      - '/Library/WebServer/cgi-bin'
+    extensions:
+      - '^api\w*?\.cgi'
+    language: ""
+    tags:
+      - Progenetix
+      - API
+  APIconfig:
+    input:
+      - '/Library/WebServer/cgi-bin/BeaconPlus/config'
+    extensions:
+      - '.yaml'
+    language: ""
+    tags:
+      - Progenetix
+      - API
+  BeaconPlusServer:
+    input:
+      - '/Library/WebServer/cgi-bin'
+    extensions:
+      - '^beacon\w*?\.cgi'
+    language: Perl
+    tags:
+      - Beacon

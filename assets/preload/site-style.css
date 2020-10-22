@@ -1,0 +1,99 @@
+:root {
+  --site-color: rgb(255,111,72);
+}
+
+#logo_topleft {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#logo_topright {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 32px;
+}
+
+#pubdetails-authors {
+	margin-bottom: 1em;
+	font-size: 1em;
+	font-weight: 600;
+}
+#pubdetails-title {
+	margin-bottom: 1em;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+#pubdetails-journal {
+	margin-bottom: 1em;
+	font-size: 1em;
+}
+#pubdetails-abstract {
+	margin-bottom: 1em;
+	font-size: 0.9em;
+}
+
+/* 
+classes for 12 part grid; from bijou CSS framework
+http://andhart.github.io/bijou/
+*/
+
+.pull-left{float:left; clear: none;}
+.pull-right{float:right; clear: none;}
+
+.row{min-height:2em;line-height:2em;width:100%; clear: both;}
+.rowspacer{ width:100%; height: 0.2em; }
+.formrow{ width:100%; clear: both; }
+
+.button{ cursor:pointer; }
+.button.small{padding:7px 20px;font-size:.95em}
+.button.large{padding:15px 45px;font-size:1.1em}
+.button.primary{color:#FFF;background:#5f90b0}
+.button.primary:hover{background:#5589ab}
+.button.success{color:#FFF;background:#4daf7c}
+.button.success:hover{background:#48a474}
+.button.danger{color:#FFF;background:#e6623c}
+.button.danger:hover{background:#e4572e}
+
+/*
+
+*/
+
+.label { width: 100%; min-height:2em; text-align: right; padding: 2px 5px; box-shadow: 0px 0px 0px 1px var(--site-color) inset; border-radius:5px; background-color: #f3f3f3; clear: both;}
+
+.formfield { width: 100%; min-height:2em; padding: 2px 5px; box-shadow: 0px 0px 0px 1px var(--site-color) inset; border-radius:5px; background-color: #f3f3f3; clear: none;}
+
+a[href $='.pdf'] {
+ padding-right: 20px;
+ background: transparent url(/p/icons_Foswiki/pdf.gif) no-repeat center center;
+}
+a[href *='/geo/'] {
+ padding-right: 20px;
+ background: transparent url(/p/geo.gif) no-repeat center center;
+}
+a[href *='ega-archive'] {
+ padding-right: 20px;
+ background: transparent url(/p/ega_16.png) no-repeat center center;
+}
+a[href *='/biostudies'] {
+ padding-right: 20px;
+ background: transparent url(/p/biostudies_16.png) no-repeat center center;
+}
+a[href *='/arrayexpress'] {
+ padding-right: 20px;
+ background: transparent url(/p/arrayexpress.gif) no-repeat center center;
+}
+a[href *='/aerep'] {
+ padding-right: 20px;
+ background: transparent url(/p/arrayexpress.gif) no-repeat center center;
+}
+a[href *='www.ncbi.nlm.nih.gov/pubmed/'] {
+ padding-right: 20px;
+ background: transparent url(/p/pubmed.gif) no-repeat center center;
+}
+a[href *='www.europepmc'] {
+ padding-right: 20px;
+ background: transparent url(https://progenetix.org/p/EPMC_16.gif) no-repeat center center;
+}
+
