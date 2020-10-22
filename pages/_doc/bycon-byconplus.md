@@ -1,5 +1,5 @@
 ---
-title: "Bycon: byconplus"
+title: "Bycon: byconplus Beacon Server"
 layout: default
 permalink: /doc/bycon/byconplus.html
 www_link: https://github.com/progenetix/bycon
@@ -18,10 +18,21 @@ tags:
   - .featured
 ---
 
-### Bycon - a Python-based environment for the Beacon v2 genomics API
+## Bycon - a Python-based environment for the Beacon v2 genomics API
 
+The __bycon__ project provides implementation of middleware & server for the
+[Beacon API](https://beacon-project.io), for use with the _Progenetix_ (i.e. GA4GH object model derived, _MongoDB_ implemented) environment. In this project, the
+`byconplus.py` application and its libraries provide the necessary functionality
+to run a Beacon instance, provided the given environment.
+
+Future versions will add methods to set-up necessary database structures from
+various variant and metadata files. Please [contact](mailto:contact@progenetix.org)
+us for further information.
 
 <!--more-->
+
+* [Documentation Link](https://github.com/progenetix/bycon/blob/master/bycon/doc/byconplus.md)
+* [Source Link](https://github.com/progenetix/bycon/blob/master/bycon/byconplus.py)
 
 ##### Examples
 
