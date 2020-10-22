@@ -25,5 +25,14 @@ classification systems, notably NCIt.
 
 The service has a front-end in the [Progenetix Services area](https://progenetix.org/service-collection/ontologymaps).
 
+<!--more-->
+
+#### Examples
+
+* <https://progenetix.test/services/collations/?method=counts&filters=geo>
+* <https://progenetix.test/services/collations/?method=paths&filters=NCIT>
+
+#### More Information
+
 * [Documentation Link](https://github.com/progenetix/bycon/blob/master/services/doc/ontolgymaps.md)
 * [Source Link](https://github.com/progenetix/bycon/blob/master/services/ontolgymaps.py)
