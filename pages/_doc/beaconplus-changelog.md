@@ -1,7 +1,7 @@
 ---
 title:  "BeaconPlus Changes"
 layout: default
-date: 2019-09-30
+date: 2020-10-01
 permalink: /beaconplus-changelog.html
 excerpt_separator: <!--more-->
 category:
