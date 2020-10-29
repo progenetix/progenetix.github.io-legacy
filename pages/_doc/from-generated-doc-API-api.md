@@ -90,8 +90,9 @@ the full API URL elements, before the query deparsing stages.
 * `geomap`
     - <https://progenetix.org/api/arraymap/biosamples/geomap/icdom-817/?-map_marker_scale=8>
 
-#### ICD mappings
+#### ICD mappings **DEPRECATED**
 
+<!--
 ##### Scopes
 
 * `icdmaps`
@@ -113,6 +114,7 @@ cancer core codes.
         * as in the example above, but by a) stemmming the query parameters and
         b) removing the `ncitcodes` format argument, the response will now be a
         list of matched data objects (inputs and equivalents)
+-->
 
 #### Publication data
 
