@@ -29,8 +29,8 @@ The service has a front-end in the [Progenetix Services area](https://progenetix
 
 #### Examples
 
-* <https://progenetix.org/services/onntologymaps/?filters=icdom-85003>
-* <https://progenetix.org/services/onntologymaps/?filters=NCIT>
+* <https://progenetix.org/services/ontologymaps/?filters=icdom-85003>
+* <https://progenetix.org/services/ontologymaps/?filters=NCIT>
 
 #### More Information
 
