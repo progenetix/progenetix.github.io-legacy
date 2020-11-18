@@ -29,10 +29,10 @@ The service has a front-end in the [Progenetix Services area](https://progenetix
 
 #### Examples
 
-* <https://progenetix.test/services/collations/?method=counts&filters=geo>
-* <https://progenetix.test/services/collations/?method=paths&filters=NCIT>
+* <https://progenetix.org/services/onntologymaps/?filters=icdom-85003>
+* <https://progenetix.org/services/onntologymaps/?filters=NCIT>
 
 #### More Information
 
-* [Documentation Link](https://github.com/progenetix/bycon/blob/master/services/doc/ontolgymaps.md)
+* [Documentation Link](https://progenetix.org/service-collection/ontologymaps)
 * [Source Link](https://github.com/progenetix/bycon/blob/master/services/ontolgymaps.py)
