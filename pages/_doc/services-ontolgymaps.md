@@ -31,6 +31,11 @@ The service has a front-end in the [Progenetix Services area](https://progenetix
 
 * <https://progenetix.org/services/ontologymaps/?filters=icdom-85003>
 * <https://progenetix.org/services/ontologymaps/?filters=NCIT>
+* <https://progenetix.org/services/ontologymaps/?filters=icdom-85003,icdot-C50.9>
+* <https://progenetix.org/services/ontologymaps/?filters=icdom-85003,icdot-C50.9&responseType=text>
+  - as before, but tab-delimited term(s)/label
+* <https://progenetix.org/services/ontologymaps/?filters=icdom-85,icdot-C50&filterPrecision=start>
+  - As in the example above, but by a) stemmming the query parameters and b) removing the ncitcodes format argument, the response will now be a list of matched data objects (inputs and equivalents)
 
 #### More Information
 
