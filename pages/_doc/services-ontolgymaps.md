@@ -25,6 +25,22 @@ classification systems, notably NCIt. The mappings are represented in the [ICDOn
 
 <!--more-->
 
+Our resources use an internal representation of ICD-O 3 codes since no official CURIES are provided by the IARC. The syntax is:
+
+* ICD-O 3 morphologies
+  - "icdom-"`s/\///`; i.e. number only code
+  - "8500/3" => "icdom-85003"
+* ICD-O 3 Topographies
+  - "icdot-" + code
+  - "C53.9" => "icdot-C53.9"  
+
+#### Parameters
+
+##### `filters`
+
+* comma-concatenated complete codes and/or prefixes
+
+
 #### Examples
 
 ##### NCIt and ICD-O 3
@@ -37,7 +53,7 @@ classification systems, notably NCIt. The mappings are represented in the [ICDOn
   
 ##### UBERON and ICD-O 3 Topography
 
-* <https://progenetix.org/services/ontologymaps/?filters=UBERON&filterPrecision=start>
+* <https://progenetix.org/services/ontologymaps/?filters=UBERON>
   - all mappings
 * <https://progenetix.org/services/ontologymaps/?filters=UBERON,icdot-C0&filterPrecision=start>
   - all `C0...` ICD-O T matches
