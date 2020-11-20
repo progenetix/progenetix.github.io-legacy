@@ -2,7 +2,7 @@
 title: "Services: Ontolgymaps"
 layout: default
 permalink: /doc/services/ontologymaps.html
-www_link: https://github.com/progenetix/bycon
+www_link: 
 excerpt_separator: <!--more-->
 date: 2020-10-20
 category:
@@ -21,9 +21,7 @@ tags:
 ## {{ page.title }}
 
 The `ontologymaps` service provides equivalency mapping between ICD-O and other
-classification systems, notably NCIt.
-
-The service has a front-end in the [Progenetix Services area](https://progenetix.org/service-collection/ontologymaps).
+classification systems, notably NCIt. The mappings are represented in the [ICDOntologies](https://github.com/progenetix/ICDOntologies) project and accessible trough a front-end in the [Progenetix Services area](https://progenetix.org/service-collection/ontologymaps).
 
 <!--more-->
 
@@ -37,5 +35,6 @@ The service has a front-end in the [Progenetix Services area](https://progenetix
 
 #### More Information
 
-* [Documentation Link](https://progenetix.org/service-collection/ontologymaps)
-* [Source Link](https://github.com/progenetix/bycon/blob/master/services/ontolgymaps.py)
+* [Web Interface Link](https://progenetix.org/service-collection/ontologymaps)
+* [Source Link](https://github.com/progenetix/bycon/blob/master/services/ontologymaps.py)
+* [Project Source](https://github.com/progenetix/bycon)
