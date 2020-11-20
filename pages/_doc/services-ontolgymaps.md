@@ -39,7 +39,9 @@ classification systems, notably NCIt. The mappings are represented in the [ICDOn
 
 * <https://progenetix.org/services/ontologymaps/?filters=UBERON&filterPrecision=start>
   - all mappings
-* <https://progenetix.org/services/ontologymaps/?filters=icdot-C0&filterPrecision=start>
+* <https://progenetix.org/services/ontologymaps/?filters=UBERON,icdot-C0&filterPrecision=start>
+  - all `C0...` ICD-O T matches
+  - limited to `UBERON` mappings since the prefix was given, too (otherwise all the NCIT mappings would also be listed for these ICD-O T code matches)
 
 #### More Information
 
