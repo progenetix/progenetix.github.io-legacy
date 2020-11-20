@@ -40,8 +40,14 @@ Our resources use an internal representation of ICD-O 3 codes since no official 
 
 ##### `filters`
 
-* comma-concatenated complete codes and/or prefixes
+* required
+* comma-concatenated __complete__ codes and/or prefixes
+* partial codes (see above for ICD-O syntax) will not be matched unless a relaxed filter precision is indicated
 
+##### `filterPrecision`
+
+* optional
+* to allow partial code matches (see examples below)
 
 #### Examples
 
