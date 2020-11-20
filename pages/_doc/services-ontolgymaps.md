@@ -25,6 +25,8 @@ classification systems, notably NCIt. The mappings are represented in the [ICDOn
 
 <!--more-->
 
+### ICD-O Representation
+
 Our resources use an internal representation of ICD-O 3 codes since no official CURIES are provided by the IARC. The syntax is:
 
 * ICD-O 3 morphologies
