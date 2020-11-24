@@ -29,7 +29,6 @@ Stacking with the "pgx:" prefix is allowed.
 * <https://progenetix.org/services/ids/PMID:28966033>
 * <https://progenetix.org/services/ids/NCIT:C3262>
 * <https://progenetix.org/services/ids/cellosaurus:CVCL_0022>
-* <https://identifiers.org/pgx:cellosaurus_CVCL_0022>
 
 <!--more-->
 
