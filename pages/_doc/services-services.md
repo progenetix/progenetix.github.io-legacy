@@ -34,6 +34,7 @@ documentation.
 * [_ids_](/doc/services/ids.html)
 * [_ontologymaps_](/doc/services/ontologymaps.html)
 * [_publications_](/doc/services/publications.html)
+* [_schemas_](/doc/services/schemas.html)
 
 ### `services.py` and URL Mapping
 
