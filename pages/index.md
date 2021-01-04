@@ -1,15 +1,16 @@
 ---
-title:  "Progenetix projects home"
+title:  "Progenetix Resource Documentation"
 layout: default
 permalink: index.html
 date:   2020-09-30
 ---
 
-## Welcome to the Progenetix documentation pages
+## Welcome to the _Progenetix_ documentation pages
 
-The Progenetix code repository contains projects related to the [Progenetix](progenetix.org)
-and [arrayMap](arraymap.org) genome resources, such as data conversion scripts,
-ontology mappings and code for the [Beacon+](beacon.progenetix.org) project.
+The [Progenetix Resource Documentation](http://info.progenetix.org) provides
+information  and links related to the [Progenetix](http://progenetix.org)
+cancer genome resource and the related [Progenetix code repositories](http://github.com/progenetix/) contains projects related to the [Progenetix](http://progenetix.org), such as
+data conversion scripts, ontology mappings and code for the [Beacon+](http://beacon.progenetix.org/ui/) project.
 
 ### Some Additional Information on Project Pages
 
