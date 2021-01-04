@@ -19,6 +19,10 @@ keywords:
   - 'FAIR'
   - GA4GH
   - Zurich
+  - SIB
+  - Swiss Institute of Bioinformatics
+  - UZH
+  - University of Zurich
 site_domain_name: info.progenetix.org
 url: 'http://info.progenetix.org'
 baseurl: ""
@@ -96,6 +100,7 @@ cloud_tags:
   - BeaconPlus
   - bycon
   - code
+  - identifiers
   - documentation
   - GA4GH
   - maps
@@ -107,6 +112,7 @@ cloud_tags:
   - schemas
   - services
   - tools
+  - website
   - Perl
   - JavaScript
   - Python

@@ -9,8 +9,8 @@ category:
 tags:
   - Progenetix
   - identifiers
-pdf_file_name:
-pdf_file_type:
+  - prefixes
+  - services
 ---
 
 ## {{page.title}}

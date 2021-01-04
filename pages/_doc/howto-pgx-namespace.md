@@ -11,6 +11,8 @@ category:
 tags:
   - API
   - services
+  - identifiers
+  - prefixes
 ---
 
 ## {{ page.title }}
@@ -22,7 +24,7 @@ tags:
 
 <!--  CONTENT  -->
 
-Since July 2017, the Progenetix project has a registered namespace prefix at [EBI's Miriam and identifiers.org](https://identifiers.org/registry?query=pgx).
+Since July 2017, the Progenetix project has a registered namespace prefix at [EBI's identifiers.org](https://identifiers.org/registry?query=pgx).
 
 <!--more-->
 

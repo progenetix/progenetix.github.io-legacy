@@ -3,13 +3,14 @@ title: "NCIt Coding"
 date: 2018-05-10
 permalink: /howto/ncit-coding.html
 layout: default
-author: Michael Baudis
+author: '@mbaudis'
 excerpt_separator: <!--more-->
 category:
   - howto
 tags:
   - standards
   - NCIt
+  - ontologies
 ---
 
 ## NCIt coding of tumor samples

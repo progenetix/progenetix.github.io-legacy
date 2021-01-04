@@ -4,6 +4,7 @@ layout: default
 date:   2018-04-03
 category:
   - news
+  - website
 ---
 
 ## Launch of new _info.progenetix.org_ resource site
