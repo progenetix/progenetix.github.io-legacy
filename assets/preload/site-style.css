@@ -1,5 +1,9 @@
 :root {
-  --site-color: rgb(255,111,72);
+  --site-color: #ff6f48;
+}
+
+#nav_r {
+  background:#fafafa;
 }
 
 #logo_topleft {
@@ -34,7 +38,7 @@
 	font-size: 0.9em;
 }
 
-/* 
+/*
 classes for 12 part grid; from bijou CSS framework
 http://andhart.github.io/bijou/
 */
@@ -96,4 +100,3 @@ a[href *='www.europepmc'] {
  padding-right: 20px;
  background: transparent url(https://progenetix.org/p/EPMC_16.gif) no-repeat center center;
 }
-
