@@ -9,8 +9,8 @@ date:   2020-09-30
 
 The [Progenetix Resource Documentation](http://info.progenetix.org) provides
 information  and links related to the [Progenetix](http://progenetix.org)
-cancer genome resource and the related [Progenetix code repositories](http://github.com/progenetix/) contains projects related to the [Progenetix](http://progenetix.org), such as
-data conversion scripts, ontology mappings and code for the [Beacon+](http://beacon.progenetix.org/ui/) project.
+cancer genome resource and the related [Progenetix code repositories](http://github.com/progenetix/) contains projects, such as data conversion scripts, ontology mappings and code
+for the [Beacon+](http://beacon.progenetix.org/ui/) project.
 
 ### Some Additional Information on Project Pages
 
