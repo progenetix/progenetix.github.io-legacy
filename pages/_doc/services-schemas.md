@@ -17,7 +17,6 @@ tags:
   - Bycon
   - services
   - schemas
-  - website
 ---
 
 ## {{ page.title }}
