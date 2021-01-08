@@ -1,4 +1,4 @@
-## Welcome to the Progenetix documentation pages
+## Welcome to the [Progenetix documentation pages](http://info.progenetix.org)
 
 The Progenetix code repository contains projects related to the [Progenetix](http://progenetix.org) and [arrayMap](http://arraymap.org) genome resources, such as data conversion scripts, ontology mappings and code for the [Beacon+](http://beacon.progenetix.org) project.
 
