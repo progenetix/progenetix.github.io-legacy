@@ -22,7 +22,7 @@ tags:
 The current implementation of the Progenetix APIs uses 2 URL endpoints:
 
 * `progenetix.org/services/`
-  - documented at [services](/doc/service-services.html)
+  - documented at [services](/doc/services/services.html)
   - powered by the [bycon](http://github.com/progenetix/bycon/) project
   - target for further development
 * `progenetix.org/api/`
@@ -31,6 +31,8 @@ The current implementation of the Progenetix APIs uses 2 URL endpoints:
   - stepwise deprecation in favour of `services`
 
 <!--more-->
+
+## DEPRECATED
 
 The documentation below concerns the legacy Perl API. Most of this will still
 be functional as of 2020, but `services` should be preferred if providing the
