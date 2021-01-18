@@ -32,4 +32,6 @@ application.
 ##### Examples
 
 * <https://progenetix.org/services/biosamples/?filters=icdom-81703&datasetIds=progenetix>
+* <https://progenetix.org/services/biosamples/?filters=icdom-81703&datasetIds=progenetix&responseFormat=simple>
+* <https://progenetix.org/services/biosamples/?filters=icdom-81703&datasetIds=progenetix&responseFormat=simpletext>
 * <http://progenetix.org/services/biosamples?datasetIds=progenetix&assemblyId=GRCh38&includeDatasetResonses=ALL&requestType=null&referenceName=null&filterLogic=OR&filters=NCIT:C7376&filters=NCIT:C45665&filters=NCIT:C45655&filters=NCIT:C45655>
