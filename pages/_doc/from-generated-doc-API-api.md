@@ -25,7 +25,7 @@ The current implementation of the Progenetix APIs uses 2 URL endpoints:
   - documented at [services](/doc/services/services.html)
   - powered by the [bycon](http://github.com/progenetix/bycon/) project
   - target for further development
-* `progenetix.org/api/`
+* `progenetix.org/api/` has been deprecated
   - based on the original Perl libraries
   - stepwise deprecation in favour of `services`
   - **documentation removed**
