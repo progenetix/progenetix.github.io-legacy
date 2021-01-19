@@ -58,11 +58,11 @@ parameter is provided e.g. for Ajax functionality.
 
 * <http://progenetix.org/services/collations?filters=PMID&datasetIds=progenetix&method=counts&callback=4445-9938-cbat-9891-kllt>
 
-### Response formats
+### Response formats (changed January 2021)
 
 Standard responses are provided as `Content-Type: application/json`. The wrapper
-format, as defined in the cofigurartion (`config/config.yaml`) provides a `data`
-root parameter:
+format, as defined in the schemas (https://github.com/progenetix/bycon/tree/master/services/config/schemas`) 
+provides a `response` root parameter with a default `results` list item:
 
 ```
 response_object_schema:
@@ -77,43 +77,114 @@ format. Here, the data is a dictionary/object with a single key (`genes`):
 
 ##### Request  Example
 
-* <https://progenetix.org/services/genespans?geneId=CDKN2>
+* <https://progenetix.org/services/biosamples/?filters=icdom-81703&datasetIds=progenetix>
 
 ##### Response Example
 
 ```
 {
-    "parameters": {
-        "assemblyId": "GRCh38",
-        "geneId": "CDKN2A"
-    },
-    "data": {
-        "genes": [
-            {
-                "cds_end_max": 21994330,
-                "cds_start_min": 21968228,
-                "gene_entrez_id": 1029,
-                "gene_symbol": "CDKN2A",
-                "reference_name": "9"
-            },
-            {
-                "cds_end_max": 183447426,
-                "cds_start_min": 183444797,
-                "gene_entrez_id": 55602,
-                "gene_symbol": "CDKN2AIP",
-                "reference_name": "4"
-            },
-            {
-                "cds_end_max": 134411853,
-                "cds_start_min": 134402914,
-                "gene_entrez_id": 91368,
-                "gene_symbol": "CDKN2AIPNL",
-                "reference_name": "5"
-            }
-        ]
-    },
+  "meta": {
     "errors": [],
-    "warnings": []
-}
+    "info": "The main biosamples payload can be accessed in `response.results`.\n",
+    "parameters": [
+      {
+        "method": "details"
+      },
+      {
+        "filters": [
+          "icdom-81703"
+        ]
+      },
+      {
+        "variant_pars": {
+          "assemblyId": "GRCh38"
+        }
+      },
+      {
+        "dataset": "progenetix"
+      }
+    ],
+    "response_type": "return_biosamples",
+    "returned_schemas": [
+      "https://progenetix.org/services/schemas/Biosample/"
+    ]
+  },
+  "response": {
+    "exists": true,
+    "info": {
+      "count": 2020
+    },
+    "results": [
+      {
+        "biocharacteristics": [
+          {
+            "description": null,
+            "id": "UBERON:0002107",
+            "label": "liver"
+          },
+          {
+            "description": null,
+            "id": "icdot-C22.0",
+            "label": "Liver"
+          },
+          {
+            "description": null,
+            "id": "icdom-81703",
+            "label": "Hepatocellular carcinoma, NOS"
+          },
+          {
+            "description": null,
+            "id": "NCIT:C3099",
+            "label": "Hepatocellular Carcinoma"
+          }
+        ],
+        "description": "Hepatocellular carcinoma [chronic Hepatitis B]",
+        "external_references": [
+          {
+            "description": null,
+            "id": "PMID:8993981",
+            "label": null
+          }
+        ],
+        "id": "pgxbs-kftvgi2z",
+        "info": {
+          "callset_ids": [
+            "pgxcs-kftvlys5"
+          ],
+          "cnvstatistics": {
+            "cnvcoverage": 486794605,
+            "cnvfraction": 0.161,
+            "delcoverage": 256788224,
+            "delfraction": 0.085,
+            "dupcoverage": 233122824,
+            "dupfraction": 0.077
+          },
+          "legacy_id": "PGX_AM_BS_HCC-1997-01"
+        },
+        "provenance": {
+          "geo": {
+            "ISO-3166-alpha3": "FRA",
+            "city": "Paris",
+            "country": "France",
+            "geojson": {
+              "coordinates": [
+                2.35,
+                48.85
+              ],
+              "type": "Point"
+            },
+            "label": "Paris, France",
+            "latitude": 48.85,
+            "longitude": 2.35,
+            "precision": "city"
+          },
+          "material": {
+            "description": null,
+            "id": "EFO:0009656",
+            "label": "neoplastic sample"
+          }
+        }
+      },
+      ...
 ```
 <!--/podmd-->
