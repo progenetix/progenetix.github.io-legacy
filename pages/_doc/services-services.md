@@ -65,11 +65,13 @@ format, as defined in the schemas (https://github.com/progenetix/bycon/tree/mast
 provides a `response` root parameter with a default `results` list item:
 
 ```
-response_object_schema:
-  parameters: { }
-  data: { }
-  errors: [ ]
-  warnings: [ ]
+  "response": {
+    "exists": true,
+    "info": {
+      "count": 2020
+    },
+    "results": [
+    ...
 ```
 
 This (incomplete) example response may help with understanding the general
@@ -94,11 +96,6 @@ format. Here, the data is a dictionary/object with a single key (`genes`):
         "filters": [
           "icdom-81703"
         ]
-      },
-      {
-        "variant_pars": {
-          "assemblyId": "GRCh38"
-        }
       },
       {
         "dataset": "progenetix"
