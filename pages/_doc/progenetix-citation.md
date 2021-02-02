@@ -3,8 +3,9 @@ title: 'Citation'
 date: 2021-02-02
 layout: default
 permalink: /citation.html
-category:
+categories:
   - howto
+  - about
 tags: 
   - progenetix
   - arraymap
