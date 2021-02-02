@@ -1,6 +1,6 @@
 ---
 title: 'Citation'
-date: 2012-03-23
+date: 2021-02-02
 layout: default
 permalink: /citation.html
 category:
@@ -9,9 +9,14 @@ tags:
   - progenetix
   - arraymap
   - guide
+  - publications
+  - citation
+  - .featured
 ---
 
 ## Citation
+
+Recent publications by the Progenetix team can be found on the [baudisgroup website](http://info.baudisgroup.org/categories/publications.html).
 
 *Progenetix* For any use of the Progenetix data, e.g. as a reference for aberration frequencies in a certain locus, it is necessary to cite __both__ the website and the original _Bioinformatics_ publication: 
 
@@ -20,8 +25,8 @@ tags:
 
 Depending on the context (e.g. direct use of recent data), the more recent resource publications could/should be cited, too:
 
+* Cai H, Kumar N, Ai N, Gupta S, Rath P, Baudis M. *Progenetix: 12 years of oncogenomic data curation.* _Nucleic Acids Res_ (2014) Jan;42
 * Cai, H., N. Kumar, N. Ai, S. Gupta, P. Rath, and M. Baudis. Progenetix: 12 years of oncogenomic data curation. _Nucleic Acids Res_ (2013) 
-
 
 In case of citation restrictions, you may just use the Bioinformatics citation, and put the website in the text. A proper citation would look e.g. like:
 
