@@ -20,11 +20,11 @@ With exception of some utility scripts and external dependencies (e.g. [MongoDB]
   - Python based service based on the [GA4GH Beacon protocol](http://beacon-project.io)
   - software powering the Progenetix resource
   - [Beacon<span style="vertical-align: super; color: red; font-weight: 800;">+</span>](http://beacon.progenetix.org/ui/) implementation(s) use the same code base
-* [`progenetix-next`]((https://github.com/progenetix/progenetix-next)
+* [`progenetix-next`](https://github.com/progenetix/progenetix-next)
   - website for Progenetix and its Beacon<span style="vertical-align: super; color: red; font-weight: 800;">+</span> implementations
   - provides Beacon interfaces for the `bycon` server, as well as other Progenetix sevices (e.g. the [publications](http://progenetix.org/publications/) repository)
   - implemented as [React](https://reactjs.org) / [Next.js](https://nextjs.org) project
-* [`PGX`]((https://github.com/progenetix/PGX)
+* [`PGX`](https://github.com/progenetix/PGX)
   - a Perl ibrary providing utility functions for Progenetix CNV data
   - used for data transformation, e.g. binning of segmental CNV data
   - main purpose now in providing the various plots (CNV histograms, clusterd CNV profiles, array plots)
