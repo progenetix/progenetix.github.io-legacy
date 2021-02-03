@@ -34,9 +34,9 @@ With exception of some utility scripts and external dependencies (e.g. [MongoDB]
 * [`schemas`](https://github.com/progenetix/schemas)
   - Progenetix data schemas
   - represent an accessible/stable version of the schemas used in [`bycon`](https://github.com/progenetix/bycon)
-* [icdot2uberon](https://github.com/progenetix/icdot2uberon)
+* [`icdot2uberon`](https://github.com/progenetix/icdot2uberon)
   - mappings between ICD-O 3 topographies and UBERON anatomical sites
-* [ICDOntologies](https://github.com/progenetix/ICDOntologies)
+* [`ICDOntologies`](https://github.com/progenetix/ICDOntologies)
   - mappings between ICD-O 3 morphology / topography pairs and NCIt neoplasm core
   cancer ontology
 
