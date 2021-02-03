@@ -2,7 +2,7 @@
 title:  "Progenetix Resource Documentation"
 layout: default
 permalink: index.html
-date:   2020-09-30
+date:   2021-02-03
 ---
 
 ## Welcome to the _Progenetix_ documentation pages
