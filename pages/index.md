@@ -29,7 +29,7 @@ cancer genome resource and the related [Progenetix code repositories](http://git
 {% assign post_counter = 0 %}
 
 {%- for post in cat_posts -%}
-  {%- unless post_counter > 4 -%}
+  {%- unless post_counter > 6 -%}
     {%- unless post.tags contains '.prepend' or post.tags contains '.append' -%}
       {% assign post_counter = post_counter | plus: 1 %}
       {%- assign post_author = post.author | downcase -%}
