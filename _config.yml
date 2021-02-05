@@ -1,4 +1,4 @@
-title: 'Progenetix - Structural Cancer Genomics Resources'
+ititle: 'Progenetix - Structural Cancer Genomics Resources'
 label: 'Progenetix :: Info'
 tagline: 'Structural Cancer Genomics Resource Documentation and Example Pages'
 description: |
@@ -72,12 +72,11 @@ general_outlinks:
   'Progenetix Home': 'http://progenetix.org'
 
 related_sites:
-  'arrayMap': 'http://arraymap.org'
+  'Progentix Data': 'http://progenetix.org'
   'Baudisgroup @ UZH': 'http://info.baudisgroup.org'
   'Beacon<span style="color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org/ui/'
   'SchemaBlocks {S}[B]': 'http://schemablocks.org'
-  'ELIXIR Beacon': 'http://ga4gh-beacon.github.io'
-  'Baudisgroup Internal': 'http://internal.baudisgroup.org'
+  'Beacon Project': 'http://beacon-project.io'
 
 github_projects:
   baudisgroup: 'http://github.com/baudisgroup/'
@@ -116,6 +115,7 @@ cloud_tags:
   - Perl
   - JavaScript
   - Python
+  - TCGA
 
 # additional Jekyll instructions
 
