@@ -1,7 +1,7 @@
 ---
 title: "arrayMap is Back"
 layout: default
-author: '@qingyao'
+author: '@mbaudis'
 excerpt_separator: <!--more-->
 www_links_formatted:
 categories:
