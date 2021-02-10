@@ -36,15 +36,17 @@ Progenetix uses a variation of a standard tab-separated columnar text file such 
   - column 5 (mean) can be empty or dot, if column 7 exists and contains status value
   - undefined fields in existing columns are replaced with the "." character
 * header (optional)
+  - header lines start with the `#` character
   - the `sample_id` parameter is required to assign values (e.g. group labels) to samples
-  - parameter=value pairs are semicolon-separated
+  - `parameter=value` pairs are semicolon-separated
+  - values may be wrapped in double quotation marks (`group_label="Ductal Breast Carcinoma"`)
   - supported tags
     * `sample_id` is required and has to correspond to column 1 values
-    * `group_id`
-    * `group_label`
+    * `group_id` should be used for grouping
+    * `group_label` is optional for grouping / labeling of the groups
 
 ```
-# sample_id=GSM481286;group_id=NCIT:C4017;group_label=Ductal Breast Carcinoma
+# sample_id=GSM481286;group_id=NCIT:C4017;group_label="Ductal Breast Carcinoma"
 # sample_id=GSM481418;group_id=NCIT:C3059;group_label=Glioma
 sample_id	chro	start	stop	mean	probes	variant_type
 GSM481286	1	742429	7883881	-0.1594	699	DEL
