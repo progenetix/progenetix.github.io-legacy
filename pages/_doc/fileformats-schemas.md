@@ -15,7 +15,6 @@ tags:
   - arraymap
   - Progenetix
   - code
-  - server
   - news
   - API
   - schemas

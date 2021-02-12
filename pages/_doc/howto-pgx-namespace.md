@@ -26,6 +26,7 @@ tags:
 
 Since July 2017, the Progenetix project has a registered namespace prefix at [EBI's identifiers.org](https://identifiers.org/registry?query=pgx).
 
-<!--more-->
 
 This prefix will gradually be used to implement a REST syntax with stable endpoints for all Progenetix resources (e.g. arraymap.org, cnvar.org ...), as well as to guide to our code mapping resources.
+
+<!--more-->
