@@ -44,16 +44,21 @@ Progenetix uses a variation of a standard tab-separated columnar text file such 
     * `group_id` should be used for grouping
     * `group_label` is optional for grouping / labeling of the groups
 
+For example, with 78 samples in three NCIt cancer types, an excerpt of the segment file would look like below:
 ```
-# sample_id=GSM481286;group_id=NCIT:C4017;group_label="Ductal Breast Carcinoma"
-# sample_id=GSM481418;group_id=NCIT:C3059;group_label=Glioma
-sample_id	chro	start	stop	mean	probes	variant_type
-GSM481286	1	742429	7883881	-0.1594	699	DEL
-GSM481286	2	115673158	115705254	-0.3829	8	DEL
-GSM481286	3	115722621	119771659	0.167	424	DUP
-GSM481286	4	119776776	162617092	0.4168	1587	DUP
-GSM481418	5	162621657	165278686	.	.	DUP
-GSM481418	6	165280711	167221337	.	.	DUP
-GSM481418	7	167248788	168289603	0.6784	.	DUP
+# sample_id=GSM253303;group_id=NCIT:C4028;group_label=Cervical Squamous Cell Carcinoma, Not Otherwise Specified
+# sample_id=GSM388959;group_id=NCIT:C4024;group_label=Esophageal Squamous Cell Carcinoma
+# sample_id=GSM252886;group_id=NCIT:C6958;group_label=Astrocytic Tumor
+sample_id	reference_name	start	end	value
+GSM252886	1	911484	11993973	-0.4486
+GSM252886	1	12158755	22246766	0.2859
+GSM252886	1	22346353	24149880	-0.5713
+GSM252886	1	24160170	33603123	0.0812
+GSM252886	1	33683474	37248987	-0.6478
+GSM252886	1	37391587	248655165	0.0342
+GSM252886	2	110819	240942225	-0.0007
+GSM252886	3	119131	4655519	-0.0122
+GSM252886	3	4662952	4857477	0.9273
 ...
 ```
+[Link to whole file](https://github.com/progenetix/progenetix.github.io/blob/master/assets/examples/example_3NCIt_groups.pgxseg)
