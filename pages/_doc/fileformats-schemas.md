@@ -1,6 +1,6 @@
 ---
 title: "Progenetix File Formats"
-date: 2021-02-10
+date: 2021-02-22
 layout: default
 author: "@mbaudis"
 permalink: "/doc/fileformats.html"
@@ -13,6 +13,7 @@ www_links_formatted:
   - '<a href="https://github.com/progenetix/progenetix.github.io/blob/master/assets/examples/testfile_labeled_groups.pgxseg">[<i>.pgxseg</i> testfile on Github]</a>'
 category:
   - howto
+  - News
 tags:
   - arraymap
   - Progenetix
@@ -25,7 +26,7 @@ tags:
 
 ## {{ page.title }}
 
-### Progenetix Segment files `.pgxseg`
+### Standard Progenetix Segment Files `.pgxseg`
 
 Progenetix uses a variation of a standard tab-separated columnar text file such as produced by array or sequencing CNV software, with an optional metadata header for e.g. plot or grouping instructions.
 
