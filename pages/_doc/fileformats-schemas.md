@@ -8,7 +8,8 @@ excerpt_separator: <!--more-->
 pdf_file_name:
 pdf_file_type:    # slides poster article
 www_link:
-www_links_formatted:   # use this for one or more, complete HTML link(s) with label '<a href="http://" target="_blank">...</a>'
+www_links_formatted:
+  - '<a href="https://info.progenetix.org/assets/examples/testfile_labeled_groups.pgxseg" target="_blank">[.pgxseg testfile]</a>'
 category:
   - howto
 tags:
@@ -45,10 +46,11 @@ Progenetix uses a variation of a standard tab-separated columnar text file such 
     * `group_label` is optional for grouping / labeling of the groups
 
 For example, with 78 samples in three NCIt cancer types, an excerpt of the segment file would look like below:
+
 ```
-# sample_id=GSM253303;group_id=NCIT:C4028;group_label=Cervical Squamous Cell Carcinoma, Not Otherwise Specified
-# sample_id=GSM388959;group_id=NCIT:C4024;group_label=Esophageal Squamous Cell Carcinoma
-# sample_id=GSM252886;group_id=NCIT:C6958;group_label=Astrocytic Tumor
+# sample_id=GSM253303;group_id=NCIT:C4028;group_label="Cervical Squamous Cell Carcinoma, Not Otherwise Specified"
+# sample_id=GSM388959;group_id=NCIT:C4024;group_label="Esophageal Squamous Cell Carcinoma"
+# sample_id=GSM252886;group_id=NCIT:C6958;group_label="Astrocytic Tumor"
 sample_id	reference_name	start	end	value
 GSM252886	1	911484	11993973	-0.4486
 GSM252886	1	12158755	22246766	0.2859
@@ -61,4 +63,4 @@ GSM252886	3	119131	4655519	-0.0122
 GSM252886	3	4662952	4857477	0.9273
 ...
 ```
-[Link to whole file](https://github.com/progenetix/progenetix.github.io/blob/master/assets/examples/example_3NCIt_groups.pgxseg)
+
