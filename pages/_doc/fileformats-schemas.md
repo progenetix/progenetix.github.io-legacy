@@ -50,7 +50,7 @@ Progenetix uses a variation of a standard tab-separated columnar text file such 
 For example, with 78 samples in three NCIt cancer types, an excerpt of the segment file would look like below:
 
 ```
-# sample_id=GSM253303;group_id=NCIT:C4028;group_label="Cervical Squamous Cell Carcinoma, Not Otherwise Specified"
+# sample_id=GSM253303;group_id=NCIT:C4028;group_label="Cervical Squamous Cell Carcinoma"
 # sample_id=GSM388959;group_id=NCIT:C4024;group_label="Esophageal Squamous Cell Carcinoma"
 # sample_id=GSM252886;group_id=NCIT:C6958;group_label="Astrocytic Tumor"
 sample_id	reference_name	start	end	value
