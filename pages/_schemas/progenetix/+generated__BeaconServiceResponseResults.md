@@ -83,7 +83,7 @@ __Description:__ The results of the service request.
   </tr>
   <tr>
     <th>error</th>
-    <td>BeaconError.yaml#/properties</td>
+    <td>./BeaconError.yaml#/properties [<a href="./BeaconError.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>exists</th>
@@ -114,7 +114,7 @@ __Description:__ The results of the service request.
 
 #### error
 
-* type: BeaconError.yaml#/properties
+* type: ./BeaconError.yaml#/properties [<a href="./BeaconError.html">HTML</a>]
 
 
 

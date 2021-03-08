@@ -80,11 +80,11 @@ __Description:__ Search for a genomic region
   </tr>
   <tr>
     <th>meta</th>
-    <td>./BeaconRequestMeta.yaml#/properties</td>
+    <td>./BeaconRequestMeta.yaml#/properties [<a href="./BeaconRequestMeta.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>query</th>
-    <td>./BeaconRequestQuery.yaml#/properties</td>
+    <td>./BeaconRequestQuery.yaml#/properties [<a href="./BeaconRequestQuery.html">HTML</a>]</td>
   </tr>
 
 </table>
@@ -92,14 +92,14 @@ __Description:__ Search for a genomic region
 
 #### meta
 
-* type: ./BeaconRequestMeta.yaml#/properties
+* type: ./BeaconRequestMeta.yaml#/properties [<a href="./BeaconRequestMeta.html">HTML</a>]
 
 
 
 
 #### query
 
-* type: ./BeaconRequestQuery.yaml#/properties
+* type: ./BeaconRequestQuery.yaml#/properties [<a href="./BeaconRequestQuery.html">HTML</a>]
 
 
 

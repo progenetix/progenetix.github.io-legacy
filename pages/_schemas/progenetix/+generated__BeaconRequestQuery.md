@@ -80,51 +80,51 @@ __Description:__ Description pending
   </tr>
   <tr>
     <th>analysis</th>
-    <td>./BeaconAnalysisFields.yaml#/properties</td>
+    <td>./BeaconAnalysisFields.yaml#/properties [<a href="./BeaconAnalysisFields.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>biosample</th>
-    <td>./BeaconBiosampleFields.yaml#/properties</td>
+    <td>./BeaconBiosampleFields.yaml#/properties [<a href="./BeaconBiosampleFields.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>customFilters</th>
-    <td>./BeaconFilters.yaml#/schemas/CustomFilters</td>
+    <td>./BeaconFilters.yaml#/schemas/CustomFilters [<a href="./BeaconFilters.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>datasets</th>
-    <td>./BeaconRequestDatasets.yaml#/properties</td>
+    <td>./BeaconRequestDatasets.yaml#/properties [<a href="./BeaconRequestDatasets.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>filters</th>
-    <td>./BeaconFilters.yaml#/schemas/Filters</td>
+    <td>./BeaconFilters.yaml#/schemas/Filters [<a href="./BeaconFilters.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>g_variant</th>
-    <td>./BeaconGenomicVariantFields.yaml#/properties</td>
+    <td>./BeaconGenomicVariantFields.yaml#/properties [<a href="./BeaconGenomicVariantFields.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>individual</th>
-    <td>./BeaconIndividualFields.yaml#/properties</td>
+    <td>./BeaconIndividualFields.yaml#/properties [<a href="./BeaconIndividualFields.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>interactor</th>
-    <td>./BeaconInteractorFields.yaml#/properties</td>
+    <td>./BeaconInteractorFields.yaml#/properties [<a href="./BeaconInteractorFields.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>pagination</th>
-    <td>./BeaconPagination.yaml#/properties</td>
+    <td>./BeaconPagination.yaml#/properties [<a href="./BeaconPagination.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>run</th>
-    <td>./BeaconRunFields.yaml#/properties</td>
+    <td>./BeaconRunFields.yaml#/properties [<a href="./BeaconRunFields.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>variant_in_sample</th>
-    <td>./BeaconVariantInSampleFields.yaml#/properties</td>
+    <td>./BeaconVariantInSampleFields.yaml#/properties [<a href="./BeaconVariantInSampleFields.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>variant_interpretation</th>
-    <td>./BeaconVariantInterpretationFields.yaml#/properties</td>
+    <td>./BeaconVariantInterpretationFields.yaml#/properties [<a href="./BeaconVariantInterpretationFields.html">HTML</a>]</td>
   </tr>
 
 </table>
@@ -132,84 +132,84 @@ __Description:__ Description pending
 
 #### analysis
 
-* type: ./BeaconAnalysisFields.yaml#/properties
+* type: ./BeaconAnalysisFields.yaml#/properties [<a href="./BeaconAnalysisFields.html">HTML</a>]
 
 
 
 
 #### biosample
 
-* type: ./BeaconBiosampleFields.yaml#/properties
+* type: ./BeaconBiosampleFields.yaml#/properties [<a href="./BeaconBiosampleFields.html">HTML</a>]
 
 
 
 
 #### customFilters
 
-* type: ./BeaconFilters.yaml#/schemas/CustomFilters
+* type: ./BeaconFilters.yaml#/schemas/CustomFilters [<a href="./BeaconFilters.html">HTML</a>]
 
 
 
 
 #### datasets
 
-* type: ./BeaconRequestDatasets.yaml#/properties
+* type: ./BeaconRequestDatasets.yaml#/properties [<a href="./BeaconRequestDatasets.html">HTML</a>]
 
 
 
 
 #### filters
 
-* type: ./BeaconFilters.yaml#/schemas/Filters
+* type: ./BeaconFilters.yaml#/schemas/Filters [<a href="./BeaconFilters.html">HTML</a>]
 
 
 
 
 #### g_variant
 
-* type: ./BeaconGenomicVariantFields.yaml#/properties
+* type: ./BeaconGenomicVariantFields.yaml#/properties [<a href="./BeaconGenomicVariantFields.html">HTML</a>]
 
 
 
 
 #### individual
 
-* type: ./BeaconIndividualFields.yaml#/properties
+* type: ./BeaconIndividualFields.yaml#/properties [<a href="./BeaconIndividualFields.html">HTML</a>]
 
 
 
 
 #### interactor
 
-* type: ./BeaconInteractorFields.yaml#/properties
+* type: ./BeaconInteractorFields.yaml#/properties [<a href="./BeaconInteractorFields.html">HTML</a>]
 
 
 
 
 #### pagination
 
-* type: ./BeaconPagination.yaml#/properties
+* type: ./BeaconPagination.yaml#/properties [<a href="./BeaconPagination.html">HTML</a>]
 
 
 
 
 #### run
 
-* type: ./BeaconRunFields.yaml#/properties
+* type: ./BeaconRunFields.yaml#/properties [<a href="./BeaconRunFields.html">HTML</a>]
 
 
 
 
 #### variant_in_sample
 
-* type: ./BeaconVariantInSampleFields.yaml#/properties
+* type: ./BeaconVariantInSampleFields.yaml#/properties [<a href="./BeaconVariantInSampleFields.html">HTML</a>]
 
 
 
 
 #### variant_interpretation
 
-* type: ./BeaconVariantInterpretationFields.yaml#/properties
+* type: ./BeaconVariantInterpretationFields.yaml#/properties [<a href="./BeaconVariantInterpretationFields.html">HTML</a>]
 
 
 

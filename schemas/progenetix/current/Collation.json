@@ -40,7 +40,7 @@
       "hierarchyPaths" : {
          "description" : "All term paths leading to any instance of this code from the hierarchy root term.\n",
          "items" : {
-            "$ref" : "HierarchyPath.yaml#/properties"
+            "$ref" : "./HierarchyPath.yaml#/properties"
          },
          "type" : "array"
       },

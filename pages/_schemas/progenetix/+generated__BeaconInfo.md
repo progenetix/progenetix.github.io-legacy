@@ -92,7 +92,7 @@ __Description:__ Metadata describing a beacon instance.
   </tr>
   <tr>
     <th>datasets</th>
-    <td>array of "./BeaconDataset.yaml#/properties"</td>
+    <td>array of "./BeaconDataset.yaml#/properties [<a href="./BeaconDataset.html">HTML</a>]"</td>
   </tr>
   <tr>
     <th>description</th>
@@ -116,7 +116,7 @@ __Description:__ Metadata describing a beacon instance.
   </tr>
   <tr>
     <th>organization</th>
-    <td>./BeaconOrganization.yaml#/properties</td>
+    <td>./BeaconOrganization.yaml#/properties [<a href="./BeaconOrganization.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>updateDateTime</th>
@@ -168,7 +168,7 @@ The time the beacon was created (ISO 8601 format).
 
 #### datasets
 
-* type: array of "./BeaconDataset.yaml#/properties"
+* type: array of "./BeaconDataset.yaml#/properties [<a href="./BeaconDataset.html">HTML</a>]"
 
 Dataset(s) served by the beacon.
 
@@ -237,7 +237,7 @@ Name of the beacon.
 
 #### organization
 
-* type: ./BeaconOrganization.yaml#/properties
+* type: ./BeaconOrganization.yaml#/properties [<a href="./BeaconOrganization.html">HTML</a>]
 
 
 

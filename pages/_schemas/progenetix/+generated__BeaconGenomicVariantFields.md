@@ -81,11 +81,11 @@ etc.).
   </tr>
   <tr>
     <th>alternateBases</th>
-    <td>./BeaconAlternateBases.yaml [<a href="./BeaconAlternateBases.yaml" target="_BLANK">SRC</a>] [<a href="./BeaconAlternateBases.html" target="_BLANK">HTML</a>]</td>
+    <td>./BeaconAlternateBases.yaml [<a href="./BeaconAlternateBases.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>assemblyId</th>
-    <td>./BeaconGenomicComponents.yaml#/schemas/Assembly</td>
+    <td>./BeaconGenomicComponents.yaml#/schemas/Assembly [<a href="./BeaconGenomicComponents.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>end</th>
@@ -97,15 +97,15 @@ etc.).
   </tr>
   <tr>
     <th>mateName</th>
-    <td>./BeaconGenomicComponents.yaml#/schemas/Chromosome</td>
+    <td>./BeaconGenomicComponents.yaml#/schemas/Chromosome [<a href="./BeaconGenomicComponents.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>referenceBases</th>
-    <td>./BeaconReferenceBases.yaml [<a href="./BeaconReferenceBases.yaml" target="_BLANK">SRC</a>] [<a href="./BeaconReferenceBases.html" target="_BLANK">HTML</a>]</td>
+    <td>./BeaconReferenceBases.yaml [<a href="./BeaconReferenceBases.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>referenceName</th>
-    <td>./BeaconGenomicComponents.yaml#/schemas/Chromosome</td>
+    <td>./BeaconGenomicComponents.yaml#/schemas/Chromosome [<a href="./BeaconGenomicComponents.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>start</th>
@@ -121,14 +121,14 @@ etc.).
 
 #### alternateBases
 
-* type: ./BeaconAlternateBases.yaml [<a href="./BeaconAlternateBases.yaml" target="_BLANK">SRC</a>] [<a href="./BeaconAlternateBases.html" target="_BLANK">HTML</a>]
+* type: ./BeaconAlternateBases.yaml [<a href="./BeaconAlternateBases.html">HTML</a>]
 
 
 
 
 #### assemblyId
 
-* type: ./BeaconGenomicComponents.yaml#/schemas/Assembly
+* type: ./BeaconGenomicComponents.yaml#/schemas/Assembly [<a href="./BeaconGenomicComponents.html">HTML</a>]
 
 
 
@@ -153,21 +153,21 @@ Id of the variant to display.
 
 #### mateName
 
-* type: ./BeaconGenomicComponents.yaml#/schemas/Chromosome
+* type: ./BeaconGenomicComponents.yaml#/schemas/Chromosome [<a href="./BeaconGenomicComponents.html">HTML</a>]
 
 
 
 
 #### referenceBases
 
-* type: ./BeaconReferenceBases.yaml [<a href="./BeaconReferenceBases.yaml" target="_BLANK">SRC</a>] [<a href="./BeaconReferenceBases.html" target="_BLANK">HTML</a>]
+* type: ./BeaconReferenceBases.yaml [<a href="./BeaconReferenceBases.html">HTML</a>]
 
 
 
 
 #### referenceName
 
-* type: ./BeaconGenomicComponents.yaml#/schemas/Chromosome
+* type: ./BeaconGenomicComponents.yaml#/schemas/Chromosome [<a href="./BeaconGenomicComponents.html">HTML</a>]
 
 
 

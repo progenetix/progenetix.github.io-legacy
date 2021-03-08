@@ -75,7 +75,7 @@ tags:
   </tr>
   <tr>
     <th>codeGroup</th>
-    <td>array of "OntologyClass.yaml#/properties"</td>
+    <td>array of "./OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]"</td>
   </tr>
 
 </table>
@@ -83,7 +83,7 @@ tags:
 
 #### codeGroup
 
-* type: array of "OntologyClass.yaml#/properties"
+* type: array of "./OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]"
 
 
 

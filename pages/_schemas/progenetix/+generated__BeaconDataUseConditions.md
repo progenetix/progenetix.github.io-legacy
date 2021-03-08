@@ -14,7 +14,7 @@ tags:
 
 
 <div id="schema-header-title">
-  <h2>DataUseConditions <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
+  <h2>BeaconDataUseConditions <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
 </div>
 
 <table id="schema-header-table">
@@ -80,11 +80,11 @@ __Description:__ Data use conditions ruling this dataset.
   </tr>
   <tr>
     <th>adamDataUse</th>
-    <td>https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yaml#/components/schemas/Adam</td>
+    <td>https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yaml#/components/schemas/Adam [<a href="https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yaml">LINK</a>]</td>
   </tr>
   <tr>
     <th>consentCodeDataUse</th>
-    <td>https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yaml#/components/schemas/ConsentCodeDataUse</td>
+    <td>https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yaml#/components/schemas/ConsentCodeDataUse [<a href="https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yaml">LINK</a>]</td>
   </tr>
 
 </table>
@@ -92,14 +92,14 @@ __Description:__ Data use conditions ruling this dataset.
 
 #### adamDataUse
 
-* type: https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yaml#/components/schemas/Adam
+* type: https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yaml#/components/schemas/Adam [<a href="https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yaml">LINK</a>]
 
 
 
 
 #### consentCodeDataUse
 
-* type: https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yaml#/components/schemas/ConsentCodeDataUse
+* type: https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yaml#/components/schemas/ConsentCodeDataUse [<a href="https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yaml">LINK</a>]
 
 
 

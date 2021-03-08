@@ -97,7 +97,7 @@ __Description:__ Genomic variant, representing a sequence variation on a single 
   </tr>
   <tr>
     <th>externalReferences</th>
-    <td>array of "OntologyClass.yaml#/properties"</td>
+    <td>array of "./OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]"</td>
   </tr>
   <tr>
     <th>id</th>
@@ -201,7 +201,7 @@ The `digest` patrameter represents a compact concatenation of the essential vari
 
 #### externalReferences
 
-* type: array of "OntologyClass.yaml#/properties"
+* type: array of "./OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]"
 
 
 

@@ -33,7 +33,7 @@
       ]
    },
    "mmeta" : {
-      "$ref" : "./ByconBeaconMeta.yaml#/properties"
+      "$ref" : "./Beacon.yaml#/meta"
    },
    "properties" : {
       "error" : {

@@ -80,7 +80,7 @@ __Description:__ Request parameters for information endpoints.
   </tr>
   <tr>
     <th>meta</th>
-    <td>./BeaconInfoRequestMeta.yaml#/properties</td>
+    <td>./BeaconInfoRequestMeta.yaml#/properties [<a href="./BeaconInfoRequestMeta.html">HTML</a>]</td>
   </tr>
 
 </table>
@@ -88,7 +88,7 @@ __Description:__ Request parameters for information endpoints.
 
 #### meta
 
-* type: ./BeaconInfoRequestMeta.yaml#/properties
+* type: ./BeaconInfoRequestMeta.yaml#/properties [<a href="./BeaconInfoRequestMeta.html">HTML</a>]
 
 
 

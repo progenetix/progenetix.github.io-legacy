@@ -92,7 +92,7 @@ __Description:__ A dataset available in the beacon.
   </tr>
   <tr>
     <th>dataUseConditions</th>
-    <td>./BeaconDataUseConditions.yaml#/properties</td>
+    <td>./BeaconDataUseConditions.yaml#/properties [<a href="./BeaconDataUseConditions.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>description</th>
@@ -170,7 +170,7 @@ The time the dataset was created (ISO 8601 format).
 
 #### dataUseConditions
 
-* type: ./BeaconDataUseConditions.yaml#/properties
+* type: ./BeaconDataUseConditions.yaml#/properties [<a href="./BeaconDataUseConditions.html">HTML</a>]
 
 
 

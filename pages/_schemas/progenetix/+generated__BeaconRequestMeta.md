@@ -84,7 +84,7 @@ __Description:__ Requested schemas and versions to be used in the response.
   </tr>
   <tr>
     <th>requestedSchemas</th>
-    <td>./BeaconRequestedSchemas.yaml#/properties</td>
+    <td>./BeaconRequestedSchemas.yaml#/properties [<a href="./BeaconRequestedSchemas.html">HTML</a>]</td>
   </tr>
 
 </table>
@@ -106,7 +106,7 @@ format the response.
 
 #### requestedSchemas
 
-* type: ./BeaconRequestedSchemas.yaml#/properties
+* type: ./BeaconRequestedSchemas.yaml#/properties [<a href="./BeaconRequestedSchemas.html">HTML</a>]
 
 
 

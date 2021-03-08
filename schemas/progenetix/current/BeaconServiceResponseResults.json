@@ -40,7 +40,7 @@
          "type" : "array"
       },
       "error" : {
-         "$ref" : "BeaconError.yaml#/properties"
+         "$ref" : "./BeaconError.yaml#/properties"
       },
       "exists" : {
          "type" : "boolean"

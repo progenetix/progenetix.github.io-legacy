@@ -76,7 +76,7 @@ __Type:__ object
   </tr>
   <tr>
     <th>ancestry</th>
-    <td>OntologyClass.yaml#/properties</td>
+    <td>./OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>confidenceScore</th>
@@ -92,7 +92,7 @@ __Type:__ object
 
 #### ancestry
 
-* type: OntologyClass.yaml#/properties
+* type: ./OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]
 
 
 

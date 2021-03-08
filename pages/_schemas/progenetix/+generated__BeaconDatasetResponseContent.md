@@ -80,7 +80,7 @@ __Description:__ Description pending
   </tr>
   <tr>
     <th>error</th>
-    <td>./BeaconError.yaml#/properties</td>
+    <td>./BeaconError.yaml#/properties [<a href="./BeaconError.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>info</th>
@@ -88,7 +88,7 @@ __Description:__ Description pending
   </tr>
   <tr>
     <th>results</th>
-    <td>array of "./BeaconDataset.yaml#/properties"</td>
+    <td>array of "./BeaconDataset.yaml#/properties [<a href="./BeaconDataset.html">HTML</a>]"</td>
   </tr>
 
 </table>
@@ -96,7 +96,7 @@ __Description:__ Description pending
 
 #### error
 
-* type: ./BeaconError.yaml#/properties
+* type: ./BeaconError.yaml#/properties [<a href="./BeaconError.html">HTML</a>]
 
 
 
@@ -110,7 +110,7 @@ __Description:__ Description pending
 
 #### results
 
-* type: array of "./BeaconDataset.yaml#/properties"
+* type: array of "./BeaconDataset.yaml#/properties [<a href="./BeaconDataset.html">HTML</a>]"
 
 
 

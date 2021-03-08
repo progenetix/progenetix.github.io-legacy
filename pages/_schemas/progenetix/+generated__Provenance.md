@@ -77,15 +77,15 @@ __Description:__ The Provenance class is the wrapper object for schemas informin
   </tr>
   <tr>
     <th>assay</th>
-    <td>OntologyClass.yaml#/properties</td>
+    <td>./OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>geo</th>
-    <td>GeoLocation.yaml#/properties</td>
+    <td>./GeoLocation.yaml#/properties [<a href="./GeoLocation.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>material</th>
-    <td>OntologyClass.yaml#/properties</td>
+    <td>./OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]</td>
   </tr>
 
 </table>
@@ -93,7 +93,7 @@ __Description:__ The Provenance class is the wrapper object for schemas informin
 
 #### assay
 
-* type: OntologyClass.yaml#/properties
+* type: ./OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]
 
 
 
@@ -126,14 +126,14 @@ __Description:__ The Provenance class is the wrapper object for schemas informin
 
 #### geo
 
-* type: GeoLocation.yaml#/properties
+* type: ./GeoLocation.yaml#/properties [<a href="./GeoLocation.html">HTML</a>]
 
 
 
 
 #### material
 
-* type: OntologyClass.yaml#/properties
+* type: ./OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]
 
 
 
