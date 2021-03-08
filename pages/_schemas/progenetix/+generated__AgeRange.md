@@ -77,11 +77,11 @@ __Type:__ object
   </tr>
   <tr>
     <th>end</th>
-    <td>./Age.yaml#/properties/age [<a href="./Age.html">HTML</a>]</td>
+    <td>Age.yaml#/properties/age [<a href="./Age.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>start</th>
-    <td>./Age.yaml#/properties/age [<a href="./Age.html">HTML</a>]</td>
+    <td>Age.yaml#/properties/age [<a href="./Age.html">HTML</a>]</td>
   </tr>
 
 </table>
@@ -89,14 +89,14 @@ __Type:__ object
 
 #### end
 
-* type: ./Age.yaml#/properties/age [<a href="./Age.html">HTML</a>]
+* type: Age.yaml#/properties/age [<a href="./Age.html">HTML</a>]
 
 
 
 
 #### start
 
-* type: ./Age.yaml#/properties/age [<a href="./Age.html">HTML</a>]
+* type: Age.yaml#/properties/age [<a href="./Age.html">HTML</a>]
 
 
 

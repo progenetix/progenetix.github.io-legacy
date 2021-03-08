@@ -3,17 +3,17 @@
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
    "definitions" : {
       "biosample" : {
-         "$ref" : "./Biosample.yaml#/properties"
+         "$ref" : "Biosample.yaml#/properties"
       },
       "callset" : {
-         "$ref" : "./Callset.yaml#/properties"
+         "$ref" : "Callset.yaml#/properties"
       },
       "id" : "#root",
       "individual" : {
-         "$ref" : "./Individual.yaml#/properties"
+         "$ref" : "Individual.yaml#/properties"
       },
       "variant" : {
-         "$ref" : "./Variant.yaml#/properties"
+         "$ref" : "Variant.yaml#/properties"
       }
    },
    "description" : "This is the root schema for the Progenetix resource, corresponding to the principle elements of the core data schema.\n",

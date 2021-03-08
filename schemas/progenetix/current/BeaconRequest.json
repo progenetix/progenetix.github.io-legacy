@@ -46,10 +46,10 @@
    },
    "properties" : {
       "meta" : {
-         "$ref" : "./BeaconRequestMeta.yaml#/properties"
+         "$ref" : "BeaconRequestMeta.yaml#/properties"
       },
       "query" : {
-         "$ref" : "./BeaconRequestQuery.yaml#/properties"
+         "$ref" : "BeaconRequestQuery.yaml#/properties"
       }
    },
    "required" : [

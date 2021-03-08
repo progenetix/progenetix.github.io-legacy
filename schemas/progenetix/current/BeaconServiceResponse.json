@@ -46,10 +46,10 @@
    },
    "properties" : {
       "meta" : {
-         "$ref" : "./BeaconResponseMeta.yaml#/properties"
+         "$ref" : "BeaconResponseMeta.yaml#/properties"
       },
       "response" : {
-         "$ref" : "./BeaconServiceResponseResults.yaml#/properties"
+         "$ref" : "BeaconServiceResponseResults.yaml#/properties"
       }
    },
    "title" : "BeaconServiceResponse"

@@ -46,15 +46,15 @@
    },
    "properties" : {
       "meta" : {
-         "$ref" : "./BeaconInfoResponseMeta.yaml#/properties"
+         "$ref" : "BeaconInfoResponseMeta.yaml#/properties"
       },
       "response" : {
          "oneOf" : [
             {
-               "$ref" : "./BeaconInfoResponseContent.yaml#/properties"
+               "$ref" : "BeaconInfoResponseContent.yaml#/properties"
             },
             {
-               "$ref" : "./BeaconDatasetResponseContent.yaml#/properties"
+               "$ref" : "BeaconDatasetResponseContent.yaml#/properties"
             }
          ]
       }

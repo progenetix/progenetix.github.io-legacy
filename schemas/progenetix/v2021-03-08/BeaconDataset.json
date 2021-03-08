@@ -66,7 +66,7 @@
          "type" : "string"
       },
       "dataUseConditions" : {
-         "$ref" : "./BeaconDataUseConditions.yaml#/properties"
+         "$ref" : "BeaconDataUseConditions.yaml#/properties"
       },
       "description" : {
          "description" : "Description of the dataset.\n",

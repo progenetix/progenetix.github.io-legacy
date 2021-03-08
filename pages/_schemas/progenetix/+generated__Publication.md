@@ -122,7 +122,7 @@ __Description:__ A Publication represents basic information about a scientific a
   </tr>
   <tr>
     <th>provenance</th>
-    <td>./Provenance.yaml#/properties [<a href="./Provenance.html">HTML</a>]</td>
+    <td>Provenance.yaml#/properties [<a href="./Provenance.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>pubmedid</th>
@@ -250,7 +250,7 @@ Id of article in PMC, if there. TODO: into `external_references`?
 
 #### provenance
 
-* type: ./Provenance.yaml#/properties [<a href="./Provenance.html">HTML</a>]
+* type: Provenance.yaml#/properties [<a href="./Provenance.html">HTML</a>]
 
 
 

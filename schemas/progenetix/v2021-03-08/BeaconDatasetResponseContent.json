@@ -45,18 +45,18 @@
       ]
    },
    "mmeta" : {
-      "$ref" : "./Beacon.yaml#/meta"
+      "$ref" : "Beacon.yaml#/meta"
    },
    "properties" : {
       "error" : {
-         "$ref" : "./BeaconError.yaml#/properties"
+         "$ref" : "BeaconError.yaml#/properties"
       },
       "info" : {
          "type" : "object"
       },
       "results" : {
          "items" : {
-            "$ref" : "./BeaconDataset.yaml#/properties"
+            "$ref" : "BeaconDataset.yaml#/properties"
          },
          "type" : "array"
       }

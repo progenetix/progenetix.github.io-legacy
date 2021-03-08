@@ -78,15 +78,15 @@ __Description:__ A Biosample refers to a unit of biological material from which 
   </tr>
   <tr>
     <th>biocharacteristics</th>
-    <td>array of "OntologyClass.yaml#/properties"</td>
+    <td>array of "OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]"</td>
   </tr>
   <tr>
     <th>cohorts</th>
-    <td>array of "OntologyClass.yaml#/properties"</td>
+    <td>array of "OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]"</td>
   </tr>
   <tr>
     <th>dataUseConditions</th>
-    <td>OntologyClass.yaml#/properties</td>
+    <td>OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>description</th>
@@ -94,11 +94,11 @@ __Description:__ A Biosample refers to a unit of biological material from which 
   </tr>
   <tr>
     <th>externalReferences</th>
-    <td>array of "OntologyClass.yaml#/properties"</td>
+    <td>array of "OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]"</td>
   </tr>
   <tr>
     <th>histologicalDiagnosis</th>
-    <td>OntologyClass.yaml#/properties</td>
+    <td>OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>id</th>
@@ -106,7 +106,7 @@ __Description:__ A Biosample refers to a unit of biological material from which 
   </tr>
   <tr>
     <th>individualAgeAtCollection</th>
-    <td>Age.yaml#/properties</td>
+    <td>Age.yaml#/properties [<a href="./Age.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>individualId</th>
@@ -118,11 +118,11 @@ __Description:__ A Biosample refers to a unit of biological material from which 
   </tr>
   <tr>
     <th>provenance</th>
-    <td>Provenance.yaml#/properties</td>
+    <td>Provenance.yaml#/properties [<a href="./Provenance.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>sampledTissue</th>
-    <td>OntologyClass.yaml#/properties</td>
+    <td>OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>updated</th>
@@ -134,7 +134,7 @@ __Description:__ A Biosample refers to a unit of biological material from which 
 
 #### biocharacteristics
 
-* type: array of "OntologyClass.yaml#/properties"
+* type: array of "OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]"
 
 
 
@@ -155,7 +155,7 @@ __Description:__ A Biosample refers to a unit of biological material from which 
 
 #### cohorts
 
-* type: array of "OntologyClass.yaml#/properties"
+* type: array of "OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]"
 
 Cohorts describe collections of samples or individuals which are part of a common epistemic group, e.g. have been used for a study or share a set of features.
 
@@ -171,7 +171,7 @@ Cohorts describe collections of samples or individuals which are part of a commo
 
 #### dataUseConditions
 
-* type: OntologyClass.yaml#/properties
+* type: OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]
 
 
 
@@ -193,7 +193,7 @@ Cohorts describe collections of samples or individuals which are part of a commo
 
 #### externalReferences
 
-* type: array of "OntologyClass.yaml#/properties"
+* type: array of "OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]"
 
 
 
@@ -207,7 +207,7 @@ Cohorts describe collections of samples or individuals which are part of a commo
 
 #### histologicalDiagnosis
 
-* type: OntologyClass.yaml#/properties
+* type: OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]
 
 
 
@@ -226,7 +226,7 @@ Cohorts describe collections of samples or individuals which are part of a commo
 
 #### individualAgeAtCollection
 
-* type: Age.yaml#/properties
+* type: Age.yaml#/properties [<a href="./Age.html">HTML</a>]
 
 
 
@@ -252,14 +252,14 @@ Cohorts describe collections of samples or individuals which are part of a commo
 
 #### provenance
 
-* type: Provenance.yaml#/properties
+* type: Provenance.yaml#/properties [<a href="./Provenance.html">HTML</a>]
 
 
 
 
 #### sampledTissue
 
-* type: OntologyClass.yaml#/properties
+* type: OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]
 
 
 

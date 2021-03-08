@@ -90,7 +90,7 @@ __Description:__ A Collation summarizes information of all biosamples matching a
   </tr>
   <tr>
     <th>hierarchyPaths</th>
-    <td>array of "./HierarchyPath.yaml#/properties [<a href="./HierarchyPath.html">HTML</a>]"</td>
+    <td>array of "HierarchyPath.yaml#/properties [<a href="./HierarchyPath.html">HTML</a>]"</td>
   </tr>
   <tr>
     <th>id</th>
@@ -130,7 +130,7 @@ The number of biosamples in the collection with this code or one of its child te
 
 #### hierarchyPaths
 
-* type: array of "./HierarchyPath.yaml#/properties [<a href="./HierarchyPath.html">HTML</a>]"
+* type: array of "HierarchyPath.yaml#/properties [<a href="./HierarchyPath.html">HTML</a>]"
 
 All term paths leading to any instance of this code from the hierarchy root term.
 

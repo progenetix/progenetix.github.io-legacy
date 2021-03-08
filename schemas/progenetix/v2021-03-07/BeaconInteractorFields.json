@@ -1,7 +1,7 @@
 {
-   "$id" : "https://progenetix.org/services/schemas/BeaconInfoResponse/v2021-03-08",
+   "$id" : "https://progenetix.org/services/schemas/BeaconInteractorFields/v2021-03-07",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
-   "description" : "Response of a query over Beacon info. Use `InfoResponseContent` when querying the Beacon info endpoints, and `DatasetResponseContent` when querying the datasets endpoint.\n",
+   "description" : "Fields to filter by interactor.\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -45,25 +45,16 @@
       ]
    },
    "properties" : {
-      "meta" : {
-         "$ref" : "BeaconInfoResponseMeta.yaml#/properties"
+      "id" : {
+         "description" : "Id of the interactor to display.\n",
+         "type" : "string"
       },
-      "response" : {
-         "oneOf" : [
-            {
-               "$ref" : "BeaconInfoResponseContent.yaml#/properties"
-            },
-            {
-               "$ref" : "BeaconDatasetResponseContent.yaml#/properties"
-            }
-         ]
+      "individualId" : {
+         "description" : "`individualId` of the interactor(s) to display.\n",
+         "type" : "string"
       }
    },
-   "required" : [
-      "meta",
-      "response"
-   ],
-   "title" : "BeaconInfoResponse",
+   "title" : "BeaconInteractorFields",
    "type" : "object"
 }
 

@@ -46,7 +46,7 @@
    },
    "properties" : {
       "meta" : {
-         "$ref" : "./BeaconInfoRequestMeta.yaml#/properties"
+         "$ref" : "BeaconInfoRequestMeta.yaml#/properties"
       }
    },
    "required" : [

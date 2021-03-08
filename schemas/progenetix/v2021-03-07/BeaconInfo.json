@@ -67,7 +67,7 @@
       "datasets" : {
          "description" : "Dataset(s) served by the beacon.",
          "items" : {
-            "$ref" : "./BeaconDataset.yaml#/properties"
+            "$ref" : "BeaconDataset.yaml#/properties"
          },
          "minItems" : "1",
          "type" : "array"
@@ -114,7 +114,7 @@
          "type" : "string"
       },
       "organization" : {
-         "$ref" : "./BeaconOrganization.yaml#/properties"
+         "$ref" : "BeaconOrganization.yaml#/properties"
       },
       "updateDateTime" : {
          "description" : "The time the beacon was updated in (ISO 8601 format).\n",

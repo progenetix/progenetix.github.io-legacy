@@ -26,7 +26,7 @@
    "properties" : {
       "ancestries" : {
          "items" : {
-            "$ref" : "./Ancestry.yaml#/properties"
+            "$ref" : "Ancestry.yaml#/properties"
          },
          "type" : "array"
       },
@@ -42,12 +42,12 @@
             }
          ],
          "items" : {
-            "$ref" : "./OntologyClass.yaml#/properties"
+            "$ref" : "OntologyClass.yaml#/properties"
          },
          "type" : "array"
       },
       "dataUseConditions" : {
-         "$ref" : "./OntologyClass.yaml#/properties",
+         "$ref" : "OntologyClass.yaml#/properties",
          "examples" : [
             {
                "id" : "DUO:0000004",
@@ -84,12 +84,12 @@
             }
          ],
          "items" : {
-            "$ref" : "./OntologyClass.yaml#/properties"
+            "$ref" : "OntologyClass.yaml#/properties"
          },
          "type" : "array"
       },
       "genotypicSex" : {
-         "$ref" : "./OntologyClass.yaml#/properties",
+         "$ref" : "OntologyClass.yaml#/properties",
          "examples" : [
             {
                "id" : "PATO:0020002",
@@ -129,7 +129,7 @@
          "type" : "string"
       },
       "provenance" : {
-         "$ref" : "./Provenance.yaml#/properties"
+         "$ref" : "Provenance.yaml#/properties"
       },
       "updated" : {
          "examples" : [

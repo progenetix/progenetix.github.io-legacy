@@ -85,7 +85,7 @@ __Description:__ Response of a query over Beacon info. Use `InfoResponseContent`
   </tr>
   <tr>
     <th>meta</th>
-    <td>./BeaconInfoResponseMeta.yaml#/properties [<a href="./BeaconInfoResponseMeta.html">HTML</a>]</td>
+    <td>BeaconInfoResponseMeta.yaml#/properties [<a href="./BeaconInfoResponseMeta.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>response</th>
@@ -97,7 +97,7 @@ __Description:__ Response of a query over Beacon info. Use `InfoResponseContent`
 
 #### meta
 
-* type: ./BeaconInfoResponseMeta.yaml#/properties [<a href="./BeaconInfoResponseMeta.html">HTML</a>]
+* type: BeaconInfoResponseMeta.yaml#/properties [<a href="./BeaconInfoResponseMeta.html">HTML</a>]
 
 
 

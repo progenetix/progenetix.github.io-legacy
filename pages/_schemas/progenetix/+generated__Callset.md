@@ -80,7 +80,7 @@ tags:
   </tr>
   <tr>
     <th>dataUseConditions</th>
-    <td>OntologyClass.yaml#/properties</td>
+    <td>OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>description</th>
@@ -88,7 +88,7 @@ tags:
   </tr>
   <tr>
     <th>externalReferences</th>
-    <td>array of "OntologyClass.yaml#/properties"</td>
+    <td>array of "OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]"</td>
   </tr>
   <tr>
     <th>id</th>
@@ -100,7 +100,7 @@ tags:
   </tr>
   <tr>
     <th>provenance</th>
-    <td>Provenance.yaml#/properties</td>
+    <td>Provenance.yaml#/properties [<a href="./Provenance.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>updated</th>
@@ -124,7 +124,7 @@ tags:
 
 #### dataUseConditions
 
-* type: OntologyClass.yaml#/properties
+* type: OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]
 
 
 
@@ -143,7 +143,7 @@ tags:
 
 #### externalReferences
 
-* type: array of "OntologyClass.yaml#/properties"
+* type: array of "OntologyClass.yaml#/properties [<a href="./OntologyClass.html">HTML</a>]"
 
 
 
@@ -178,7 +178,7 @@ tags:
 
 #### provenance
 
-* type: Provenance.yaml#/properties
+* type: Provenance.yaml#/properties [<a href="./Provenance.html">HTML</a>]
 
 
 

@@ -84,11 +84,11 @@ __Description:__ This schema represents the wrapper for Progenetx service respon
   </tr>
   <tr>
     <th>meta</th>
-    <td>./BeaconResponseMeta.yaml#/properties [<a href="./BeaconResponseMeta.html">HTML</a>]</td>
+    <td>BeaconResponseMeta.yaml#/properties [<a href="./BeaconResponseMeta.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>response</th>
-    <td>./BeaconServiceResponseResults.yaml#/properties [<a href="./BeaconServiceResponseResults.html">HTML</a>]</td>
+    <td>BeaconServiceResponseResults.yaml#/properties [<a href="./BeaconServiceResponseResults.html">HTML</a>]</td>
   </tr>
 
 </table>
@@ -96,14 +96,14 @@ __Description:__ This schema represents the wrapper for Progenetx service respon
 
 #### meta
 
-* type: ./BeaconResponseMeta.yaml#/properties [<a href="./BeaconResponseMeta.html">HTML</a>]
+* type: BeaconResponseMeta.yaml#/properties [<a href="./BeaconResponseMeta.html">HTML</a>]
 
 
 
 
 #### response
 
-* type: ./BeaconServiceResponseResults.yaml#/properties [<a href="./BeaconServiceResponseResults.html">HTML</a>]
+* type: BeaconServiceResponseResults.yaml#/properties [<a href="./BeaconServiceResponseResults.html">HTML</a>]
 
 
 

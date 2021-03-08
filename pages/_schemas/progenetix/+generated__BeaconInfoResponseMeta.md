@@ -93,11 +93,11 @@ __Description:__ Meta information about the reponse.
   </tr>
   <tr>
     <th>receivedRequest</th>
-    <td>./BeaconInfoRequest.yaml#/properties [<a href="./BeaconInfoRequest.html">HTML</a>]</td>
+    <td>BeaconInfoRequest.yaml#/properties [<a href="./BeaconInfoRequest.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>returnedSchemas</th>
-    <td>./BeaconInfoRequestedSchemas.yaml#/properties [<a href="./BeaconInfoRequestedSchemas.html">HTML</a>]</td>
+    <td>BeaconInfoRequestedSchemas.yaml#/properties [<a href="./BeaconInfoRequestedSchemas.html">HTML</a>]</td>
   </tr>
 
 </table>
@@ -120,14 +120,14 @@ Identifier of the beacon, as defined in `Beacon`.
 
 #### receivedRequest
 
-* type: ./BeaconInfoRequest.yaml#/properties [<a href="./BeaconInfoRequest.html">HTML</a>]
+* type: BeaconInfoRequest.yaml#/properties [<a href="./BeaconInfoRequest.html">HTML</a>]
 
 
 
 
 #### returnedSchemas
 
-* type: ./BeaconInfoRequestedSchemas.yaml#/properties [<a href="./BeaconInfoRequestedSchemas.html">HTML</a>]
+* type: BeaconInfoRequestedSchemas.yaml#/properties [<a href="./BeaconInfoRequestedSchemas.html">HTML</a>]
 
 
 

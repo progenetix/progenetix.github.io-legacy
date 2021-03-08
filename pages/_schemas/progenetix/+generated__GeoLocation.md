@@ -78,11 +78,11 @@ __Description:__ A GeoLocation object represents a geographic location formatted
   </tr>
   <tr>
     <th>geometry</th>
-    <td>./GeoJSONgeometry.yaml#/properties [<a href="./GeoJSONgeometry.html">HTML</a>]</td>
+    <td>GeoJSONgeometry.yaml#/properties [<a href="./GeoJSONgeometry.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>properties</th>
-    <td>./GeoLabels.yaml#/properties [<a href="./GeoLabels.html">HTML</a>]</td>
+    <td>GeoLabels.yaml#/properties [<a href="./GeoLabels.html">HTML</a>]</td>
   </tr>
   <tr>
     <th>type</th>
@@ -94,14 +94,14 @@ __Description:__ A GeoLocation object represents a geographic location formatted
 
 #### geometry
 
-* type: ./GeoJSONgeometry.yaml#/properties [<a href="./GeoJSONgeometry.html">HTML</a>]
+* type: GeoJSONgeometry.yaml#/properties [<a href="./GeoJSONgeometry.html">HTML</a>]
 
 
 
 
 #### properties
 
-* type: ./GeoLabels.yaml#/properties [<a href="./GeoLabels.html">HTML</a>]
+* type: GeoLabels.yaml#/properties [<a href="./GeoLabels.html">HTML</a>]
 
 
 

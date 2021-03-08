@@ -54,10 +54,10 @@
          "type" : "string"
       },
       "receivedRequest" : {
-         "$ref" : "./BeaconRequest.yaml#/properties"
+         "$ref" : "BeaconRequest.yaml#/properties"
       },
       "returnedSchemas" : {
-         "$ref" : "./BeaconRequestedSchemas.yaml#/properties"
+         "$ref" : "BeaconRequestedSchemas.yaml#/properties"
       }
    },
    "title" : "BeaconResponseMeta",

@@ -25,7 +25,7 @@
    },
    "properties" : {
       "ancestry" : {
-         "$ref" : "./OntologyClass.yaml#/properties"
+         "$ref" : "OntologyClass.yaml#/properties"
       },
       "confidenceScore" : {
          "format" : "float",

@@ -26,7 +26,7 @@
    "properties" : {
       "codeGroup" : {
          "items" : {
-            "$ref" : "./OntologyClass.yaml#/properties"
+            "$ref" : "OntologyClass.yaml#/properties"
          },
          "type" : "array"
       }

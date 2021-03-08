@@ -53,7 +53,7 @@
          "type" : "string"
       },
       "requestedSchemas" : {
-         "$ref" : "./BeaconRequestedSchemas.yaml#/properties"
+         "$ref" : "BeaconRequestedSchemas.yaml#/properties"
       }
    },
    "title" : "BeaconRequestMeta",

@@ -25,10 +25,10 @@
    },
    "properties" : {
       "end" : {
-         "$ref" : "./Age.yaml#/properties/age"
+         "$ref" : "Age.yaml#/properties/age"
       },
       "start" : {
-         "$ref" : "./Age.yaml#/properties/age"
+         "$ref" : "Age.yaml#/properties/age"
       }
    },
    "title" : "AgeRange",
