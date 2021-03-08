@@ -65,7 +65,8 @@ tags:
   <h3>Attributes</h3>
 </div>
 
-
+  
+__Type:__ object
 ### Properties
 
 <table id="schema-properties-table">

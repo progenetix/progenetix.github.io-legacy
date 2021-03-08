@@ -35,6 +35,7 @@
          "type" : "string"
       }
    },
-   "title" : "Ancestry"
+   "title" : "Ancestry",
+   "type" : "object"
 }
 

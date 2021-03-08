@@ -170,7 +170,7 @@ __Description:__ A Publication represents basic information about a scientific a
 ##### `authors` Value Example  
 
 ```
-"Weber RG, Boström J, Wolter M, Baudis M, Collins VP, Reifenberger G, Lichter P."
+"Weber RG, Bostrom J, Wolter M, Baudis M, Collins VP, Reifenberger G, Lichter P."
 ```
 
 #### contact
@@ -229,7 +229,7 @@ An optional informative shortened concatenation of authors / year / title, to be
 ##### `label` Value Example  
 
 ```
-"Peralta R, Baudis M, Vazquez G, Juárez S, Ortiz R, Decanini et al. (2010): Increased expression of cellular retinol-binding protein 1 in laryngeal squamous cell carcinoma."
+"Peralta R, Baudis M, Vazquez G, Juarez S, Ortiz R, Decanini et al. (2010): Increased expression of cellular retinol-binding protein 1 in laryngeal squamous cell carcinoma."
 ```
 
 #### note
@@ -243,7 +243,7 @@ An optional informative shortened concatenation of authors / year / title, to be
 
 * type: string
 
-Id of article in PMC, if there. TODO: into external_references?
+Id of article in PMC, if there. TODO: into `external_references`?
 
 
 

@@ -33,7 +33,7 @@
       },
       "authors" : {
          "examples" : [
-            "Weber RG, Boström J, Wolter M, Baudis M, Collins VP, Reifenberger G, Lichter P."
+            "Weber RG, Bostrom J, Wolter M, Baudis M, Collins VP, Reifenberger G, Lichter P."
          ],
          "type" : "string"
       },
@@ -62,7 +62,7 @@
       "label" : {
          "description" : "An optional informative shortened concatenation of authors / year / title, to be used for labels etc.\n",
          "examples" : [
-            "Peralta R, Baudis M, Vazquez G, Juárez S, Ortiz R, Decanini et al. (2010): Increased expression of cellular retinol-binding protein 1 in laryngeal squamous cell carcinoma."
+            "Peralta R, Baudis M, Vazquez G, Juarez S, Ortiz R, Decanini et al. (2010): Increased expression of cellular retinol-binding protein 1 in laryngeal squamous cell carcinoma."
          ],
          "type" : "string"
       },
@@ -70,7 +70,7 @@
          "type" : "string"
       },
       "pmcid" : {
-         "description" : "Id of article in PMC, if there. TODO: into external_references?\n",
+         "description" : "Id of article in PMC, if there. TODO: into `external_references`?\n",
          "type" : "string"
       },
       "provenance" : {
