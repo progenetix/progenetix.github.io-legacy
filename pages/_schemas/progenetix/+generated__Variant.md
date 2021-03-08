@@ -7,11 +7,12 @@ excerpt_separator: <!--more-->
 category:
   - schemas
 tags:
-  - code
+  - Progenetix
+  - specification
   - community
+  - code
   - schemas
 ---
-
 
 <div id="schema-header-title">
   <h2>Variant <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>

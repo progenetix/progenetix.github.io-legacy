@@ -9,9 +9,10 @@ category:
 tags:
   - code
   - community
+  - Progenetix
+  - specification
   - schemas
 ---
-
 
 <div id="schema-header-title">
   <h2>OntologyClassGroup <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>

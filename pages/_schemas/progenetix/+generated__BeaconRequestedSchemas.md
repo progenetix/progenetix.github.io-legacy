@@ -7,11 +7,13 @@ excerpt_separator: <!--more-->
 category:
   - schemas
 tags:
-  - code
-  - community
   - schemas
+  - BeaconV2
+  - Progenetix
+  - specification
+  - community
+  - code
 ---
-
 
 <div id="schema-header-title">
   <h2>BeaconRequestedSchemas <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
