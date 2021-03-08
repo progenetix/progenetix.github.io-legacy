@@ -27,7 +27,6 @@ tags:
     <th>Provenance</th>
     <td>
       <ul>
-<li><a href="https://github.com/ga4gh/ga4gh-schemas/blob/master/src/main/proto/ga4gh/variants.proto#L65">GA4GH schemas</a></li>
 <li><a href="https://github.com/progenetix/bycon/">Progenetix `bycon` project</a></li>
       </ul>
     </td>
@@ -66,6 +65,134 @@ tags:
   <h3>Attributes</h3>
 </div>
 
+
+### Properties
+
+<table id="schema-properties-table">
+  <tr>
+    <th>Property</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <th>biosampleId</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>dataUseConditions</th>
+    <td>OntologyClass.yaml#/properties</td>
+  </tr>
+  <tr>
+    <th>description</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>externalReferences</th>
+    <td>array of "OntologyClass.yaml#/properties"</td>
+  </tr>
+  <tr>
+    <th>id</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>info</th>
+    <td>object</td>
+  </tr>
+  <tr>
+    <th>provenance</th>
+    <td>Provenance.yaml#/properties</td>
+  </tr>
+  <tr>
+    <th>updated</th>
+    <td>string (date-time)</td>
+  </tr>
+
+</table>
+
+
+#### biosampleId
+
+* type: string
+
+
+
+##### `biosampleId` Value Example  
+
+```
+"pgxbs-kftva59y"
+```
+
+#### dataUseConditions
+
+* type: OntologyClass.yaml#/properties
+
+
+
+
+#### description
+
+* type: string
+
+
+
+##### `description` Value Example  
+
+```
+"SNP6 array"
+```
+
+#### externalReferences
+
+* type: array of "OntologyClass.yaml#/properties"
+
+
+
+##### `externalReferences` Value Example  
+
+```
+{
+   "type" : {
+      "id" : "geo:GSM224836"
+   }
+}
+```
+
+#### id
+
+* type: string
+
+
+
+##### `id` Value Example  
+
+```
+"pgxcs-kftvldsu"
+```
+
+#### info
+
+* type: object
+
+
+
+
+#### provenance
+
+* type: Provenance.yaml#/properties
+
+
+
+
+#### updated
+
+* type: string (date-time)
+
+
+
+##### `updated` Value Example  
+
+```
+"2020-09-10T17:44:10.170Z"
+```
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

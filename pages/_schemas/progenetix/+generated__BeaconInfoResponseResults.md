@@ -47,7 +47,7 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li><a href="http://beacon-project.io">ELIXIR Beacon project team</a></li>
+<li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon project team</a></li>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
       </ul>
     </td>
@@ -70,17 +70,6 @@ tags:
   
 __Type:__ object  
 __Description:__ Default schema for describing Beacon info.
-
-### Properties
-
-<table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-
-</table>
-
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

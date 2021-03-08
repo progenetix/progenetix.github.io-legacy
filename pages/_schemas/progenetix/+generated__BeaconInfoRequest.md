@@ -1,7 +1,7 @@
 ---
-title: BeaconInfoInfoRequest
+title: BeaconInfoRequest
 layout: default
-permalink: "/schemas/progenetix/BeaconInfoInfoRequest.html"
+permalink: "/schemas/progenetix/BeaconInfoRequest.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
 category:
@@ -14,7 +14,7 @@ tags:
 
 
 <div id="schema-header-title">
-  <h2>BeaconInfoInfoRequest <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
+  <h2>BeaconInfoRequest <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
 </div>
 
 <table id="schema-header-table">
@@ -47,7 +47,7 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li><a href="http://beacon-project.io">ELIXIR Beacon project team</a></li>
+<li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon project team</a></li>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
       </ul>
     </td>
@@ -56,7 +56,7 @@ tags:
     <th>Source (v2021-03-08)</th>
     <td>
       <ul>
-        <li><a href="current/BeaconInfoInfoRequest.json" target="_BLANK">raw source [JSON]</a></li>
+        <li><a href="current/BeaconInfoRequest.json" target="_BLANK">raw source [JSON]</a></li>
         <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/BeaconInfoRequest.yaml" target="_BLANK">Github</a></li>
       </ul>
     </td>
@@ -80,7 +80,7 @@ __Description:__ Request parameters for information endpoints.
   </tr>
   <tr>
     <th>meta</th>
-    <td>BeaconInfoRequestMeta.yaml#/properties</td>
+    <td>./BeaconInfoRequestMeta.yaml#/properties</td>
   </tr>
 
 </table>
@@ -88,7 +88,7 @@ __Description:__ Request parameters for information endpoints.
 
 #### meta
 
-* type: BeaconInfoRequestMeta.yaml#/properties
+* type: ./BeaconInfoRequestMeta.yaml#/properties
 
 
 

@@ -67,6 +67,97 @@ tags:
 
   
 __Description:__ A Collation summarizes information of all biosamples matching a given term (e.g. PMID or NCIT code), as well as the connected items if the code is part of a hierarchy (paths leading to the code, child terms).
+
+### Properties
+
+<table id="schema-properties-table">
+  <tr>
+    <th>Property</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <th>childTerms</th>
+    <td>array of ""</td>
+  </tr>
+  <tr>
+    <th>codeMatches</th>
+    <td>integer</td>
+  </tr>
+  <tr>
+    <th>count</th>
+    <td>integer</td>
+  </tr>
+  <tr>
+    <th>hierarchyPaths</th>
+    <td>array of "HierarchyPath.yaml#/properties"</td>
+  </tr>
+  <tr>
+    <th>id</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>label</th>
+    <td>string</td>
+  </tr>
+
+</table>
+
+
+#### childTerms
+
+* type: array of ""
+
+All downstream terms of this term in a hierarchical system.
+
+
+
+#### codeMatches
+
+* type: integer
+
+The number of biosamples in the collection with this code. This can be 0 if the entity is only represented through its child terms.
+
+
+
+#### count
+
+* type: integer
+
+The number of biosamples in the collection with this code or one of its child terms.
+
+
+
+#### hierarchyPaths
+
+* type: array of "HierarchyPath.yaml#/properties"
+
+All term paths leading to any instance of this code from the hierarchy root term.
+
+
+
+#### id
+
+* type: string
+
+
+
+##### `id` Value Example  
+
+```
+"NCIT:C9272"
+```
+
+#### label
+
+* type: string
+
+
+
+##### `label` Value Example  
+
+```
+"Salivary Gland Carcinoma"
+```
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

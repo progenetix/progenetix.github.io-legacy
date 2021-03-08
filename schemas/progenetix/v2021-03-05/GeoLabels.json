@@ -16,7 +16,7 @@
             "id" : "https://github.com/progenetix/bycon/"
          }
       ],
-      "sb_status" : "proposed",
+      "sb_status" : "community",
       "used_by" : [
          {
             "description" : "Progenetix database schema (Beacon+ backend)",
@@ -76,6 +76,7 @@
          "type" : "string"
       }
    },
-   "title" : "GeoLabels"
+   "title" : "GeoLabels",
+   "type" : "object"
 }
 

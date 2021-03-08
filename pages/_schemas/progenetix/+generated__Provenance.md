@@ -67,6 +67,90 @@ tags:
 
   
 __Description:__ The Provenance class is the wrapper object for schemas informing about technical, geographic or collection associated origin of a higher oreder object such as an Individual or Biosample.
+
+### Properties
+
+<table id="schema-properties-table">
+  <tr>
+    <th>Property</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <th>assay</th>
+    <td>OntologyClass.yaml#/properties</td>
+  </tr>
+  <tr>
+    <th>geo</th>
+    <td>GeoLocation.yaml#/properties</td>
+  </tr>
+  <tr>
+    <th>material</th>
+    <td>OntologyClass.yaml#/properties</td>
+  </tr>
+
+</table>
+
+
+#### assay
+
+* type: OntologyClass.yaml#/properties
+
+
+
+##### `assay` Value Examples  
+
+```
+{
+   "id" : "EFO:0002703",
+   "label" : "SNP array"
+}
+```
+```
+{
+   "id" : "EFO:0010938",
+   "label" : "large-insert clone DNA microarray"
+}
+```
+```
+{
+   "id" : "EFO:0010939",
+   "label" : "oligonucleotide DNA microarray"
+}
+```
+```
+{
+   "id" : "EFO:0010937",
+   "label" : "comparative genomic hybridization (CGH)"
+}
+```
+
+#### geo
+
+* type: GeoLocation.yaml#/properties
+
+
+
+
+#### material
+
+* type: OntologyClass.yaml#/properties
+
+
+
+##### `material` Value Examples  
+
+```
+{
+   "id" : "EFO:0009656",
+   "label" : "neoplastic sample"
+}
+```
+```
+{
+   "id" : "EFO:0009654",
+   "label" : "reference sample"
+}
+```
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

@@ -47,7 +47,7 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li><a href="http://beacon-project.io">ELIXIR Beacon project team</a></li>
+<li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon project team</a></li>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
       </ul>
     </td>
@@ -88,11 +88,11 @@ __Description:__ Meta information about the reponse.
   </tr>
   <tr>
     <th>receivedRequest</th>
-    <td>BeaconInfoRequest.yaml#/properties</td>
+    <td>./BeaconInfoRequest.yaml#/properties</td>
   </tr>
   <tr>
     <th>returnedSchemas</th>
-    <td>BeaconInfoRequestedSchemas.yaml#/properties</td>
+    <td>./BeaconInfoRequestedSchemas.yaml#/properties</td>
   </tr>
 
 </table>
@@ -115,14 +115,14 @@ Identifier of the beacon, as defined in `Beacon`.
 
 #### receivedRequest
 
-* type: BeaconInfoRequest.yaml#/properties
+* type: ./BeaconInfoRequest.yaml#/properties
 
 
 
 
 #### returnedSchemas
 
-* type: BeaconInfoRequestedSchemas.yaml#/properties
+* type: ./BeaconInfoRequestedSchemas.yaml#/properties
 
 
 

@@ -47,7 +47,7 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li><a href="http://beacon-project.io">ELIXIR Beacon project team</a></li>
+<li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon project team</a></li>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
       </ul>
     </td>
@@ -80,7 +80,7 @@ __Description:__ Response of a query over Beacon info. Use `InfoResponseContent`
   </tr>
   <tr>
     <th>meta</th>
-    <td>BeaconInfoResponseMeta.yaml#/properties</td>
+    <td>./BeaconInfoResponseMeta.yaml#/properties</td>
   </tr>
   <tr>
     <th>response</th>
@@ -92,7 +92,7 @@ __Description:__ Response of a query over Beacon info. Use `InfoResponseContent`
 
 #### meta
 
-* type: BeaconInfoResponseMeta.yaml#/properties
+* type: ./BeaconInfoResponseMeta.yaml#/properties
 
 
 

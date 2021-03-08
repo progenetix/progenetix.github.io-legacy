@@ -27,7 +27,6 @@ tags:
     <th>Provenance</th>
     <td>
       <ul>
-<li><a href="https://github.com/ga4gh-metadata/metadata-schemas/blob/master/schemas/biometadata.proto#L145">Developer branch of original GA4GH schema</a></li>
 <li><a href="https://github.com/progenetix/bycon/">Progenetix `bycon` project</a></li>
       </ul>
     </td>
@@ -47,7 +46,6 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li>GA4GH Metadata Task Team</li>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
       </ul>
     </td>
@@ -68,7 +66,38 @@ tags:
 </div>
 
   
+__Type:__ object  
 __Description:__ The ISO 8601 age of this object as ISO8601 duration. While the use of time intervals would make an additional birth date or other anchor unnecessary (i.e. DOB and age can be represented as start-anchored time interval, e.g. 1967-11-11/P40Y10M05D), this is not recommended since such a use does not reflect common practice.
+
+### Properties
+
+<table id="schema-properties-table">
+  <tr>
+    <th>Property</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <th>age</th>
+    <td>string</td>
+  </tr>
+
+</table>
+
+
+#### age
+
+* type: string
+
+The age as non-anchored ISO8601 duration string.
+
+##### `age` Value Examples  
+
+```
+"P12Y"
+```
+```
+"P3M12D"
+```
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

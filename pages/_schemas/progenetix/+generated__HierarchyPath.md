@@ -67,6 +67,53 @@ tags:
 
   
 __Description:__ A path from the root of a hierarchy to - and including - a given term id.
+
+### Properties
+
+<table id="schema-properties-table">
+  <tr>
+    <th>Property</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <th>depth</th>
+    <td>integer</td>
+  </tr>
+  <tr>
+    <th>order</th>
+    <td>integer</td>
+  </tr>
+  <tr>
+    <th>path</th>
+    <td>array of ""</td>
+  </tr>
+
+</table>
+
+
+#### depth
+
+* type: integer
+
+The number of codes on the path upstream of the term.
+
+
+
+#### order
+
+* type: integer
+
+The position in a rooted hierarchy, where each branch ends on a separate line.
+
+
+
+#### path
+
+* type: array of ""
+
+All ordered terms of this path, starting from the root term and ending with, and including, the current term.
+
+
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

@@ -47,7 +47,7 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li><a href="http://beacon-project.io">ELIXIR Beacon project team</a></li>
+<li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon project team</a></li>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
       </ul>
     </td>
@@ -80,11 +80,11 @@ __Description:__ Search for a genomic region
   </tr>
   <tr>
     <th>meta</th>
-    <td>BeaconRequestMeta.yaml#/properties</td>
+    <td>./BeaconRequestMeta.yaml#/properties</td>
   </tr>
   <tr>
     <th>query</th>
-    <td>BeaconRequestQuery.yaml#/properties</td>
+    <td>./BeaconRequestQuery.yaml#/properties</td>
   </tr>
 
 </table>
@@ -92,14 +92,14 @@ __Description:__ Search for a genomic region
 
 #### meta
 
-* type: BeaconRequestMeta.yaml#/properties
+* type: ./BeaconRequestMeta.yaml#/properties
 
 
 
 
 #### query
 
-* type: BeaconRequestQuery.yaml#/properties
+* type: ./BeaconRequestQuery.yaml#/properties
 
 
 

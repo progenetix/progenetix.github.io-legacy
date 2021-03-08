@@ -47,7 +47,6 @@ tags:
     <td>
       <ul>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
-<li><a href="https://orcid.org/0000-0002-8255-4722">Qingyao Huang</a></li>
       </ul>
     </td>
   </tr>
@@ -65,6 +64,50 @@ tags:
 <div id="schema-attributes-title">
   <h3>Attributes</h3>
 </div>
+
+
+### Properties
+
+<table id="schema-properties-table">
+  <tr>
+    <th>Property</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <th>ancestry</th>
+    <td>OntologyClass.yaml#/properties</td>
+  </tr>
+  <tr>
+    <th>confidenceScore</th>
+    <td>number (float)</td>
+  </tr>
+  <tr>
+    <th>description</th>
+    <td>string</td>
+  </tr>
+
+</table>
+
+
+#### ancestry
+
+* type: OntologyClass.yaml#/properties
+
+
+
+
+#### confidenceScore
+
+* type: number (float)
+
+
+
+
+#### description
+
+* type: string
+
+
 
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 

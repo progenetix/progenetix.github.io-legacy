@@ -7,7 +7,7 @@
       "contributors" : [
          {
             "description" : "ELIXIR Beacon project team",
-            "id" : "http://beacon-project.io"
+            "id" : "https://beacon-project.io/categories/people.html"
          },
          {
             "description" : "Michael Baudis",
@@ -34,40 +34,40 @@
    },
    "properties" : {
       "analysis" : {
-         "$ref" : "BeaconAnalysisFields.yaml#/properties"
+         "$ref" : "./BeaconAnalysisFields.yaml#/properties"
       },
       "biosample" : {
-         "$ref" : "BeaconBiosampleFields.yaml#/properties"
+         "$ref" : "./BeaconBiosampleFields.yaml#/properties"
       },
       "customFilters" : {
-         "$ref" : "BeaconFilters.yaml#/schemas/CustomFilters"
+         "$ref" : "./BeaconFilters.yaml#/schemas/CustomFilters"
       },
       "datasets" : {
-         "$ref" : "BeaconRequestDatasets.yaml#/properties"
+         "$ref" : "./BeaconRequestDatasets.yaml#/properties"
       },
       "filters" : {
-         "$ref" : "BeaconFilters.yaml#/schemas/Filters"
+         "$ref" : "./BeaconFilters.yaml#/schemas/Filters"
       },
       "g_variant" : {
-         "$ref" : "BeaconGenomicVariantFields.yaml#/properties"
+         "$ref" : "./BeaconGenomicVariantFields.yaml#/properties"
       },
       "individual" : {
-         "$ref" : "BeaconIndividualFields.yaml#/properties"
+         "$ref" : "./BeaconIndividualFields.yaml#/properties"
       },
       "interactor" : {
-         "$ref" : "BeaconInteractorFields.yaml#/properties"
+         "$ref" : "./BeaconInteractorFields.yaml#/properties"
       },
       "pagination" : {
-         "$ref" : "BeaconPagination.yaml#/properties"
+         "$ref" : "./BeaconPagination.yaml#/properties"
       },
       "run" : {
-         "$ref" : "BeaconRunFields.yaml#/properties"
+         "$ref" : "./BeaconRunFields.yaml#/properties"
       },
       "variant_in_sample" : {
-         "$ref" : "BeaconVariantInSampleFields.yaml#/properties"
+         "$ref" : "./BeaconVariantInSampleFields.yaml#/properties"
       },
       "variant_interpretation" : {
-         "$ref" : "BeaconVariantInterpretationFields.yaml#/properties"
+         "$ref" : "./BeaconVariantInterpretationFields.yaml#/properties"
       }
    },
    "title" : "BeaconRequestQuery",

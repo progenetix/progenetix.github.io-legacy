@@ -47,7 +47,7 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li><a href="http://beacon-project.io">ELIXIR Beacon project team</a></li>
+<li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon project team</a></li>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
       </ul>
     </td>
@@ -69,6 +69,83 @@ tags:
 
   
 __Description:__ The results of the service request.
+
+### Properties
+
+<table id="schema-properties-table">
+  <tr>
+    <th>Property</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <th>beaconHandover</th>
+    <td>array of "object"</td>
+  </tr>
+  <tr>
+    <th>error</th>
+    <td>BeaconError.yaml#/properties</td>
+  </tr>
+  <tr>
+    <th>exists</th>
+    <td>boolean</td>
+  </tr>
+  <tr>
+    <th>info</th>
+    <td>object</td>
+  </tr>
+  <tr>
+    <th>results</th>
+    <td>array of "object"</td>
+  </tr>
+  <tr>
+    <th>resultsHandover</th>
+    <td>array of "object"</td>
+  </tr>
+
+</table>
+
+
+#### beaconHandover
+
+* type: array of "object"
+
+
+
+
+#### error
+
+* type: BeaconError.yaml#/properties
+
+
+
+
+#### exists
+
+* type: boolean
+
+
+
+
+#### info
+
+* type: object
+
+
+
+
+#### results
+
+* type: array of "object"
+
+
+
+
+#### resultsHandover
+
+* type: array of "object"
+
+
+
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

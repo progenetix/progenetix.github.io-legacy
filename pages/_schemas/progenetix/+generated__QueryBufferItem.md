@@ -68,6 +68,145 @@ tags:
   
 __Description:__ This schema represents objects for the temporary storage of Progenetix / bycon
 query results.
+
+### Properties
+
+<table id="schema-properties-table">
+  <tr>
+    <th>Property</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <th>id</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>sourceCollection</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>sourceDb</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>sourceKey</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>targetCollection</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>targetCount</th>
+    <td>integer</td>
+  </tr>
+  <tr>
+    <th>targetKey</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>targetValues</th>
+    <td>array of "string"</td>
+  </tr>
+
+</table>
+
+
+#### id
+
+* type: string
+
+The unique identifier of this query result object in string format, e.g.
+as a UUID v4.
+
+
+##### `id` Value Example  
+
+```
+"37cff434-2c4d-11eb-827a-c21bd2cbdf2b"
+```
+
+#### sourceCollection
+
+* type: string
+
+The gatabase collection that was queried to gather the response items.
+
+
+##### `sourceCollection` Value Example  
+
+```
+"callsets"
+```
+
+#### sourceDb
+
+* type: string
+
+The name of the database the query belongs to.
+
+
+##### `sourceDb` Value Example  
+
+```
+"progenetix"
+```
+
+#### sourceKey
+
+* type: string
+
+The key in the sourceCollection that provided the response values stored
+in this QueryBufferItem.
+
+
+
+#### targetCollection
+
+* type: string
+
+The database collection that should be queried with the targetValues.
+
+
+##### `targetCollection` Value Example  
+
+```
+"biosamples"
+```
+
+#### targetCount
+
+* type: integer
+
+
+
+
+#### targetKey
+
+* type: string
+
+The key in the targetCollection that should be used for creating a query
+against, using the targetValues.
+
+
+##### `targetKey` Value Examples  
+
+```
+"_id"
+```
+```
+"id"
+```
+```
+"biosample_id"
+```
+
+#### targetValues
+
+* type: array of "string"
+
+The identifiers (e.g. biosample_id values or _id ObjectId values) used to retrieve tha data through matching them to the targetKey in the targetCollection. NOTE - While the type here is given as string they may also be internal identifiers such as MongoDB ObjectId entries.
+
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

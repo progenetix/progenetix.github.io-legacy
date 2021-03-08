@@ -27,8 +27,6 @@ tags:
     <th>Provenance</th>
     <td>
       <ul>
-<li><a href="https://github.com/ga4gh-metadata/metadata-schemas/blob/master/schemas/biometadata.proto#L9">Developer branch of original GA4GH schema</a></li>
-<li><a href="https://github.com/phenopackets/phenopacket-schema/blob/master/docs/individual.rst">Phenopackets</a></li>
 <li><a href="https://github.com/progenetix/bycon/">Progenetix `bycon` project</a></li>
       </ul>
     </td>
@@ -48,10 +46,7 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li>GA4GH Metadata Task Team</li>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
-<li><a href="https://orcid.org/0000-0002-3265-15918">Jules Jacobsen</a></li>
-<li><a href="https://orcid.org/0000-0002-0736-91998">Peter Robinson</a></li>
       </ul>
     </td>
   </tr>
@@ -70,6 +65,229 @@ tags:
   <h3>Attributes</h3>
 </div>
 
+
+### Properties
+
+<table id="schema-properties-table">
+  <tr>
+    <th>Property</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <th>ancestries</th>
+    <td>array of "Ancestry.yaml#/properties"</td>
+  </tr>
+  <tr>
+    <th>biocharacteristics</th>
+    <td>array of "OntologyClass.yaml#/properties"</td>
+  </tr>
+  <tr>
+    <th>dataUseConditions</th>
+    <td>OntologyClass.yaml#/properties</td>
+  </tr>
+  <tr>
+    <th>dateOfBirth</th>
+    <td>string (date-time)</td>
+  </tr>
+  <tr>
+    <th>description</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>externalReferences</th>
+    <td>array of "OntologyClass.yaml#/properties"</td>
+  </tr>
+  <tr>
+    <th>genotypicSex</th>
+    <td>OntologyClass.yaml#/properties</td>
+  </tr>
+  <tr>
+    <th>id</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>info</th>
+    <td>object</td>
+  </tr>
+  <tr>
+    <th>karyotypicSex</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>provenance</th>
+    <td>Provenance.yaml#/properties</td>
+  </tr>
+  <tr>
+    <th>updated</th>
+    <td>string (date-time)</td>
+  </tr>
+
+</table>
+
+
+#### ancestries
+
+* type: array of "Ancestry.yaml#/properties"
+
+
+
+
+#### biocharacteristics
+
+* type: array of "OntologyClass.yaml#/properties"
+
+
+
+##### `biocharacteristics` Value Examples  
+
+```
+{
+   "id" : "NCIT:C142079",
+   "label" : "Limb-girdle muscular dystrophy type 2A"
+}
+```
+```
+{
+   "id" : "NCIT:C3969",
+   "label" : "Xeroderma pigmentosum, complementation group G"
+}
+```
+
+#### dataUseConditions
+
+* type: OntologyClass.yaml#/properties
+
+
+
+##### `dataUseConditions` Value Example  
+
+```
+{
+   "id" : "DUO:0000004",
+   "label" : "no restriction"
+}
+```
+
+#### dateOfBirth
+
+* type: string (date-time)
+
+
+
+##### `dateOfBirth` Value Examples  
+
+```
+"1967-11-11"
+```
+```
+"2002-09-21"
+```
+
+#### description
+
+* type: string
+
+
+
+##### `description` Value Example  
+
+```
+"HapMap project contributor"
+```
+
+#### externalReferences
+
+* type: array of "OntologyClass.yaml#/properties"
+
+
+
+##### `externalReferences` Value Examples  
+
+```
+{
+   "id" : "biosample:SAME122868",
+   "label" : "HapMap individual"
+}
+```
+```
+{
+   "id" : "PMID:9950502"
+}
+```
+```
+{
+   "id" : "geo:GSE13331",
+   "label" : "Prognostic analysis of mantle cell lymphoma genomes"
+}
+```
+
+#### genotypicSex
+
+* type: OntologyClass.yaml#/properties
+
+
+
+##### `genotypicSex` Value Examples  
+
+```
+{
+   "id" : "PATO:0020002",
+   "label" : "female genotypic sex"
+}
+```
+```
+{
+   "id" : "PATO:0020001",
+   "label" : "male genotypic sex"
+}
+```
+
+#### id
+
+* type: string
+
+The resource-local identifier for this individual.
+
+
+##### `id` Value Example  
+
+```
+"pgxind-kftx25eh"
+```
+
+#### info
+
+* type: object
+
+
+
+
+#### karyotypicSex
+
+* type: string
+
+Chromosomal sex of an individual as being used by Phenopackets. Following the definition there
+
+
+
+#### provenance
+
+* type: Provenance.yaml#/properties
+
+
+
+
+#### updated
+
+* type: string (date-time)
+
+
+
+##### `updated` Value Example  
+
+```
+"2020-09-10T17:44:10.170Z"
+```
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

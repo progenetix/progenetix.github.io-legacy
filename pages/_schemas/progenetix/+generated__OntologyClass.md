@@ -27,8 +27,6 @@ tags:
     <th>Provenance</th>
     <td>
       <ul>
-<li><a href="https://github.com/ga4gh-metadata/metadata-schemas/blob/master/schemas/shared.proto#L39">Developer branch of original GA4GH schema</a></li>
-<li><a href="https://github.com/phenopackets/phenopacket-schema/blob/master/docs/ontologyclass.rst">Phenopackets</a></li>
 <li><a href="https://github.com/progenetix/bycon/">Progenetix `bycon` project</a></li>
       </ul>
     </td>
@@ -48,11 +46,7 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li>GA4GH Metadata Task Team</li>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
-<li>Chris Mungall</li>
-<li><a href="https://orcid.org/0000-0002-3265-15918">Jules Jacobsen</a></li>
-<li><a href="https://orcid.org/0000-0002-0736-91998">Peter Robinson</a></li>
       </ul>
     </td>
   </tr>

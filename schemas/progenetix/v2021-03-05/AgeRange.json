@@ -5,23 +5,11 @@
    "meta" : {
       "contributors" : [
          {
-            "description" : "Jules Jacobsen",
-            "id" : "orcid:0000-0002-3265-15918"
-         },
-         {
-            "description" : "Peter Robinson",
-            "id" : "orcid:0000-0002-0736-91998"
-         },
-         {
             "description" : "Michael Baudis",
             "id" : "orcid:0000-0002-9903-4248"
          }
       ],
       "provenance" : [
-         {
-            "description" : "Phenopackets",
-            "id" : "https://github.com/phenopackets/phenopacket-schema/blob/master/docs/age.rst#agerange"
-         },
          {
             "description" : "Progenetix `bycon` project",
             "id" : "https://github.com/progenetix/bycon/"
@@ -43,6 +31,7 @@
          "$ref" : "Age.yaml#/properties/age"
       }
    },
-   "title" : "AgeRange"
+   "title" : "AgeRange",
+   "type" : "object"
 }
 

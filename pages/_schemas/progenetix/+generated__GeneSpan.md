@@ -67,6 +67,97 @@ tags:
 
   
 __Description:__ Genomic mapping position of the coding region of a gene.
+
+### Properties
+
+<table id="schema-properties-table">
+  <tr>
+    <th>Property</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <th>end</th>
+    <td>integer</td>
+  </tr>
+  <tr>
+    <th>entrezId</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>geneSymbol</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>referenceName</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>start</th>
+    <td>integer</td>
+  </tr>
+
+</table>
+
+
+#### end
+
+* type: integer
+
+
+
+##### `end` Value Example  
+
+```
+7676593
+```
+
+#### entrezId
+
+* type: string
+
+
+
+##### `entrezId` Value Example  
+
+```
+"7157"
+```
+
+#### geneSymbol
+
+* type: string
+
+
+
+##### `geneSymbol` Value Example  
+
+```
+"TP53"
+```
+
+#### referenceName
+
+* type: string
+
+
+
+##### `referenceName` Value Example  
+
+```
+"17"
+```
+
+#### start
+
+* type: integer
+
+
+
+##### `start` Value Example  
+
+```
+7669608
+```
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

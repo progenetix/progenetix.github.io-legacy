@@ -65,6 +65,28 @@ tags:
   <h3>Attributes</h3>
 </div>
 
+
+### Properties
+
+<table id="schema-properties-table">
+  <tr>
+    <th>Property</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <th>codeGroup</th>
+    <td>array of "OntologyClass.yaml#/properties"</td>
+  </tr>
+
+</table>
+
+
+#### codeGroup
+
+* type: array of "OntologyClass.yaml#/properties"
+
+
+
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

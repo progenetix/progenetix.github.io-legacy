@@ -47,7 +47,7 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li><a href="http://beacon-project.io">ELIXIR Beacon project team</a></li>
+<li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon project team</a></li>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
       </ul>
     </td>
@@ -80,51 +80,51 @@ __Description:__ Description pending
   </tr>
   <tr>
     <th>analysis</th>
-    <td>BeaconAnalysisFields.yaml#/properties</td>
+    <td>./BeaconAnalysisFields.yaml#/properties</td>
   </tr>
   <tr>
     <th>biosample</th>
-    <td>BeaconBiosampleFields.yaml#/properties</td>
+    <td>./BeaconBiosampleFields.yaml#/properties</td>
   </tr>
   <tr>
     <th>customFilters</th>
-    <td>BeaconFilters.yaml#/schemas/CustomFilters</td>
+    <td>./BeaconFilters.yaml#/schemas/CustomFilters</td>
   </tr>
   <tr>
     <th>datasets</th>
-    <td>BeaconRequestDatasets.yaml#/properties</td>
+    <td>./BeaconRequestDatasets.yaml#/properties</td>
   </tr>
   <tr>
     <th>filters</th>
-    <td>BeaconFilters.yaml#/schemas/Filters</td>
+    <td>./BeaconFilters.yaml#/schemas/Filters</td>
   </tr>
   <tr>
     <th>g_variant</th>
-    <td>BeaconGenomicVariantFields.yaml#/properties</td>
+    <td>./BeaconGenomicVariantFields.yaml#/properties</td>
   </tr>
   <tr>
     <th>individual</th>
-    <td>BeaconIndividualFields.yaml#/properties</td>
+    <td>./BeaconIndividualFields.yaml#/properties</td>
   </tr>
   <tr>
     <th>interactor</th>
-    <td>BeaconInteractorFields.yaml#/properties</td>
+    <td>./BeaconInteractorFields.yaml#/properties</td>
   </tr>
   <tr>
     <th>pagination</th>
-    <td>BeaconPagination.yaml#/properties</td>
+    <td>./BeaconPagination.yaml#/properties</td>
   </tr>
   <tr>
     <th>run</th>
-    <td>BeaconRunFields.yaml#/properties</td>
+    <td>./BeaconRunFields.yaml#/properties</td>
   </tr>
   <tr>
     <th>variant_in_sample</th>
-    <td>BeaconVariantInSampleFields.yaml#/properties</td>
+    <td>./BeaconVariantInSampleFields.yaml#/properties</td>
   </tr>
   <tr>
     <th>variant_interpretation</th>
-    <td>BeaconVariantInterpretationFields.yaml#/properties</td>
+    <td>./BeaconVariantInterpretationFields.yaml#/properties</td>
   </tr>
 
 </table>
@@ -132,84 +132,84 @@ __Description:__ Description pending
 
 #### analysis
 
-* type: BeaconAnalysisFields.yaml#/properties
+* type: ./BeaconAnalysisFields.yaml#/properties
 
 
 
 
 #### biosample
 
-* type: BeaconBiosampleFields.yaml#/properties
+* type: ./BeaconBiosampleFields.yaml#/properties
 
 
 
 
 #### customFilters
 
-* type: BeaconFilters.yaml#/schemas/CustomFilters
+* type: ./BeaconFilters.yaml#/schemas/CustomFilters
 
 
 
 
 #### datasets
 
-* type: BeaconRequestDatasets.yaml#/properties
+* type: ./BeaconRequestDatasets.yaml#/properties
 
 
 
 
 #### filters
 
-* type: BeaconFilters.yaml#/schemas/Filters
+* type: ./BeaconFilters.yaml#/schemas/Filters
 
 
 
 
 #### g_variant
 
-* type: BeaconGenomicVariantFields.yaml#/properties
+* type: ./BeaconGenomicVariantFields.yaml#/properties
 
 
 
 
 #### individual
 
-* type: BeaconIndividualFields.yaml#/properties
+* type: ./BeaconIndividualFields.yaml#/properties
 
 
 
 
 #### interactor
 
-* type: BeaconInteractorFields.yaml#/properties
+* type: ./BeaconInteractorFields.yaml#/properties
 
 
 
 
 #### pagination
 
-* type: BeaconPagination.yaml#/properties
+* type: ./BeaconPagination.yaml#/properties
 
 
 
 
 #### run
 
-* type: BeaconRunFields.yaml#/properties
+* type: ./BeaconRunFields.yaml#/properties
 
 
 
 
 #### variant_in_sample
 
-* type: BeaconVariantInSampleFields.yaml#/properties
+* type: ./BeaconVariantInSampleFields.yaml#/properties
 
 
 
 
 #### variant_interpretation
 
-* type: BeaconVariantInterpretationFields.yaml#/properties
+* type: ./BeaconVariantInterpretationFields.yaml#/properties
 
 
 

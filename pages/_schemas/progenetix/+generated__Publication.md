@@ -67,6 +67,242 @@ tags:
 
   
 __Description:__ A Publication represents basic information about a scientific article used in the Progenetix resource to indicate and annotate sources for genomic screening experiments.
+
+### Properties
+
+<table id="schema-properties-table">
+  <tr>
+    <th>Property</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <th>abstract</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>affiliation</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>authors</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>contact</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>email</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>id</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>info</th>
+    <td>object</td>
+  </tr>
+  <tr>
+    <th>journal</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>label</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>note</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>pmcid</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>provenance</th>
+    <td>Provenance.yaml#/properties</td>
+  </tr>
+  <tr>
+    <th>pubmedid</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>status</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>title</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>updated</th>
+    <td>string (date-time)</td>
+  </tr>
+  <tr>
+    <th>year</th>
+    <td>string</td>
+  </tr>
+
+</table>
+
+
+#### abstract
+
+* type: string
+
+
+
+
+#### affiliation
+
+* type: string
+
+
+
+
+#### authors
+
+* type: string
+
+
+
+##### `authors` Value Example  
+
+```
+"Weber RG, Boström J, Wolter M, Baudis M, Collins VP, Reifenberger G, Lichter P."
+```
+
+#### contact
+
+* type: string
+
+Name of contact (e.g. corresponding author). TODO: With email, affiliation ... into new address schema, in provenance?
+
+
+
+#### email
+
+* type: string
+
+
+
+
+#### id
+
+* type: string
+
+
+
+##### `id` Value Example  
+
+```
+"PMID:22824167"
+```
+
+#### info
+
+* type: object
+
+
+
+
+#### journal
+
+* type: string
+
+
+
+##### `journal` Value Example  
+
+```
+"Proc. Natl. Acad. Sci. U.S.A. 94(26), 1997"
+```
+
+#### label
+
+* type: string
+
+An optional informative shortened concatenation of authors / year / title, to be used for labels etc.
+
+
+##### `label` Value Example  
+
+```
+"Peralta R, Baudis M, Vazquez G, Juárez S, Ortiz R, Decanini et al. (2010): Increased expression of cellular retinol-binding protein 1 in laryngeal squamous cell carcinoma."
+```
+
+#### note
+
+* type: string
+
+
+
+
+#### pmcid
+
+* type: string
+
+Id of article in PMC, if there. TODO: into external_references?
+
+
+
+#### provenance
+
+* type: Provenance.yaml#/properties
+
+
+
+
+#### pubmedid
+
+* type: string
+
+
+
+##### `pubmedid` Value Example  
+
+```
+"22824167"
+```
+
+#### status
+
+* type: string
+
+
+
+
+#### title
+
+* type: string
+
+
+
+
+#### updated
+
+* type: string (date-time)
+
+
+
+##### `updated` Value Example  
+
+```
+"2020-09-10T17:44:10.170Z"
+```
+
+#### year
+
+* type: string
+
+
+
+##### `year` Value Example  
+
+```
+"2021"
+```
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

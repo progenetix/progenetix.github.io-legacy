@@ -7,7 +7,7 @@
       "contributors" : [
          {
             "description" : "ELIXIR Beacon project team",
-            "id" : "http://beacon-project.io"
+            "id" : "https://beacon-project.io/categories/people.html"
          },
          {
             "description" : "Michael Baudis",
@@ -34,10 +34,10 @@
    },
    "oneOf" : [
       {
-         "$ref" : "BeaconInfo.yaml#/properties"
+         "$ref" : "./BeaconInfo.yaml#/properties"
       },
       {
-         "$ref" : "BeaconAlternativeSchema.yaml#/"
+         "$ref" : "./BeaconAlternativeSchema.yaml#/"
       }
    ],
    "title" : "BeaconInfoResponseResults",

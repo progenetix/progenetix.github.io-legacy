@@ -47,7 +47,7 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li><a href="http://beacon-project.io">ELIXIR Beacon project team</a></li>
+<li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon project team</a></li>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
       </ul>
     </td>
@@ -84,7 +84,7 @@ __Description:__ Requested schemas and versions to be used in the response.
   </tr>
   <tr>
     <th>requestedSchemas</th>
-    <td>BeaconInfoRequestedSchemas.yaml#/properties</td>
+    <td>./BeaconInfoRequestedSchemas.yaml#/properties</td>
   </tr>
 
 </table>
@@ -106,7 +106,7 @@ format the response.
 
 #### requestedSchemas
 
-* type: BeaconInfoRequestedSchemas.yaml#/properties
+* type: ./BeaconInfoRequestedSchemas.yaml#/properties
 
 
 

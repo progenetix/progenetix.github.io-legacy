@@ -6,18 +6,11 @@
    "meta" : {
       "contributors" : [
          {
-            "description" : "GA4GH Data Working Group"
-         },
-         {
             "description" : "Michael Baudis",
             "id" : "orcid:0000-0002-9903-4248"
          }
       ],
       "provenance" : [
-         {
-            "description" : "GA4GH schemas",
-            "id" : "https://github.com/ga4gh/ga4gh-schemas/blob/master/src/main/proto/ga4gh/variants.proto#L145"
-         },
          {
             "description" : "Progenetix `bycon` project",
             "id" : "https://github.com/progenetix/bycon/"
