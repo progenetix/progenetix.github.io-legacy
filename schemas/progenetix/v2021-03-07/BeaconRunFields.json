@@ -1,16 +1,13 @@
 {
-   "$id" : "https://progenetix.org/services/schemas/AgeRange/v2021-03-05",
+   "$id" : "https://progenetix.org/services/schemas/BeaconRunFields/v2021-03-07",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
+   "description" : "Fields to filter by run.\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
          {
-            "description" : "Jules Jacobsen",
-            "id" : "orcid:0000-0002-3265-15918"
-         },
-         {
-            "description" : "Peter Robinson",
-            "id" : "orcid:0000-0002-0736-91998"
+            "description" : "ELIXIR Beacon project team",
+            "id" : "http://beacon-project.io"
          },
          {
             "description" : "Michael Baudis",
@@ -19,8 +16,8 @@
       ],
       "provenance" : [
          {
-            "description" : "Phenopackets",
-            "id" : "https://github.com/phenopackets/phenopacket-schema/blob/master/docs/age.rst#agerange"
+            "description" : "Beacon v2",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
          },
          {
             "description" : "Progenetix `bycon` project",
@@ -36,13 +33,16 @@
       ]
    },
    "properties" : {
-      "end" : {
-         "$ref" : "Age.yaml#/properties/age"
+      "biosampleId" : {
+         "description" : "`biosampleId` of the run to display.\n",
+         "type" : "string"
       },
-      "start" : {
-         "$ref" : "Age.yaml#/properties/age"
+      "id" : {
+         "description" : "Id of the run to display.\n",
+         "type" : "string"
       }
    },
-   "title" : "AgeRange"
+   "title" : "BeaconRunFields",
+   "type" : "object"
 }
 

@@ -1,7 +1,7 @@
 ---
-title: Callset
+title: OntologyClassGroup
 layout: default
-permalink: "/schemas/progenetix/Callset.html"
+permalink: "/schemas/progenetix/OntologyClassGroup.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
 category:
@@ -14,7 +14,7 @@ tags:
 
 
 <div id="schema-header-title">
-  <h2>Callset <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
+  <h2>OntologyClassGroup <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
 </div>
 
 <table id="schema-header-table">
@@ -27,7 +27,6 @@ tags:
     <th>Provenance</th>
     <td>
       <ul>
-<li><a href="https://github.com/ga4gh/ga4gh-schemas/blob/master/src/main/proto/ga4gh/variants.proto#L65">GA4GH schemas</a></li>
 <li><a href="https://github.com/progenetix/bycon/">Progenetix `bycon` project</a></li>
       </ul>
     </td>
@@ -52,11 +51,11 @@ tags:
     </td>
   </tr>
   <tr>
-    <th>Source (v2021-03-05)</th>
+    <th>Source (v2020-12-21)</th>
     <td>
       <ul>
-        <li><a href="current/Callset.json" target="_BLANK">raw source [JSON]</a></li>
-        <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/Callset.yaml" target="_BLANK">Github</a></li>
+        <li><a href="current/OntologyClassGroup.json" target="_BLANK">raw source [JSON]</a></li>
+        <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/OntologyClassGroup.yaml" target="_BLANK">Github</a></li>
       </ul>
     </td>
   </tr>

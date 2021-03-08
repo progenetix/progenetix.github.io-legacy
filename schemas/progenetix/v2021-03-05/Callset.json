@@ -11,8 +11,8 @@
       ],
       "provenance" : [
          {
-            "description" : "Developer branch of original GA4GH schema",
-            "id" : "https://github.com/ga4gh-metadata/metadata-schemas/blob/master/schemas/shared.proto#L60"
+            "description" : "GA4GH schemas",
+            "id" : "https://github.com/ga4gh/ga4gh-schemas/blob/master/src/main/proto/ga4gh/variants.proto#L65"
          },
          {
             "description" : "Progenetix `bycon` project",
