@@ -7,10 +7,10 @@ excerpt_separator: <!--more-->
 category:
   - schemas
 tags:
-  - schemas
+  - Progenetix
   - code
   - community
-  - Progenetix
+  - schemas
   - specification
 ---
 

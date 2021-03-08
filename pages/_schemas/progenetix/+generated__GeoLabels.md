@@ -7,11 +7,11 @@ excerpt_separator: <!--more-->
 category:
   - schemas
 tags:
-  - schemas
   - Progenetix
-  - specification
   - code
   - community
+  - schemas
+  - specification
 ---
 
 <div id="schema-header-title">

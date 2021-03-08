@@ -10,6 +10,18 @@
             "id" : "https://beacon-project.io/categories/people.html"
          },
          {
+            "description" : "Jordi Rambla",
+            "id" : "github:@jrambla"
+         },
+         {
+            "description" : "Sabele de la Torre",
+            "id" : "github:@sdelatorrep"
+         },
+         {
+            "description" : "Mamana Mbiyavanga",
+            "id" : "github:@mamanambiya"
+         },
+         {
             "description" : "Michael Baudis",
             "id" : "orcid:0000-0002-9903-4248"
          }

@@ -8,10 +8,10 @@ category:
   - schemas
 tags:
   - BeaconV2
-  - schemas
-  - community
-  - code
   - Progenetix
+  - code
+  - community
+  - schemas
   - specification
 ---
 
@@ -50,6 +50,9 @@ tags:
     <td>
       <ul>
 <li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon project team</a></li>
+<li><a href="https://github.com/jrambla">Jordi Rambla</a></li>
+<li><a href="https://github.com/sdelatorrep">Sabele de la Torre</a></li>
+<li><a href="https://github.com/mamanambiya">Mamana Mbiyavanga</a></li>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
       </ul>
     </td>
