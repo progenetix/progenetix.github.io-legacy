@@ -1,7 +1,7 @@
 ---
-title: BeaconAlternativeSchema
+title: BeaconCohortFields
 layout: default
-permalink: "/schemas/progenetix/BeaconAlternativeSchema.html"
+permalink: "/schemas/progenetix/BeaconCohortFields.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
 category:
@@ -16,7 +16,7 @@ tags:
 ---
 
 <div id="schema-header-title">
-  <h2>BeaconAlternativeSchema <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
+  <h2>BeaconCohortFields <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
 </div>
 
 <table id="schema-header-table">
@@ -58,11 +58,11 @@ tags:
     </td>
   </tr>
   <tr>
-    <th>Source (v2021-03-08)</th>
+    <th>Source (v2021-03-09)</th>
     <td>
       <ul>
-        <li><a href="current/BeaconAlternativeSchema.json" target="_BLANK">raw source [JSON]</a></li>
-        <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/BeaconAlternativeSchema.yaml" target="_BLANK">Github</a></li>
+        <li><a href="current/BeaconCohortFields.json" target="_BLANK">raw source [JSON]</a></li>
+        <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/BeaconCohortFields.yaml" target="_BLANK">Github</a></li>
       </ul>
     </td>
   </tr>
@@ -74,7 +74,7 @@ tags:
 
   
 __Type:__ object  
-__Description:__ Alternative schema for describing this Beacon object.
+__Description:__ Fields to filter by cohort.
 
 ### Properties
 
@@ -83,8 +83,32 @@ __Description:__ Alternative schema for describing this Beacon object.
     <th>Property</th>
     <th>Type</th>
   </tr>
+  <tr>
+    <th>id</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>individualId</th>
+    <td>string</td>
+  </tr>
 
 </table>
+
+
+#### id
+
+* type: string
+
+`id` of the cohort to display.
+
+
+
+#### individualId
+
+* type: string
+
+`individualId` of the cohorts to display.
+
 
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 

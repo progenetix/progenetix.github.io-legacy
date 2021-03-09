@@ -1,7 +1,7 @@
 ---
-title: BeaconAlternativeSchema
+title: BeaconHandover
 layout: default
-permalink: "/schemas/progenetix/BeaconAlternativeSchema.html"
+permalink: "/schemas/progenetix/BeaconHandover.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
 category:
@@ -16,7 +16,7 @@ tags:
 ---
 
 <div id="schema-header-title">
-  <h2>BeaconAlternativeSchema <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
+  <h2>BeaconHandover <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
 </div>
 
 <table id="schema-header-table">
@@ -58,11 +58,11 @@ tags:
     </td>
   </tr>
   <tr>
-    <th>Source (v2021-03-08)</th>
+    <th>Source (v2021-03-09)</th>
     <td>
       <ul>
-        <li><a href="current/BeaconAlternativeSchema.json" target="_BLANK">raw source [JSON]</a></li>
-        <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/BeaconAlternativeSchema.yaml" target="_BLANK">Github</a></li>
+        <li><a href="current/BeaconHandover.json" target="_BLANK">raw source [JSON]</a></li>
+        <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/BeaconHandover.yaml" target="_BLANK">Github</a></li>
       </ul>
     </td>
   </tr>
@@ -74,7 +74,7 @@ tags:
 
   
 __Type:__ object  
-__Description:__ Alternative schema for describing this Beacon object.
+__Description:__ TODO
 
 ### Properties
 
@@ -83,8 +83,45 @@ __Description:__ Alternative schema for describing this Beacon object.
     <th>Property</th>
     <th>Type</th>
   </tr>
+  <tr>
+    <th>handoverType</th>
+    <td>BeaconHandoverType.yaml#/properties [<a href="./BeaconHandoverType.html">HTML</a>]</td>
+  </tr>
+  <tr>
+    <th>note</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>url</th>
+    <td>string</td>
+  </tr>
 
 </table>
+
+
+#### handoverType
+
+* type: BeaconHandoverType.yaml#/properties [<a href="./BeaconHandoverType.html">HTML</a>]
+
+
+
+
+#### note
+
+* type: string
+
+An optional text including considerations on the handover link 
+provided.
+
+
+
+#### url
+
+* type: string
+
+URL endpoint to where the handover process could progress (in RFC 
+3986 format).
+
 
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 

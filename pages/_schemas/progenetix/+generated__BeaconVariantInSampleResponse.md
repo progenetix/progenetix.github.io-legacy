@@ -1,7 +1,7 @@
 ---
-title: BeaconAlternativeSchema
+title: BeaconVariantInSampleResponse
 layout: default
-permalink: "/schemas/progenetix/BeaconAlternativeSchema.html"
+permalink: "/schemas/progenetix/BeaconVariantInSampleResponse.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
 category:
@@ -16,7 +16,7 @@ tags:
 ---
 
 <div id="schema-header-title">
-  <h2>BeaconAlternativeSchema <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
+  <h2>BeaconVariantInSampleResponse <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
 </div>
 
 <table id="schema-header-table">
@@ -58,11 +58,11 @@ tags:
     </td>
   </tr>
   <tr>
-    <th>Source (v2021-03-08)</th>
+    <th>Source (v2021-03-09)</th>
     <td>
       <ul>
-        <li><a href="current/BeaconAlternativeSchema.json" target="_BLANK">raw source [JSON]</a></li>
-        <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/BeaconAlternativeSchema.yaml" target="_BLANK">Github</a></li>
+        <li><a href="current/BeaconVariantInSampleResponse.json" target="_BLANK">raw source [JSON]</a></li>
+        <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/BeaconVariantInSampleResponse.yaml" target="_BLANK">Github</a></li>
       </ul>
     </td>
   </tr>
@@ -74,7 +74,7 @@ tags:
 
   
 __Type:__ object  
-__Description:__ Alternative schema for describing this Beacon object.
+__Description:__ Response of a query over variants in sample.
 
 ### Properties
 
@@ -83,8 +83,30 @@ __Description:__ Alternative schema for describing this Beacon object.
     <th>Property</th>
     <th>Type</th>
   </tr>
+  <tr>
+    <th>meta</th>
+    <td>BeaconResponseMeta.yaml#/properties [<a href="./BeaconResponseMeta.html">HTML</a>]</td>
+  </tr>
+  <tr>
+    <th>response</th>
+    <td>BeaconVariantInSampleResponseContent.yaml#/properties [<a href="./BeaconVariantInSampleResponseContent.html">HTML</a>]</td>
+  </tr>
 
 </table>
+
+
+#### meta
+
+* type: BeaconResponseMeta.yaml#/properties [<a href="./BeaconResponseMeta.html">HTML</a>]
+
+
+
+
+#### response
+
+* type: BeaconVariantInSampleResponseContent.yaml#/properties [<a href="./BeaconVariantInSampleResponseContent.html">HTML</a>]
+
+
 
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 

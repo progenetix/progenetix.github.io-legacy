@@ -1,7 +1,7 @@
 ---
-title: BeaconAlternativeSchema
+title: BeaconGenomicVariantReponseResults
 layout: default
-permalink: "/schemas/progenetix/BeaconAlternativeSchema.html"
+permalink: "/schemas/progenetix/BeaconGenomicVariantReponseResults.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
 category:
@@ -16,7 +16,7 @@ tags:
 ---
 
 <div id="schema-header-title">
-  <h2>BeaconAlternativeSchema <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
+  <h2>BeaconGenomicVariantReponseResults <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
 </div>
 
 <table id="schema-header-table">
@@ -58,11 +58,11 @@ tags:
     </td>
   </tr>
   <tr>
-    <th>Source (v2021-03-08)</th>
+    <th>Source (v2021-03-09)</th>
     <td>
       <ul>
-        <li><a href="current/BeaconAlternativeSchema.json" target="_BLANK">raw source [JSON]</a></li>
-        <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/BeaconAlternativeSchema.yaml" target="_BLANK">Github</a></li>
+        <li><a href="current/BeaconGenomicVariantReponseResults.json" target="_BLANK">raw source [JSON]</a></li>
+        <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/BeaconGenomicVariantReponseResults.yaml" target="_BLANK">Github</a></li>
       </ul>
     </td>
   </tr>
@@ -73,8 +73,7 @@ tags:
 </div>
 
   
-__Type:__ object  
-__Description:__ Alternative schema for describing this Beacon object.
+__Description:__ Description pending
 
 ### Properties
 
@@ -83,8 +82,52 @@ __Description:__ Alternative schema for describing this Beacon object.
     <th>Property</th>
     <th>Type</th>
   </tr>
+  <tr>
+    <th>datasetAlleleRespones</th>
+    <td>array of "BeaconDatasetAlleleResponse.yaml#/properties [<a href="./BeaconDatasetAlleleResponse.html">HTML</a>]"</td>
+  </tr>
+  <tr>
+    <th>variant</th>
+    <td>BeaconGenomicVariant.yaml#/ [<a href="./BeaconGenomicVariant.html">HTML</a>]</td>
+  </tr>
+  <tr>
+    <th>variantAnnotations</th>
+    <td>BeaconVariantAnnotation.yaml#/ [<a href="./BeaconVariantAnnotation.html">HTML</a>]</td>
+  </tr>
+  <tr>
+    <th>variantHandover</th>
+    <td>array of "BeaconHandover.yaml#/properties [<a href="./BeaconHandover.html">HTML</a>]"</td>
+  </tr>
 
 </table>
+
+
+#### datasetAlleleRespones
+
+* type: array of "BeaconDatasetAlleleResponse.yaml#/properties [<a href="./BeaconDatasetAlleleResponse.html">HTML</a>]"
+
+
+
+
+#### variant
+
+* type: BeaconGenomicVariant.yaml#/ [<a href="./BeaconGenomicVariant.html">HTML</a>]
+
+
+
+
+#### variantAnnotations
+
+* type: BeaconVariantAnnotation.yaml#/ [<a href="./BeaconVariantAnnotation.html">HTML</a>]
+
+
+
+
+#### variantHandover
+
+* type: array of "BeaconHandover.yaml#/properties [<a href="./BeaconHandover.html">HTML</a>]"
+
+
 
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 

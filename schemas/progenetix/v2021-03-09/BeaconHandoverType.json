@@ -1,7 +1,7 @@
 {
-   "$id" : "https://progenetix.org/services/schemas/BeaconInfoResponseResults/v2021-03-08",
+   "$id" : "https://progenetix.org/services/schemas/BeaconHandoverType/v2021-03-09",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
-   "description" : "Default schema for describing Beacon info.\n",
+   "description" : "Handover type, as an Ontology_term object with CURIE syntax for the \n`id` value. \n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -44,15 +44,24 @@
          }
       ]
    },
-   "oneOf" : [
-      {
-         "$ref" : "BeaconInfo.yaml#/properties"
+   "properties" : {
+      "id" : {
+         "default" : "CUSTOM",
+         "description" : "Use `CUSTOM` for the `id` when no ontology is available.",
+         "example" : "EFO:0004157",
+         "type" : "string"
       },
-      {
-         "$ref" : "BeaconAlternativeSchema.yaml#/properties"
+      "label" : {
+         "default" : null,
+         "description" : "This would be the \"preferred Label\" in the case of an ontology term.",
+         "example" : "BAM format",
+         "type" : "string"
       }
+   },
+   "required" : [
+      "id"
    ],
-   "title" : "BeaconInfoResponseResults",
+   "title" : "BeaconHandoverType",
    "type" : "object"
 }
 

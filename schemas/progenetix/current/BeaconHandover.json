@@ -1,7 +1,7 @@
 {
-   "$id" : "https://progenetix.org/services/schemas/BeaconInfoResponseResults/v2021-03-08",
+   "$id" : "https://progenetix.org/services/schemas/BeaconHandover/v2021-03-09",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
-   "description" : "Default schema for describing Beacon info.\n",
+   "description" : "TODO\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -44,15 +44,26 @@
          }
       ]
    },
-   "oneOf" : [
-      {
-         "$ref" : "BeaconInfo.yaml#/properties"
+   "properties" : {
+      "handoverType" : {
+         "$ref" : "BeaconHandoverType.yaml#/properties"
       },
-      {
-         "$ref" : "BeaconAlternativeSchema.yaml#/properties"
+      "note" : {
+         "description" : "An optional text including considerations on the handover link \nprovided.\n",
+         "example" : "This handover link provides access to a summarized VCF. To access \nthe VCF containing the details for each sample filling an \napplication is required. See Beacon contact information details.\n",
+         "type" : "string"
+      },
+      "url" : {
+         "description" : "URL endpoint to where the handover process could progress (in RFC \n3986 format).\n",
+         "example" : "\"https://api.mygenomeservice.org/handover/9dcc48d7-fc88-11e8-9110-b0c592dbf8c0/\"\n",
+         "type" : "string"
       }
+   },
+   "required" : [
+      "handoverType",
+      "url"
    ],
-   "title" : "BeaconInfoResponseResults",
+   "title" : "BeaconHandover",
    "type" : "object"
 }
 

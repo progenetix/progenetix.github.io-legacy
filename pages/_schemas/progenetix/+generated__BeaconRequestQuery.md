@@ -92,6 +92,10 @@ __Description:__ Description pending
     <td>BeaconBiosampleFields.yaml#/properties [<a href="./BeaconBiosampleFields.html">HTML</a>]</td>
   </tr>
   <tr>
+    <th>cohort</th>
+    <td>BeaconCohortFields.yaml#/properties [<a href="./BeaconCohortFields.html">HTML</a>]</td>
+  </tr>
+  <tr>
     <th>customFilters</th>
     <td>BeaconFilters.yaml#/schemas/CustomFilters [<a href="./BeaconFilters.html">HTML</a>]</td>
   </tr>
@@ -145,6 +149,13 @@ __Description:__ Description pending
 #### biosample
 
 * type: BeaconBiosampleFields.yaml#/properties [<a href="./BeaconBiosampleFields.html">HTML</a>]
+
+
+
+
+#### cohort
+
+* type: BeaconCohortFields.yaml#/properties [<a href="./BeaconCohortFields.html">HTML</a>]
 
 
 

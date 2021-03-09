@@ -1,7 +1,7 @@
 {
-   "$id" : "https://progenetix.org/services/schemas/BeaconInfoResponseResults/v2021-03-08",
+   "$id" : "https://progenetix.org/services/schemas/BeaconFilteringTerm/v2021-03-09",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
-   "description" : "Default schema for describing Beacon info.\n",
+   "description" : "Entities can be filtered using this term.\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -44,15 +44,22 @@
          }
       ]
    },
-   "oneOf" : [
-      {
-         "$ref" : "BeaconInfo.yaml#/properties"
+   "properties" : {
+      "id" : {
+         "description" : "CURIE syntax.\n",
+         "example" : "NCIT:C102872",
+         "type" : "string"
       },
-      {
-         "$ref" : "BeaconAlternativeSchema.yaml#/properties"
+      "label" : {
+         "description" : "This would be the \"preferred Label\" in the case of an ontology term.\n",
+         "example" : "Pharyngeal squamous cell carcinoma",
+         "type" : "string"
       }
+   },
+   "required" : [
+      "id"
    ],
-   "title" : "BeaconInfoResponseResults",
+   "title" : "BeaconFilteringTerm",
    "type" : "object"
 }
 

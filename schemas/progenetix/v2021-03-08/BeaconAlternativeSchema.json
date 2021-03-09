@@ -44,6 +44,7 @@
          }
       ]
    },
+   "properties" : {},
    "title" : "BeaconAlternativeSchema",
    "type" : "object"
 }

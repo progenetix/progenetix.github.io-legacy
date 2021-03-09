@@ -1,7 +1,7 @@
 {
-   "$id" : "https://progenetix.org/services/schemas/BeaconInfoResponseResults/v2021-03-08",
+   "$id" : "https://progenetix.org/services/schemas/BeaconFilteringTermsResponse/v2021-03-09",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
-   "description" : "Default schema for describing Beacon info.\n",
+   "description" : "Filtering terms available in this Beacon.\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -44,15 +44,29 @@
          }
       ]
    },
-   "oneOf" : [
-      {
-         "$ref" : "BeaconInfo.yaml#/properties"
+   "properties" : {
+      "apiVersion" : {
+         "description" : "Version of the API implemented by this Beacon.\n",
+         "example" : "v2.0",
+         "type" : "string"
       },
-      {
-         "$ref" : "BeaconAlternativeSchema.yaml#/properties"
+      "beaconId" : {
+         "description" : "Identifier of the beacon, as defined in `Beacon`.\n",
+         "type" : "string"
+      },
+      "filteringTerms" : {
+         "items" : {
+            "$ref" : "BeaconFilteringTerm.yaml#/properties"
+         },
+         "type" : "array"
       }
+   },
+   "required" : [
+      "beaconId",
+      "apiVersion",
+      "filteringTerms"
    ],
-   "title" : "BeaconInfoResponseResults",
+   "title" : "BeaconFilteringTermsResponse",
    "type" : "object"
 }
 

@@ -1,7 +1,7 @@
 {
-   "$id" : "https://progenetix.org/services/schemas/BeaconInfoResponseResults/v2021-03-08",
+   "$id" : "https://progenetix.org/services/schemas/BeaconVariantInterpretationResponseContent/v2021-03-09",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
-   "description" : "Default schema for describing Beacon info.\n",
+   "description" : "TODO\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -44,15 +44,45 @@
          }
       ]
    },
-   "oneOf" : [
-      {
-         "$ref" : "BeaconInfo.yaml#/properties"
+   "properties" : {
+      "beaconHandover" : {
+         "items" : {
+            "$ref" : "BeaconHandover.yaml#/properties"
+         },
+         "type" : "array"
       },
-      {
-         "$ref" : "BeaconAlternativeSchema.yaml#/properties"
+      "error" : {
+         "$ref" : "BeaconError.yaml#/properties"
+      },
+      "exists" : {
+         "description" : "Indicator of whether any variant in sample was observed in any of the\ndatasets queried. This should be non-null, unless there was an\nerror, in which case `error` has to be non-null.\n",
+         "type" : "boolean"
+      },
+      "info" : {
+         "type" : "object"
+      },
+      "numTotalResults" : {
+         "minimum" : "0",
+         "type" : "integer"
+      },
+      "results" : {
+         "items" : {
+            "$ref" : "BeaconVariantInterpretationResponseResults.yaml#/"
+         },
+         "type" : "array"
+      },
+      "resultsHandover" : {
+         "items" : {
+            "$ref" : "BeaconHandover.yaml#/properties"
+         },
+         "type" : "array"
       }
+   },
+   "required" : [
+      "exists",
+      "results"
    ],
-   "title" : "BeaconInfoResponseResults",
+   "title" : "BeaconVariantInterpretationResponseContent",
    "type" : "object"
 }
 

@@ -1,7 +1,7 @@
 {
-   "$id" : "https://progenetix.org/services/schemas/BeaconInfoResponseResults/v2021-03-08",
+   "$id" : "https://progenetix.org/services/schemas/BeaconInteractorResponse/v2021-03-09",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
-   "description" : "Default schema for describing Beacon info.\n",
+   "description" : "Response of a query over variants in sample.\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -44,15 +44,19 @@
          }
       ]
    },
-   "oneOf" : [
-      {
-         "$ref" : "BeaconInfo.yaml#/properties"
+   "properties" : {
+      "meta" : {
+         "$ref" : "BeaconResponseMeta.yaml#/properties"
       },
-      {
-         "$ref" : "BeaconAlternativeSchema.yaml#/properties"
+      "response" : {
+         "$ref" : "BeaconInteractorResponseContent.yaml#/properties"
       }
+   },
+   "required" : [
+      "meta",
+      "response"
    ],
-   "title" : "BeaconInfoResponseResults",
+   "title" : "BeaconInteractorResponse",
    "type" : "object"
 }
 

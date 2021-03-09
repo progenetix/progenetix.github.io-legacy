@@ -1,7 +1,7 @@
 {
-   "$id" : "https://progenetix.org/services/schemas/BeaconInfoResponseResults/v2021-03-08",
+   "$id" : "https://progenetix.org/services/schemas/BeaconCohortFields/v2021-03-09",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
-   "description" : "Default schema for describing Beacon info.\n",
+   "description" : "Fields to filter by cohort.\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -44,15 +44,17 @@
          }
       ]
    },
-   "oneOf" : [
-      {
-         "$ref" : "BeaconInfo.yaml#/properties"
+   "properties" : {
+      "id" : {
+         "description" : "`id` of the cohort to display.\n",
+         "type" : "string"
       },
-      {
-         "$ref" : "BeaconAlternativeSchema.yaml#/properties"
+      "individualId" : {
+         "description" : "`individualId` of the cohorts to display.\n",
+         "type" : "string"
       }
-   ],
-   "title" : "BeaconInfoResponseResults",
+   },
+   "title" : "BeaconCohortFields",
    "type" : "object"
 }
 

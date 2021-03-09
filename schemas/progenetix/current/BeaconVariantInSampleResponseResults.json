@@ -1,7 +1,7 @@
 {
-   "$id" : "https://progenetix.org/services/schemas/BeaconInfoResponseResults/v2021-03-08",
+   "$id" : "https://progenetix.org/services/schemas/BeaconVariantInSampleResponseResults/v2021-03-09",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
-   "description" : "Default schema for describing Beacon info.\n",
+   "description" : "Default schema for describing runs.\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -46,13 +46,10 @@
    },
    "oneOf" : [
       {
-         "$ref" : "BeaconInfo.yaml#/properties"
-      },
-      {
          "$ref" : "BeaconAlternativeSchema.yaml#/properties"
       }
    ],
-   "title" : "BeaconInfoResponseResults",
+   "title" : "BeaconVariantInSampleResponseResults",
    "type" : "object"
 }
 

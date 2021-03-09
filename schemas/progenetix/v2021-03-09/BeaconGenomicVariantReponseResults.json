@@ -1,7 +1,7 @@
 {
-   "$id" : "https://progenetix.org/services/schemas/BeaconInfoResponseResults/v2021-03-08",
+   "$id" : "https://progenetix.org/services/schemas/BeaconGenomicVariantReponseResults/v2021-03-09",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
-   "description" : "Default schema for describing Beacon info.\n",
+   "description" : "Description pending\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -44,15 +44,26 @@
          }
       ]
    },
-   "oneOf" : [
-      {
-         "$ref" : "BeaconInfo.yaml#/properties"
+   "properties" : {
+      "datasetAlleleRespones" : {
+         "items" : {
+            "$ref" : "BeaconDatasetAlleleResponse.yaml#/properties"
+         },
+         "type" : "array"
       },
-      {
-         "$ref" : "BeaconAlternativeSchema.yaml#/properties"
+      "variant" : {
+         "$ref" : "BeaconGenomicVariant.yaml#/"
+      },
+      "variantAnnotations" : {
+         "$ref" : "BeaconVariantAnnotation.yaml#/"
+      },
+      "variantHandover" : {
+         "items" : {
+            "$ref" : "BeaconHandover.yaml#/properties"
+         },
+         "type" : "array"
       }
-   ],
-   "title" : "BeaconInfoResponseResults",
-   "type" : "object"
+   },
+   "title" : "BeaconGenomicVariantReponseResults"
 }
 

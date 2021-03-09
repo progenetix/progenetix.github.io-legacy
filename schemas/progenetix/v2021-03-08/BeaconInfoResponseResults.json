@@ -49,7 +49,7 @@
          "$ref" : "BeaconInfo.yaml#/properties"
       },
       {
-         "$ref" : "BeaconAlternativeSchema.yaml#/"
+         "$ref" : "BeaconAlternativeSchema.yaml#/properties"
       }
    ],
    "title" : "BeaconInfoResponseResults",

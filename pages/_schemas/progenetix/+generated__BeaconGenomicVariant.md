@@ -1,7 +1,7 @@
 ---
-title: BeaconAlternativeSchema
+title: BeaconGenomicVariant
 layout: default
-permalink: "/schemas/progenetix/BeaconAlternativeSchema.html"
+permalink: "/schemas/progenetix/BeaconGenomicVariant.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
 category:
@@ -16,7 +16,7 @@ tags:
 ---
 
 <div id="schema-header-title">
-  <h2>BeaconAlternativeSchema <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
+  <h2>BeaconGenomicVariant <span id="schema-header-title-project">schemas <a href="https://github.com/progenetix/schemas" target="_BLANK">&nearr;</a></span> </h2>
 </div>
 
 <table id="schema-header-table">
@@ -58,11 +58,11 @@ tags:
     </td>
   </tr>
   <tr>
-    <th>Source (v2021-03-08)</th>
+    <th>Source (v2021-03-09)</th>
     <td>
       <ul>
-        <li><a href="current/BeaconAlternativeSchema.json" target="_BLANK">raw source [JSON]</a></li>
-        <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/BeaconAlternativeSchema.yaml" target="_BLANK">Github</a></li>
+        <li><a href="current/BeaconGenomicVariant.json" target="_BLANK">raw source [JSON]</a></li>
+        <li><a href="https://github.com/progenetix/schemas/blob/master/schemas/BeaconGenomicVariant.yaml" target="_BLANK">Github</a></li>
       </ul>
     </td>
   </tr>
@@ -74,18 +74,7 @@ tags:
 
   
 __Type:__ object  
-__Description:__ Alternative schema for describing this Beacon object.
-
-### Properties
-
-<table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-
-</table>
-
+__Description:__ Variant description using either the default or an alternative schema.
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

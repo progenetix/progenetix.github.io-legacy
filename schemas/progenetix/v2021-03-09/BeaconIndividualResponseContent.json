@@ -1,7 +1,7 @@
 {
-   "$id" : "https://progenetix.org/services/schemas/BeaconInfoResponseResults/v2021-03-08",
+   "$id" : "https://progenetix.org/services/schemas/BeaconIndividualResponseContent/v2021-03-09",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
-   "description" : "Default schema for describing Beacon info.\n",
+   "description" : "Description pending\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -44,15 +44,40 @@
          }
       ]
    },
-   "oneOf" : [
-      {
-         "$ref" : "BeaconInfo.yaml#/properties"
+   "properties" : {
+      "beaconHandover" : {
+         "$ref" : "BeaconHandover.yaml#/properties"
       },
-      {
-         "$ref" : "BeaconAlternativeSchema.yaml#/properties"
+      "error" : {
+         "$ref" : "BeaconError.yaml#/properties"
+      },
+      "exists" : {
+         "description" : "Indicator of whether any individual was observed in any of the\ndatasets queried. This should be non-null, unless there was an\nerror, in which case `error` has to be non-null.\n",
+         "type" : "boolean"
+      },
+      "info" : {
+         "type" : "object"
+      },
+      "numTotalResults" : {
+         "minimum" : "0",
+         "type" : "integer"
+      },
+      "results" : {
+         "items" : {
+            "$ref" : "BeaconIndividualResponseResults.yaml#/"
+         },
+         "type" : "array"
+      },
+      "resultsHandover" : {
+         "$ref" : "BeaconHandover.yaml#/properties"
       }
+   },
+   "required" : [
+      "exists",
+      "numTotalResults",
+      "results"
    ],
-   "title" : "BeaconInfoResponseResults",
+   "title" : "BeaconIndividualResponseContent",
    "type" : "object"
 }
 
