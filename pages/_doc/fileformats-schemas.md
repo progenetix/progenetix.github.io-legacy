@@ -54,7 +54,12 @@ Progenetix uses a variation of a standard tab-separated columnar text file such 
 For example, with 78 samples in three NCIt cancer types, an excerpt of the segment file would look like below:
 
 ```
-#plotpars;color_var_dup_hex=#EE4500;color_var_del_hex=#09F911
+# plotpars;title="Testing Custom Plot Parameters"
+# plotpars;subtitle="Some Chromosomes, Colors etc."
+# plotpars;chr2plot="3,5,7,8,11,13,16"
+# plotpars;color_var_dup_hex=#EE4500;color_var_del_hex=#09F911
+# plotpars;size_title_left_px=300
+# plotpars;size_text_title_left_px=10
 #sample_id=GSM253303;group_id=NCIT:C4028;group_label="Cervical Squamous Cell Carcinoma"
 #sample_id=GSM388959;group_id=NCIT:C4024;group_label="Esophageal Squamous Cell Carcinoma"
 #sample_id=GSM252886;group_id=NCIT:C6958;group_label="Astrocytic Tumor"
