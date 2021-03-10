@@ -43,11 +43,11 @@ Progenetix uses a variation of a standard tab-separated columnar text file such 
     * lines start with `#plotpars;`
     * parameters are added in `parameter_name=value;other_parameter=itsValue` format - see below
     * basically any [plot parameter from PGX](https://github.com/progenetix/PGX/blob/master/config/plotdefaults.yaml) can be used
-  - the `sample_id` parameter is required to assign values (e.g. group labels) to samples
   - Sample / grouping parameters
+    * the `sample_id` parameter is required to assign values (e.g. group labels) to samples
+    * `sample_id` has to correspond to th eidentifiers used in column 1 of the following segments data
     * `parameter=value` pairs are semicolon-separated
     * values may be wrapped in double quotation marks (`group_label="Ductal Breast Carcinoma"`)
-    * `sample_id` is required and has to correspond to column 1 values
     * `group_id` should be used for grouping
     * `group_label` is optional for grouping / labeling of the groups
 
