@@ -40,7 +40,7 @@ Progenetix uses a variation of a standard tab-separated columnar text file such 
 * header (optional)
   - header lines start with the `#` character
   - Plot parameters:
-    * lines start with `#plotpars;
+    * lines start with `#plotpars`;
     * replacement parameters for teh defaults (TBD) are added in `parameter_name=value;other_parameter=itsValue` format - see below
   - the `sample_id` parameter is required to assign values (e.g. group labels) to samples
   - `parameter=value` pairs are semicolon-separated
