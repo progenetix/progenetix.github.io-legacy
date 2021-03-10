@@ -42,6 +42,7 @@ Progenetix uses a variation of a standard tab-separated columnar text file such 
   - Plot parameters:
     * lines start with `#plotpars`;
     * replacement parameters for teh defaults (TBD) are added in `parameter_name=value;other_parameter=itsValue` format - see below
+    * basically any [plot parameter from PGX](https://github.com/progenetix/PGX/blob/master/config/plotdefaults.yaml) can be used
   - the `sample_id` parameter is required to assign values (e.g. group labels) to samples
   - `parameter=value` pairs are semicolon-separated
   - values may be wrapped in double quotation marks (`group_label="Ductal Breast Carcinoma"`)
