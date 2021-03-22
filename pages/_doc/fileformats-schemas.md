@@ -40,7 +40,7 @@ Progenetix uses a variation of a standard tab-separated columnar text file such 
 * header (optional)
   - header lines start with the `#` character
   - Plot parameters:
-    * lines start with `#plotpars;`
+    * lines start with `#plotpars=>`
     * parameters are added in `parameter_name=value;other_parameter=itsValue` format - see below
     * basically any [plot parameter from PGX](https://github.com/progenetix/PGX/blob/master/config/plotdefaults.yaml) can be used
   - Sample / grouping parameters
@@ -50,16 +50,21 @@ Progenetix uses a variation of a standard tab-separated columnar text file such 
     * values may be wrapped in double quotation marks (`group_label="Ductal Breast Carcinoma"`)
     * `group_id` should be used for grouping
     * `group_label` is optional for grouping / labeling of the groups
+  - Metadata
+    * lines start with `#meta=>`
+    * additional information about the file
+    * (so far) only informative
 
 For example, with 78 samples in three NCIt cancer types, an excerpt of the segment file would look like below:
 
 ```
-# plotpars;title="Testing Custom Plot Parameters"
-# plotpars;subtitle="Some Chromosomes, Colors etc."
-# plotpars;chr2plot="3,5,7,8,11,13,16"
-# plotpars;color_var_dup_hex=#EE4500;color_var_del_hex=#09F911
-# plotpars;size_title_left_px=300
-# plotpars;size_text_title_left_px=10
+#meta=>biosample_count=78
+#plotpars=>title="Testing Custom Plot Parameters"
+#plotpars=>subtitle="Some Chromosomes, Colors etc."
+#plotpars=>chr2plot="3,5,7,8,11,13,16"
+#plotpars=>color_var_dup_hex=#EE4500;color_var_del_hex=#09F911
+#plotpars=>size_title_left_px=300
+#plotpars=>size_text_title_left_px=10
 #sample_id=GSM253303;group_id=NCIT:C4028;group_label="Cervical Squamous Cell Carcinoma"
 #sample_id=GSM388959;group_id=NCIT:C4024;group_label="Esophageal Squamous Cell Carcinoma"
 #sample_id=GSM252886;group_id=NCIT:C6958;group_label="Astrocytic Tumor"
