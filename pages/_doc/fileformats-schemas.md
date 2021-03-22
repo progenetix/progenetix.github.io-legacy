@@ -45,11 +45,12 @@ Progenetix uses a variation of a standard tab-separated columnar text file such 
     * basically any [plot parameter from PGX](https://github.com/progenetix/PGX/blob/master/config/plotdefaults.yaml) can be used
   - Sample / grouping parameters
     * the `sample_id` parameter is required to assign values (e.g. group labels) to samples
-    * `sample_id` has to correspond to th eidentifiers used in column 1 of the following segments data
+    * `sample_id` has to correspond to the identifiers used in column 1 of the following segments data
     * `parameter=value` pairs are semicolon-separated
     * values may be wrapped in double quotation marks (`group_label="Ductal Breast Carcinoma"`)
-    * `group_id` should be used for grouping
-    * `group_label` is optional for grouping / labeling of the groups
+    * `group_id` __should__ be used for grouping
+      - this is a convention for the Progenetix plotting engine
+      - `group_label` is optional for grouping / labeling of the groups
   - Metadata
     * lines start with `#meta=>`
     * additional information about the file
@@ -65,9 +66,9 @@ For example, with 78 samples in three NCIt cancer types, an excerpt of the segme
 #plotpars=>color_var_dup_hex=#EE4500;color_var_del_hex=#09F911
 #plotpars=>size_title_left_px=300
 #plotpars=>size_text_title_left_px=10
-#sample_id=GSM253303;group_id=NCIT:C4028;group_label="Cervical Squamous Cell Carcinoma"
-#sample_id=GSM388959;group_id=NCIT:C4024;group_label="Esophageal Squamous Cell Carcinoma"
-#sample_id=GSM252886;group_id=NCIT:C6958;group_label="Astrocytic Tumor"
+#sample=>sample_id=GSM253303;group_id=NCIT:C4028;group_label="Cervical Squamous Cell Carcinoma"
+#sample=>sample_id=GSM388959;group_id=NCIT:C4024;group_label="Esophageal Squamous Cell Carcinoma"
+#sample=>sample_id=GSM252886;group_id=NCIT:C6958;group_label="Astrocytic Tumor"
 sample_id	chro	start	stop	mean	variant_type	probes
 GSM252886	1	911484	11993973	-0.4486 DEL	.
 GSM252886	1	12158755	22246766	0.2859 DUP	.
