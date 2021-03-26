@@ -1,7 +1,7 @@
 ---
 title: "R Integration"
 date: 2018-05-10
-permalink: /howto/R-integration.html
+permalink: /doc/R-integration.html
 layout: default
 author: Michael Baudis
 excerpt_separator: <!--more-->

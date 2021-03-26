@@ -117,7 +117,7 @@ No file is created if there isn't any content in the text buffer.
 If documentation has been found, the YAML-prefixed markdown file is created in
 the `output_dir` target directory.
 
-The [YAML header](https://progenetix.github.io/progenetix-site-template/howto/yamlheader/)
+The [YAML header](https://progenetix.github.io/progenetix-site-template/doc/yamlheader/)
 contains directives and parameters for the processing of the page through the
 [__Jekyll__](https://jekyllrb.com) website generation engine.
 

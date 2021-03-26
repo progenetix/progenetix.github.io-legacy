@@ -2,13 +2,14 @@
 title: "Genome Coordinates"
 date: 2018-05-08
 layout: default
-permalink: /howto/genome-coordinates.html
+permalink: /doc/genome-coordinates.html
 author: Michael Baudis
 excerpt_separator: <!--more-->
 category:
   - howto
 tags:
   - resources
+  - documentation
 ---
 
 ## {{ page.title }}

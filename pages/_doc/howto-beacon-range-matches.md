@@ -1,7 +1,7 @@
 ---
 title:  "Beacon: Range matches"
 layout: default
-permalink: /howto/beacon-range-matches.html
+permalink: /doc/beacon-range-matches.html
 category:
   - howto
 tags:

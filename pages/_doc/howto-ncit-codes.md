@@ -1,7 +1,7 @@
 ---
 title: "NCIt Coding"
 date: 2018-05-10
-permalink: /howto/ncit-coding.html
+permalink: /doc/ncit-coding.html
 layout: default
 author: '@mbaudis'
 excerpt_separator: <!--more-->

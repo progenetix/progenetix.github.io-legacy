@@ -1,7 +1,7 @@
 ---
 title: "pgx Namespace"
 date: 2018-05-10
-permalink: /howto/pgx-namespace.html
+permalink: /doc/pgx-namespace.html
 layout: default
 author: Michael Baudis
 excerpt_separator: <!--more-->

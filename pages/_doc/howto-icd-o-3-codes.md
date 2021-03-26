@@ -1,7 +1,7 @@
 ---
 title: "ICD-O 3 Coding"
 date: 2020-09-29
-permalink: /howto/icd-o-3-coding.html
+permalink: /doc/icd-o-3-coding.html
 layout: default
 author: Michael Baudis
 excerpt_separator: <!--more-->
