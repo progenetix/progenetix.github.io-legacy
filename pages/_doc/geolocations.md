@@ -31,3 +31,7 @@ A more detailed discussion of the problems and benefits of geographic provenance
 #### `Geolocs` Service
 
 The Progenetix API provides a service for [retrieving geographic coordinates](/doc/services/geolocations.html) as point coordinates, for the majority of cities.
+
+#### `GeoLocation` schema
+
+The current version of the JSON Schema data schema for the geolocation object can be accessed through the [Progenetix services API](https://progenetix.org/services/schemas/GeoLocation/).
