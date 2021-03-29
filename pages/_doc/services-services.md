@@ -51,13 +51,6 @@ rewrite in the server configuration:
 RewriteRule     "^/services(.*)"     /cgi-bin/bycon/services/services.py$1      [PT]
 ```
 
-### Callback handling
-
-The JSON response (see below) will be wrapped in a callback function if a `callback`
-parameter is provided e.g. for Ajax functionality.
-
-* <http://progenetix.org/services/collations?filters=PMID&datasetIds=progenetix&method=counts&callback=4445-9938-cbat-9891-kllt>
-
 ### Response formats (changed January 2021)
 
 Standard responses are provided as `Content-Type: application/json`. The wrapper
