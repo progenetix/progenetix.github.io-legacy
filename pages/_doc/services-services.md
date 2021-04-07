@@ -25,7 +25,6 @@ The _bycon_ environment provides a number of data services which make use of
 resources in the _Progenetix_ environment. Please refer to their specific
 documentation.
 
-* [_biosamples_](/doc/services/biosamples.html)
 * [_collations_](/doc/services/collations.html)
 * [_cytomapper_](/doc/services/cytomapper.html)
 * [_deliveries_](/doc/services/deliveries.html)
@@ -35,6 +34,11 @@ documentation.
 * [_ontologymaps_](/doc/services/ontologymaps.html)
 * [_publications_](/doc/services/publications.html)
 * [_schemas_](/doc/services/schemas.html)
+
+Note: As of 2021-04-07 there are some changes - typical Beacon endpoints such as `biosamples` have been moved to the `/beacon/__service-name__` path:
+
+* [_biosamples_](/doc/beacon/biosamples.html)
+* [_variants_](/doc/beacon/variants.html)
 
 ### `services.py` and URL Mapping
 
@@ -51,7 +55,7 @@ rewrite in the server configuration:
 RewriteRule     "^/services(.*)"     /cgi-bin/bycon/services/services.py$1      [PT]
 ```
 
-### Response formats (changed January 2021)
+### Response formats
 
 Standard responses are provided as `Content-Type: application/json`. The wrapper
 format, as defined in the schemas (https://github.com/progenetix/bycon/tree/master/services/config/schemas`) 
