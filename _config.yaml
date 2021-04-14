@@ -25,6 +25,9 @@ keywords:
   - University of Zurich
 site_domain_name: info.progenetix.org
 url: 'http://info.progenetix.org'
+google_search_code: >
+  <script async src="https://cse.google.com/cse.js?cx=29234d8c2ee43f948"></script>
+  <div class="gcse-search"></div>
 baseurl: ""
 site_parent_link: 'http://progenetix.org'
 site_parent_link_name: 'Progenetix Data'
