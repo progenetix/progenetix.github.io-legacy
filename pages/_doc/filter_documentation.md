@@ -20,7 +20,8 @@ tags:
   - filters
 ---
 
-## {{ page.title }}
+{{ page.title }}
+----------------
 
 For non-genomic parameters, the Progenetix resource uses a query syntax based
 around the [Beacon v2 "filters"](https://beacon-project.io/v2/filters.html)
@@ -60,7 +61,7 @@ additionally a set of structured non-CURIE identifiers.
 | pgxcohort  | Progenetix cohorts [^10]| pgxcohort-arraymap |
 
 
-#### Handling of hierarchical terminologies
+### Handling of hierarchical terminologies
 
 Hierarchical terminologies allow queries at different levels, to include all its children terms. The Progenetix query filter system adopts this inclusion logic if the classification / code type is hierarchy-based.
 
