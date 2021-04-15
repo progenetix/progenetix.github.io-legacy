@@ -16,13 +16,18 @@ tags:
   - API
   - schemas
   - files
+  - filters
 ---
 
 ## {{ page.title }}
 
+
+<!--more-->
+
 ### List of ontology-based filters recognized by query endpoint ([CURIE](https://www.w3.org/TR/2010/NOTE-curie-20101216/) syntax is used whenever available)
 
 #### Ontology with CURIE-based syntax
+
 | CURIE prefix        |  Ontology          | Example (`;`- separated)  |
 | ------------- |:-------------:| -----:|
 | NCIT    | NCIt Neoplasm <sup>1</sup> | NCIT:C27676 |
