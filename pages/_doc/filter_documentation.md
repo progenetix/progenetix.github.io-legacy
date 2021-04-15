@@ -22,15 +22,20 @@ tags:
 
 ## {{ page.title }}
 
-For non-genomic parameters, the Progenetix resource uses a query syntax based around the [Beacon v2 "filters"](https://beacon-project.io/v2/filters.html) concept.
+For non-genomic parameters, the Progenetix resource uses a query syntax based
+around the [Beacon v2 "filters"](https://beacon-project.io/v2/filters.html)
+concept.
 
 <!--more-->
 
-### List of ontology-based filters recognized by query endpoint ([CURIE](https://www.w3.org/TR/2010/NOTE-curie-20101216/) syntax is used whenever available)
+### List of filters recognized by different query endpoints
+
+Generally, a [CURIE](https://www.w3.org/TR/2010/NOTE-curie-20101216/) syntax is
+used whenever available.
 
 #### Ontology with CURIE-based syntax
 
-| CURIE prefix        |  Ontology          | Example (`;`- separated)  |
+| CURIE prefix        |  Code/Ontology          | Examples |
 | ------------- |:-------------:| ----- |
 | NCIT    | NCIt Neoplasm [^1] | NCIT:C27676 |
 | HP      | HPO[^2] | HP:0012209 |
@@ -42,9 +47,11 @@ For non-genomic parameters, the Progenetix resource uses a query syntax based ar
 
 #### Private filters
 
-Since some classifications cannot directly be referenced, and in accordance with the upcoming Beacon v2 concept of "private filters", Progenetix uses additionally a set of structured non-CURIE identifiers.
+Since some classifications cannot directly be referenced, and in accordance with
+the upcoming Beacon v2 concept of "private filters", Progenetix uses
+additionally a set of structured non-CURIE identifiers.
 
-| Filter prefix        |  Ontology          | Example  |
+| Filter prefix        |  Code/Ontology          | Example  |
 | ------------- |:-------------:| ----- |
 | icdom | ICD-O 3[^7] Morphologies (Progenetix)| icdom-81703 |
 | icdot | ICD-O 3[^7] Topographies(Progenetix)| icdot-C04.9 |
