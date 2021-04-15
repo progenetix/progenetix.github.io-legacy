@@ -83,5 +83,5 @@ Examples for codes with hierarchical treatment within the filter space are:
 [^7]:International Classification of Diseases for Oncology, 3rd Edition [ICD-O-3](https://www.who.int/standards/classifications/other-classifications/international-classification-of-diseases-for-oncology)
 [^8]: Supports [TCGA](https://portal.gdc.cancer.gov) Sample UUID.
 [^9]: Supports [cBioPortal](https://www.cbioportal.org/datasets) Study ID.
-[^10]: Cohorts defined in Progenetix involving a collection of related samples. Currently includes: arraymap, 2021progenetix, DIPG, TCGA, TCGAcancers, gao2021signatures.
+[^10]: Cohorts defined in Progenetix involving a collection of related samples. Currently includes (add `pgxcohort-`): arraymap, 2021progenetix, DIPG, TCGA, TCGAcancers, [gao2021signatures](https://progenetix.org/gao-2021-signatures/search/).
 
