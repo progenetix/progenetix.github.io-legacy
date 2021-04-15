@@ -21,6 +21,7 @@ tags:
 
 ## {{ page.title }}
 
+For non-genomic parameters, the Progenetix resource uses a query syntax based around the [Beacon v2 "filters"](https://beacon-project.io/v2/filters.html) concept.
 
 <!--more-->
 
@@ -29,7 +30,7 @@ tags:
 #### Ontology with CURIE-based syntax
 
 | CURIE prefix        |  Ontology          | Example (`;`- separated)  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| ----- |
 | NCIT    | NCIt Neoplasm <sup>1</sup> | NCIT:C27676 |
 | HP      | HPO<sup>2</sup> | HP:0012209 |
 | PMID    | NCBI Pubmed ID | PMID:28966033 |
@@ -46,7 +47,7 @@ tags:
 <sup>6</sup>: [Uberon](http://uberon.github.io/about.html) ID
 
 | Filter prefix        |  Ontology          | Example  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| ----- |
 | icdom | ICD-O 3<sup>1</sup> Morphologies (Progenetix)| icdom-81703 |
 | icdot | ICD-O 3<sup>1</sup> Topographies(Progenetix)| icdot-C04.9 |
 | TCGA  | The Cancer Genome Atlas (Progenetix)<sup>2</sup> | TCGA-000002fc-53a0-420e-b2aa-a40a358bba37 |
