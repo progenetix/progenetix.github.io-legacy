@@ -3,7 +3,7 @@ title: "Filter Documentation"
 date: 2021-04-14
 layout: default
 author: "@qingyao"
-permalink: "/doc/datadictionary.html"
+permalink: "/doc/filters-documentation.html"
 excerpt_separator: <!--more-->
 category:
   - howto
