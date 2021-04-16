@@ -1,6 +1,6 @@
 ---
 title: "Progenetix File Formats"
-date: 2021-02-22
+date: 2021-04-16
 layout: default
 author: "@mbaudis"
 permalink: "/doc/fileformats.html"
@@ -26,11 +26,18 @@ tags:
 
 ## {{ page.title }}
 
-### Standard Progenetix Segment Files `.pgxseg`
+### Progenetix Segment Files `.pgxseg`
 
 Progenetix uses a variation of a standard tab-separated columnar text file such as produced by array or sequencing CNV software, with an optional metadata header for e.g. plot or grouping instructions.
 
+Wile the first edition only was geared towards sample-linked segment annotations, a variation is now being provided for CNV frequencies.
+
 <!--more-->
+
+1. [sample segment files](#samplesegs)
+2. [segment frequency files](#freqsegs)
+
+#### <a id="samplesegs"></a>Sample Segment Files
 
 * a standard tab-delimited Progenetix segments file
   - an additional header may exist
@@ -81,4 +88,41 @@ GSM252886	3	119131	4655519	-0.0122	. .
 GSM252886	3	4662952	4857477	0.9273 DUP 	.
 ...
 ```
+
+#### <a id="#freqsegs"></a>Segment CNV Frequencies
+
+In the frequency file
+
+* `group_id` values replace the `sample_id`
+  - multiple groups can be concatenated in the file
+* `chro`,	`start` and	`end` are the same as in the sample files
+* `gain_frequency` and `loss_frequency` indicate the *percent* values for gains and losses overlapping the segment, respectively 
+
+Future options are under evaluation.
+
+Examples can be derived from the Progenetix "Services" API:
+
+* https://progenetix.org/services/intervalFrequencies/pgxcohort-TCGAcancers/?method=pgxseg
+  - single group in REST syntax (here overall CNV frequencies in >11000 cancer samples from the TCGA sample collection)
+* https://progenetix.org/services/intervalFrequencies/?filters=icdom-81403,icdom-81443&method=pgxseg
+  - 2 sets using the `filters` parameter
+
+```
+#meta=>genome_binning=1Mb;interval_number=3102
+#group=>group_id=icdom-81403;label=Adenocarcinoma, NOS;dataset_id=progenetix;sample_count=18559
+group_id	chro	start	end	gain_frequency	loss_frequency	index
+icdom-81403	1	0	1000000	8.8	9.12	0
+icdom-81403	1	1000000	2000000	8.49	8.68	1
+icdom-81403	1	2000000	3000000	9.81	13.19	2
+icdom-81403	1	3000000	4000000	10.02	15.84	3
+icdom-81403	1	4000000	5000000	7.94	15.91	4
+...
+icdom-81403	2	228000000	229000000	7.37	6.62	477
+icdom-81403	2	229000000	230000000	7.39	6.89	478
+icdom-81403	2	230000000	231000000	8.3	7.0	479
+icdom-81403	2	231000000	232000000	8.24	6.86	480
+icdom-81403	2	232000000	233000000	9.1	7.89	481
+...
+```
+
 
