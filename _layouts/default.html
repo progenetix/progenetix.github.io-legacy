@@ -44,10 +44,10 @@
 <header>
 
   <div id="sitelogo">
-<a href="{{ '/' | relative_url }}">
-		<h2>{{ site.label }}</h2>
-  	<div style="font-size: 0.9em; margin-top: -10px; margin-bottom: 15px;">{{ site.tagline }}</div>
-</a>
+    <a href="{{ '/' | relative_url }}">
+    		<h2>{{ site.label }}</h2>
+      	<div style="font-size: 0.9em; margin-top: -10px; margin-bottom: 15px; color: var(--site-text-color)">{{ site.tagline }}</div>
+    </a>
 	</div>
 
   <div id="catlinks">
@@ -85,7 +85,7 @@
 
 			{%- if cat_posts.size >= 1 -%}
 
-  <h4><a href="{{ 'categories' | relative_url }}/{{cat_page}}">{{ cat_label }}</a></h4>
+  <h4 class="catlink"><a href="{{ 'categories' | relative_url }}/{{cat_page}}">{{ cat_label }}</a></h4>
 
 {%- comment -%}
   * posts are listed if same category as current page
@@ -154,7 +154,7 @@
 
   {%- if block_label_type[0] == 'General' -%}
     {%- for this_link in site.general_outlinks -%}
-    <h4>
+    <h4 class="catlink">
       <a href="{{this_link[1]}}">{{this_link[0]}}</a>
     </h4>
     {%- endfor -%}

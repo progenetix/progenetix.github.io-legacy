@@ -1,5 +1,18 @@
 :root {
   --site-color: #ff6f48;
+  --site-link-color: #2370F9;
+  --site-text-color: #000000;
+}
+
+a:hover, a:focus {  text-decoration: underline ; }
+
+.catlink a {
+  display: inline-block;
+  color: #000000;
+}
+.sublink a {
+  display: inline-block;
+  color: #333333;
 }
 
 #logo_topleft {
@@ -60,9 +73,8 @@ http://andhart.github.io/bijou/
 
 */
 
-.label { width: 100%; min-height:2em; text-align: right; padding: 2px 5px; box-shadow: 0px 0px 0px 1px var(--site-color) inset; border-radius:5px; background-color: #f3f3f3; clear: both;}
-
-.formfield { width: 100%; min-height:2em; padding: 2px 5px; box-shadow: 0px 0px 0px 1px var(--site-color) inset; border-radius:5px; background-color: #f3f3f3; clear: none;}
+.label { width: 100%; min-height:2em; text-align: right; padding: 2px 5px; box-shadow: 0px 0px 0px 1px var(--site-link-color) inset; border-radius:5px; background-color: #f3f3f3; clear: both;}
+.formfield { width: 100%; min-height:2em; padding: 2px 5px; box-shadow: 0px 0px 0px 1px var(--site-link-color) inset; border-radius:5px; background-color: #f3f3f3; clear: none;}
 
 #schema-header-title-project { color: #999; font-weight: 200; }
 #schema-header-title-project a:link { color: #999; font-weight: 200; }
@@ -82,5 +94,3 @@ http://andhart.github.io/bijou/
   border: 1px solid #eeeed0;
   font-size: 0.7em;
 }
-
-
