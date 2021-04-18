@@ -1,6 +1,6 @@
 ---
 category:
-  - about
+  - publications
 tags:
   - .prepend
 ---
@@ -30,5 +30,3 @@ The __Progenetix__ database and cancer genomic information resource was publicly
 Only publications by the Progenetix team and which directly report on Progenetix and related resources are listed here. These are usually focussed on technical aspects and content of the database, or specifically use these dataresources for large-scale metaanalyses.
 
 For a list of publication by the Baudis group you can go to the [group's website](https://info.baudisgroup.org/categories/publications.html),  [EuropePMC](https://europepmc.org/search?query=0000-0002-9903-4248) or any of the links here.
-
-

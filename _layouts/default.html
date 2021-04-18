@@ -83,6 +83,14 @@
       {%- assign cat_page = cat_key | append: '.html' -%}
       {%- assign cat_posts = site.documents | where: 'categories', cat_key | sort: 'date' | reverse -%}
 
+      {%- if cat_key contains '/' -%}
+
+  <h4 class="catlink"><a href="{{ cat_key }}">{{ cat_label }}</a></h4>
+
+      {%- endif -%}
+
+
+
 			{%- if cat_posts.size >= 1 -%}
 
   <h4 class="catlink"><a href="{{ 'categories' | relative_url }}/{{cat_page}}">{{ cat_label }}</a></h4>

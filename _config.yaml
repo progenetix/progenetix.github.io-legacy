@@ -64,15 +64,11 @@ nav_cat_blocks: # comma-separated "label,type,label_visibility"
   github_projects: 'Github Projects,github_projects,show'
 
 General:
+  'http://progenetix.org': Progenetix Data
+  publications: About Progenetix
   news: News
-  about: About...
   API: API
-  howto: 'Documentation'
-  publications: Publications
-
-# links added to the "General" categories block
-general_outlinks:
-  'Progenetix Home': 'http://progenetix.org'
+  howto: Documentation
 
 related_sites:
   'Progentix Data': 'http://progenetix.org'
