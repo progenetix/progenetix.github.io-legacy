@@ -272,7 +272,7 @@ footer { width:24%; float: left; position: fixed; bottom: 20px; }
 	header h4.sublink { display: none; }
 	header h5 { display: none; }
 	header, section, footer { float: none; position: static; width: 100%; max-width: 100%; }
-	header, section, #catlinks, #sitelogo  { border-bottom: 1px solid var(--site-color); }
+	header, section, #catlinks, #sitelogo  { border-bottom: 1px solid var(--site-link-color); }
 	#tagcloud { padding: 8px; }
 	#catlinks { padding: 4px; }
 }
