@@ -1,11 +1,10 @@
 ---
 title:  "Beacon: Range matches"
-layout: default
 date: 2018-05-08
 layout: default
-author: @mbaudis
+author: '@mbaudis'
 permalink: /doc/beacon-range-matches.html
-category:
+categories:
   - documentation
 tags:
   - API
