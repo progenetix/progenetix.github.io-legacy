@@ -20,11 +20,11 @@ tags:
 
 ### Bycon - a Python-based environment for the Beacon v2 genomics API
 
-#### More Information
+The [`bycon`](https://github.com/progenetix/bycon) project provides a combination of a Beacon-protocol based API with additional API services, used as backend and middleware for the Progenetix resource.
 
-Additional information may be available through [info.progenetix.org](https://info.progenetix.org).
+`bycon` has been developed to support Beacon protocol development following earlier implementations of Beacon+ ("beaconPlus") with now deprected Perl libraries. The work tightly integrates with the [ELIXIR Beacon](http://beacon-project.io) project.
 
-##### Examples
+##### Examples 
 
 The first examples are for "standard" Beacon (v1) queries and may become deprecated/remapped during the ongoing development.
 
@@ -35,6 +35,8 @@ The first examples are for "standard" Beacon (v1) queries and may become depreca
   - <https://bycon.progenetix.org/query?assemblyId=GRCh38&datasetIds=progenetix&filters=NCIT:C3326>
 * precise variant query together with filter
   - <https://bycon.progenetix.org/query?datasetIds=progenetix&assemblyId=GRCh38&start=7577120&referenceBases=G&alternateBases=A&filters=icdot-C71.7>
+
+<!--more-->
 
 ##### Examples for v2 endpoints
 
