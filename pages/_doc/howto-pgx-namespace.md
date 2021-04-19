@@ -1,5 +1,5 @@
 ---
-title: "pgx Namespace"
+title: "Progenetix project Namespace"
 date: 2018-05-10
 permalink: /doc/pgx-namespace.html
 layout: default
