@@ -19,6 +19,7 @@ category:
   - news
 tags:
   - article
+  - about
 ---
 
 ### Minimum Error Calibration and Normalization for Genomic Copy Number Analysis.

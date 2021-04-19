@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 permalink: /publications/16568815.html
 excerpt_link: http://info.baudisgroup.org/publications/16568815.html
 category:
-  - publications
+  - about
 tags:
   - article
 ---

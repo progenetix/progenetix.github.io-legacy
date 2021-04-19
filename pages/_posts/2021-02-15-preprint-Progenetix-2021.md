@@ -13,12 +13,13 @@ www_link:
 www_links_formatted:
   - <a href="https://www.biorxiv.org/content/10.1101/2021.02.15.428237v2" target="_blank">[bioRxiv]</a>
 category:
-  - publications
+  - about
   - news
 tags:
   - article
   - preprint
   - news
+  - about
 ---
 
 ### The Progenetix oncogenomic resource in 2021

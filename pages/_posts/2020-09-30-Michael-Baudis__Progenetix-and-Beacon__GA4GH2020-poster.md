@@ -7,11 +7,13 @@ authors:
 excerpt_separator: <!--more-->
 category:
   - news
+  - about
 tags:
   - poster
   - presentation
   - Beacon
   - GA4GH
+  - about
 pdf_file_name: 2020-09-21___Michael-Baudis__Progenetix-GA4GH-standards__GA4GH-8th-Plenary-poster.pdf
 pdf_file_type: poster
 ---

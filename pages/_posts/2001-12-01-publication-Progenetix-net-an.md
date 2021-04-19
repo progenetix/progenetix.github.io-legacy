@@ -11,7 +11,7 @@ www_links_formatted:
   - '<a href="http://europepmc.org/abstract/MED/11751233">[ EPMC ]</a>'
   - '<a href="https://academic.oup.com/bioinformatics/article/17/12/1228/225653">[ Bioinformatics ]</a>'
 category:
-  - publications
+  - about
 tags:
   - article
 ---

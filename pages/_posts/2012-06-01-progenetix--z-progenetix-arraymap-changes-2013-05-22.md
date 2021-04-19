@@ -4,7 +4,8 @@ date: 2013-05-22
 layout: default
 category:
   - news
-tags: 
+  - about
+tags:
   - recovered
   - changelog
   - progenetix
@@ -33,11 +34,11 @@ tags:
 #### 2013-04-10
 
 * re-factoring of the cytobands plotting for histograms and heatmaps; this also fixes missing histogram tiles
-* analysis output page: the circular histogram/connections plot and group specific histograms are now all available as both SVG and PNG image files 
+* analysis output page: the circular histogram/connections plot and group specific histograms are now all available as both SVG and PNG image files
 
 #### 2013-04-06
 
-Some changes to the plotting options: 
+Some changes to the plotting options:
 
 * the circular plot is now added as a default; and connections are drawn in for <= 30 samples (subject to change)
 * one can now mark up multiple genes (or other loci of interest), for all plot types
@@ -49,7 +50,7 @@ Some changes to the plotting options:
 
 #### 2013-02-27
 
-* copied data for PMIDs 17327916, 17311676, 18506749 and 18246049 from arrayMap to 
+* copied data for PMIDs 17327916, 17311676, 18506749 and 18246049 from arrayMap to
 Progenetix
 
 #### 2013-02-24
@@ -114,9 +115,9 @@ GSM255091	1	35418712	37555461	1	NA	C50	8500/3	breast	Infiltrating duct carcinoma
 
 #### 2012-07-04
 
-* some interface and form elements have been streamlined (e.g. less commonly used selector fields, sample selection options) 
-* some common options are now displayed only if activated (e.g. "mouse over" to see all files available for download) 
-* icon quality has been enhanced for all but the details pages 
+* some interface and form elements have been streamlined (e.g. less commonly used selector fields, sample selection options)
+* some common options are now displayed only if activated (e.g. "mouse over" to see all files available for download)
+* icon quality has been enhanced for all but the details pages
 
 #### 2012-06-13
 
@@ -127,4 +128,3 @@ GSM255091	1	35418712	37555461	1	NA	C50	8500/3	breast	Infiltrating duct carcinoma
 
 * NEW: change log; that is what is shown here
 * FEATURE: The interval selector now has options to include the p-arms of acrocentric chromosomes (though the data itself there may be incompletely annotated!). Feature requested by Melody Lam.
-

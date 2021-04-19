@@ -9,7 +9,7 @@ permalink: /publications/18088415.html
 excerpt_link: http://info.baudisgroup.org/publications/18088415.html
 www_link: http://europepmc.org/abstract/MED/18088415
 category:
-  - publications
+  - about
 tags:
   - article
 ---

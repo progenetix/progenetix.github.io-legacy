@@ -4,7 +4,8 @@ date: 2013-11-13
 layout: default
 category:
   - news
-tags: 
+  - about
+tags:
   - recovered
   - progenetix
   - arraymap
@@ -13,7 +14,7 @@ tags:
 ---
 ## New publication - "Progenetix: 12 years of oncogenomic data curation"
 
-Our new database update publication 
+Our new database update publication
 
 * "Progenetix: 12 years of oncogenomic data curation"
 

@@ -15,12 +15,12 @@ www_links_formatted:
   - <a href="https://biorxiv.org/cgi/content/short/2020.12.18.423278v2" target="_blank">[bioRxiv]</a>
   - <a href="https://www.frontiersin.org/articles/10.3389/fgene.2021.654887/abstract" target="_blank">[frontiers in Genetics]</a>
 category:
-  - publications
+  - about
   - news
 tags:
   - article
-  - preprint
   - news
+  - about
 ---
 
 ## Signatures of Discriminative Copy Number Aberrations in 31 Cancer Subtypes

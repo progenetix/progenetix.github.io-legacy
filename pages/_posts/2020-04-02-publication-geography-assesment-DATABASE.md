@@ -11,7 +11,7 @@ www_link:
 www_links_formatted:
   - <a href="https://academic.oup.com/database/article/doi/10.1093/database/baaa009/5812711" target="_blank">[DATABASE]</a>
 category:
-  - publications
+  - about
   - news
 tags:
   - article
