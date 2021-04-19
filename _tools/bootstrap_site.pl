@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 =podmd
-The bootstrap_site is a utility for creating the structure of __Progenetix 
+The bootstrap_site is a utility for creating the structure of __Progenetix
 Jekyll Website Template__ based websites. The current functions are:
 
 * create list pages for all categories defined in `_config.yml`, separate for
@@ -34,7 +34,7 @@ my @cat_blocks  =   qw(General Products);
 
 my $here_path   =   File::Basename::dirname( eval { ( caller() )[1] } );
 my $base_path   =   $here_path.'/..';
-our $config     =   LoadFile($base_path.'/_config.yml') or die "¡No _config.yml file in this path!";
+our $config     =   LoadFile($base_path.'/_config.yaml') or die "¡No _config.yml file in this path!";
 
 print $base_path."\n";
 
@@ -77,8 +77,8 @@ END
 =podmd
 #### Listing pages for `categories` and `tags`
 
-For `categories` and `tags` annotated in the `_config.yml` file, a default 
-landing page (i.e. this_category.md, this_tag.md) is being generated and linked 
+For `categories` and `tags` annotated in the `_config.yml` file, a default
+landing page (i.e. this_category.md, this_tag.md) is being generated and linked
 to.
 
 =cut
@@ -101,18 +101,18 @@ foreach my $scope (keys %$scopes) {
 
 	my $type_path =   $base_path.'/'.$scope;
 	mkdir $type_path;
-	
+
 	my $templates	=		$base_path.'/_templates/_';
-	
+
 	foreach my $item (@{ $scopes->{$scope} }) {
 
 =podmd
 ##### List page sort order
 
-The listing pages for categories and tags are provided in alphabetic and date 
-sorted versions. Default (i.e. the page shown when clicking the category or tag 
-page) is "alpha-sorted". The default can be changed in the `_config.yaml` file 
-by listing the respective category or tag in the corresponding sorting 
+The listing pages for categories and tags are provided in alphabetic and date
+sorted versions. Default (i.e. the page shown when clicking the category or tag
+page) is "alpha-sorted". The default can be changed in the `_config.yaml` file
+by listing the respective category or tag in the corresponding sorting
 attribute, e.g.
 
 ```
@@ -127,7 +127,7 @@ tags-date-sorted:
 			$templates.$scope.'-alpha-sorted'.'.md',
 			$type_path.'/'.$item.'.md'
 		);
-			
+
 		foreach my $sort ("-date-sorted", "-alpha-sorted", "-date-sorted-reverse", "-alpha-sorted-reverse") {
 			copy(
 				$templates.$scope.$sort.'.md',
