@@ -47,16 +47,25 @@
 
     {%- for static_file in site.static_files -%}
     	{% if static_file.path contains 'site-specific/site-logo-main-top.png' %}
-      <a href="{{ site.site_parent_link }}">
-        <img style="margin-left: auto; margin-right: auto;" src="{{ 'assets' | relative_url }}/img/site-specific/site-logo-main-top.png" />
+      <a href="{{ '/' | relative_url }}">
+        <img
+          style="margin-left: auto; margin-right: auto;"
+          src="{{ 'assets' | relative_url }}/img/site-specific/site-logo-main-top.png"
+          alt="{{ site.tagline }}"
+        />
       </a>
     	{% endif %}
     {%- endfor -%}
+
+    {%- unless site.label == '' -%}
 
     <a href="{{ '/' | relative_url }}">
     		<h2>{{ site.label }}</h2>
       	<div style="font-size: 0.9em; margin-top: -10px; margin-bottom: 15px; margin-left: auto; margin-right: auto; color: var(--site-link-color)">{{ site.tagline }}</div>
     </a>
+
+    {%- endunless -%}
+
 	</div>
 
   <div id="catlinks">

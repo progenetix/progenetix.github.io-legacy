@@ -64,13 +64,13 @@ nav_cat_blocks: # comma-separated "label,type,label_visibility"
   github_projects: 'Github Projects,github_projects,show'
 
 General:
-  'http://progenetix.org': Progenetix Data
-  'http://progenetix.org/subsets/biosubsets#is_sub': Cancer CNV Profiles
-  'http://progenetix.org/biosamples/search#is_sub': Search Samples
   about: About Progenetix
   news: News
   API: API
   howto: Documentation
+  'http://progenetix.org': Progenetix Data
+  'http://progenetix.org/subsets/biosubsets#is_sub': Cancer CNV Profiles
+  'http://progenetix.org/biosamples/search#is_sub': Search Samples
 
 related_sites:
   'Progentix Data': 'http://progenetix.org'
