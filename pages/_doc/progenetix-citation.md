@@ -6,7 +6,7 @@ permalink: /citation.html
 categories:
   - howto
   - about
-tags: 
+tags:
   - progenetix
   - arraymap
   - guide
@@ -22,12 +22,12 @@ Recent publications by the Progenetix team can be found on the [baudisgroup webs
 *Progenetix* For any use of the Progenetix data, e.g. as a reference for aberration frequencies in a certain locus, it is necessary to cite __both__ the website and the original _Bioinformatics_ publication: 
 
 * Baudis, M., & Cleary, M. L. (2001). Progenetix.net: an online repository for molecular cytogenetic aberration data. Bioinformatics, 17(12), 1228-1229.
-* Progenetix oncogenomic online resource: _progenetix.org_. Baudis M _et al._ ({{ site.time | date: '%y' }}) 
+* Progenetix oncogenomic online resource: _progenetix.org_. Baudis M _et al._ ({{ site.time | date: '%Y' }})
 
 Depending on the context (e.g. direct use of recent data), the more recent resource publications could/should be cited, too:
 
 * Cai H, Kumar N, Ai N, Gupta S, Rath P, Baudis M. *Progenetix: 12 years of oncogenomic data curation.* _Nucleic Acids Res_ (2014) Jan;42
-* Cai, H., N. Kumar, N. Ai, S. Gupta, P. Rath, and M. Baudis. Progenetix: 12 years of oncogenomic data curation. _Nucleic Acids Res_ (2013) 
+* Cai, H., N. Kumar, N. Ai, S. Gupta, P. Rath, and M. Baudis. Progenetix: 12 years of oncogenomic data curation. _Nucleic Acids Res_ (2013)
 
 In case of citation restrictions, you may just use the Bioinformatics citation, and put the website in the text. A proper citation would look e.g. like:
 
@@ -43,7 +43,7 @@ In case of citation restrictions, you may just use the Bioinformatics citation, 
 *arrayMap* For arrayMap data, the same rules apply: Citation of the article and the website:
 
 * Cai, H., Kumar, N., & Baudis, M. 2012. arrayMap: A Reference Resource for Genomic Copy Number Imbalances in Human Malignancies. PLoS One 7(5), e36944.
-* arrayMap: Genomic arrays for copy number profiling in human cancer: _arraymap.org_. Baudis M _et al._ ({{ site.time | date: '%y' }}) 
+* arrayMap: Genomic arrays for copy number profiling in human cancer: _arraymap.org_. Baudis M _et al._ ({{ site.time | date: '%y' }})
 
 
 
