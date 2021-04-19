@@ -2,6 +2,7 @@
 title: 'How to cite Progenetix?'
 date: 2021-02-02
 layout: default
+author: '@mbaudis'
 permalink: /citation.html
 categories:
   - documentation
