@@ -15,11 +15,10 @@ www_links_formatted:
   - <a href="https://pypi.org/project/mecan4cna/" target="_blank">[Python pip]</a>
   - <a href="https://github.com/baudisgroup/mecan4cna" target="_blank">[Github]</a>  
 category:
-  - publications
+  - about
   - news
 tags:
   - article
-  - about
 ---
 
 ### Minimum Error Calibration and Normalization for Genomic Copy Number Analysis.
