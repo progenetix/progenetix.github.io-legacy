@@ -1,6 +1,6 @@
 ititle: 'Progenetix - Structural Cancer Genomics Resources'
-label: 'Progenetix :: Info'
-tagline: 'Structural Cancer Genomics Resource Documentation and Example Pages'
+label: '' # Progenetix :: Info
+tagline: 'Progenetix Documentation Pages'
 description: |
   Code & info website of the progenetix.org cancer genomics information resource : baudisgroup @ UZH & SIB
 show_downloads: true
