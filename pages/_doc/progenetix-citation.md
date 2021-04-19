@@ -29,7 +29,6 @@ For any use of the Progenetix data, e.g. as a reference for aberration frequenci
 Depending on the context (e.g. direct use of recent data), the more recent resource publications could/should be cited, too:
 
 * Cai H, Kumar N, Ai N, Gupta S, Rath P, Baudis M. *Progenetix: 12 years of oncogenomic data curation.* _Nucleic Acids Res_ (2014) Jan;42
-* Cai, H., N. Kumar, N. Ai, S. Gupta, P. Rath, and M. Baudis. Progenetix: 12 years of oncogenomic data curation. _Nucleic Acids Res_ (2013)
 
 In case of citation restrictions, you may just use the Bioinformatics citation, and put the website in the text. A proper citation would look e.g. like:
 
@@ -44,10 +43,10 @@ In case of citation restrictions, you may just use the Bioinformatics citation, 
 
 *arrayMap* 
 
-arrayMap project was initiated to build a cancer genomic profile resource where probe-level data are available. Now it has been incorporated as part of Progenetix. For arrayMap data, the same rules apply: Citation of the article and the website:
+[arrayMap project](https://github.com/progenetix/progenetix.github.io/edit/master/pages/_doc/progenetix-citation.md) was initiated to build a cancer genomic profile resource where probe-level data are available. Now it has been incorporated as part of Progenetix. For arrayMap data, the same rules apply: Citation of the article and the website:
 
 * Cai, H., Kumar, N., & Baudis, M. 2012. arrayMap: A Reference Resource for Genomic Copy Number Imbalances in Human Malignancies. PLoS One 7(5), e36944.
-* arrayMap: Genomic arrays for copy number profiling in human cancer: _arraymap.org_. Baudis M _et al._ ({{ site.time | date: '%y' }})
+* arrayMap: Genomic arrays for copy number profiling in human cancer: _arraymap.org_. Baudis M _et al._ ({{ site.time | date: '%Y' }})
 
 
 
