@@ -1,6 +1,6 @@
 output_dir: '../pages/_doc'
 output_pre: '__generated-doc'
-category: howto
+category: documentation
 tags:
   - code
   - documentation

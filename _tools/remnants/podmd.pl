@@ -33,7 +33,7 @@ my $conf_yaml		=		$here_path.'/podmd.yaml';
 my $config			=		{
 	output_dir		=>	 '../pages/_doc',
 	output_pre		=>	 '+generated-podmd-doc',
-	category			=>	 'howto',
+	category			=>	 'documentation',
 	tags					=>	[ qw(code documentation) ],
 	md_starts			=>	[ '^=podmd', '\/\*podmd', '^# podmd', '^\s*?\"\"\"podmd' ],
 	md_stops			=>	[ '^=cut', 'end_podmd\*\/', '^# end_podmd', '^\s*?podmd\"\"\"' ],

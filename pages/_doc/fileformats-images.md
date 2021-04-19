@@ -10,7 +10,7 @@ pdf_file_type:    # slides poster article
 www_link:
 www_links_formatted:   # use this for one or more, complete HTML link(s) with label '<a href="http://" target="_blank">...</a>'
 category:
-  - howto
+  - documentation
 tags:
   - arraymap
   - Progenetix

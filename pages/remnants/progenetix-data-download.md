@@ -3,7 +3,7 @@ title: 'Progenetix segment file format'
 date: 2019-06-27
 layout: default
 category:
-  - howto
+  - documentation
 tags: 
   - progenetix
   - arraymap

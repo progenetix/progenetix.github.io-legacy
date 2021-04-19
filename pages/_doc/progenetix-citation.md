@@ -4,7 +4,7 @@ date: 2021-02-02
 layout: default
 permalink: /citation.html
 categories:
-  - howto
+  - documentation
   - about
 tags:
   - progenetix
@@ -19,9 +19,9 @@ tags:
 
 Recent publications by the Progenetix team can be found on the [baudisgroup website](http://info.baudisgroup.org/categories/publications.html).
 
-*Progenetix* 
+*Progenetix*
 
-For any use of the Progenetix data, e.g. as a reference for aberration frequencies in a certain locus, it is necessary to cite __both__ the website and the original _Bioinformatics_ publication: 
+For any use of the Progenetix data, e.g. as a reference for aberration frequencies in a certain locus, it is necessary to cite __both__ the website and the original _Bioinformatics_ publication:
 
 * Baudis, M., & Cleary, M. L. (2001). Progenetix.net: an online repository for molecular cytogenetic aberration data. Bioinformatics, 17(12), 1228-1229.
 * Progenetix oncogenomic online resource: _progenetix.org_. Baudis M _et al._ ({{ site.time | date: '%Y' }})
@@ -41,7 +41,7 @@ In case of citation restrictions, you may just use the Bioinformatics citation, 
 * Baudis, M., & Cleary, M. L. (2001). Progenetix.net: an online repository for molecular cytogenetic aberration data. Bioinformatics, 17(12), 1228-1229.
 
 
-*arrayMap* 
+*arrayMap*
 
 [arrayMap project](https://github.com/progenetix/progenetix.github.io/edit/master/pages/_doc/progenetix-citation.md) was initiated to build a cancer genomic profile resource where probe-level data are available. Now it has been incorporated as part of Progenetix. For arrayMap data, the same rules apply: Citation of the article and the website:
 

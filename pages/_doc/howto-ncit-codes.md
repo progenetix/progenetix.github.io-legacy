@@ -6,7 +6,7 @@ layout: default
 author: '@mbaudis'
 excerpt_separator: <!--more-->
 category:
-  - howto
+  - documentation
 tags:
   - standards
   - NCIt

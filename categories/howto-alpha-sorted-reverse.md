@@ -13,14 +13,10 @@ layout: default
 		<a href="{{this_category}}-alpha-sorted.html">[A&nbsp;&rarr;&nbsp;Z]</a>
 	</div>
 
-	{% unless site.categories-skip-listing-name contains this_category %}
-
 	<div id="listpage_headline">
 		<h2 class="page_title">{{ this_pagetitle }}</h2>
 	</div>
 
-	{% endunless %}
-	
 </div>
 
 {%- comment -%}

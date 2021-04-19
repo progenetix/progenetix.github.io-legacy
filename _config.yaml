@@ -67,13 +67,12 @@ General:
   about: About Progenetix
   news: News
   API: API
-  howto: Documentation
+  documentation: Documentation
   'http://progenetix.org': Progenetix Data
   'http://progenetix.org/subsets/biosubsets#is_sub': Cancer CNV Profiles
   'http://progenetix.org/biosamples/search#is_sub': Search Samples
 
 related_sites:
-  'Progentix Data': 'http://progenetix.org'
   'Baudisgroup @ UZH': 'http://info.baudisgroup.org'
   'Beacon<span style="color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org/ui/'
   'SchemaBlocks {S}[B]': 'http://schemablocks.org'

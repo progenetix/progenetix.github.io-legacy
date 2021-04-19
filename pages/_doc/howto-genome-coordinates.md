@@ -6,7 +6,7 @@ permalink: /doc/genome-coordinates.html
 author: Michael Baudis
 excerpt_separator: <!--more-->
 category:
-  - howto
+  - documentation
 tags:
   - resources
   - documentation

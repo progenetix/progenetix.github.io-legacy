@@ -9,7 +9,7 @@ pdf_file_type:    # slides poster article
 www_link:
 www_links_formatted:   # use this for a quoted, complete HTML link with label '<a href="http://" target="_blank">...</a>'
 category:
-  - howto      # publication howto presentation
+  - documentation      # publication documentation presentation
 tags: 
   - .stale
 ---

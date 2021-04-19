@@ -1,6 +1,6 @@
 ---
 category:
-  - howto
+  - documentation
 tags:
   - .prepend
 ---

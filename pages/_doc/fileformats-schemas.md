@@ -12,7 +12,7 @@ www_links_formatted:
   - '<a href="https://info.progenetix.org/assets/examples/testfile_labeled_groups.pgxseg" target="_blank">[Download <i>.pgxseg</i> testfile]</a>'
   - '<a href="https://github.com/progenetix/progenetix.github.io/blob/master/assets/examples/testfile_labeled_groups.pgxseg">[<i>.pgxseg</i> testfile on Github]</a>'
 category:
-  - howto
+  - documentation
   - news
 tags:
   - arraymap

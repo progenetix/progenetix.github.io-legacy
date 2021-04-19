@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 www_links_formatted:
 category:
   - news
-  - howto
+  - documentation
 tags:
   - Progenetix
   - API

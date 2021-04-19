@@ -3,7 +3,7 @@ title: 'Registration'
 date: 2012-03-23
 layout: default
 category:
-  - howto
+  - documentation
 tags:
   - progenetix
   - arraymap

@@ -3,7 +3,7 @@ title: 'Previous API Notes (Deprecated)'
 date: 2014-04-01
 layout: default
 category:
-  - howto
+  - documentation
 tags: 
   - recovered
   - progenetix

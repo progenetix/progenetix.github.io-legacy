@@ -6,7 +6,7 @@ author: "@qingyao"
 permalink: "/doc/filters-documentation.html"
 excerpt_separator: <!--more-->
 category:
-  - howto
+  - documentation
   - news
 tags:
   - arraymap

@@ -7,7 +7,7 @@ www_links_formatted:
   - '<a href="https://beacon-network.elixir-europe.org" target="_blank">[ELIXIR Beacon Network]</a>'
 category:
   - news
-  - howto
+  - documentation
 tags:
   - BeaconPlus
   - Beacon

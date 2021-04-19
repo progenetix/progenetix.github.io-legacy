@@ -3,7 +3,7 @@ title: 'Search Samples (Deprecated)'
 date: 2012-03-26
 layout: default
 category:
-  - howto
+  - documentation
 tags: 
   - recovered
   - progenetix

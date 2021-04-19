@@ -3,7 +3,7 @@ title: 'Linking - (deprecated))'
 date: 2012-03-23
 layout: default
 category:
-  - howto
+  - documentation
 tags:
   - recovered
   - progenetix

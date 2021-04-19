@@ -3,7 +3,7 @@ title:  "Beacon: Range matches"
 layout: default
 permalink: /doc/beacon-range-matches.html
 category:
-  - howto
+  - documentation
 tags:
   - API
   - beacon

@@ -6,7 +6,7 @@ author: '@mbaudis'
 excerpt_separator: <!--more-->
 category:
   - news
-  - howto
+  - documentation
 tags:
   - documentation
   - API

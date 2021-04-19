@@ -7,7 +7,7 @@ author: "@mbaudis"
 excerpt_link: "https://progenetix.github.io/progenetix-site-template/doc/yamlheader/"
 excerpt_separator: <!--more-->
 category:
-  - howto
+  - documentation
 tags:
   - Jekyll
   - Markdown

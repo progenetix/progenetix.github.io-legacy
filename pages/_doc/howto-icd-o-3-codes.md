@@ -6,7 +6,7 @@ layout: default
 author: Michael Baudis
 excerpt_separator: <!--more-->
 category:
-  - howto
+  - documentation
 tags:
   - standards
   - ICD

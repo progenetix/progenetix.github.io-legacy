@@ -7,7 +7,7 @@ author: Michael Baudis
 excerpt_separator: <!--more-->
 category:
   - API
-  - howto
+  - documentation
 tags:
   - API
   - services

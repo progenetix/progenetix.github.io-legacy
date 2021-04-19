@@ -7,7 +7,7 @@ layout: default
 author: '@mbaudis'
 excerpt_separator: <!--more-->
 category:
-  - howto      # publication howto presentation
+  - documentation      # publication documentation presentation
   - news
 tags:
   - code

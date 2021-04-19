@@ -2,7 +2,7 @@
 title:  "Progenetix publication statistics in R"
 layout: default
 category:
-  - howto
+  - documentation
 tags:
   - code
   - R
