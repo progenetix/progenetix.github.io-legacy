@@ -1,5 +1,5 @@
 ---
-title:  "Beacon: Range matches"
+title:  "Coordinate use in Beacon Queries"
 date: 2018-05-08
 layout: default
 author: '@mbaudis'
@@ -11,7 +11,7 @@ tags:
   - beacon
 ---
 
-## Coordinate use for Beacon Queries
+## Coordinate use in Beacon Queries
 
 ### Precise Variants
 
