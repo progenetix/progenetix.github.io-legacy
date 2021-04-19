@@ -1,5 +1,5 @@
 ---
-title: "The Progenetix oncogenomic resource in 2021"
+title: "Progenetix oncogenomic in 2021"
 date: 2021-02-15
 layout: default
 authors:

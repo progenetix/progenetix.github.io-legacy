@@ -1,23 +1,23 @@
 ---
-title: "Minimum Error Calibration and Normalization for Genomic Copy Number Analysis"
+title: "Error Calibration ... for CNA Analysis"
 date: 2020-05-06
 layout: default
-authors: 
+authors:
  - '@mbaudis'
  - '@bo'
 excerpt_separator: <!--more-->
 excerpt_link: https://info.baudisgroup.org/publications/2020-05-07-publication-Mecan4CNA-Genomics/
 pdf_file_name: 2020-05-06___Bo-Gao-and-Michael-Baudis__Minimum-error-calibration-and-normalization-for-genomic-copy-number-analysis__Genomics.pdf
 pdf_file_type: article    # slides poster article
-www_link: 
+www_link:
 www_links_formatted:
   - <a href="https://www.biorxiv.org/content/10.1101/720854v1" target="_blank">[bioRxiv]</a>
   - <a href="https://pypi.org/project/mecan4cna/" target="_blank">[Python pip]</a>
   - <a href="https://github.com/baudisgroup/mecan4cna" target="_blank">[Github]</a>  
-category: 
+category:
   - publications
   - news
-tags: 
+tags:
   - article
 ---
 

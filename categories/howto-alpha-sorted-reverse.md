@@ -12,9 +12,15 @@ layout: default
  		<a href="{{this_category}}-date-sorted-reverse.html">[date&nbsp;&uarr;]</a>
 		<a href="{{this_category}}-alpha-sorted.html">[A&nbsp;&rarr;&nbsp;Z]</a>
 	</div>
+
+	{% unless site.categories-skip-listing-name contains this_category %}
+
 	<div id="listpage_headline">
 		<h2 class="page_title">{{ this_pagetitle }}</h2>
 	</div>
+
+	{% endunless %}
+	
 </div>
 
 {%- comment -%}
@@ -72,7 +78,7 @@ layout: default
 {%- endcomment -%}
 
 {%- for post in cat_posts -%}
-  {% unless post.tags contains '.featured' or post.tags contains '.prepend' or post.tags contains '.append' %} 
+  {% unless post.tags contains '.featured' or post.tags contains '.prepend' or post.tags contains '.append' %}
     {%- assign excerpt_link = post.url | relative_url -%}
     {%- if post.excerpt_link contains '/' -%}
       {%- assign excerpt_link = post.excerpt_link -%}
@@ -102,4 +108,3 @@ layout: default
 </div>
   {%- endif -%}
 {%- endfor -%}
-

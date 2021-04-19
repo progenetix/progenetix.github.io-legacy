@@ -4,6 +4,7 @@ layout: default
 date: 2020-09-30
 authors:
   - '@mbaudis'
+excerpt_separator: <!--more-->
 category:
   - news
 tags:

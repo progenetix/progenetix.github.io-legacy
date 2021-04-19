@@ -65,7 +65,9 @@ nav_cat_blocks: # comma-separated "label,type,label_visibility"
 
 General:
   'http://progenetix.org': Progenetix Data
-  publications: About Progenetix
+  'http://progenetix.org/subsets/biosubsets#is_sub': Cancer CNV Profiles
+  'http://progenetix.org/biosamples/search#is_sub': Search Samples
+  about: About Progenetix
   news: News
   API: API
   howto: Documentation
@@ -85,7 +87,7 @@ github_projects:
 categories-date-sorted:
   - news
   - statistics
-  - publications
+  - about
 
 tags-date-sorted:
   - API

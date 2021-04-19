@@ -1,9 +1,10 @@
 ---
-title: "Progenetix - A cancer genomics reference resource around GA4GH standards"
+title: "Progenetix at GA4GH 2020 Plenary"
 layout: default
 date: 2020-09-30
 authors:
   - '@mbaudis'
+excerpt_separator: <!--more-->
 category:
   - news
 tags:

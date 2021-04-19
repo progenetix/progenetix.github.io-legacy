@@ -1,5 +1,5 @@
 ---
-title: "Genomic Copy Number Signatures Based Classifiers for Subtype Identification in Cancer"
+title: "Genomic Copy Number Signatures..."
 date: 2020-12-18
 layout: default
 authors:

@@ -80,16 +80,20 @@
     {%- for this_category in site[block_key] -%}
       {%- assign cat_label = this_category[1] -%}
       {%- assign cat_key = this_category[0] -%}
-      {%- assign cat_page = cat_key | append: '.html' -%}
-      {%- assign cat_posts = site.documents | where: 'categories', cat_key | sort: 'date' | reverse -%}
+      {%- assign link_class = "catlink" -%}
+      {%- if cat_key contains '#is_sub' -%}
+        {%- assign link_class = "sublink" -%}
+        {%- assign cat_key = cat_key | replace: "#is_sub", "" -%}
+      {%- endif -%}
 
       {%- if cat_key contains '/' -%}
 
-  <h4 class="catlink"><a href="{{ cat_key }}">{{ cat_label }}</a></h4>
+  <h4 class="{{ link_class }}"><a href="{{ cat_key }}">{{ cat_label }}</a></h4>
 
       {%- endif -%}
 
-
+      {%- assign cat_page = cat_key | append: '.html' -%}
+      {%- assign cat_posts = site.documents | where: 'categories', cat_key | sort: 'date' | reverse -%}
 
 			{%- if cat_posts.size >= 1 -%}
 
