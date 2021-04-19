@@ -22,7 +22,7 @@ tags:
 
 #### More Information
 
-Additional information may be available through [info.progenetix.org](https://info.progenetix.org/doc/bycon/byconplus.html).
+Additional information may be available through [info.progenetix.org](https://info.progenetix.org).
 
 ##### Examples
 
