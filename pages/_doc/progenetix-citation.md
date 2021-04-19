@@ -15,7 +15,7 @@ tags:
   - .featured
 ---
 
-## Citation
+## How to cite Progenetix?
 
 Recent publications by the Progenetix team can be found on the [baudisgroup website](http://info.baudisgroup.org/categories/publications.html).
 
@@ -44,7 +44,7 @@ In case of citation restrictions, you may just use the Bioinformatics citation, 
 
 *arrayMap* 
 
-For arrayMap data, the same rules apply: Citation of the article and the website:
+arrayMap project was initiated to build a cancer genomic profile resource where probe-level data are available. Now it has been incorporated as part of Progenetix. For arrayMap data, the same rules apply: Citation of the article and the website:
 
 * Cai, H., Kumar, N., & Baudis, M. 2012. arrayMap: A Reference Resource for Genomic Copy Number Imbalances in Human Malignancies. PLoS One 7(5), e36944.
 * arrayMap: Genomic arrays for copy number profiling in human cancer: _arraymap.org_. Baudis M _et al._ ({{ site.time | date: '%y' }}) 
