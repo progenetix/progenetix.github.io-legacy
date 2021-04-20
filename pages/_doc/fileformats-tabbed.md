@@ -25,8 +25,12 @@ tags:
 ---
 
 ## {{ page.title }}
+{:.no_toc}
 
-### Progenetix Segment Files `.pgxseg`
+1. TOC
+{:toc}
+
+### <a id="pgxseg">Progenetix Segment Files `.pgxseg`
 
 Progenetix uses a variation of a standard tab-separated columnar text file such as produced by array or sequencing CNV software, with an optional metadata header for e.g. plot or grouping instructions.
 
@@ -34,10 +38,7 @@ Wile the first edition only was geared towards sample-linked segment annotations
 
 <!--more-->
 
-1. [sample segment files](#samplesegs)
-2. [segment frequency files](#freqsegs)
-
-#### <a id="samplesegs"></a>Sample Segment Files
+#### Sample Segment Files
 
 * a standard tab-delimited Progenetix segments file
   - an additional header may exist
@@ -89,14 +90,14 @@ GSM252886	3	4662952	4857477	0.9273 DUP 	.
 ...
 ```
 
-#### <a id="#freqsegs"></a>Segment CNV Frequencies
+#### Segment CNV Frequencies
 
 In the frequency file
 
 * `group_id` values replace the `sample_id`
   - multiple groups can be concatenated in the file
 * `chro`,	`start` and	`end` are the same as in the sample files
-* `gain_frequency` and `loss_frequency` indicate the *percent* values for gains and losses overlapping the segment, respectively 
+* `gain_frequency` and `loss_frequency` indicate the *percent* values for gains and losses overlapping the segment, respectively
 
 Future options are under evaluation.
 
@@ -125,4 +126,27 @@ icdom-81403	2	232000000	233000000	9.1	7.89	481
 ...
 ```
 
+### Data Matrix Files
 
+#### CNV Frequency Matrix
+
+The CNV frequency matrix contains interval CNV frequencies for genomic bins, separate for gain and loss frquencies:
+
+* header similar to segment frequency files
+* first column with group identifier
+* standard genome binning on GRCh38 results in 2 x 3102 value columns
+* header line indicates genomic ranges for the bins
+* first all gain frequencies (in %), then all losses
+
+```
+#meta=>genome_binning=1Mb;interval_number=3102
+#group=>group_id=NCIT:C7376;label=Pleural Malignant Mesothelioma;dataset_id=progenetix;sample_count=240
+#group=>group_id=PMID:22824167;label=Beleut M et al. (2012)...;dataset_id=progenetix;sample_count=159
+group_id	1:0-1000000:gainF	1:1000000-2000000:gainF	...  1:0-1000000:lossF	1:1000000-2000000:lossF	...
+NCIT:C7376	9.58	7.92	...  1.89	1.89	...
+PMID:22824167	6.29	0.0	... 8.18	4.4	...
+```
+
+##### Examples
+
+* <https://progenetix.org/services/intervalFrequencies/?datasetIds=progenetix&method=pgxmatrix&filters=NCIT:C7376,PMID:22824167>
