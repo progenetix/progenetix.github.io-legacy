@@ -4,7 +4,7 @@ permalink: /doc/templatefiles/
 layout: default
 date:   2019-03-14
 author: "@mbaudis"
-excerpt_link: https://progenetix.github.io/progenetix-site-template/doc/templatefiles/
+excerpt_link: https://progenetix.github.io/progenetix-site-template/howto/templatefiles/
 excerpt_separator: <!--more-->
 category:
   - documentation

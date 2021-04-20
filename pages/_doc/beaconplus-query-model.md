@@ -9,19 +9,14 @@ www_link:
 www_links_formatted:
 image_file: #'logo_beacon.png'
 category:
-  - resources
+  - documentation
 tags: # please delete unneeded options
   - databases
   - tools
   - documentation
   - Beacon
+  - documentation
 ---
-
-{% for static_file in site.static_files %}
-  {% if static_file.path contains page.image_file %}
-<img style="float: right; max-width: 40px;" src="{{ static_file.path | relative_url}}" />
-  {% endif %}
-{% endfor %}
 
 ## {{page.title}}
 
@@ -36,14 +31,14 @@ The GA4GH data model for genomics recommends the use of a principle object hiera
     - mostly corresponding to the "allele" concept, but with alternate use similar to that in VCF (e.g. CNV are no typical "allelic variants")
 * __callset__
     - the entirety of all variants, observed in a single experiment on a single sample
-    - a _callset_ can be compared to a data column in a __VCF__ variant annotation file 
+    - a _callset_ can be compared to a data column in a __VCF__ variant annotation file
     - _callset_ has an optional position in the object hierarchy, since _variants_ describe biological observations in a biosample
 * __biosample__
     - a reference to a physical biological specimen on which analyses are performed
 * __individual__
     - in a typical use a human subject from which the biosample(s) was/were extracted
-    
-In the Progenetix backend we mirror the GA4GH data model in the storage system, consisting of the corresponding 
+
+In the Progenetix backend we mirror the GA4GH data model in the storage system, consisting of the corresponding
 
 * variants
 * callsets
@@ -75,26 +70,26 @@ Filters represent a way to allow the resource provider to direct "self-scoped" q
 
 1. Use the prefix to determine the full attribute   
 		* `filters=NCIT:C4033`
-		    - query attribute `biocharacteristics.type.id` for value `NCIT:C4033`   
+		    - query attribute `biocharacteristics.id` for value `NCIT:C4033`   
 		* `filters=PMID:28966033`
-		    - query attribute `external_references.type.id` for value `PMID:28966033`    
+		    - query attribute `external_references.id` for value `PMID:28966033`    
 2. Match the full attribute to the correct scope (i.e. collection, query domain)     
-    
+
 
 The list below shows a selection from the configuration file (YAML):
 
 ```
 filter_prefix_mappings:
   NCIT:
-    parameter: 'biocharacteristics.type.id'
+    parameter: 'biocharacteristics.id'
   HPO:
-    parameter: 'biocharacteristics.type.id'
+    parameter: 'biocharacteristics.id'
   PMID:
-    parameter: 'external_references.type.id'
+    parameter: 'external_references.id'
   cellosaurus:
-    parameter: 'external_references.type.id'
+    parameter: 'external_references.id'
   EFO:
-    parameter: 'provenance.material.type.id'
+    parameter: 'provenance.material.id'
   city:
     parameter: 'provenance.geo.city'
     remove_prefix: true
@@ -115,29 +110,21 @@ scopes:
           - 'id'
         pattern: '^.+?\w+?.+?$'
         type: array
-      biocharacteristics.type.id:
-        paramkey: 'biosamples.biocharacteristics.type.id'
-        dbkey: 'biocharacteristics.type.id'
+      biocharacteristics.id:
+        paramkey: 'biosamples.biocharacteristics.id'
+        dbkey: 'biocharacteristics.id'
         alias:
-          - 'biosamples-biocharacteristics-type-id'
-          - 'biocharacteristics.type.id'
-          - 'biocharacteristics-type-id'
+          - 'biosamples-biocharacteristics-id'
+          - 'biocharacteristics.id'
+          - 'biocharacteristics-id'
         pattern: '^(\w+[\:\-$])?\w*?\d(?:[\w\-\.]+?)?'
         type: array
-      external_references.type.id:
-        paramkey: 'biosamples.external_references.type.id'
+      external_references.id:
+        paramkey: 'biosamples.external_references.id'
         alias:
-          - 'biosamples-external_references-type-id'
-          - 'external_references.type.id'
-          - 'external_references-type-id'
+          - 'biosamples-external_references-id'
+          - 'external_references.id'
+          - 'external_references-id'
         pattern: '^(\w+[\:\-$])?\w.?(?:[\w\-\.]+?)?'
         type: array
-``` 
-
-
-
-
-
-
-
-
+```
