@@ -28,6 +28,8 @@ One of the main use cases for the Progenetix resource is the exploration of freq
   - the overall amount of CNVs in the samples
   - the local specificity, i.e. the "focality" of the CNVs
 
+<!--more-->
+
 The [Progenetix Search Page](https://progenetix.org/biosamples/search/) supports the exploration of regional CNVs through
 
 * support for inserting positions of genes or cytobands into standard Beacon query parameter fields
