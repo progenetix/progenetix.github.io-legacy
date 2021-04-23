@@ -4,7 +4,7 @@ layout: default
 permalink: /doc/beacon/paths-examples.html
 www_link: https://github.com/progenetix/bycon
 excerpt_separator: <!--more-->
-date: 2021-04-16
+date: 2021-04-23
 category:
   - API
 tags:
@@ -31,7 +31,7 @@ resource.
 
 ### Examples
 
-#### `/filtering_terms`
+#### Base `/filtering_terms`
 
 ##### `/filtering_terms/`
 
@@ -43,7 +43,7 @@ resource.
 * [/filtering_terms/?filters=PMID](https://progenetix.org/beacon/filtering_terms/?filters=PMID)
 * [/filtering_terms/?filters=NCIT,icdom](https://progenetix.org/beacon/filtering_terms/?filters=NCIT,icdom)
 
-#### `biosamples`
+#### Base `biosamples`
 
 ##### `/biosamples/` + query
 
@@ -62,7 +62,7 @@ resource.
   - retrieval of all variants from a single biosample
 
 
-#### `variants`
+#### Base `variants`
 
 There is currently (April 2021) still some discussion about the implementation and naming
 of the different types of genomic variant endpoints. Since the Progenetix collections
@@ -74,9 +74,10 @@ the local `variants` collection.
 * [/variants/?assemblyId=GRCh38&referenceName=17&variantType=DEL&filterLogic=AND&start=7500000&start=7676592&end=7669607&end=7800000](http://progenetix.org/beacon/variants/?assemblyId=GRCh38&referenceName=17&variantType=DEL&filterLogic=AND&start=7500000&start=7676592&end=7669607&end=7800000)
   - This is an example for a Beacon "Bracket Query" which will return focal deletions in the TP53 locus (by position).
 
-##### `/variants/{id}/`
+##### `/variants/{id}/` or `/variants_in_sample/{id}` or `/g_variants/{id}/`
 
 * [/variants/5f5a35586b8c1d6d377b77f6/](http://progenetix.org/beacon/variants/5f5a35586b8c1d6d377b77f6/)
+* [/variants_in_sample/5f5a35586b8c1d6d377b77f6/](http://progenetix.org/beacon/variants_in_sample/5f5a35586b8c1d6d377b77f6/)
 
 ##### `/variants/{id}/biosamples/`
 
