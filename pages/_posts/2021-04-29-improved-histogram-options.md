@@ -4,6 +4,7 @@ layout: default
 author: '@mbaudis'
 excerpt_separator: <!--more-->
 www_links_formatted:
+  - '<a href="/doc/fileformats.html#segment-cnv-frequencies">[ .pgxseg file format (frequencies) ]</a>'
 categories:
   - news
 tags:
