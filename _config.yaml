@@ -1,4 +1,4 @@
-ititle: 'Progenetix - Structural Cancer Genomics Resources'
+title: 'Progenetix - Structural Cancer Genomics Resources'
 label: '' # Progenetix :: Info
 tagline: 'Progenetix Documentation Pages'
 description: |
@@ -103,6 +103,7 @@ cloud_tags:
   - code
   - identifiers
   - documentation
+  - graphics
   - GA4GH
   - maps
   - ontologies

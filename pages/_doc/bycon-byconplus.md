@@ -24,7 +24,7 @@ The [`bycon`](https://github.com/progenetix/bycon) project provides a combinatio
 
 `bycon` has been developed to support Beacon protocol development following earlier implementations of Beacon+ ("beaconPlus") with now deprected Perl libraries. The work tightly integrates with the [ELIXIR Beacon](http://beacon-project.io) project.
 
-##### Examples 
+##### Examples
 
 The first examples are for "standard" Beacon (v1) queries and may become deprecated/remapped during the ongoing development.
 
@@ -218,7 +218,7 @@ The first examples are for "standard" Beacon (v1) queries and may become depreca
 * `/g_variants/{id}/biosamples`
   - As above, but responding with the `biosamples` data.
   - <https://progenetix.org/beacon/g_variants/11:52900000-134452384:DEL/biosamples?datasetIds=progenetix>
-  
+
 ##### Custom (yet)
 
 * <https://beacon.progenetix.org/?datasetIds=progenetix&assemblyId=GRCh38&includeDatasetResponses=ALL&variantType=DUP&filterLogic=AND&geneSymbol=MYC&varMinLength=1000000&varMaxLength=3000000&filters=icdom-80463>
