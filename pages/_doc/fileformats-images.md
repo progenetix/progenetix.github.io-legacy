@@ -19,7 +19,7 @@ tags:
   - API
   - schemas
   - files
-  - images
+  - graphics
 ---
 
 ## {{ page.title }}
