@@ -16,7 +16,7 @@ tags:
 
 ## {{ page.title }}
 
-[![Histogram with options](/assets/img/histogram-new-options.png){: style="margin-left: auto; margin-right:auto"}]
+<img src="/assets/img/histogram-new-options.png" style="margin-left: auto; margin-right:auto" />
 
 <!--more-->
 
