@@ -14,7 +14,7 @@ tags:
 
 ## {{ page.title }}
 
-The new year brings some refinements to biosamples [search](https://progenetix.org/biosamples/search) and display:
+The new year brings some refinements to biosamples [search](https://progenetix.org/biosamples/) and display:
 
 <!--more-->
 

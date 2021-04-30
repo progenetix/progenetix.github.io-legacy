@@ -9,7 +9,7 @@ pdf_file_name:
 pdf_file_type:    # slides poster article
 www_link:
 www_links_formatted:
-  - '<a href="https://progenetix.org/biosamples/search/" target="_blank">[Progenetix Search Page]</a>'
+  - '<a href="https://progenetix.org/biosamples/" target="_blank">[Progenetix Search Page]</a>'
 category:
   - documentation
   - use_cases
@@ -30,7 +30,7 @@ One of the main use cases for the Progenetix resource is the exploration of freq
 
 <!--more-->
 
-The [Progenetix Search Page](https://progenetix.org/biosamples/search/) supports the exploration of regional CNVs through
+The [Progenetix Search Page](https://progenetix.org/biosamples/) supports the exploration of regional CNVs through
 
 * support for inserting positions of genes or cytobands into standard Beacon query parameter fields
 * selection support for hierarchical disease annotations

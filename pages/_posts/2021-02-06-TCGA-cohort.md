@@ -15,7 +15,7 @@ tags:
 
 ## {{ page.title }}
 
-[![TCGA CNV Data](/assets/img/tcga.png){: style="float: right; width: 100px;"}](http://progenetix.org/TCGA/search/)While the Progenetix resource has provided access to the CNV data from The Cancer Genome Annotation Project (TCGA*; [www.cancer.gov/tcga](https://www.cancer.gov/tcga)) for quite some time, we have now launched a [dedicated search page](http://progenetix.org/TCGA/search/) to facilitate data access and visualization using the standard Progenetix tools.
+[![TCGA CNV Data](/assets/img/tcga.png){: style="float: right; width: 100px;"}](http://progenetix.org/progenetix-cohorts/TCGA/)While the Progenetix resource has provided access to the CNV data from The Cancer Genome Annotation Project (TCGA*; [www.cancer.gov/tcga](https://www.cancer.gov/tcga)) for quite some time, we have now launched a [dedicated search page](http://progenetix.org/progenetix-cohorts/TCGA/) to facilitate data access and visualization using the standard Progenetix tools.
 
 <!--more-->
 

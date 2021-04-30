@@ -71,7 +71,7 @@ General:
   API: API
   'http://progenetix.org': Progenetix Data
   'http://progenetix.org/subsets/biosubsets#is_sub': Cancer CNV Profiles
-  'http://progenetix.org/biosamples/search#is_sub': Search Samples
+  'http://progenetix.org/biosamples/#is_sub': Search Samples
 
 related_sites:
   'Baudisgroup @ UZH': 'http://info.baudisgroup.org'

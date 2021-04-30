@@ -34,5 +34,5 @@ progenetix.org
 #### Additional Links
 
 * [Beacon Website](http://beacon-project.io)
-* [Beacon+ in progenetix-next](https://progenetix.org/beacon-plus/search)
+* [Beacon+ in progenetix-next](https://progenetix.org/beaconplus-instances/beaconplus/)
 * [Bycon Project](https://github.com/progenetix/bycon)
