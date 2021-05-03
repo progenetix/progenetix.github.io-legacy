@@ -1,5 +1,5 @@
 ---
-title: "byconplus.md Python Code Documentation"
+title: "bycon Python Code Documentation"
 layout: default
 www_link: https://github.com/progenetix/bycon
 excerpt_separator: <!--more-->
@@ -10,9 +10,9 @@ tags:
   - code
   - documentation
   - Beacon
+  - Beaconv2
   - bycon
   - Python
-  - ByconLibs
 ---
 
 ## {{ page.title }}
@@ -21,7 +21,7 @@ tags:
 
 * [Source Link](https://github.com/progenetix/bycon/blob/master/bycon/doc/byconplus.md)
 
-### Bycon - a Python-based environment for the Beacon v2 genomics API
+### `bycon` - a Python-based environment for the Beacon v2 genomics API
 
 ##### Examples
 

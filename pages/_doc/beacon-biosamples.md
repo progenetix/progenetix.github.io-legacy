@@ -20,8 +20,8 @@ tags:
 
 ## {{ page.title }}
 
-* [Documentation Link](https://github.com/progenetix/bycon/blob/master/beacon/doc/biosamples.md)
-* [Source Link](https://github.com/progenetix/bycon/blob/master/beacon/biosamples.py)
+* [Documentation Link](https://github.com/progenetix/bycon/blob/master/beaconServer/doc/biosamples.md)
+* [Source Link](https://github.com/progenetix/bycon/blob/master/beaconServer/biosamples.py)
 
 This endpoint is mostly aimed at providing _biosamples_ handover functionality.
 However, the app uses the same query processing mechanism as the main _byconplus_
