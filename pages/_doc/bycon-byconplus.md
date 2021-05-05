@@ -14,7 +14,6 @@ tags:
   - Beacon
   - bycon
   - Python
-  - Bycon
   - .featured
 ---
 
@@ -23,18 +22,6 @@ tags:
 The [`bycon`](https://github.com/progenetix/bycon) project provides a combination of a Beacon-protocol based API with additional API services, used as backend and middleware for the Progenetix resource.
 
 `bycon` has been developed to support Beacon protocol development following earlier implementations of Beacon+ ("beaconPlus") with now deprected Perl libraries. The work tightly integrates with the [ELIXIR Beacon](http://beacon-project.io) project.
-
-##### Examples
-
-The first examples are for "standard" Beacon (v1) queries and may become deprecated/remapped during the ongoing development.
-
-* standard test deletion CNV queries (these may take a minute or so...)
-  - <https://bycon.progenetix.org/query?datasetIds=progenetix&assemblyId=GRCh38&referenceName=9&variantType=DEL&start=20000000&start=21975097&end=21967753&end=23000000&filters=icdom-94403>
-  - <https://bycon.progenetix.org/query?datasetIds=progenetix&assemblyId=GRCh38&referenceName=9&variantType=DEL&start=18000000&start=21975097&end=21967753&end=26000000&filters=icdom-94403>
-* retrieving biosamples w/ a given filter code
-  - <https://bycon.progenetix.org/query?assemblyId=GRCh38&datasetIds=progenetix&filters=NCIT:C3326>
-* precise variant query together with filter
-  - <https://bycon.progenetix.org/query?datasetIds=progenetix&assemblyId=GRCh38&start=7577120&referenceBases=G&alternateBases=A&filters=icdot-C71.7>
 
 <!--more-->
 
@@ -219,7 +206,8 @@ The first examples are for "standard" Beacon (v1) queries and may become depreca
   - As above, but responding with the `biosamples` data.
   - <https://progenetix.org/beacon/g_variants/11:52900000-134452384:DEL/biosamples?datasetIds=progenetix>
 
-##### Custom (yet)
+
+#### DEPRECATED v1+ and cutom test examples
 
 * <https://beacon.progenetix.org/?datasetIds=progenetix&assemblyId=GRCh38&includeDatasetResponses=ALL&variantType=DUP&filterLogic=AND&geneSymbol=MYC&varMinLength=1000000&varMaxLength=3000000&filters=icdom-80463>
 
@@ -240,3 +228,16 @@ The first examples are for "standard" Beacon (v1) queries and may become depreca
     query parameters are provided.
   - <https://bycon.progenetix.org?id=PGX_AM_BS_GSM253289&datasetIds=progenetix&scope=biosamples>
   - <https://bycon.progenetix.org?id=PGX_AM_BS_GSM253289&datasetIds=progenetix&scope=biosamples&response=g_variants>
+
+
+
+The first examples are for "standard" Beacon (v1) queries and may become deprecated/remapped during the ongoing development.
+
+* standard test deletion CNV queries (these may take a minute or so...)
+  - <https://bycon.progenetix.org/query?datasetIds=progenetix&assemblyId=GRCh38&referenceName=9&variantType=DEL&start=20000000&start=21975097&end=21967753&end=23000000&filters=icdom-94403>
+  - <https://bycon.progenetix.org/query?datasetIds=progenetix&assemblyId=GRCh38&referenceName=9&variantType=DEL&start=18000000&start=21975097&end=21967753&end=26000000&filters=icdom-94403>
+* retrieving biosamples w/ a given filter code
+  - <https://bycon.progenetix.org/query?assemblyId=GRCh38&datasetIds=progenetix&filters=NCIT:C3326>
+* precise variant query together with filter
+  - <https://bycon.progenetix.org/query?datasetIds=progenetix&assemblyId=GRCh38&start=7577120&referenceBases=G&alternateBases=A&filters=icdot-C71.7>
+
