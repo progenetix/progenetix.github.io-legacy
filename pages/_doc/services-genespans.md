@@ -8,13 +8,11 @@ date: 2020-10-20
 category:
   - API
 tags:
-  - code
   - API
   - documentation
   - Beacon
   - bycon
   - Python
-  - Bycon
   - services
 ---
 

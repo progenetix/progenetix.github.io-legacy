@@ -8,7 +8,6 @@ excerpt_separator: <!--more-->
 category:
   - documentation
 tags:
-  - resources
   - documentation
   - API
   - geolocations

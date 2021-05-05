@@ -8,7 +8,6 @@ date: 2021-04-16
 category:
   - API
 tags:
-  - code
   - API
   - documentation
   - Beacon
@@ -240,4 +239,3 @@ The first examples are for "standard" Beacon (v1) queries and may become depreca
   - <https://bycon.progenetix.org/query?assemblyId=GRCh38&datasetIds=progenetix&filters=NCIT:C3326>
 * precise variant query together with filter
   - <https://bycon.progenetix.org/query?datasetIds=progenetix&assemblyId=GRCh38&start=7577120&referenceBases=G&alternateBases=A&filters=icdot-C71.7>
-

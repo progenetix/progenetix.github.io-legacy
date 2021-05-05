@@ -10,7 +10,6 @@ category:
   - documentation      # publication documentation presentation
   - news
 tags:
-  - code
   - ontologies
   - EFO
 ---

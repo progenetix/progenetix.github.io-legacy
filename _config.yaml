@@ -94,7 +94,7 @@ cloud_tags:
   - API
   - article
   - Beacon
-  - BeaconV2
+  - Beacon_v2
   - BeaconPlus
   - bycon
   - code
@@ -105,7 +105,6 @@ cloud_tags:
   - maps
   - ontologies
   - prefixes
-  - resource
   - licensing
   - statistics
   - schemas

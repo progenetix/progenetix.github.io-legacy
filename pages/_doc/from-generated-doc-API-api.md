@@ -8,7 +8,6 @@ date: 2020-06-20
 category:
   - API
 tags:
-  - code
   - documentation
   - Progenetix
   - API

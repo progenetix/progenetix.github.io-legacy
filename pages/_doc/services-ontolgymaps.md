@@ -2,19 +2,17 @@
 title: "Services: Ontolgymaps"
 layout: default
 permalink: /doc/services/ontologymaps.html
-www_link: 
+www_link:
 excerpt_separator: <!--more-->
 date: 2020-10-20
 category:
   - API
 tags:
-  - code
   - API
   - documentation
   - Beacon
   - bycon
   - Python
-  - Bycon
   - services
 ---
 
@@ -58,7 +56,7 @@ Our resources use an internal representation of ICD-O 3 codes since no official 
 * <https://progenetix.org/services/ontologymaps/?filters=icdom-85003,icdot-C50.9>
 * <https://progenetix.org/services/ontologymaps/?filters=icdom-85,icdot-C50&filterPrecision=start>
   - As in the example above, but by stemmming the query parameters and providing the `filterPrecision=start` pragma, the response will now be a list of matched data objects (inputs and equivalents)
-  
+
 ##### UBERON and ICD-O 3 Topography
 
 * <https://progenetix.org/services/ontologymaps/?filters=UBERON>

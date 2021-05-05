@@ -10,7 +10,7 @@ tags:
   - Progenetix
   - API
   - ontologies
-  - prefixes
+  - identifiers
   - documentation
 ---
 

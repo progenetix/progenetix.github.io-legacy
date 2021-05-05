@@ -14,7 +14,6 @@ category:
 tags:
   - arraymap
   - Progenetix
-  - code
   - news
   - API
   - schemas

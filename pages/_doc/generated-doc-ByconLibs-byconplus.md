@@ -7,7 +7,6 @@ date: 2020-10-20
 category:
   - API
 tags:
-  - code
   - documentation
   - Beacon
   - Beacon_v2

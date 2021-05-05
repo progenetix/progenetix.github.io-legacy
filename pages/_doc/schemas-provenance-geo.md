@@ -14,7 +14,6 @@ category:
 tags:
   - arraymap
   - Progenetix
-  - code
   - mongodb
   - server
   - geodata

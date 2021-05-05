@@ -8,13 +8,11 @@ date: 2020-10-20
 category:
   - API
 tags:
-  - code
   - API
   - documentation
   - Beacon
   - bycon
   - Python
-  - Bycon
   - services
 ---
 
@@ -34,4 +32,3 @@ Stacking with the "pgx:" prefix is allowed.
 
 * [Documantation Link](https://github.com/progenetix/bycon/blob/master/services/doc/ids.md)
 * [Source Link](https://github.com/progenetix/bycon/blob/master/services/ids.py)
-

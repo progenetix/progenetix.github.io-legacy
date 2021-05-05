@@ -8,13 +8,11 @@ date: 2020-10-20
 category:
   - API
 tags:
-  - code
   - API
   - documentation
   - Beacon
   - bycon
   - Python
-  - Bycon
   - services
   - .featured
 ---
@@ -58,7 +56,7 @@ RewriteRule     "^/services(.*)"     /cgi-bin/bycon/services/services.py$1      
 ### Response formats
 
 Standard responses are provided as `Content-Type: application/json`. The wrapper
-format, as defined in the schemas (https://github.com/progenetix/bycon/tree/master/services/config/schemas`) 
+format, as defined in the schemas (https://github.com/progenetix/bycon/tree/master/services/config/schemas`)
 provides a `response` root parameter with a default `results` list item:
 
 ```

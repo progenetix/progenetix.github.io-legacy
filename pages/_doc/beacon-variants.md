@@ -9,12 +9,10 @@ category:
   - API
 tags:
   - API
-  - code
   - documentation
   - Beacon
   - bycon
   - Python
-  - Bycon
   - Beacon_v2
   - services
 ---

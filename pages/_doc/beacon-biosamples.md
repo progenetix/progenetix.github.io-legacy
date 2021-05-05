@@ -1,5 +1,5 @@
 ---
-title: "Services: Biosamples"
+title: "Beacon: Biosamples"
 layout: default
 permalink: /doc/beacon/biosamples.html
 www_link: https://github.com/progenetix/bycon
@@ -9,12 +9,10 @@ category:
   - API
 tags:
   - API
-  - code
   - documentation
   - Beacon
   - bycon
   - Python
-  - Bycon
   - services
 ---
 

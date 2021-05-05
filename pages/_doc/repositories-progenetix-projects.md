@@ -8,7 +8,6 @@ date: 2021-02-06
 category:
   - API
 tags:
-  - code
   - API
   - documentation
   - Beacon
@@ -16,7 +15,6 @@ tags:
   - Python
   - Perl
   - React
-  - Bycon
   - services
 ---
 
