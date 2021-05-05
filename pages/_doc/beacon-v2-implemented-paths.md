@@ -12,7 +12,7 @@ tags:
   - code
   - documentation
   - Beacon
-  - BeaconV2
+  - Beacon_v2
   - bycon
   - Python
   - Bycon

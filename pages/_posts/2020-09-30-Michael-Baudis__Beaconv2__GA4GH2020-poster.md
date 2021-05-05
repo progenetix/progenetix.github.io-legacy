@@ -12,7 +12,7 @@ tags:
   - presentation
   - Beacon
   - GA4GH
-pdf_file_name: 2020-09-21___Michael-Baudis__Beaconv2__GA4GH-8th-Plenary-poster.pdf
+pdf_file_name: 2020-09-21___Michael-Baudis__Beacon_v2__GA4GH-8th-Plenary-poster.pdf
 pdf_file_type: poster
 ---
 

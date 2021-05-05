@@ -15,7 +15,7 @@ tags:
   - bycon
   - Python
   - Bycon
-  - Beaconv2
+  - Beacon_v2
   - services
 ---
 

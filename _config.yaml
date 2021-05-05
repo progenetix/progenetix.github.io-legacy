@@ -46,9 +46,6 @@ collections:
   doc:
     output: true
     permalink: /doc/:path/
-  pages:
-    output: true
-    permalink: /pages/:path/
   schemas:
     output: true
     permalink: /schemas/:path/

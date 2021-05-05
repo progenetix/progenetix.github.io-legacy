@@ -1,7 +1,7 @@
 {
    "$id" : "https://progenetix.org/services/schemas/BeaconError/v2021-03-07",
    "$schema" : "https://json-schema.org/draft/2020-12/schema",
-   "description" : "An error message, as in Beaconv2.\n",
+   "description" : "An error message, as in Beacon_v2.\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
