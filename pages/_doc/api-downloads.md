@@ -78,7 +78,7 @@ histogram data.
 
 The Progenetix resource utilizes the Beacon v2 API for data delivery. Some
 information about the standard paths & their usage can be found on the
-[Beacon v2 path examples page](/doc/beacon/paths-examples.html).
+[Beacon v2 path examples page](/doc/beacon/paths.html).
 
 #### Custom Progenetix services
 

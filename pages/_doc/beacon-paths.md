@@ -1,7 +1,7 @@
 ---
 title: "Beacon v2: Path Examples"
 layout: default
-permalink: /doc/beacon/paths-examples.html
+permalink: /doc/beacon/paths.html
 www_link: https://github.com/progenetix/bycon
 excerpt_separator: <!--more-->
 date: 2021-04-23
@@ -72,6 +72,10 @@ The root path provides the standard `BeaconInfoResponse`.
   - retrieval of all variants from a single biosample
   - currently - and especially since for a mostly CNV containing resource - `variants` means "variant instances" (or as in the early v2 draft `variantsInSample`)
 
+##### `/biosamples/{id}/analyses/`
+
+* [/biosamples/pgxbs-kftva5c9/analyses/](http://progenetix.org/beacon/biosamples/pgxbs-kftva5c9/variants/)
+
 ----
 
 #### Base `/individuals`
@@ -122,3 +126,18 @@ If using `g_variants` or `variants_in_sample`, those will be treated as aliases.
 
 * [/variants/5f5a35586b8c1d6d377b77f6/biosamples/](http://progenetix.org/beacon/variants/5f5a35586b8c1d6d377b77f6/biosamples/)
 * [/variants_in_sample/5f5a35586b8c1d6d377b77f6/biosamples/](http://progenetix.org/beacon/variants_in_sample/5f5a35586b8c1d6d377b77f6/biosamples/)
+
+----
+
+#### Base `/analyses` (or `/callsets`)
+
+The Beacon v2 `/analyses` endpoint accesses the Progenetix `callsets` collection
+documents, i.e. information about the genomic variants derived from a single
+analysis. In Progenetix the main use of these documents is the storage of e.g.
+CNV statistics or binned genome calls.
+
+##### `/analyses/` + query
+
+* [/analyses/?filters=cellosaurus:CVCL_0004](https://progenetix.org/beacon/analyses/?filters=cellosaurus:CVCL_0004)
+  - this example retrieves all biosamples having an annotation for the Cellosaurus _CVCL_0004_
+  identifier (K562)

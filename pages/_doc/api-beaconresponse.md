@@ -32,7 +32,7 @@ delivery and basically represents a custom implementation of the Beacon API.
 The standard format for JSON responses corresponds to a generic Beacon v2
 response, with the `meta` and `response` root elements.
 
-For most practical purposes when accessing the [Beacon-style API endpoints](/doc/beacon/paths-examples.html)
+For most practical purposes when accessing the [Beacon-style API endpoints](/doc/beacon/paths.html)
 one just sould be aware that the returned data is:
 
 * contained in the `response.results` array

@@ -20,10 +20,16 @@ tags:
 
 The current implementation of the Progenetix APIs uses 2 URL endpoints:
 
-* `progenetix.org/services/`
-  - documented at [services](/doc/services/services.html)
+* `progenetix.org/beacon/`
+  - documented at [Beacon paths](/doc/beacon/paths.html)
   - powered by the [bycon](http://github.com/progenetix/bycon/) project
   - target for further development
+* `progenetix.org/services/`
+  - also powered by the [bycon](http://github.com/progenetix/bycon/) project
+  - additional, Progenetix specific functionality
+
+#### Legacy API
+
 * `progenetix.org/api/` has been deprecated
   - based on the original Perl libraries
   - stepwise deprecation in favour of `services`

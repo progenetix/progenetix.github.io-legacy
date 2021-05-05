@@ -29,7 +29,7 @@ The [`bycon`](https://github.com/progenetix/bycon) project provides a combinatio
 **NOTE** The Beacon v2 endpoints are _currently_ implemented under
 `https://progenetix.org/beacon/...`.
 
-The examples for the v2 paths can now be found on the [paths page](/doc/beacon/paths-examples.html).
+The examples for the v2 paths can now be found on the [paths page](/doc/beacon/paths.html).
 
 For more information see the [beaconresponse json](/doc/beaconresponse-json.html)
 documentation.
