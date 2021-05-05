@@ -25,7 +25,7 @@ tags:
 {:.no_toc}
 
 The Progenetix resource's API utilizes the `bycon` framework for data query and
-delivery and basically representts a custom implementation of the Beacon API.
+delivery and basically represents a custom implementation of the Beacon API.
 
 <!--more-->
 
