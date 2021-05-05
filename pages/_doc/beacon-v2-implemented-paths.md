@@ -15,6 +15,7 @@ tags:
   - bycon
   - Python
   - services
+  - .featured
 ---
 
 ## {{ page.title }}
