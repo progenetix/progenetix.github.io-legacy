@@ -25,11 +25,28 @@ retrieval of data for a single collation, e.g. by its identifier (e.g.
 
 <!--more-->
 
+##### Identify existing collations for frequency maps retrieval
+
+The complete set of all collation codes can be retrieved through
+
+* <https://progenetix.org/services/collations?method=counts>
+  - JSON
+* <https://progenetix.org/services/collations?method=counts&responseType=text>
+  - simple text table (id | label | count w/ children | direct count )
+
 #### Response
 
-Results are provides in a JSON Beacon v2 response, inside the `response.results`
+##### `.pgxseg` file downloads
+
+`.pgxseg` files are tab-delimited, columnar text files where each line provides
+information about features or measurements associated with a genomic region.
+More information can be found on the [file formats page](/doc/fileformats.html).
+
+##### JSON data
+
+JSON formatting is provided in a Beacon v2 response, inside the `response.results`
 array. Each frequency set is provided as object, with the single bin frequencies
-in `interval_frequencies`.
+in `interval_frequencies`. For more information see the [beaconresponse json](/doc/beaconresponse-json.html) documentation.
 
 For the usual "single frequency set" use case this would result in a possible
 direct access to the frequecy list at `response.results[0].interval_frequencies`.
