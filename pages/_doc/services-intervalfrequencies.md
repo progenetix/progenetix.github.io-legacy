@@ -4,7 +4,7 @@ layout: default
 permalink: /doc/services/intervalfrequencies.html
 www_link:
 excerpt_separator: <!--more-->
-date: 2020-10-20
+date: 2021-05-06
 category:
   - API
 tags:
