@@ -17,8 +17,7 @@ tags:
 
 ## {{ page.title }}
 
-
-* [Source Link](https://github.com/progenetix/bycon/blob/master/services/doc/cytomapper.md)
+* [Source Link](https://github.com/progenetix/bycon/blob/master/services/cytomapper.py)
 
 ## _cytomapper_ Service
 

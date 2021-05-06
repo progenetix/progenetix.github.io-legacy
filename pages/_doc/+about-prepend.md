@@ -5,24 +5,6 @@ tags:
   - .prepend
 ---
 
-<div style="display: block; width: 60px; clear: both; float: right;">
-
-<a href="https://europepmc.org/search?query=Progenetix" taget="_BLANK">
-<img class="textButton" style="width: 32px; height: auto; padding: 0px; margin-bottom: 10px; float: right;" src="http://progenetix.org/p/EuropePMC_64x64.png" />
-</a>
-
-
-<a href="https://scholar.google.com/scholar?hl=en&num=50&as_sdt=0%2C5&as_ylo=2001&q=%2BProgenetix+cancer+-progenetic" taget="_BLANK">
-<img class="textButton" style="width: 32px; height: auto; padding: 0px; margin-bottom: 10px; float: right;" src="http://progenetix.org/p/gscholar_64x64.png" />
-</a>
-
-
-<a href="https://ncbi.nlm.nih.gov/pubmed/?term=Progenetix+NOT+progenetic" taget="_BLANK">
-<img class="textButton" style="width: 32px; height: auto; padding: 0px; margin-bottom: 10px; float: right;" src="http://progenetix.org/p/pubmed_logo_64x64.png" />
-</a>
-
-</div>
-
 ## The Progenetix Project
 
 The __Progenetix__ database and cancer genomic information resource was publicly launched in 2001, abnnounced through an article in [_Bioinformatics_](https://academic.oup.com/bioinformatics/article/17/12/1228/225653). The resource currently contains genome profiles of more than 100'000 individual cancer genome screening experiments. The genomic profiling data was derived from array and chromosomal [Comparative Genomic Hybridization (CGH)](https://en.wikipedia.org/wiki/Comparative_genomic_hybridization) experiments as well as Whole Genome or Whole Exome Sequencing (WGS, WES) studies. Genomic profiles are either processed from various raw data formats or are extracted from published experimental results.
