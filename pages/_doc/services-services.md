@@ -29,6 +29,7 @@ documentation.
 * [_genespans_](/doc/services/genespans.html)
 * [_geolocations_](/doc/services/geolocations.html)
 * [_ids_](/doc/services/ids.html)
+* [_intervalFrequencies_](/doc/services/intervalfrequencies.html)
 * [_ontologymaps_](/doc/services/ontologymaps.html)
 * [_publications_](/doc/services/publications.html)
 * [_schemas_](/doc/services/schemas.html)
