@@ -21,6 +21,7 @@ tags:
   - API
   - schemas
   - files
+  - documentation
 ---
 
 ## {{ page.title }}

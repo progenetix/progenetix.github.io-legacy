@@ -19,6 +19,7 @@ tags:
   - schemas
   - files
   - graphics
+  - documentation
 ---
 
 ## {{ page.title }}
