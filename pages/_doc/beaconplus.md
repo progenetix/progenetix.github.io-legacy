@@ -1,7 +1,7 @@
 ---
 title: "Beacon - Discovery Services for Genomic Data"
 layout: default
-date: c
+date: 2020-01-20
 excerpt_separator: <!--more-->
 excerpt_link:
 permalink: '/resources/beaconplus.html'
