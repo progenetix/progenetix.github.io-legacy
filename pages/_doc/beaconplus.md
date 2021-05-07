@@ -1,7 +1,7 @@
 ---
 title: "Beacon - Discovery Services for Genomic Data"
 layout: default
-date: 2016-07-01
+date: c
 excerpt_separator: <!--more-->
 excerpt_link:
 permalink: '/resources/beaconplus.html'
@@ -31,8 +31,7 @@ the Beacon protocols is being developed through the
 
 <!--more-->
 
-As part of the project, the [Baudis group](http://info.baudisgroup.org) at the
-University of Zurich develops the
+As part of the project, since early 2016 the [Computational Cytogenetics and Oncogenomics Group](http://info.baudisgroup.org) at the University of Zurich develops the
 [Beacon<sup><span style="color: #d00;">+</span></sup> demonstrator](https://beacon.progenetix.org/ui/),
 to demonstrate current functionality and future Beacon protocol extensions.
 
@@ -40,3 +39,6 @@ The Beacon<sup><span style="color: #d00;">+</span></sup> implementation is a
 custom front end on top of the - among others -
 [Progenetix](https://progenetix.org) and [arrayMap](https://arraymap.org)
 datasets, with emphasis on structural genome variations from cancer samples.
+
+On 2020-01-20,  Beacon<sup><span style="color: #d00;">+</span></sup> became part
+of the [ELIXIR Beacon Network](https://beacon-network.elixir-europe.org).
