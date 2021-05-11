@@ -52,8 +52,8 @@ Wile the first edition only was geared towards sample-linked segment annotations
     * parameters are added in `parameter_name=value;other_parameter=itsValue` format - see below
     * basically any [plot parameter from PGX](https://github.com/progenetix/PGX/blob/master/config/plotdefaults.yaml) can be used
   - Sample / grouping parameters
-    * the `sample_id` parameter is required to assign values (e.g. group labels) to samples
-    * `sample_id` has to correspond to the identifiers used in column 1 of the following segments data
+    * the `biosample_id` parameter is required to assign values (e.g. group labels) to samples
+    * `biosample_id` has to correspond to the identifiers used in column 1 of the following segments data
     * `parameter=value` pairs are semicolon-separated
     * values may be wrapped in double quotation marks (`group_label="Ductal Breast Carcinoma"`)
     * `group_id` __should__ be used for grouping
@@ -74,10 +74,10 @@ For example, with 78 samples in three NCIt cancer types, an excerpt of the segme
 #plotpars=>color_var_dup_hex=#EE4500;color_var_del_hex=#09F911
 #plotpars=>size_title_left_px=300
 #plotpars=>size_text_title_left_px=10
-#sample=>sample_id=GSM253303;group_id=NCIT:C4028;group_label="Cervical Squamous Cell Carcinoma"
-#sample=>sample_id=GSM388959;group_id=NCIT:C4024;group_label="Esophageal Squamous Cell Carcinoma"
-#sample=>sample_id=GSM252886;group_id=NCIT:C6958;group_label="Astrocytic Tumor"
-sample_id	chro	start	stop	mean	variant_type	probes
+#sample=>biosample_id=GSM253303;group_id=NCIT:C4028;group_label="Cervical Squamous Cell Carcinoma"
+#sample=>biosample_id=GSM388959;group_id=NCIT:C4024;group_label="Esophageal Squamous Cell Carcinoma"
+#sample=>biosample_id=GSM252886;group_id=NCIT:C6958;group_label="Astrocytic Tumor"
+biosample_id	chro	start	stop	mean	variant_type	probes
 GSM252886	1	911484	11993973	-0.4486 DEL	.
 GSM252886	1	12158755	22246766	0.2859 DUP	.
 GSM252886	1	22346353	24149880	-0.5713 DEL	.
@@ -94,7 +94,7 @@ GSM252886	3	4662952	4857477	0.9273 DUP 	.
 
 In the frequency file
 
-* `group_id` values replace the `sample_id`
+* `group_id` values replace the `biosample_id`
   - multiple groups can be concatenated in the file
 * `chro`,	`start` and	`end` are the same as in the sample files
 * `gain_frequency` and `loss_frequency` indicate the *percent* values for gains and losses overlapping the segment, respectively
