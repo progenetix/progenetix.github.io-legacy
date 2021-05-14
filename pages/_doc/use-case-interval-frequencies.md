@@ -87,8 +87,8 @@ added (single) collation code.
 
 ##### Examples
 
-* https://progenetix.org/services/collationPlots/?id=icdom-85003
-* https://progenetix.org/services/collationPlots/?id=PMID:22824167
+* <https://progenetix.org/services/collationPlots/?id=icdom-85003>
+* <https://progenetix.org/services/collationPlots/?id=PMID:22824167>
 
 #### Additional plot parameters
 
@@ -114,3 +114,5 @@ added (single) collation code.
 ----
 
 <img src="https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=200&-value_plot_y_max=50&-colorschema=bluered" />
+
+----
