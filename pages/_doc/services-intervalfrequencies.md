@@ -25,7 +25,7 @@ retrieval of data for a single collation, e.g. by its identifier (e.g.
 
 <!--more-->
 
-##### Identify existing collations for frequency maps retrieval
+#### Identify existing collations for frequency maps retrieval
 
 The complete set of all collation codes can be retrieved through
 
@@ -34,15 +34,15 @@ The complete set of all collation codes can be retrieved through
 * <https://progenetix.org/services/collations?method=counts&responseType=text>
   - simple text table (id | label | count w/ children | direct count )
 
-#### Response
+### Response Types
 
-##### `.pgxseg` file downloads
+#### `.pgxseg` file downloads
 
 `.pgxseg` files are tab-delimited, columnar text files where each line provides
 information about features or measurements associated with a genomic region.
 More information can be found on the [file formats page](/doc/fileformats.html).
 
-##### JSON data
+#### JSON data
 
 JSON formatting is provided in a Beacon v2 response, inside the `response.results`
 array. Each frequency set is provided as object, with the single bin frequencies
@@ -86,9 +86,9 @@ direct access to the frequecy list at `response.results[0].interval_frequencies`
           },
 ```
 
-#### Parameters
+### Parameters
 
-##### `id`
+#### `id`
 
 * standard parameter to retrieve a frequency set by its `id`
 * available values can be looked up using the [`collations`](collations.md)
@@ -96,17 +96,17 @@ service:
   - <https://progenetix.org/services/collations?method=ids&filters=NCIT&datasetIds=progenetix>
 * an `id` value will override any given `filters`
 
-##### `filters`
+#### `filters`
 
 * a single or a comma-concatenated list of identifiers
 
-##### `intervalType`
+#### `intervalType`
 
 * not implemented
 * default use is 1Mb, i.e. megabase binning (with diverging size for each
 chromosome's q-terminal interval)
 
-##### `method`
+#### `method`
 
 The method parameter here can set set output format. Options are:
 
