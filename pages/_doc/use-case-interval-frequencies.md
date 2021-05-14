@@ -1,5 +1,5 @@
 ---
-title: "Use Case - Access CNV Frequencies"
+title: "Use Case - Download or Plot CNV Frequencies"
 date: 2021-05-14
 layout: default
 author: "@mbaudis"
