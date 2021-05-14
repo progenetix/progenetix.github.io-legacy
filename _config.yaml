@@ -62,7 +62,7 @@ nav_cat_blocks: # comma-separated "label,type,label_visibility"
 
 General:
   about: About Progenetix
-  use_cases: Use Case Examples
+  usecases: Use Case Examples
   documentation: Documentation
   news: News
   'http://progenetix.org': Progenetix Data

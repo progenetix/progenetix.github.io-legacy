@@ -12,7 +12,7 @@ www_links_formatted:
   - '<a href="/doc/fileformats.html" target="_blank">[Progenetix file formats]</a>'
   - '<a href="/doc/services/intervalfrequencies.html" target="_blank">[IntervalFrequencies API Service]</a>'  
 category:
-  - use_cases
+  - usecases
 tags:
   - Progenetix
   - news
@@ -35,6 +35,9 @@ The Progenetix resource provides pre-computed CNV frequencies for all its
 external project such as TCGA
 
 This data can be accessed through the Progenetix API in data and image format.
+
+![Example CNV histogram with custom parameters](https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=40&-value_plot_y_max=50&-colorschema=bluered)
+
 
 <!--more-->
 
@@ -91,6 +94,9 @@ added (single) collation code.
 
 #### Additional plot parameters
 
+Plot parameters can be added to the request using a standard `&-__parameter__=__value__`
+syntax. Please be aware of the `-` prefix.
+
 * `-size_plotimage_w_px`
   - modifies the width of the plot image
   - <https://progenetix.org/services/collationPlots/?id=PMID:22824167&-size_plotimage_w_px=1084>
@@ -107,11 +113,12 @@ added (single) collation code.
     * `redgreen`
     * `greenred`
     * `bluered`
-  - <https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=200&-value_plot_y_max=50&-colorschema=bluered>
-    * see example below (live representation of embedded API call)
+* `-chr2plot`
+  - comma-concatenated list of chromosomes to plot
+  - default is 1 -> 22 since X & Y are not always correctly normalized for CNV
+  frequencies
+    * `-chr2plot=1,2,3,44,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,X,Y`
+    * `-chr2plot=9`
 
-----
-
-<img src="https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=200&-value_plot_y_max=50&-colorschema=bluered" />
-
-----
+  - <https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=40&-value_plot_y_max=50&-colorschema=bluered&-chr2plot=1,3,4,6,8,9,11,13,22>
+    * see example above (live representation of embedded API call for this example)
