@@ -54,7 +54,7 @@ the visualization of CNV tracks with 3rd party tools such as [Circos](http://www
 or integration in data analysis workflows, e.g. for comparing target genes to
 local, disease-specific CNV frequencies.
 
-1. Getting cancer type CNV frequencies
+#### Getting cancer type CNV frequencies
 
 All cancer codes for a given classification system can be retrieved though:
 
@@ -67,7 +67,7 @@ All cancer codes for a given classification system can be retrieved though:
 * ICD-O Topographies
   - <https://progenetix.org/services/collations?filters=icdot&method=counts&responseType=text>
 
-2. Download the data file
+#### Download the data file
 
 For any of those codes one can create a `.pgxseg` file downloader link for the
 ["IntervalFrequencies" service](/doc/services/intervalfrequencies.html):
@@ -108,4 +108,9 @@ added (single) collation code.
     * `redgreen`
     * `greenred`
     * `bluered`
-  - <https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=300&-value_plot_y_max=50&-colorschema=bluered>
+  - <https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=200&-value_plot_y_max=50&-colorschema=bluered>
+    * see example below (live representation of embedded API call)
+
+----
+
+<img src="https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=200&-value_plot_y_max=50&-colorschema=bluered" />
