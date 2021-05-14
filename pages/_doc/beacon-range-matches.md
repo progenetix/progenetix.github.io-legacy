@@ -13,6 +13,8 @@ tags:
 
 ## Coordinate use in Beacon Queries
 
+# -- This documentation of Beacon v1 coordinate use is being replaced by the upcoming v2 query documentation  --
+
 ### Precise Variants
 
 Precise variants are such with annotated sequences of 1....n length, and bases of [ATCGN] for the `referenceBases` and `alternateBases` attributes (N for "not specified").

@@ -14,7 +14,6 @@ cancer genome resource and the related [Progenetix code repositories](http://git
 #### _Progentix_ Website Code Repositories
 
 * [Progenetix Source Code](/doc/code/progenetix-repositories.html)
-* [Related Projects](/doc/code/progenetix-projects.html)
 
 ### Latest [News](/categories/news.html)
 

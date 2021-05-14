@@ -36,9 +36,8 @@ As part of the project, since early 2016 the [Computational Cytogenetics and Onc
 to demonstrate current functionality and future Beacon protocol extensions.
 
 The Beacon<sup><span style="color: #d00;">+</span></sup> implementation is a
-custom front end on top of the - among others -
-[Progenetix](https://progenetix.org) and [arrayMap](https://arraymap.org)
-datasets, with emphasis on structural genome variations from cancer samples.
+custom front end on top of the [Progenetix](https://progenetix.org)
+dataset, with emphasis on structural genome variations from cancer samples.
 
 On 2020-01-20,  Beacon<sup><span style="color: #d00;">+</span></sup> became part
 of the [ELIXIR Beacon Network](https://beacon-network.elixir-europe.org).
