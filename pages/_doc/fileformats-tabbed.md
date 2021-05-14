@@ -151,3 +151,37 @@ PMID:22824167	6.29	0.0	... 8.18	4.4	...
 ##### Examples
 
 * <https://progenetix.org/services/intervalFrequencies/?datasetIds=progenetix&method=pgxmatrix&filters=NCIT:C7376,PMID:22824167>
+
+#### CNV Status Matrix
+
+For endpoints with per biosample or callset / analysis delvery, the Progenetix
+API offers the delivery of a binned status matrix. This matrix can e.g. directly
+be used for clustering CNV patterns.
+
+* id columns, followed by
+  - all "gain status" columns (e.g. 3102, see above), followed by
+  - all "loss status" columns
+* the status is indicated by a coverage value, i.e. the fraction of how much the
+binned interval overlaps with one or more CNVs of the given type.
+
+The header will contain sample specific information.
+
+```
+#meta=>id=progenetix
+#meta=>assemblyId=GRCh38
+#meta=>filters=NCIT:C4443
+#meta=>genome_binning=1Mb;interval_number=3102
+#meta=>no_info_columns=3;no_interval_columns=6204
+#sample=>biosample_id=pgxbs-kftvktaz;analysis_ids=pgxcs-kftwu9ca;group_id=NCIT:C6650;group_label=Ampulla of Vater adenocarcinoma;NCIT::id=NCIT:C6650;NCIT::label=Ampulla of Vater adenocarcinoma
+#sample=>biosample_id=pgxbs-kftvkyeq;analysis_ids=pgxcs-kftwvv3p;group_id=NCIT:C3908;group_label=Ampulla of Vater Carcinoma;NCIT::id=NCIT:C3908;NCIT::label=Ampulla of Vater Carcinoma
+...
+#meta=>biosampleCount=26;analysisCount=26
+analysis_id	biosample_id	group_id	1:0-1000000:DUP	1:1000000-2000000:DUP	1:2000000-3000000:DUP	1:3000000-4000000:DUP  ...
+pgxcs-kftwu9ca	pgxbs-kftvktaz	NCIT:C6650	0	0.3434	1.0	1.0
+pgxcs-kftwwbry	pgxbs-kftvkzwp	NCIT:C3908  0.5801	0	0.6415	1.0
+...
+```
+
+##### Examples
+
+* <https://progenetix.org/beacon/biosamples/?method=pgxmatrix&filters=NCIT:C4443>
