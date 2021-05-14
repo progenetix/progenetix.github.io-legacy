@@ -17,6 +17,7 @@ tags:
 ---
 
 ## {{ page.title }}
+{:.no_toc}
 
 This service provides access to binned CNV frequency information of data
 "collations" in the Progenetix project databases. A typical use would be the
@@ -25,24 +26,40 @@ retrieval of data for a single collation, e.g. by its identifier (e.g.
 
 <!--more-->
 
+----
+1. TOC
+{:toc}
+----
+
 #### Identify existing collations for frequency maps retrieval
 
 The complete set of all collation codes can be retrieved through
 
 * <https://progenetix.org/services/collations?method=counts>
   - JSON
-* <https://progenetix.org/services/collations?method=counts&responseType=text>
-  - simple text table (id | label | count w/ children | direct count )
+* <https://progenetix.org/services/collations?filters=NCIT&method=counts&responseType=text>
+  - simple text table, here filtered for the `NCIT` prefix
+
+
+```
+id  label count w/ children direct count
+NCIT:C3262	Neoplasm	116232	0
+NCIT:C156482	Genitourinary System Neoplasm	16410	0
+NCIT:C4893	Benign Urinary System Neoplasm	93	0
+NCIT:C159209	Kidney Leiomyoma	1	1
+NCIT:C4526	Kidney Oncocytoma	85	85
+...
+```
 
 ### Response Types
 
-#### `.pgxseg` file downloads
+#### Download `.pgxseg` files
 
 `.pgxseg` files are tab-delimited, columnar text files where each line provides
 information about features or measurements associated with a genomic region.
 More information can be found on the [file formats page](/doc/fileformats.html).
 
-#### JSON data
+#### Stream JSON data
 
 JSON formatting is provided in a Beacon v2 response, inside the `response.results`
 array. Each frequency set is provided as object, with the single bin frequencies
