@@ -38,14 +38,14 @@ This data can be accessed through the Progenetix API in data and image format.
 
 ![Example CNV histogram with custom parameters](https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=40&-value_plot_y_max=50&-colorschema=bluered&-chr2plot=1,3,9,17,22)
 
-
 <!--more-->
 
 Interval frequencies are per default stored in a 1Mb binned format. More
 information about the API use can be found [in the IntervalFrequencies API documentation](/doc/services/intervalfrequencies.html).
 
 ----
-1. TOC
+**Contents**
+* TOC
 {:toc}
 ----
 

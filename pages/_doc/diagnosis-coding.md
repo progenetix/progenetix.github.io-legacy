@@ -27,10 +27,9 @@ Progenetix website and APIs.
 <!--more-->
 
 ----
-
-1. TOC
+**Contents**
+* TOC
 {:toc}
-
 ----
 
 ### NCIt coding of tumor samples

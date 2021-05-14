@@ -26,8 +26,10 @@ tags:
 ## {{ page.title }}
 {:.no_toc}
 
-1. TOC
+**Contents**
+* TOC
 {:toc}
+----
 
 ### <a id="pgxseg">Progenetix Segment Files `.pgxseg`
 

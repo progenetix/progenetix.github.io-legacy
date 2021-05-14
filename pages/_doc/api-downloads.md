@@ -32,10 +32,9 @@ type of data. For several purposes both options are available.
 <!--more-->
 
 ----
-
-1. TOC
+**Contents**
+* TOC
 {:toc}
-
 ----
 
 ### Standard file formats

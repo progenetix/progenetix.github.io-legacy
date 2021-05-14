@@ -27,7 +27,8 @@ retrieval of data for a single collation, e.g. by its identifier (e.g.
 <!--more-->
 
 ----
-1. TOC
+**Contents**
+* TOC
 {:toc}
 ----
 
