@@ -11,7 +11,6 @@ www_link:
 www_links_formatted:
   - '<a href="https://progenetix.org/biosamples/" target="_blank">[Progenetix Search Page]</a>'
 category:
-  - documentation
   - use_cases
 tags:
   - Progenetix

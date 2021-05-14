@@ -6,7 +6,6 @@ layout: default
 author: Michael Baudis
 excerpt_separator: <!--more-->
 category:
-  - API
   - documentation
 tags:
   - API
@@ -15,13 +14,6 @@ tags:
 ---
 
 ## {{ page.title }}
-
-<!--   Please edit the title above.                                 -->
-<!--   Please edit the author above.                                -->
-<!--   Please edit the category above if not "news".                -->
-<!--   You may replace the `{{ page.title }}` above with your text. -->
-
-<!--  CONTENT  -->
 
 Since July 2017, the Progenetix project has a registered namespace prefix at [EBI's identifiers.org](https://identifiers.org/registry?query=pgx).
 

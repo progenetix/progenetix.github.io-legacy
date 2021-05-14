@@ -7,7 +7,7 @@ layout: default
 author: '@mbaudis'
 excerpt_separator: <!--more-->
 category:
-  - documentation      # publication documentation presentation
+  - about      # publication documentation presentation
   - news
 tags:
   - ontologies

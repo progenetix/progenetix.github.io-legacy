@@ -6,7 +6,7 @@ www_link:
 excerpt_separator: <!--more-->
 date: 2021-05-06
 category:
-  - API
+  - documentation
 tags:
   - API
   - documentation
@@ -108,7 +108,7 @@ chromosome's q-terminal interval)
 
 ##### `method`
 
-The method parameter here can set set autput format. Options are:
+The method parameter here can set set output format. Options are:
 
 * not set ...
   - standard JSON response

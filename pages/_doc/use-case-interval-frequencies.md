@@ -12,7 +12,6 @@ www_links_formatted:
   - '<a href="/doc/fileformats.html" target="_blank">[Progenetix file formats]</a>'
   - '<a href="/doc/services/intervalfrequencies.html" target="_blank">[IntervalFrequencies API Service]</a>'  
 category:
-  - documentation
   - use_cases
 tags:
   - Progenetix
@@ -63,7 +62,7 @@ All cancer codes for a given classification system can be retrieved though:
 * ICD-O Morphologies
   - <https://progenetix.org/services/collations?filters=icdom&method=counts&responseType=text>
   - please be aware that we have to use transformed ICD-O codes; e.g.
-  "ICD-O 8500/3" is represented as `icdom-85003` (`s/^(\d{4})\/()\d)/icdom-$1$2/`)
+  "ICD-O 8500/3" is represented as `icdom-85003` (`s/^(\d{4})\/(\d)$/icdom-$1$2/`)
 * ICD-O Topographies
   - <https://progenetix.org/services/collations?filters=icdot&method=counts&responseType=text>
 

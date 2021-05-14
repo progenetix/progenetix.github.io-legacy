@@ -7,7 +7,6 @@ permalink: "/doc/filters-documentation.html"
 excerpt_separator: <!--more-->
 category:
   - documentation
-  - news
 tags:
   - arraymap
   - news

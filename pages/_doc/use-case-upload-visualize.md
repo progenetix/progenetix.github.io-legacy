@@ -12,12 +12,12 @@ www_links_formatted:
   - '<a href="https://info.progenetix.org/assets/examples/testfile_labeled_groups.pgxseg" target="_blank">[Download <i>.pgxseg</i> testfile]</a>'
   - '<a href="https://github.com/progenetix/progenetix.github.io/blob/master/assets/examples/testfile_labeled_groups.pgxseg">[<i>.pgxseg</i> testfile on Github]</a>'
 category:
-  - documentation
   - use_cases
 tags:
   - Progenetix
   - news
   - files
+  - documentation
 ---
 
 ## {{ page.title }}

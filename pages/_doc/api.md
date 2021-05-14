@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 permalink: /doc/api.html
 date: 2020-06-20
 category:
-  - API
+  - documentation
 tags:
   - documentation
   - Progenetix

@@ -6,7 +6,7 @@ www_link: https://github.com/progenetix/bycon
 excerpt_separator: <!--more-->
 date: 2021-02-06
 category:
-  - API
+  - documentation
 tags:
   - API
   - documentation
@@ -25,7 +25,7 @@ With exception of some utility scripts and external dependencies (e.g. [MongoDB]
   - Python based service based on the [GA4GH Beacon protocol](http://beacon-project.io)
   - software powering the Progenetix resource
   - [Beacon<span style="vertical-align: super; color: red; font-weight: 800;">+</span>](http://beacon.progenetix.org/ui/) implementation(s) use the same code base
-* [`progenetix-next`](https://github.com/progenetix/progenetix-next)
+* [`progenetix-web`](https://github.com/progenetix/progenetix-web)
   - website for Progenetix and its Beacon<span style="vertical-align: super; color: red; font-weight: 800;">+</span> implementations
   - provides Beacon interfaces for the `bycon` server, as well as other Progenetix sevices (e.g. the [publications](http://progenetix.org/publications/) repository)
   - implemented as [React](https://reactjs.org) / [Next.js](https://nextjs.org) project

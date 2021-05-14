@@ -65,7 +65,6 @@ General:
   use_cases: Use Case Examples
   documentation: Documentation
   news: News
-  API: API
   'http://progenetix.org': Progenetix Data
   'http://progenetix.org/subsets/biosubsets#is_sub': Cancer CNV Profiles
   'http://progenetix.org/biosamples/#is_sub': Search Samples
@@ -85,6 +84,7 @@ categories-date-sorted:
   - news
   - statistics
   - about
+  - documentation
 
 tags-date-sorted:
   - API

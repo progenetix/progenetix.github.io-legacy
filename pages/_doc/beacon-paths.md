@@ -6,7 +6,7 @@ www_link: https://github.com/progenetix/bycon
 excerpt_separator: <!--more-->
 date: 2021-04-23
 category:
-  - API
+  - documentation
 tags:
   - API
   - documentation
