@@ -16,6 +16,7 @@ tags:
   - schemas
   - files
   - filters
+  - .featured
 ---
 
 {{ page.title }}

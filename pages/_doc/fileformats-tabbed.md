@@ -65,7 +65,13 @@ Wile the first edition only was geared towards sample-linked segment annotations
     * additional information about the file
     * (so far) only informative
 
-For example, with 78 samples in three NCIt cancer types, an excerpt of the segment file would look like below:
+For example, this API call retireves the variants for 78 samples from two NCIt
+cancer types (please be aware of the `&filterLogic=OR` pragma!):
+
+* [/beacon/variants/?filters=NCIT:C6958,NCIT:C4504&filterLogic=OR&method=pgxseg](https://progenetix.org/beacon/variants/?filters=NCIT:C6958,NCIT:C4504&filterLogic=OR&method=pgxseg)
+
+An excerpt of the segment file would look like below:
+
 
 ```
 #meta=>biosample_count=78
@@ -75,19 +81,18 @@ For example, with 78 samples in three NCIt cancer types, an excerpt of the segme
 #plotpars=>color_var_dup_hex=#EE4500;color_var_del_hex=#09F911
 #plotpars=>size_title_left_px=300
 #plotpars=>size_text_title_left_px=10
-#sample=>biosample_id=GSM253303;group_id=NCIT:C4028;group_label="Cervical Squamous Cell Carcinoma"
-#sample=>biosample_id=GSM388959;group_id=NCIT:C4024;group_label="Esophageal Squamous Cell Carcinoma"
-#sample=>biosample_id=GSM252886;group_id=NCIT:C6958;group_label="Astrocytic Tumor"
+#sample=>biosample_id=pgxbs-kftvhhmm;group_id=NCIT:C6393;group_label="Invasive Ductal and Invasive Lobular Breast Carcinoma"
+#sample=>biosample_id=GSM252886;group_id=NCIT:C4504;group_label="Malignant Breast Phyllodes Tumor"
 biosample_id	chro	start	stop	mean	variant_type	probes
-GSM252886	1	911484	11993973	-0.4486 DEL	.
-GSM252886	1	12158755	22246766	0.2859 DUP	.
-GSM252886	1	22346353	24149880	-0.5713 DEL	.
-GSM252886	1	24160170	33603123	0.0812	. .
-GSM252886	1	33683474	37248987	-0.6478 DEL	.
-GSM252886	1	37391587	248655165	0.0342	. .
-GSM252886	2	110819	240942225	-0.0007	. .
-GSM252886	3	119131	4655519	-0.0122	. .
-GSM252886	3	4662952	4857477	0.9273 DUP 	.
+pgxbs-kftvhhmm	1	911484	11993973	-0.4486 DEL	.
+pgxbs-kftvhhmm	1	12158755	22246766	0.2859 DUP	.
+pgxbs-kftvhhmm	1	22346353	24149880	-0.5713 DEL	.
+pgxbs-kftvhhmm	1	24160170	33603123	0.0812	. .
+pgxbs-kftvhhmm	1	33683474	37248987	-0.6478 DEL	.
+pgxbs-kftvhhmm	1	37391587	248655165	0.0342	. .
+pgxbs-kftvhhmm	2	110819	240942225	-0.0007	. .
+pgxbs-kftvhhmm	3	119131	4655519	-0.0122	. .
+pgxbs-kftvhhmm	3	4662952	4857477	0.9273 DUP 	.
 ...
 ```
 
@@ -104,9 +109,9 @@ Future options are under evaluation.
 
 Examples can be derived from the Progenetix "Services" API:
 
-* https://progenetix.org/services/intervalFrequencies/pgxcohort-TCGAcancers/?method=pgxseg
+* [/services/intervalFrequencies/pgxcohort-TCGAcancers/?method=pgxseg](https://progenetix.org/services/intervalFrequencies/pgxcohort-TCGAcancers/?method=pgxseg)
   - single group in REST syntax (here overall CNV frequencies in >11000 cancer samples from the TCGA sample collection)
-* https://progenetix.org/services/intervalFrequencies/?filters=icdom-81403,icdom-81443&method=pgxseg
+* [/services/intervalFrequencies/?filters=icdom-81403,icdom-81443&method=pgxseg](https://progenetix.org/services/intervalFrequencies/?filters=icdom-81403,icdom-81443&method=pgxseg)
   - 2 sets using the `filters` parameter
 
 ```

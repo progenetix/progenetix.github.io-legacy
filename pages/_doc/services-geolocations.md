@@ -38,6 +38,14 @@ inhabitants (\~22750 cities), through either:
 
 <!--more-->
 
+#### Query Types
+
+* by `city`
+  - start-anchored, case insensitive match `?city=heide`
+* by `id`
+  - this uses the `city::country` "id" value, e.g. `lecce::italy`
+* by `geolatitude`, `geolongitude`, `geodistance`
+
 ##### Examples
 
 * <https://progenetix.org/services/geolocations?city=zurich>

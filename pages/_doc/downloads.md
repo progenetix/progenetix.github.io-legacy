@@ -37,7 +37,32 @@ type of data. For several purposes both options are available.
 {:toc}
 ----
 
-### Standard file formats
+### Downloads using the GUI
+
+<img src="/assets/img/histogram-new-options.png" style="margin-left: auto; margin-right:auto" />
+
+Inseveral places throughout the sample and subset pages one can find links
+for the download of e.g. data returned from sample searches. The example above
+shows the standard link for the CNV frequency file corresponding to the
+histogram data.
+
+### Downloads using the API
+
+#### Beacon v2 API paths
+
+The Progenetix resource utilizes the Beacon v2 API for data delivery. Some
+information about the standard paths & their usage can be found on the
+[Beacon v2 path examples page](/doc/beacon/paths.html).
+
+#### Custom Progenetix services
+
+The Progenetix API implements a number of ["services"](/doc/services/services.html)
+which can e.g. be utilized to download aggregate data such as CNV frequency data
+of a disease entity.
+
+
+
+### File formats
 
 #### Beacon-style JSON
 
@@ -61,26 +86,3 @@ More information can be found on the [file formats page](/doc/fileformats.html).
 `.pgxmatrix` files are tab-delimited, columnar data matrix files where each line
 provides interval-mapped values, usually e.g. for 1Mb genomic intervals of a
 sample or classification. More information can be found on the [file formats page](/doc/fileformats.html).
-
-### Downloads using the GUI
-
-<img src="/assets/img/histogram-new-options.png" style="margin-left: auto; margin-right:auto" />
-
-Inseveral places throughout the sample and subset pages one can find links
-for the download of e.g. data returned from sample searches. The example above
-shows the standard link for the CNV frequency file corresponding to the
-histogram data.
-
-### Downloads using the API
-
-#### Beacon v2 API paths
-
-The Progenetix resource utilizes the Beacon v2 API for data delivery. Some
-information about the standard paths & their usage can be found on the
-[Beacon v2 path examples page](/doc/beacon/paths.html).
-
-#### Custom Progenetix services
-
-The Progenetix API implements a number of ["services"](/doc/services/services.html)
-which can e.g. be utilized to download aggregate data such as CNV frequency data
-of a disease entity.
