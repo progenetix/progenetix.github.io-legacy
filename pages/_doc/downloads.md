@@ -64,7 +64,7 @@ more-than-a-few samples; this will start to stream the variants instead of pre-f
 * Examples:
   - [progenetix.org/beacon/biosamples/?filters=icdom-85002&method=callsetsvariants](http://progenetix.org/beacon/biosamples/?filters=icdom-85002&method=callsetsvariants)
   - [progenetix.org/beacon/biosamples/?filters=icdom-85002](http://progenetix.org/beacon/biosamples/?filters=icdom-85002)
-  - [progenetix.org/beacon/biosamples/?filters=icdom-85002&method=pgxseg](http://progenetix.org/beacon/biosamples/?filters=icdom-85002&method=pgxseg)
+  - [progenetix.org/beacon/biosamples/?filters=icdom-85002&output=pgxseg](http://progenetix.org/beacon/biosamples/?filters=icdom-85002&output=pgxseg)
 
 #### Custom Progenetix services
 

@@ -31,5 +31,5 @@ application.
 
 * <https://progenetix.org/beacon/biosamples/?filters=icdom-81703&datasetIds=progenetix>
 * <https://progenetix.org/beacon/biosamples/?filters=icdom-81703&datasetIds=progenetix&responseFormat=simple>
-* <https://progenetix.org/beacon/biosamples/?filters=icdom-81703&datasetIds=progenetix&responseFormat=simple&method=callsetstats&responseType=text>
+* <https://progenetix.org/beacon/biosamples/?filters=icdom-81703&datasetIds=progenetix&responseFormat=simple&method=callsetstats&output=text>
 * <http://progenetix.org/beacon/biosamples?datasetIds=progenetix&assemblyId=GRCh38&includeDatasetResonses=ALL&requestType=null&referenceName=null&filterLogic=OR&filters=NCIT:C7376&filters=NCIT:C45665&filters=NCIT:C45655&filters=NCIT:C45655>

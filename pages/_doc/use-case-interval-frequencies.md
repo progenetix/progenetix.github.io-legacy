@@ -61,13 +61,13 @@ local, disease-specific CNV frequencies.
 All cancer codes for a given classification system can be retrieved though:
 
 * NCIT
-  - <https://progenetix.org/services/collations?filters=NCIT&method=counts&responseType=text>
+  - <https://progenetix.org/services/collations?filters=NCIT&method=counts&output=text>
 * ICD-O Morphologies
-  - <https://progenetix.org/services/collations?filters=icdom&method=counts&responseType=text>
+  - <https://progenetix.org/services/collations?filters=icdom&method=counts&output=text>
   - please be aware that we have to use transformed ICD-O codes; e.g.
   "ICD-O 8500/3" is represented as `icdom-85003` (`s/^(\d{4})\/(\d)$/icdom-$1$2/`)
 * ICD-O Topographies
-  - <https://progenetix.org/services/collations?filters=icdot&method=counts&responseType=text>
+  - <https://progenetix.org/services/collations?filters=icdot&method=counts&output=text>
 
 #### Download the data file
 
@@ -76,8 +76,8 @@ For any of those codes one can create a `.pgxseg` file downloader link for the
 
 ##### Examples
 
-* https://progenetix.org/services/intervalFrequencies/?method=pgxseg&filters=NCIT:C105555
-* https://progenetix.org/services/intervalFrequencies/?method=pgxseg&filters=icdom-85003
+* https://progenetix.org/services/intervalFrequencies/?output=pgxseg&filters=NCIT:C105555
+* https://progenetix.org/services/intervalFrequencies/?output=pgxseg&filters=icdom-85003
 
 
 ### Example Procedure - Download or embed CNV frequency plot

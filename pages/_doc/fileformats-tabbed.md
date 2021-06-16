@@ -68,7 +68,7 @@ Wile the first edition only was geared towards sample-linked segment annotations
 For example, this API call retireves the variants for 78 samples from two NCIt
 cancer types (please be aware of the `&filterLogic=OR` pragma!):
 
-* [/beacon/variants/?filters=NCIT:C6958,NCIT:C4504&filterLogic=OR&method=pgxseg](https://progenetix.org/beacon/variants/?filters=NCIT:C6958,NCIT:C4504&filterLogic=OR&method=pgxseg)
+* [/beacon/variants/?filters=NCIT:C6958,NCIT:C4504&filterLogic=OR&output=pgxseg](https://progenetix.org/beacon/variants/?filters=NCIT:C6958,NCIT:C4504&filterLogic=OR&output=pgxseg)
 
 An excerpt of the segment file would look like below:
 
@@ -109,9 +109,9 @@ Future options are under evaluation.
 
 Examples can be derived from the Progenetix "Services" API:
 
-* [/services/intervalFrequencies/pgxcohort-TCGAcancers/?method=pgxseg](https://progenetix.org/services/intervalFrequencies/pgxcohort-TCGAcancers/?method=pgxseg)
+* [/services/intervalFrequencies/pgxcohort-TCGAcancers/?output=pgxseg](https://progenetix.org/services/intervalFrequencies/pgxcohort-TCGAcancers/?output=pgxseg)
   - single group in REST syntax (here overall CNV frequencies in >11000 cancer samples from the TCGA sample collection)
-* [/services/intervalFrequencies/?filters=icdom-81403,icdom-81443&method=pgxseg](https://progenetix.org/services/intervalFrequencies/?filters=icdom-81403,icdom-81443&method=pgxseg)
+* [/services/intervalFrequencies/?filters=icdom-81403,icdom-81443&output=pgxseg](https://progenetix.org/services/intervalFrequencies/?filters=icdom-81403,icdom-81443&output=pgxseg)
   - 2 sets using the `filters` parameter
 
 ```
@@ -155,7 +155,7 @@ PMID:22824167	6.29	0.0	... 8.18	4.4	...
 
 ##### Examples
 
-* <https://progenetix.org/services/intervalFrequencies/?datasetIds=progenetix&method=pgxmatrix&filters=NCIT:C7376,PMID:22824167>
+* <https://progenetix.org/services/intervalFrequencies/?datasetIds=progenetix&output=pgxmatrix&filters=NCIT:C7376,PMID:22824167>
 
 #### CNV Status Matrix
 
@@ -189,4 +189,4 @@ pgxcs-kftwwbry	pgxbs-kftvkzwp	NCIT:C3908  0.5801	0	0.6415	1.0
 
 ##### Examples
 
-* <https://progenetix.org/beacon/biosamples/?method=pgxmatrix&filters=NCIT:C4443>
+* <https://progenetix.org/beacon/biosamples/?output=pgxmatrix&filters=NCIT:C4443>

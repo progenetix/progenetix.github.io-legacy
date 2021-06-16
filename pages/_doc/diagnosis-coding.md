@@ -40,7 +40,7 @@ Progenetix website and APIs.
 
 ##### Current NCIt sample codes
 
-* <https://progenetix.org/services/collations?filters=NCIT&method=counts&responseType=text>
+* <https://progenetix.org/services/collations?filters=NCIT&method=counts&output=text>
 
 ### ICD coding of tumor samples
 
@@ -51,9 +51,9 @@ The mappings used here for the ICD morphology codings (mapped to ICDMORPHOLOGY a
 ##### Current ICD-O sample codes
 
 * ICD-O Morphologies
-  - <https://progenetix.org/services/collations?filters=icdom&method=counts&responseType=text>
+  - <https://progenetix.org/services/collations?filters=icdom&method=counts&output=text>
 * ICD-O Topographies
-  - <https://progenetix.org/services/collations?filters=icdot&method=counts&responseType=text>
+  - <https://progenetix.org/services/collations?filters=icdot&method=counts&output=text>
 
 ### UBERON codes
 
@@ -62,4 +62,4 @@ are detailed in the related [icdot2uberon](https://github.com/progenetix/icdot2u
 
 ##### Current UBERON sample codes
 
-* <https://progenetix.org/services/collations?filters=UBERON&method=counts&responseType=text>
+* <https://progenetix.org/services/collations?filters=UBERON&method=counts&output=text>

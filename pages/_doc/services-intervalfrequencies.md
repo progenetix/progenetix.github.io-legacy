@@ -38,7 +38,7 @@ The complete set of all collation codes can be retrieved through
 
 * <https://progenetix.org/services/collations?method=counts>
   - JSON
-* <https://progenetix.org/services/collations?filters=NCIT&method=counts&responseType=text>
+* <https://progenetix.org/services/collations?filters=NCIT&method=counts&output=text>
   - simple text table, here filtered for the `NCIT` prefix
 
 
@@ -130,9 +130,9 @@ The method parameter here can set set output format. Options are:
 
 * not set ...
   - standard JSON response
-* `method=pgxseg`
+* `output=pgxseg`
   - Proggenetix `.pgxseg` columnar format, with a line for each interval and gain, loss frequencies
-* `method=pgxmatrix`
+* `output=pgxmatrix`
   - Proggenetix `.pgxmatrix` matrix format, with a line for each frequency set and interval frequencies provided in the columns (i.e. usually first all gain frequencies, then all loss frequencies)
   - makes sense for multiple frequency sets, e.g. for clustering
 
@@ -140,5 +140,5 @@ The method parameter here can set set output format. Options are:
 
 * <https://progenetix.org/services/intervalFrequencies/?id=pgxcohort-TCGAcancers>
 * <https://progenetix.org/services/intervalFrequencies/?filters=NCIT:C7376,PMID:22824167>
-* <https://progenetix.org/services/intervalFrequencies/?method=pgxseg&filters=NCIT:C7376,PMID:22824167>
-* <https://progenetix.org/services/intervalFrequencies/?method=pgxmatrix&filters=NCIT:C7376,PMID:22824167>
+* <https://progenetix.org/services/intervalFrequencies/?output=pgxseg&filters=NCIT:C7376,PMID:22824167>
+* <https://progenetix.org/services/intervalFrequencies/?output=pgxmatrix&filters=NCIT:C7376,PMID:22824167>
