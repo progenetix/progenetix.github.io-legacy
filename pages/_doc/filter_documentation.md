@@ -8,14 +8,11 @@ excerpt_separator: <!--more-->
 category:
   - documentation
 tags:
-  - arraymap
-  - news
   - Progenetix
-  - news
   - API
+  - identifers
   - schemas
   - files
-  - filters
   - .featured
 ---
 
