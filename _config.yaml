@@ -68,6 +68,7 @@ General:
   'http://progenetix.org': Progenetix Data
   'http://progenetix.org/subsets/biosubsets#is_sub': Cancer CNV Profiles
   'http://progenetix.org/biosamples/#is_sub': Search Samples
+  'http://progenetix.org/publications/': Publication DB
 
 related_sites:
   'Baudisgroup @ UZH': 'http://info.baudisgroup.org'
