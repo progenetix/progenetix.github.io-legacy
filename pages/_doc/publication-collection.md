@@ -1,5 +1,5 @@
 ---
-title: "Publication Collection"
+title: "Publication DB Criteria"
 date: 2021-06-17
 layout: default
 authors:
@@ -23,7 +23,7 @@ tags:
 ----------------
 ### Progenetix publication collection: Which scientific publications are included?
 
-The [Progenetix publication collection](http://progenetix.org/publications/) contains articles describing whole genome screening (WGS, WES, aCGH, cCGH[^1]) experiments in cancer. Genomic information about the analyzed cancer samples is extracted from these publications to generate cancer mutation data, with a focus on copy number abnormalities (CNV / CNA).
+The [Progenetix Publication DB](http://progenetix.org/publications/) contains articles describing whole genome screening (WGS, WES, aCGH, cCGH[^1]) experiments in cancer. Genomic information about the analyzed cancer samples is extracted from these publications to generate cancer mutation data, with a focus on copy number abnormalities (CNV / CNA).
 
 <!--more-->
 
