@@ -62,12 +62,12 @@ More information can be found on the [file formats page](/doc/fileformats.html).
 
 #### Stream JSON data
 
-JSON formatting is provided in a Beacon v2 response, inside the `response.results`
+JSON formatting is provided in a Beacon v2 response, inside the `results`
 array. Each frequency set is provided as object, with the single bin frequencies
 in `interval_frequencies`. For more information see the [beaconresponse json](/doc/beaconresponse-json.html) documentation.
 
 For the usual "single frequency set" use case this would result in a possible
-direct access to the frequecy list at `response.results[0].interval_frequencies`.
+direct access to the frequecy list at `results[0].interval_frequencies`.
 
 ```
 {

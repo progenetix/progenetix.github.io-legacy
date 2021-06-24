@@ -79,7 +79,7 @@ of a disease entity.
 
 With the maturation of the Beacon v2 protocol and associated data schemas,
 the default delivery of JSON encoded data follows the standard Beacon response
-format where the main data is contained in the `response.results` array.
+format where the main data is contained in the `results` array.
 
 For more information see the [beaconresponse json](/doc/beaconresponse-json.html)
 documentation.

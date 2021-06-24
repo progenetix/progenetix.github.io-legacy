@@ -35,13 +35,17 @@ response, with the `meta` and `response` root elements.
 For most practical purposes when accessing the [Beacon-style API endpoints](/doc/beacon/paths.html)
 one just sould be aware that the returned data is:
 
-* contained in the `response.results` array
-* that this is true for single objects, which then would be `response.results[0]`
+* contained in the `results` array
+* that this is true for single objects, which then would be `results[0]`
 
 Additionally, most API responses (e.g. for biosamples or variants) provide access
 to data using _handover_ objects.
 
 #### Example JSON response (partial)
+
+**Subjecct to change** - the Beacon v2 response is currently being modified,
+with the removal of the `response` root element and replacement by specific
+response modules.
 
 ```
 {
@@ -49,7 +53,7 @@ to data using _handover_ objects.
     "api_version": "2.0.0-draft.3",
     "beacon_id": "org.progenetix.beacon",
     "create_date_time": "2015-11-13",
-    "info": "The main biosamples payload can be accessed in `response.results`.\n",
+    "info": "The main biosamples payload can be accessed in `results`.\n",
     "received_request": {
       "dataset": "progenetix",
       "dataset_ids": [

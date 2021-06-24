@@ -53,7 +53,7 @@ script.
 
 Standard responses are provided as `Content-Type: application/json`. The wrapper
 format for JSON encoded data follows the standard Beacon response
-format where the main data is contained in the `response.results` array.
+format where the main data is contained in the `results` array.
 
 For more information see the [beaconresponse json](/doc/beaconresponse-json.html)
 documentation.
