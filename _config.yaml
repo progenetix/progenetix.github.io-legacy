@@ -101,6 +101,7 @@ cloud_tags:
   - code
   - identifiers
   - documentation
+  - downloads
   - graphics
   - GA4GH
   - maps

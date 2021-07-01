@@ -83,23 +83,23 @@ direct access to the frequecy list at `results[0].interval_frequencies`.
     "numTotalResults": 1,
     "results": [
       {
-        "dataset_id": "progenetix",
+        "datasetId": "progenetix",
         "id": "pgxcohort-TCGAcancers",
-        "interval_frequencies": [
+        "intervalFrequencies": [
           {
-            "reference_name": "1",
+            "referenceName": "1",
             "end": 1000000,
-            "gain_frequency": 0,
+            "gainFrequency": 0,
             "index": 0,
-            "loss_frequency": 0,
+            "lossFrequency": 0,
             "start": 0
           },
           {
-            "reference_name": "1",
+            "referenceName": "1",
             "end": 2000000,
-            "gain_frequency": 0,
+            "gainFrequency": 0,
             "index": 1,
-            "loss_frequency": 0,
+            "lossFrequency": 0,
             "start": 1000000
           },
 ```

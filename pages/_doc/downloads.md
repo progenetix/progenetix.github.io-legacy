@@ -1,6 +1,6 @@
 ---
-title: "API: Data Downloads"
-date: 2021-05-05
+title: "Data Downloads"
+date: 2021-07-01
 layout: default
 author: "@mbaudis"
 permalink: "/doc/downloads.html"
@@ -11,13 +11,13 @@ www_link:
 www_links_formatted:
 category:
   - documentation
-  - news
 tags:
   - Progenetix
   - news
   - files
   - API
   - JSON
+  - downloads
 ---
 
 ## {{ page.title }}
