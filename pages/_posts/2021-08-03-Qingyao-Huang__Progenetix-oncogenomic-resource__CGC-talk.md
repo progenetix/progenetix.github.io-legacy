@@ -3,14 +3,14 @@ title: "Progenetix - An open reference resource for copy number vatiation data i
 layout: default
 authors:
   - '@qingyao'
-excerpt_link: https://info.baudisgroup.org/presentations/2021-08-03-Qingyao-Huang__Progenetix-oncogenomic-resource__CGC-talk/
+excerpt_link: "https://info.baudisgroup.org/presentations/2021-08-03-Qingyao-Huang__Progenetix-oncogenomic-resource__CGC-talk/"
 excerpt_separator: <!--more-->
 category:
   - presentations
   - news
 tags:
   - presentation
-  - conferences
+  - conference
   - news
 pdf_file_name: 2021-08-03___Qingyao-Huang__CGC-progenetix-presentation__slides.pdf
 pdf_file_type: slides
