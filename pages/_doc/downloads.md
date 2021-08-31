@@ -58,13 +58,12 @@ for the main direct data access scenarios.
 The different filter options are described on the [**Filter Documentation**](/doc/filters-documentation.html)
 page.
 
-* Constructor: `progenetix.org/beacon/variants/?filters=___ID___&method=___method___`
-* it is highly recommended to use `&method=callsetsvariants` for any download of
-more-than-a-few samples; this will start to stream the variants instead of pre-fetching them (which may time out the server)
+* Constructor: `progenetix.org/beacon/variants/?filters=___ID___&output=___method___`
+~~* it is highly recommended to use `&method=callsetsvariants` for any download of
+more-than-a-few samples; this will start to stream the variants instead of pre-fetching them (which may time out the server)~~
 * Examples:
-  - [progenetix.org/beacon/biosamples/?filters=icdom-85002&method=callsetsvariants](http://progenetix.org/beacon/biosamples/?filters=icdom-85002&method=callsetsvariants)
-  - [progenetix.org/beacon/biosamples/?filters=icdom-85002](http://progenetix.org/beacon/biosamples/?filters=icdom-85002)
-  - [progenetix.org/beacon/biosamples/?filters=icdom-85002&output=pgxseg](http://progenetix.org/beacon/biosamples/?filters=icdom-85002&output=pgxseg)
+  - [progenetix.org/beacon/variants/?filters=icdom-85002](http://progenetix.org/beacon/biosamples/?filters=icdom-85002)
+  - [progenetix.org/beacon/variants/?filters=icdom-85002&output=pgxseg](http://progenetix.org/beacon/biosamples/?filters=icdom-85002&output=pgxseg)
 
 #### Custom Progenetix services
 
