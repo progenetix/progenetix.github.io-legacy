@@ -28,4 +28,4 @@ The [`Biosample` schema](http://progenetix.org/services/schemas/Biosample/) used
 
 At this stage we keep the current `extyernalReferences` "grab bag" list.
 
-[^1]: Here, "PGX" means that the attribute is part of the Phenopackets standard, while "pgx" labels it as specific to Progenetix.
+[^1]: Here, "PXF" means that the attribute is part of the Phenopackets standard, while "pgx" labels it as specific to Progenetix.
