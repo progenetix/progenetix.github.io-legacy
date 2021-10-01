@@ -36,9 +36,6 @@ With exception of some utility scripts and external dependencies (e.g. [MongoDB]
 
 ### Additional Projects
 
-* [`schemas`](https://github.com/progenetix/schemas)
-  - Progenetix data schemas
-  - represent an accessible/stable version of the schemas used in [`bycon`](https://github.com/progenetix/bycon)
 * [`icdot2uberon`](https://github.com/progenetix/icdot2uberon)
   - mappings between ICD-O 3 topographies and UBERON anatomical sites
 * [`ICDOntologies`](https://github.com/progenetix/ICDOntologies)
