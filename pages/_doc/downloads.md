@@ -1,6 +1,6 @@
 ---
 title: "Data Downloads"
-date: 2021-07-01
+date: 2021-10-01
 layout: default
 author: "@mbaudis"
 permalink: "/doc/downloads.html"
