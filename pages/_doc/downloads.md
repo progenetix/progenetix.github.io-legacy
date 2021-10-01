@@ -65,6 +65,22 @@ more-than-a-few samples; this will start to stream the variants instead of pre-f
   - [progenetix.org/beacon/variants/?filters=icdom-85002](http://progenetix.org/beacon/biosamples/?filters=icdom-85002)
   - [progenetix.org/beacon/variants/?filters=icdom-85002&output=pgxseg](http://progenetix.org/beacon/biosamples/?filters=icdom-85002&output=pgxseg)
 
+
+#### Download tabular data through the API
+
+Especially for biosamples it may make sense just to get the data in a tabular
+format using the `output=datatable` option.
+
+For use cases where one e.g. just needs the identifiers of a given object, e.g.
+to intersect the query results with a previously accessed master table, the
+`output=idtable` format can be used.
+
+##### Examples:
+
+* <http://progenetix.org/beacon/biosamples/?filters=NCIT:C6563&output=datatable>
+* <http://progenetix.org/beacon/biosamples/?filters=NCIT:C3267&output=idtable>
+
+
 #### Custom Progenetix services
 
 The Progenetix API implements a number of ["services"](/doc/services/services.html)
