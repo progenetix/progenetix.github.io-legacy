@@ -1,6 +1,6 @@
 ---
 title: 'How to cite Progenetix?'
-date: 2021-02-02
+date: 2021-10-12
 layout: default
 author: '@mbaudis'
 permalink: /citation.html
@@ -20,7 +20,14 @@ tags:
 
 Recent publications by the Progenetix team can be found on the [baudisgroup website](http://info.baudisgroup.org/categories/publications.html).
 
-*Progenetix*
+*New in October 2021:* There is now a new Progenetix publication listing page which contains links to articles
+that [cite or use Progenetix](https://progenetix.org/publications/progenetixuse/) and
+resources from this "ecosystem." Please [let us know](mailto:contact@progenetix.org)
+if you are aware of other such cases - frequently the publications do not use
+a proper citation format but just refer to "according tho the Progenetix resource"
+or similar in the text.
+
+#### _Progenetix_
 
 For any use of the Progenetix data, e.g. as a reference for aberration frequencies in a certain locus, it is necessary to cite __both__ the website and the original _Bioinformatics_ publication:
 
@@ -43,13 +50,18 @@ In case of citation restrictions, you may just use the Bioinformatics citation, 
 * Baudis, M., & Cleary, M. L. (2001). Progenetix.net: an online repository for molecular cytogenetic aberration data. Bioinformatics, 17(12), 1228-1229.
 
 
-*arrayMap*
+#### _arrayMap_
 
-[arrayMap project](https://github.com/progenetix/progenetix.github.io/edit/master/pages/_doc/progenetix-citation.md) was initiated to build a cancer genomic profile resource where probe-level data are available. Now it has been incorporated as part of Progenetix. For arrayMap data, the same rules apply: Citation of the article and the website:
+Now again being subsumed into the main Progenetix collection, the [arrayMap project](https://github.com/progenetix/progenetix.github.io/edit/master/pages/_doc/progenetix-citation.md) was initiated to build a cancer genomic profile resource where probe-level data are available.
+
+From 2021 on please use the general Progenetic citation instructions as detailed above.
+
+##### Legacy
+
+Previously, for arrayMap data the same rules applied as for Progenetix, i.e. citation of the article and the website:
 
 * Cai, H., Kumar, N., & Baudis, M. 2012. arrayMap: A Reference Resource for Genomic Copy Number Imbalances in Human Malignancies. PLoS One 7(5), e36944.
 * arrayMap: Genomic arrays for copy number profiling in human cancer: _arraymap.org_. Baudis M _et al._ ({{ site.time | date: '%Y' }})
-
 
 
 <div style="float: right;">
