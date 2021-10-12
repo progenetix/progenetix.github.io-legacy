@@ -26,6 +26,8 @@ if you are aware of other such cases - frequently the publications do not use
 a proper citation format but just refer to "according tho the Progenetix resource"
 or similar in the text.
 
+For proper citation please follow [these instructions](https://info.progenetix.org/citation.html).
+
 #### Improved Map
 
 The pop-up in th Publication maps has been updated with a proper short text listing

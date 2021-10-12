@@ -29,6 +29,7 @@ For any use of the Progenetix data, e.g. as a reference for aberration frequenci
 
 Depending on the context (e.g. direct use of recent data), the more recent resource publications could/should be cited, too:
 
+* Qingyao Huang, Paula Carrio-Cordo, Bo Gao, Rahel Paloots, Michael Baudis. *The Progenetix oncogenomic resource in 2021*. _Database_, Volume 2021, 2021, baab043
 * Cai H, Kumar N, Ai N, Gupta S, Rath P, Baudis M. *Progenetix: 12 years of oncogenomic data curation.* _Nucleic Acids Res_ (2014) Jan;42
 
 In case of citation restrictions, you may just use the Bioinformatics citation, and put the website in the text. A proper citation would look e.g. like:
