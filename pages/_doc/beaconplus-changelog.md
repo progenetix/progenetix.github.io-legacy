@@ -1,7 +1,7 @@
 ---
-title:  "BeaconPlus Changes"
+title:  "BeaconPlus and Site Changes"
 layout: default
-date: 2021-04-30
+date: 2021-11-25
 permalink: /beaconplus-changelog.html
 excerpt_separator: <!--more-->
 category:
@@ -13,12 +13,19 @@ tags:
   - Beacon
   - Beacon_v2
   - services
+  - .featured
 ---
 
 ## {{ page.title }}
 
 This page lists changes for the [Beacon+](http://beacon.progenetix.org/ui/)
-implementation of the ["Beacon" genomics API](http://beacon-project.io).
+implementation of the ["Beacon" genomics API](http://beacon-project.io), as well
+as related updates for the [Progenetix](http://progenetix.org) front-end.
+
+#### 2021-11-25: Publication page fix
+
+* The publication details pages did not display content due to the changed Beacon response structure. Fixed.
+
 
 #### 2021-04-30: Closing in on Beacon v2
 
