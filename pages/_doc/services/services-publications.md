@@ -19,7 +19,7 @@ tags:
 ## {{ page.title }}
 
 The `publications` service serves as backend API for the display of genome
-screening publications through the Progenetix [Publications DB](https://progenetix.org/publications/list).
+screening publications through the Progenetix [Publications DB](https://progenetix.org/publications/).
 
 * [Documentation Link](https://github.com/progenetix/bycon/blob/master/services/doc/publications.md)
 * [Source Link](https://github.com/progenetix/bycon/blob/master/services/publications.py)
