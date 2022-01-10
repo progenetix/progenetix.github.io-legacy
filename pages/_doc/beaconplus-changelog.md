@@ -1,7 +1,7 @@
 ---
 title:  "BeaconPlus and Site Changes"
 layout: default
-date: 2021-11-25
+date: 2022-01-10
 permalink: /beaconplus-changelog.html
 excerpt_separator: <!--more-->
 category:
@@ -22,10 +22,21 @@ This page lists changes for the [Beacon+](http://beacon.progenetix.org/ui/)
 implementation of the ["Beacon" genomics API](http://beacon-project.io), as well
 as related updates for the [Progenetix](http://progenetix.org) front-end.
 
+
+#### 2022-01-10: BUG FIX Frequency Maps
+
+Pre-computed Progenetix CNV frequency histograms (e.g. for NCIT codes) are based
+samples from all child terms; e.g. `NCIT:C3262` will display an overview of all
+neoplasias, although no single case has this specific code.
+
+However, there had been a bu when under specific circumstances (code has some
+mapped samples and code has more samples in child terms) only the direct matches
+were used to compute the frequencies although the full number of samples was indicated
+in the plot legend. FIXED.
+
 #### 2021-11-25: Publication page fix
 
 * The publication details pages did not display content due to the changed Beacon response structure. Fixed.
-
 
 #### 2021-04-30: Closing in on Beacon v2
 
