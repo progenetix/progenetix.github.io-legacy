@@ -15,5 +15,6 @@ The Progenetix database and cancer genomic information resource  contains genome
 :maxdepth: 1
 :includehidden:
 
-changelog
+Classifications and Ontologies<classifications-and-ontologies>
+Changelog<changelog>
 ```

@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Classifications and Ontologies &#8212; Progenetix 2022-01-11 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/nature.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Change Log" href="changelog.html" />
+    <link rel="prev" title="Progenetix Cancer Genomics Resource Documentation" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="changelog.html" title="Change Log"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Progenetix Cancer Genomics Resource Documentation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Progenetix 2022-01-11 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Classifications and Ontologies</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="classifications-and-ontologies">
+<h1>Classifications and Ontologies<a class="headerlink" href="#classifications-and-ontologies" title="Permalink to this headline">¶</a></h1>
+<p>The Progenetix resource utilizes standardized diagnostic coding systems, with a
+move towards hierarchical ontologies. As part of the coding process we have
+developed and provide several code mapping resources through repositories, the
+Progenetix website and APIs.</p>
+<section id="diagnoses-phenotypes-and-histoloies">
+<h2>Diagnoses, Phenotypes and Histoloies<a class="headerlink" href="#diagnoses-phenotypes-and-histoloies" title="Permalink to this headline">¶</a></h2>
+<section id="ncit-coding-of-tumor-samples">
+<h3>NCIt coding of tumor samples<a class="headerlink" href="#ncit-coding-of-tumor-samples" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>based on <a class="reference external" href="https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/About_Core.html">NCIt neoplasm core</a></p></li>
+<li><p>first implementation of NCIt concepts mapping in January 2017, then for a subset of arrayMap samples</p></li>
+<li><p>now providing ICD-O 3 &lt;=&gt; NCIt mappings through the <a class="reference external" href="https://github.com/progenetix/ICDOntologies">ICDOntoologies</a> mapping project with a <a class="reference external" href="https://progenetix.org/service-collection/ontologymaps/">front-end an API</a> on the website</p></li>
+</ul>
+<section id="current-ncit-sample-codes">
+<h4>Current NCIt sample codes<a class="headerlink" href="#current-ncit-sample-codes" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://progenetix.org/services/collations?filters=NCIT&amp;amp;method=counts&amp;amp;output=text">https://progenetix.org/services/collations?filters=NCIT&amp;amp;method=counts&amp;amp;output=text</a></p></li>
+</ul>
+</section>
+</section>
+<section id="icd-coding-of-tumor-samples">
+<h3>ICD coding of tumor samples<a class="headerlink" href="#icd-coding-of-tumor-samples" title="Permalink to this headline">¶</a></h3>
+<p>The Progenetix resource primarily used the coding schemas of the <em>International Classification of Diseases in Oncology</em>_ (3rd edition; “ICD-O 3”), to classify all biosamples for which experimental data is available. Users can get a list of ICD-O 3 codes in the Progenetix format <a class="reference external" href="http://info.progenetix.org/doc/services/collations.html">through Progenetix collations</a>.</p>
+<p>The mappings used here for the ICD morphology codings (mapped to ICDMORPHOLOGY and ICDMORPHOLOGYCODE) are derived from the original source file last accessed on 2016-08-18 from <a class="reference external" href="https://www.who.int/standards/classifications/other-classifications/international-classification-of-diseases-for-oncology">the WHO</a>. The primary codes have been updated from the 2011 update document <a class="reference external" href="http://www.who.int/classifications/icd/updates/ICDO3Updates2011.pdf">ICDO3Updates2011.pdf</a>.</p>
+<section id="current-icd-o-sample-codes">
+<h4>Current ICD-O sample codes<a class="headerlink" href="#current-icd-o-sample-codes" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ICD-O Morphologies</p>
+<ul>
+<li><p><a class="reference external" href="https://progenetix.org/services/collations?filters=icdom&amp;amp;method=counts&amp;amp;output=text">https://progenetix.org/services/collations?filters=icdom&amp;amp;method=counts&amp;amp;output=text</a></p></li>
+</ul>
+</li>
+<li><p>ICD-O Topographies</p>
+<ul>
+<li><p><a class="reference external" href="https://progenetix.org/services/collations?filters=icdot&amp;amp;method=counts&amp;amp;output=text">https://progenetix.org/services/collations?filters=icdot&amp;amp;method=counts&amp;amp;output=text</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="uberon-codes">
+<h3>UBERON codes<a class="headerlink" href="#uberon-codes" title="Permalink to this headline">¶</a></h3>
+<p>The organ sites of the original coding have been mapped to UBERON. The mappings
+are detailed in the related <a class="reference external" href="https://github.com/progenetix/icdot2uberon">icdot2uberon</a> project.</p>
+<section id="current-uberon-sample-codes">
+<h4>Current UBERON sample codes<a class="headerlink" href="#current-uberon-sample-codes" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://progenetix.org/services/collations?filters=UBERON&amp;amp;method=counts&amp;amp;output=text">https://progenetix.org/services/collations?filters=UBERON&amp;amp;method=counts&amp;amp;output=text</a></p></li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="https://progenetix.org/img/progenetix-logo-black.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Classifications and Ontologies</a><ul>
+<li><a class="reference internal" href="#diagnoses-phenotypes-and-histoloies">Diagnoses, Phenotypes and Histoloies</a><ul>
+<li><a class="reference internal" href="#ncit-coding-of-tumor-samples">NCIt coding of tumor samples</a><ul>
+<li><a class="reference internal" href="#current-ncit-sample-codes">Current NCIt sample codes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#icd-coding-of-tumor-samples">ICD coding of tumor samples</a><ul>
+<li><a class="reference internal" href="#current-icd-o-sample-codes">Current ICD-O sample codes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#uberon-codes">UBERON codes</a><ul>
+<li><a class="reference internal" href="#current-uberon-sample-codes">Current UBERON sample codes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Progenetix Cancer Genomics Resource Documentation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="changelog.html"
+                        title="next chapter">Change Log</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/classifications-and-ontologies.md.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="changelog.html" title="Change Log"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Progenetix Cancer Genomics Resource Documentation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Progenetix 2022-01-11 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Classifications and Ontologies</a></li> 
+      </ul>
+    </div> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2022, Michael Baudis.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.2.
+    </div>
+
+  <style>
+    body {
+      font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #727272;
+      font-weight: 400
+    }
+
+    /* Sidebar header (and topbar for mobile) */
+    .wy-side-nav-search, .wy-nav-top {
+      background: #999999;
+    }
+
+    /* Sidebar */
+    .wy-nav-side {
+      background: #ff6f48;
+    }
+
+  </style>
+
+
+  </body>
+</html>
