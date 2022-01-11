@@ -3,7 +3,8 @@ version: 1
 sphinx:
   configuration: docs/source/conf.py
 
-formats: all
+formats:
+  - all
 
 python:
   version: "3.8"
