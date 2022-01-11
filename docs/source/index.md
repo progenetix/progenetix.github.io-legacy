@@ -12,9 +12,10 @@ The Progenetix database and cancer genomic information resource  contains genome
 
 
 ```{toctree}
-:maxdepth: 1
+:maxdepth: 2
 :includehidden:
 
 Classifications and Ontologies<classifications-and-ontologies>
+Services<services>
 Changelog<changelog>
 ```
