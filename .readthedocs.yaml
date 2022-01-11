@@ -1,4 +1,4 @@
-version: 1
+version: 2
 
 sphinx:
   configuration: docs/source/conf.py
@@ -7,3 +7,10 @@ python:
   version: "3.8"
   install:
     - requirements: docs/source/requirements.txt
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
+    - method: setuptools
+      path: another/package
+  system_packages: true

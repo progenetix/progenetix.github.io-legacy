@@ -14,8 +14,6 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import myst_parser
-
 # -- Project information -----------------------------------------------------
 
 project = 'Progenetix'
@@ -24,7 +22,6 @@ author = 'Michael Baudis'
 
 # The full version, including alpha/beta/rc tags
 release = '2022-01-11'
-
 
 # -- General configuration ---------------------------------------------------
 
