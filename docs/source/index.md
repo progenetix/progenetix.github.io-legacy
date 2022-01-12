@@ -20,8 +20,9 @@ through the [group page](http://info.baudisgroup.org) of the Baudis group at the
 Publication Collection<publication-collection>
 Classifications and Ontologies<classifications-and-ontologies>
 Services<services>
+Use Case Examples<use-cases>
 Changelog<changelog>
-Progenetix Site<http://progenetix.org>
 BeaconPlus<beaconplus>
+Progenetix Site<http://progenetix.org>
 Baudisgroup<http://info.baudisgroup.org>
 ```

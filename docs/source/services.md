@@ -16,6 +16,26 @@ Standard responses are provided as `Content-Type: application/json`. The wrapper
 format for JSON encoded data follows the standard Beacon response
 format where the main data is usually contained in the `response.results` list.
 
+### Image Formats
+
+The standard format for (plot-)images generated on Progenetix is Scalable Vector Graphics ([SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)). As the name implies, SVG is _scalable_, i.e. images can be scaled up without loosing quality or expanding in storage size. However, some of teh generated images use also embedded rastered components which will deteriorate during scaling - this is e.g. the case for array probe plots.
+
+According to [Wikipedia](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
+
+> All major modern web browsers—including Mozilla Firefox, Internet Explorer, Google Chrome, Opera, Safari, and Microsoft Edge—have SVG rendering support
+
+On most pages where plots are being displayed there is a download option for the images - (please alert us where those are missing). Browsers also have the option to export SVGs themselves e.g. as PDF.
+
+#### The PGX plotting library
+
+Plots on Progenetix are generated using the [PGX package](http://github.com/progenetix/PGX/), a set of Perl libraries for processing and graphical representation of CNV data. The package contains tools to
+
+* read and write e.g. [Progentix segment files](/doc/fileformats.html)
+* generate binned status maps
+* render plots of sample-specific and aggregate CNV data, such as histograms and CNV frequency heatmaps
+
+
+
 ## Services
 
 ### Cancer Genomics Publications `publications`
