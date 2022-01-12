@@ -10,15 +10,16 @@ The Progenetix database and cancer genomic information resource  contains genome
 ```
 
 Additional information - e.g. about contacts or related publications - is available
-through the 
+through the [group page](http://info.baudisgroup.org) of the Baudis group at the University of Zürich.
 
 ```{toctree}
 :maxdepth: 2
 :includehidden:
 
+Publication Collection<publication-collection>
 Classifications and Ontologies<classifications-and-ontologies>
 Services<services>
-Publication Collection<publication-collection>
 Changelog<changelog>
 Progenetix Site<http://progenetix.org>
+Baudisgroup<http://info.baudisgroup.org>
 ```

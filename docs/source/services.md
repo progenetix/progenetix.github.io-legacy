@@ -128,7 +128,7 @@ Our resources use an internal representation of ICD-O 3 codes since no official 
 * <https://progenetix.org/services/ontologymaps/?filters=icdom-85003>
 * <https://progenetix.org/services/ontologymaps/?filters=NCIT>
 * <https://progenetix.org/services/ontologymaps/?filters=icdom-85003,icdot-C50.9>
-* <https://progenetix.org/services/ontologymaps/?filters=icdom-85,icdot-C50&filterPrecision=start>
+* [progenetix.org/services/ontologymaps/?filters=icdom-85,icdot-C50&filterPrecision=start](https://progenetix.org/services/ontologymaps/?filters=icdom-85,icdot-C50&filterPrecision=start)
   - As in the example above, but by stemmming the query parameters and providing the `filterPrecision=start` pragma, the response will now be a list of matched data objects (inputs and equivalents)
 
 ##### UBERON and ICD-O 3 Topography

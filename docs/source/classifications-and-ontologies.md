@@ -10,12 +10,13 @@ Progenetix website and APIs.
 ### NCIt coding of tumor samples
 
 * based on [NCIt neoplasm core](https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/About_Core.html)
+but now extended
 * first implementation of NCIt concepts mapping in January 2017, then for a subset of arrayMap samples
 * now providing ICD-O 3 <=> NCIt mappings through the [ICDOntoologies](https://github.com/progenetix/ICDOntologies) mapping project with a [front-end an API](https://progenetix.org/service-collection/ontologymaps/) on the website
 
 #### Current NCIt sample codes
 
-* <https://progenetix.org/services/collations?filters=NCIT&method=counts&output=text>
+* [progenetix.org/services/collations?filters=NCIT&output=text](https://progenetix.org/services/collations?filters=NCIT&output=text)
 
 ### ICD coding of tumor samples
 
@@ -26,9 +27,9 @@ The mappings used here for the ICD morphology codings (mapped to ICDMORPHOLOGY a
 #### Current ICD-O sample codes
 
 * ICD-O Morphologies
-  - <https://progenetix.org/services/collations?filters=icdom&method=counts&output=text>
+  - [progenetix.org/services/collations?filters=icdom&output=text](https://progenetix.org/services/collations/?filters=icdom&output=text)
 * ICD-O Topographies
-  - <https://progenetix.org/services/collations?filters=icdot&method=counts&output=text>
+  - [progenetix.org/services/collations/?filters=icdot&method=ids&output=text](https://progenetix.org/services/collations/?filters=icdot&method=ids&output=text)
 
 ### UBERON codes
 
