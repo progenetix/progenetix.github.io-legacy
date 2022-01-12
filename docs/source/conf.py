@@ -11,8 +11,8 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
 on_rtd = os.environ.get('READTHEDOCS') == 'True'
 
@@ -23,7 +23,7 @@ copyright = '2022, Michael Baudis'
 author = 'Michael Baudis'
 
 # The full version, including alpha/beta/rc tags
-release = '2022-01-11'
+release = '2022-01-12'
 
 # -- General configuration ---------------------------------------------------
 
@@ -61,6 +61,8 @@ html_theme_options = {
 }
 
 myst_title_to_header = True
+
+analytics_id = "UA-572981-2",
 
 html_logo = 'https://progenetix.org/img/progenetix-logo-black.png'
 
