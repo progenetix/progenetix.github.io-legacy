@@ -21,6 +21,7 @@ tags:
 The `ids` service forwards compatible, prefixed ids (see [`config/ids.yaml`](https://github.com/progenetix/bycon/blob/master/services/config/ids.yaml)) to specific
 website endpoints. There is no check if the id exists; this is left to the web
 page handling itself.
+
 Stacking with the "pgx:" prefix is allowed.
 
 * <https://progenetix.org/services/ids/pgxbs-kftva5zv>

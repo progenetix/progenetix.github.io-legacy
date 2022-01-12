@@ -52,6 +52,14 @@ else:
     html_theme = 'nature'
 # html_theme = 'alabaster'
 
+html_theme_options = {
+    'analytics_id': "UA-572981-2",
+    "logo_only": True,
+	"display_version": False,
+	"style_external_links": True,
+	"collapse_navigation": False
+}
+
 html_logo = 'https://progenetix.org/img/progenetix-logo-black.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,

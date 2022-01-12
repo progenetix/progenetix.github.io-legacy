@@ -7,4 +7,4 @@ python:
   version: "3.8"
   install:
     - requirements: docs/source/requirements.txt
-  system_packages: true
+  system_packages: True
