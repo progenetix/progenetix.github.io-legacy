@@ -14,22 +14,40 @@ is a shorthand for `progenetix.org/cgi-bin/bycon/services/__service-name__.py?pa
 
 Standard responses are provided as `Content-Type: application/json`. The wrapper
 format for JSON encoded data follows the standard Beacon response
-format where the main data is contained in the `response` object.
+format where the main data is usually contained in the `response.results` list.
 
 ## Services
 
-### Cancer Genomics Publications
+### Cancer Genomics Publications (`publications`)
 
 The `publications` service serves as backend API for the display of genome
 screening publications through the Progenetix [Publications DB](https://progenetix.org/publications/).
 
 It provides articles describing whole genome screening (WGS, WES, aCGH, cCGH) experiments in cancer, including some information about e.g. the numbers of samples analysed with a given technology and if sample profiles are available in Progenetix.
 
-Please contact us to alert us about additional articles you are aware of. The inclusion criteria are described in the [documentation](/publication-collection.md).
+Please contact us to alert us about additional articles you are aware of. The inclusion criteria are described in the [documentation](/publication-collection).
 
 Since 2021 you can now directly submit suggestions for matching publications to the [oncopubs repository on Github](https://github.com/progenetix/oncopubs).
 
-### Cytoband Mapping
+### Cytoband Mapping (`cytomapper`)
+
+...
+
+### Gene Coordinates (`genespans`)
+
+* genomic mappings of gene coordinats
+* initially limited to _GRCh38_ and overall CDS extension
+* responds to (start-anchored) text input of HUGO gene symbols using the `geneSymbol`
+parameter or path value
+* returns a list of matching gene objects (see below under __Response Formats__)
+* the `filterPrecision=exact` query parameter restricts the response to a single
+exact gene symbol match
+
+#### Examples
+
+* <https://progenetix.org/services/genespans/?geneSymbol=TP53&filterPrecision=exact>
+* <https://progenetix.org/services/genespans/CDKN2>
+
 
 ### Public and Local Identifiers
 

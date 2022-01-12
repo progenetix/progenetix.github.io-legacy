@@ -27,10 +27,8 @@ tags:
 parameter
 * returns a list of matching gene objects (see below under __Response Formats__)
 
-<!--podmd-->
-
 ##### Examples
 
-* <https://progenetix.org/services/genespans?geneId=CDKN2>
+* <https://progenetix.org/services/genespans/?geneSymbol=TP53&filterPrecision=exact>
+* <https://progenetix.org/services/genespans/CDKN2>
 
-<!--/podmd-->

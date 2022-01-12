@@ -18,7 +18,7 @@ on_rtd = os.environ.get('READTHEDOCS') == 'True'
 
 # -- Project information -----------------------------------------------------
 
-project = 'Progenetix'
+project = 'Progenetix Documentation'
 copyright = '2022, Michael Baudis'
 author = 'Michael Baudis'
 
