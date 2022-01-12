@@ -22,6 +22,6 @@ Classifications and Ontologies<classifications-and-ontologies>
 Services<services>
 Changelog<changelog>
 Progenetix Site<http://progenetix.org>
-Beacon<span style="color: red; font-weight: 800;">+</span><beaconplus>
+BeaconPlus<beaconplus>
 Baudisgroup<http://info.baudisgroup.org>
 ```
