@@ -28,11 +28,11 @@ classification systems, notably NCIt. The mappings are represented in the [ICDOn
 Our resources use an internal representation of ICD-O 3 codes since no official CURIES are provided by the IARC. The syntax is:
 
 * ICD-O 3 morphologies
-  - "icdom-"`s/\///`; i.e. number only code
-  - "8500/3" => "icdom-85003"
+  - "pgx:icdom-"`s/\///`; i.e. number only code
+  - "8500/3" => `pgx:icdom-85003`
 * ICD-O 3 Topographies
   - "icdot-" + code
-  - "C53.9" => "icdot-C53.9"  
+  - "C53.9" => `pgx:icdot-C53.9`
 
 #### Parameters
 
@@ -59,8 +59,8 @@ Our resources use an internal representation of ICD-O 3 codes since no official 
 
 ##### UBERON and ICD-O 3 Topography
 
-* <https://progenetix.org/services/ontologymaps/?filters=UBERON>
-  - all mappings
+* <https://progenetix.org/services/ontologymaps/?filters=UBERON:0,UBERON:1&filterPrecision=start>
+  - all mappings where the code starts with either 0 or 1
 * <https://progenetix.org/services/ontologymaps/?filters=UBERON,icdot-C0&filterPrecision=start>
   - all `C0...` ICD-O T matches
   - limited to `UBERON` mappings since the prefix was given, too (otherwise all the NCIT mappings would also be listed for these ICD-O T code matches)
@@ -69,5 +69,3 @@ Our resources use an internal representation of ICD-O 3 codes since no official 
 
 * [Web Interface for ICD & NCIT](https://progenetix.org/service-collection/ontologymaps)
 * [Interface for ICD & UBERON](https://progenetix.org/service-collection/uberonmaps)
-* [Source Link](https://github.com/progenetix/bycon/blob/master/services/ontologymaps.py)
-* [Project Source](https://github.com/progenetix/bycon)
