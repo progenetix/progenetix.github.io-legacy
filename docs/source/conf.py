@@ -60,6 +60,8 @@ html_theme_options = {
 	"collapse_navigation": False
 }
 
+myst_title_to_header = True
+
 html_logo = 'https://progenetix.org/img/progenetix-logo-black.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
