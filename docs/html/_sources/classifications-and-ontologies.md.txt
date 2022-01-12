@@ -5,7 +5,7 @@ move towards hierarchical ontologies. As part of the coding process we have
 developed and provide several code mapping resources through repositories, the
 Progenetix website and APIs.
 
-## Diagnoses, Phenotypes and Histoloies
+## Diagnoses, Phenotypes and Histologies
 
 ### NCIt coding of tumor samples
 

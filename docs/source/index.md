@@ -9,6 +9,9 @@ The Progenetix database and cancer genomic information resource  contains genome
    Qingyao Huang, Paula Carrio Cordo, Bo Gao, Rahel Paloots & Michael Baudis (2021): **The Progenetix oncogenomic resource in 2021.** _DATABASE_ (Oxford). 2021 Jul 17; 2021:baab043.
 ```
 
+Additional information - e.g. about contacts or related publications - is available
+through the 
+
 ```{toctree}
 :maxdepth: 2
 :includehidden:
@@ -17,4 +20,5 @@ Classifications and Ontologies<classifications-and-ontologies>
 Services<services>
 Publication Collection<publication-collection>
 Changelog<changelog>
+Progenetix Site<http://progenetix.org>
 ```
