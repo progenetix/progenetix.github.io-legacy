@@ -18,7 +18,7 @@ format where the main data is usually contained in the `response.results` list.
 
 ## Services
 
-### Cancer Genomics Publications (`publications`)
+### Cancer Genomics Publications `publications`
 
 The `publications` service serves as backend API for the display of genome
 screening publications through the Progenetix [Publications DB](https://progenetix.org/publications/).
@@ -29,11 +29,53 @@ Please contact us to alert us about additional articles you are aware of. The in
 
 Since 2021 you can now directly submit suggestions for matching publications to the [oncopubs repository on Github](https://github.com/progenetix/oncopubs).
 
-### Cytoband Mapping (`cytomapper`)
+--------------------------------------------------------------------------------
 
-...
+### Cytoband Mapping `cytomapper`
 
-### Gene Coordinates (`genespans`)
+This services parses either:
+
+* a properly formatted cytoband annotation (`assemblyId`, `cytoBands`)
+  - "8", "9p11q21", "8q", "1p12qter"
+* a concatenated `chroBases` parameter
+  - `7:23028447-45000000`
+  - `X:99202660`
+
+<!--
+While the return object is JSON by default, specifying `text=1`, together with the `cytoBands` or
+`chroBases` parameter will return the text version of the opposite.
+-->
+
+There is a fallback to *GRCh38* if no assembly is being provided.
+
+The `cytobands` and `chrobases` parameters can be used for running the script on the command line
+(see examples below). Please be aware of the "chrobases" (command line) versus "chroBases" (cgi) use.
+
+#### Examples
+
+* retrieve coordinates for some bands on chromosome 8
+  - <https://progenetix.org/services/cytomapper?assemblyId=NCBI36.1&cytoBands=8q24.1>
+* as above, just as text:
+  - <https://progenetix.org/services/cytomapper?assemblyId=NCBI.1&cytoBands=8q&text=1>
+  - *cytomapper shortcut*: <https://progenetix.org/services/cytomapper/?assemblyId=NCBI36.1&cytoBands=8q&text=1>
+* get the cytobands whith which a base range on chromosome 17 overlaps, in short and long form
+  - <https://progenetix.org/services/cytomapper?assemblyId=GRCh37&chroBases=17:800000-24326000>
+* using `curl` to get the text format mapping of a cytoband range, using the API `services` shortcut:
+  - `curl -k https://progenetix.org/services/cytomapper?cytoBands\=8q21q24.1&assemblyId\=hg18&text\=1`
+* command line version of the above
+  - `bin/cytomapper.py --chrobases 17:800000-24326000 -g NCBI36`
+  - `bin/cytomapper.py -b 17:800000-24326000`
+  - `bin/cytomapper.py --cytobands 9p11q21 -g GRCh38`
+  - `bin/cytomapper.py -c Xpterq24`
+
+#### Response
+
+As in other **bycon** `services`, API responses are in JSON format with the main
+content being contained in the `response.results` field.
+
+--------------------------------------------------------------------------------
+
+### Gene Coordinates `genespans`
 
 * genomic mappings of gene coordinats
 * initially limited to _GRCh38_ and overall CDS extension
@@ -47,6 +89,8 @@ exact gene symbol match
 
 * <https://progenetix.org/services/genespans/?geneSymbol=TP53&filterPrecision=exact>
 * <https://progenetix.org/services/genespans/CDKN2>
+
+--------------------------------------------------------------------------------
 
 ### Ontology Cross-Mapping (`ontologymaps`)
 
@@ -100,8 +144,9 @@ Our resources use an internal representation of ICD-O 3 codes since no official 
 * [Web Interface for ICD & NCIT](https://progenetix.org/service-collection/ontologymaps)
 * [Interface for ICD & UBERON](https://progenetix.org/service-collection/uberonmaps)
 
+--------------------------------------------------------------------------------
 
-### Public and Local Identifiers
+### Public and Local Identifiers `ids`
 
 The `ids` service forwards compatible, prefixed ids (see [`config/ids.yaml`](https://github.com/progenetix/bycon/blob/master/services/config/ids.yaml)) to specific
 website endpoints. There is no check if the id exists; this is left to the web
@@ -116,8 +161,4 @@ The `pgx` prefix has been registered with [identifiers.org](http://identifiers.o
 and the service can also be used to access identifiers at Progenetix.
 
 * <https://identifiers.org/pgx:pgxbs-kftva5zv>
-
-
-
-### Ontology Code Mapping
 

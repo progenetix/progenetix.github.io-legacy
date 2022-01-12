@@ -21,15 +21,13 @@ tags:
 
 ## _cytomapper_ Service
 
-This script parses either:
+This services parses either:
 
 * a properly formatted cytoband annotation (`assemblyId`, `cytoBands`)
   - "8", "9p11q21", "8q", "1p12qter"
 * a concatenated `chroBases` parameter
   - `7:23028447-45000000`
   - `X:99202660`
-
-  <!--more-->
 
 While the return object is JSON by default, specifying `text=1`, together with the `cytoBands` or
 `chroBases` parameter will return the text version of the opposite.
