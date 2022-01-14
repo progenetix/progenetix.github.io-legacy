@@ -74,12 +74,12 @@ The `cytobands` and `chrobases` parameters can be used for running the script on
 #### Examples
 
 * retrieve coordinates for some bands on chromosome 8
-  - <https://progenetix.org/services/cytomapper?assemblyId=NCBI36.1&cytoBands=8q24.1>
+  - [progenetix.org/services/cytomapper?assemblyId=NCBI36.1&cytoBands=8q24.1](https://progenetix.org/services/cytomapper?assemblyId=NCBI36.1&cytoBands=8q24.1)
 * as above, just as text:
-  - <https://progenetix.org/services/cytomapper?assemblyId=NCBI.1&cytoBands=8q&text=1>
-  - *cytomapper shortcut*: <https://progenetix.org/services/cytomapper/?assemblyId=NCBI36.1&cytoBands=8q&text=1>
+  - [progenetix.org/services/cytomapper?assemblyId=NCBI.1&cytoBands=8q&output=text](https://progenetix.org/services/cytomapper?assemblyId=NCBI.1&cytoBands=8q&output=text)
+  - *cytomapper shortcut*: [progenetix.org/services/cytomapper/?assemblyId=NCBI36.1&cytoBands=8q&text=1](https://progenetix.org/services/cytomapper/?assemblyId=NCBI36.1&cytoBands=8q&output=text)
 * get the cytobands whith which a base range on chromosome 17 overlaps, in short and long form
-  - <https://progenetix.org/services/cytomapper?assemblyId=GRCh37&chroBases=17:800000-24326000>
+  - [progenetix.org/services/cytomapper?assemblyId=GRCh37&chroBases=17:800000-24326000](https://progenetix.org/services/cytomapper?assemblyId=GRCh37&chroBases=17:800000-24326000)
 * using `curl` to get the text format mapping of a cytoband range, using the API `services` shortcut:
   - `curl -k https://progenetix.org/services/cytomapper?cytoBands\=8q21q24.1&assemblyId\=hg18&text\=1`
 * command line version of the above
@@ -107,8 +107,8 @@ exact gene symbol match
 
 #### Examples
 
-* <https://progenetix.org/services/genespans/?geneSymbol=TP53&filterPrecision=exact>
-* <https://progenetix.org/services/genespans/CDKN2>
+* [progenetix.org/services/genespans/?geneSymbol=TP53&filterPrecision=exact](https://progenetix.org/services/genespans/?geneSymbol=TP53&filterPrecision=exact)
+* [progenetix.org/services/genespans/CDKN2A](https://progenetix.org/services/genespans/CDKN2A)
 
 --------------------------------------------------------------------------------
 
@@ -145,17 +145,17 @@ Our resources use an internal representation of ICD-O 3 codes since no official 
 
 ##### NCIt and ICD-O 3
 
-* <https://progenetix.org/services/ontologymaps/?filters=icdom-85003>
-* <https://progenetix.org/services/ontologymaps/?filters=NCIT>
-* <https://progenetix.org/services/ontologymaps/?filters=icdom-85003,icdot-C50.9>
+* [progenetix.org/services/ontologymaps/?filters=pgx:icdom-85003](https://progenetix.org/services/ontologymaps/?filters=pgx:icdom-85003)
+* [https://progenetix.org/services/ontologymaps/?filters=NCIT](https://progenetix.org/services/ontologymaps/?filters=NCIT)
+* [progenetix.org/services/ontologymaps/?filters=pgx:icdom-85003,pgx:icdot-C50.9](https://progenetix.org/services/ontologymaps/?filters=pgx:icdom-85003,pgx:icdot-C50.9)
 * [progenetix.org/services/ontologymaps/?filters=icdom-85,icdot-C50&filterPrecision=start](https://progenetix.org/services/ontologymaps/?filters=icdom-85,icdot-C50&filterPrecision=start)
   - As in the example above, but by stemmming the query parameters and providing the `filterPrecision=start` pragma, the response will now be a list of matched data objects (inputs and equivalents)
 
 ##### UBERON and ICD-O 3 Topography
 
-* <https://progenetix.org/services/ontologymaps/?filters=UBERON:0,UBERON:1&filterPrecision=start>
-  - all mappings where the code starts with either 0 or 1
-* <https://progenetix.org/services/ontologymaps/?filters=UBERON,icdot-C0&filterPrecision=start>
+* [progenetix.org/services/ontologymaps/?filters=UBERON&filterPrecision=start](https://progenetix.org/services/ontologymaps/?filters=UBERON&filterPrecision=start)
+  - all mappings
+* [progenetix.org/services/ontologymaps/?filters=UBERON,icdot-C0&filterPrecision=start](https://progenetix.org/services/ontologymaps/?filters=UBERON,icdot-C0&filterPrecision=start)
   - all `C0...` ICD-O T matches
   - limited to `UBERON` mappings since the prefix was given, too (otherwise all the NCIT mappings would also be listed for these ICD-O T code matches)
 
@@ -176,6 +176,7 @@ page handling itself.
 * <https://progenetix.org/services/ids/PMID:28966033>
 * <https://progenetix.org/services/ids/NCIT:C3262>
 * <https://progenetix.org/services/ids/cellosaurus:CVCL_0022>
+* <https://progenetix.org/services/ids/pgx:icdom-81703>
 
 The `pgx` prefix has been registered with [identifiers.org](http://identifiers.org)
 and the service can also be used to access identifiers at Progenetix.
