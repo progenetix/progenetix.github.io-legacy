@@ -56,7 +56,7 @@ All cancer codes for a given classification system can be retrieved though:
 * ICD-O Morphologies
   - <https://progenetix.org/services/collations?filters=icdom&method=counts&output=text>
   - please be aware that we have to use transformed ICD-O codes; e.g.
-  "ICD-O 8500/3" is represented as `icdom-85003` (`s/^(\d{4})\/(\d)$/icdom-$1$2/`)
+  "ICD-O 8500/3" is represented as `pgx:icdom-85003` (`s/^(\d{4})\/(\d)$/pgx:icdom-$1$2/`)
 * ICD-O Topographies
   - <https://progenetix.org/services/collations?filters=icdot&method=counts&output=text>
 
@@ -80,7 +80,7 @@ added (single) collation code.
 
 ##### Examples
 
-* <https://progenetix.org/services/collationPlots/?id=icdom-85003>
+* <https://progenetix.org/services/collationPlots/?id=pgx:icdom-85003>
 * <https://progenetix.org/services/collationPlots/?id=PMID:22824167>
 
 #### Additional plot parameters
