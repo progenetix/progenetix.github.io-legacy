@@ -64,6 +64,7 @@ General:
   about: About Progenetix
   usecases: Use Case Examples
   documentation: Documentation
+  'http://docs.progenetix.org': NEW Documentation
   news: News
   'http://progenetix.org': Progenetix Data
   'http://progenetix.org/subsets/biosubsets#is_sub': Cancer CNV Profiles
