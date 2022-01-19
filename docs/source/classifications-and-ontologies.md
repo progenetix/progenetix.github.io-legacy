@@ -44,7 +44,7 @@ are detailed in the related [icdot2uberon](https://github.com/progenetix/icdot2u
 
 ## Genomic Variations (CNV Ontology)
 
-```{image} img/form-structural-variant-type-selector.png
+```{image} /img/form-structural-variant-type-selector.png
 :alt: Variant type selector
 :width: 201px
 :float: right
