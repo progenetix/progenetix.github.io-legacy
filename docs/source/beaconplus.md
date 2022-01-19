@@ -1,6 +1,6 @@
 # Beacon - Discovery Services for Genomic Data
 
-<p><img align="right" style="float: right; max-width: 25px; margin-bottom: -40px;" src="http://info.progenetix.org/assets/img/logo_beacon.png" />The Beacon protocol defines an open standard for genomics data discovery,
+<p><img align="right" style="float: right; max-width: 25px; margin-top: -20px;" src="http://info.progenetix.org/assets/img/logo_beacon.png" />The Beacon protocol defines an open standard for genomics data discovery,
 developed by members of the Global Alliance for Genomics & Health. Since 2016,
 the Beacon protocols is being developed through the
 <a href="https://beacon-project.io">ELIXIR Beacon project</a> as a GA4GH driver project.</p>
@@ -43,6 +43,31 @@ In the Progenetix backend we mirror the GA4GH data model in the storage system, 
 * callsets (analyses)
 * biosamples
 * individuals
+
+collections of MongoDB databases. These collections are addressed by scoped queries.
+
+### `filters` Filtersn / Filtering Terms
+
+Filters represent a way to allow the resource provider to direct "self-scoped" query values to the corresponding attributes in their backend resource. In the Progenetix implementation, a lookup table followed by scope assignment is used to map prefixed filter values to the correct  attributes and collections.
+
+
+In Beacon v2, the new `FilteringTerms` schema adds options to specify different types
+of filters (`OntologyFilter`, `AlphanumericFilter`, `CustomFilter`) which can
+contain a number of parameters to define e.g. scope or matching behaviour. These
+more complex terms are only available through `PUT` requests.
+
+##### Example
+
+```
+"filters": [
+    {
+        "id": "NCIT:C4536",
+        "scope": "biosamples",
+        "includeDescendantTerms": false
+    }
+],
+```
+
 
 --------------------------------------------------------------------------------
 
