@@ -39,3 +39,62 @@ are detailed in the related [icdot2uberon](https://github.com/progenetix/icdot2u
 #### Current UBERON sample codes
 
 * <https://progenetix.org/services/collations?filters=UBERON&method=counts&output=text>
+
+--------------------------------------------------------------------------------
+
+## Genomic Variations (CNV Ontology)
+
+![](/img/form-structural-variant-type-selector.png){: style="float: right; width: 201px; margin-top: -15px;"}The Progenetix repository contains predominantly copy number variants. While we
+had limited CNV type annotations to the "minimum information content" - i.e. using
+`DUP` and `DEL` categories for indicating relative genomic copy number gains or losses,
+respectively, from 2022 Progenetix will move to a richer CNV classification in line
+with "common use practices". As part of the [ELIXIR h-CNV community](http://cnvar.org) and contributors
+to the GA4GH [Beacon project](http://genomebeacons.org) and [Variant Representation Specification (VRS)](http://vrs.org)
+we have co-developed a "CNV assessment ontology" which in January 2022 has been
+accepted into the [Experimental Factor Ontology (EFO)](https://www.ebi.ac.uk/ols/ontologies/efo) and is under discussion
+at [Sequence Ontology (SO)](https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/568) and for use in VRS.
+
+In January 2022 we switched the internal representation of CNV states to EFO codes
+and implemented the respective search functionality in the `bycon` package. Future
+data updates will gradually add the more granular classes such as `EFO:0030073`
+where they apply.
+
+```
+id: EFO:0030063
+label: copy number assessment
+  |
+  |-id: EFO:0030064
+  | label: regional base ploidy
+  |   |
+  |   |-id: EFO:0030065
+  |     label: copy-neutral loss of heterozygosity
+  |
+  |-id: EFO:0030066
+    label: relative copy number variation
+      |
+      |-id: EFO:0030067
+      | label: copy number loss
+      |   |
+      |   |-id: EFO:0030068
+      |   | label: low-level copy number loss
+      |   |
+      |   |-id: EFO:0030069
+      |     label: complete genomic deletion
+      |
+      |-id: EFO:0030070
+        label: copy number gain
+          |
+          |-id: EFO:0030071
+          | label: low-level copy number gain
+          |
+          |-id: EFO:0030072
+             label: high-level copy number gain
+             note: commonly but not consistently used for >=5 copies on a bi-allelic genome region
+              |
+              |-id: EFO:0030073
+                 label: focal genome amplification
+                 note: >-
+                   commonly used for localized multi-copy genome amplification events where the
+                   region does not extend >3Mb (varying 1-5Mb) and may exist in a large number of
+                   copies
+```
