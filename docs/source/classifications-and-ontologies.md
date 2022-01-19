@@ -51,8 +51,9 @@ respectively, from 2022 Progenetix will move to a richer CNV classification in l
 with "common use practices". As part of the [ELIXIR h-CNV community](http://cnvar.org) and contributors
 to the GA4GH [Beacon project](http://genomebeacons.org) and [Variant Representation Specification (VRS)](http://vrs.org)
 we have co-developed a "CNV assessment ontology" which in January 2022 has been
-accepted into the [Experimental Factor Ontology (EFO)](https://www.ebi.ac.uk/ols/ontologies/efo) and is under discussion
-at [Sequence Ontology (SO)](https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/568) and for use in VRS.
+accepted into the [Experimental Factor Ontology (EFO)](https://www.ebi.ac.uk/ols/ontologies/efo)
+and is under discussion at [Sequence Ontology (SO)](https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/568)
+and for use in VRS.
 
 In January 2022 we switched the internal representation of CNV states to EFO codes
 and implemented the respective search functionality in the `bycon` package. Future
