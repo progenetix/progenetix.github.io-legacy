@@ -60,6 +60,8 @@ html_theme_options = {
 }
 
 myst_title_to_header = True
+myst_heading_anchors = 2
+myst_enable_extensions = ["deflist", "tasklist"]
 
 analytics_id = "UA-572981-2",
 

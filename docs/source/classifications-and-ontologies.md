@@ -44,7 +44,13 @@ are detailed in the related [icdot2uberon](https://github.com/progenetix/icdot2u
 
 ## Genomic Variations (CNV Ontology)
 
-<img src="/en/latest/_static/img/form-structural-variant-type-selector.png" style="float: right; width: 201px; margin-top: -15px;"/>The Progenetix repository contains predominantly copy number variants. While we
+```{image} img/form-structural-variant-type-selector.png
+:alt: Variant type selector
+:width: 201px
+:float: right
+:margin-top: -15px
+```
+The Progenetix repository contains predominantly copy number variants. While we
 had limited CNV type annotations to the "minimum information content" - i.e. using
 `DUP` and `DEL` categories for indicating relative genomic copy number gains or losses,
 respectively, from 2022 Progenetix will move to a richer CNV classification in line
