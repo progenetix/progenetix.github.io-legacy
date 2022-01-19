@@ -6,7 +6,7 @@ as related updates for the [Progenetix](http://progenetix.org) front-end.
 
 ## 2022-01-10: Term-specific queries
 
-![includeDescendantTerms selector](http://info.progenetix.org/assets/img/2022-01-17-includeDescendantTerms-ui.png){: style="float: right; width: 222px; margin-top: -15px;"}]So far (and still as standard), any
+<img src="http://info.progenetix.org/assets/img/2022-01-17-includeDescendantTerms-ui.png" style="float: right; width: 222px; margin-top: -15px;" alt="includeDescendantTerms selector" />So far (and still as standard), any
 selected filter will also include matches on its child terms; i.e. "NCIT:C3052 -
 Digestive System Neoplasm" will include results from gastric, esophagus, colon
 ... cancer. Here we introduce a selector for the search panel to make use of the Beacon v2
