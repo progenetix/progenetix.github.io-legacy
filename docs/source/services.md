@@ -20,9 +20,9 @@ format where the main data is usually contained in the `response.results` list.
 
 The standard format for (plot-)images generated on Progenetix is Scalable Vector Graphics ([SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)). As the name implies, SVG is _scalable_, i.e. images can be scaled up without loosing quality or expanding in storage size. However, some of teh generated images use also embedded rastered components which will deteriorate during scaling - this is e.g. the case for array probe plots.
 
-According to [Wikipedia](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
-
-> All major modern web browsers—including Mozilla Firefox, Internet Explorer, Google Chrome, Opera, Safari, and Microsoft Edge—have SVG rendering support
+```{admonition} According to [Wikipedia](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
+  All major modern web browsers—including Mozilla Firefox, Internet Explorer, Google Chrome, Opera, Safari, and Microsoft Edge—have SVG rendering support.
+```
 
 On most pages where plots are being displayed there is a download option for the images - (please alert us where those are missing). Browsers also have the option to export SVGs themselves e.g. as PDF.
 
