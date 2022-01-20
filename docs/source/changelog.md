@@ -4,7 +4,7 @@ This page lists changes for the [Beacon+](http://beacon.progenetix.org/ui/)
 implementation of the ["Beacon" genomics API](http://beacon-project.io), as well
 as related updates for the [Progenetix](http://progenetix.org) front-end.
 
-## 2022-01-10: Term-specific queries
+## 2022-01-17: Term-specific queries
 
 <img src="http://info.progenetix.org/assets/img/2022-01-17-includeDescendantTerms-ui.png" style="float: right; width: 222px; margin-top: -15px;" alt="includeDescendantTerms selector" />So far (and still as standard), any
 selected filter will also include matches on its child terms; i.e. "NCIT:C3052 -
@@ -15,6 +15,10 @@ wants to query for the term itself and exclude any child terms from the matching
 
 Please be aware that this can only be applied globally and will affect all filtering
 terms used in a query.
+
+## 2022-01-17: Introducing `variant_state` classes for CNVs
+
+More information can be found in the [description of ontology use for CNVs](/en/latest/classifications-and-ontologies.html#genomic-variations-cnv-ontology).
 
 ## 2022-01-10: BUG FIX Frequency Maps
 

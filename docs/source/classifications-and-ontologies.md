@@ -38,7 +38,7 @@ are detailed in the related [icdot2uberon](https://github.com/progenetix/icdot2u
 
 #### Current UBERON sample codes
 
-* <https://progenetix.org/services/collations?filters=UBERON&method=counts&output=text>
+* [progenetix.org/services/collations?filters=UBERON&method=counts&output=text](https://progenetix.org/services/collations?filters=UBERON&method=counts&output=text)
 
 --------------------------------------------------------------------------------
 
