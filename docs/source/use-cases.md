@@ -119,7 +119,7 @@ syntax. Please be aware of the `-` prefix.
 ## Download Sample Data
 
 The sample annotations for any type of query - particularly but not limited to
-single identifier values - can be downloaded in either [Beacon v2 JSON](/beaconplus.html#beacon-api)
+single identifier values - can be downloaded in either [Beacon v2 JSON](beaconplus.md#beacon-api)
 or in a tab-delimited text format (`&output=table`).
 
 ##### Examples
