@@ -53,18 +53,6 @@ We've changed the Beacon backend to the `bycon` code base. The new project's
 codebase is accessible through the [`bycon`](http://github.com/progenetix/bycon/)
 project. Contributions welcome!
 
-~~## 2019-09-30: Using the `BeaconAlleleResponses` parameter~~
-
-So far the Beacon+ implementation did not make use of the `BeaconAlleleResponses`
-parameter though it is required by the protocol, but instad always interpreted
-requests as with the `ALL` parameter.
-
-### Changes
-
-* UI offers selector for `BeaconAlleleResponses` options
-* UI now allows selection of multiple datasets
-* API follows Beacon protocol in `BeaconAlleleResponses` interpretation
-
 ### Example
 
-<https://beacon.progenetix.org/cgi/bycon/beaconServer/variants.py?referenceBases=G&alternateBases=A&datasetIds=progenetix&assemblyId=GRCh38&referenceName=17&filterLogic=AND&start=7577120&filters=pgxcohort-DIPG>
+* [progenetix.org/beacon/variants/?referenceBases=G&alternateBases=A&assemblyId=GRCh38&referenceName=17&start=7577120&filters=pgxcohort-DIPG](https://progenetix.org/beacon/variants/?referenceBases=G&alternateBases=A&assemblyId=GRCh38&referenceName=17&start=7577120&filters=pgxcohort-DIPG)

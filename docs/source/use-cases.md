@@ -74,14 +74,14 @@ For any of those codes one can create a `.pgxseg` file downloader link for the
 ### Example Procedure - Download or embed CNV frequency plot
 
 For the generation of CNV frequency plots, the same procedure as above for
-identifying existing frequency maps can be applied. CNV hsitograms in [SVG format](/doc/imageformats.html)
+identifying existing frequency maps can be applied. CNV hsitograms in [SVG format](/services.html#image-formats)
 can be generated for download or embedding through a canonical service URL with
 added (single) collation code.
 
 ##### Examples
 
-* <https://progenetix.org/services/collationPlots/?id=pgx:icdom-85003>
-* <https://progenetix.org/services/collationPlots/?id=PMID:22824167>
+* [progenetix.org/services/collationPlots/?id=pgx:icdom-85003](https://progenetix.org/services/collationPlots/?id=pgx:icdom-85003)
+* [progenetix.org/services/collationPlots/?id=PMID:22824167](https://progenetix.org/services/collationPlots/?id=PMID:22824167)
 
 #### Additional plot parameters
 
@@ -93,10 +93,10 @@ syntax. Please be aware of the `-` prefix.
   - <https://progenetix.org/services/collationPlots/?id=PMID:22824167&-size_plotimage_w_px=1084>
 * `-size_plotarea_h_px`
   - height of the plot area (excluding labels etc.) in px (default 100)
-  - <https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=300>
+  - [progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=300](https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=300)
 * `-value_plot_y_max`
   - modifies the histogram's maximum value in percent (default 100)
-  - <https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=pgxcohort-TCGAcancers&-value_plot_y_max=50>
+  - [progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=pgxcohort-TCGAcancers&-value_plot_y_max=50](https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=pgxcohort-TCGAcancers&-value_plot_y_max=50)
 * `-colorschema`
   - change of colors used for gains and losses
   - options
@@ -111,7 +111,7 @@ syntax. Please be aware of the `-` prefix.
     * `-chr2plot=1,2,3,44,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,X,Y`
     * `-chr2plot=9`
 
-  - <https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=40&-value_plot_y_max=50&-colorschema=bluered&-chr2plot=1,3,9,17,22>
+  - [progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=40&-value_plot_y_max=50&-colorschema=bluered&-chr2plot=1,3,9,17,22](https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=40&-value_plot_y_max=50&-colorschema=bluered&-chr2plot=1,3,9,17,22)
     * see example above (live representation of embedded API call for this example)
 
 --------------------------------------------------------------------------------
@@ -119,8 +119,8 @@ syntax. Please be aware of the `-` prefix.
 ## Download Sample Data
 
 The sample annotations for any type of query - particularly but not limited to
-single identifier values - can be downloaded in either [Beacon v2 JSON](beaconplus.html#beacon-api) or in a
-tab-delimited text format.
+single identifier values - can be downloaded in either [Beacon v2 JSON](/beaconplus.html#beacon-api)
+or in a tab-delimited text format (`&output=table`).
 
 ##### Examples
 
