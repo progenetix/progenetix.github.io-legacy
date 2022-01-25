@@ -20,7 +20,7 @@ format where the main data is usually contained in the `response.results` list.
 
 The standard format for (plot-)images generated on Progenetix is Scalable Vector Graphics ([SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)). As the name implies, SVG is _scalable_, i.e. images can be scaled up without loosing quality or expanding in storage size. However, some of teh generated images use also embedded rastered components which will deteriorate during scaling - this is e.g. the case for array probe plots.
 
-```{admonition} According to [Wikipedia](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
+```{admonition} [Wikipedia](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
   All major modern web browsers—including Mozilla Firefox, Internet Explorer, Google Chrome, Opera, Safari, and Microsoft Edge—have SVG rendering support.
 ```
 
@@ -33,7 +33,6 @@ Plots on Progenetix are generated using the [PGX package](http://github.com/prog
 * read and write e.g. [Progentix segment files](/doc/fileformats.html)
 * generate binned status maps
 * render plots of sample-specific and aggregate CNV data, such as histograms and CNV frequency heatmaps
-
 
 
 ## Services
