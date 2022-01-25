@@ -114,6 +114,18 @@ syntax. Please be aware of the `-` prefix.
   - <https://progenetix.org/cgi/PGX/cgi/collationPlots.cgi?id=NCIT:C7376&-size_plotarea_h_px=40&-value_plot_y_max=50&-colorschema=bluered&-chr2plot=1,3,9,17,22>
     * see example above (live representation of embedded API call for this example)
 
+--------------------------------------------------------------------------------
+
+## Download Sample Data
+
+The sample annotations for any type of query - particularly but not limited to
+single identifier values - can be downloaded in either [Beacon v2 JSON](beaconplus.html#beacon-api) or in a
+tab-delimited text format.
+
+##### Examples
+
+* Download all TCGA cancer samples from Progenetix as tab-delimited table
+  - [progenetix.org/beacon/biosamples/?filters=pgx:cohort-TCGAcancers&output=table](http://progenetix.org/beacon/biosamples/?filters=pgx:cohort-TCGAcancers&output=table)
 
 --------------------------------------------------------------------------------
 
