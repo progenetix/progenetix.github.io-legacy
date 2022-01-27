@@ -17,12 +17,12 @@ parameters such as platform technologies. Overall, the Progenetix resource uses 
 | ------------- |:-------------:| ----- |
 | NCIT    | NCIt Neoplasm [^1] | NCIT:C27676 |
 | HP      | HPO[^2] | HP:0012209 |
-| PMID    | NCBI Pubmed ID | PMID:28966033 |
-| geo   | NCBI Gene Expression Omnibus[^3] | geo:GPL6504, geo:GSE19331, geo:GSM253289 |
+| PMID    | NCBI Pubmed ID | [PMID:18810378](https://progenetix.org/services/ids/PMID:18810378) |
+| geo   | NCBI Gene Expression Omnibus[^3] | [geo:GPL6801](https://progenetix.org/services/ids/geo:GPL6801), [geo:GSE19399](https://progenetix.org/services/ids/geo:GSE19399), geo:GSM253289 |
 | arrayexpress | EBI ArrayExpress [^4] | arrayexpress:E-MEXP-1008 |
 | cellosaurus      | Cellosaurus - a knowledge resource on cell lines [^5]| cellosaurus:CVCL_1650 |
 | Uberon | Uberon Anatomical Ontology [^6] |UBERON:0000992|
-| cbioportal      | cBioPortal[^9] | cbioportal:MSK_IMPACT_2017 |
+| cbioportal      | cBioPortal[^9] | [cbioportal:msk_impact_2017](https://progenetix.org/services/ids/cbioportal:msk_impact_2017) |
 
 ### Private filters
 
