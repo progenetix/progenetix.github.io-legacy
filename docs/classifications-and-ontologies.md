@@ -18,7 +18,7 @@ parameters such as platform technologies. Overall, the Progenetix resource uses 
 | NCIT    | NCIt Neoplasm [^1] | NCIT:C27676 |
 | HP      | HPO[^2] | HP:0012209 |
 | PMID    | NCBI Pubmed ID | [PMID:18810378](https://progenetix.org/services/ids/PMID:18810378) |
-| geo   | NCBI Gene Expression Omnibus[^3] | [geo:GPL6801](https://progenetix.org/services/ids/geo:GPL6801), [geo:GSE19399](https://progenetix.org/services/ids/geo:GSE19399), geo:GSM253289 |
+| geo   | NCBI Gene Expression Omnibus[^3] | [geo:GPL6801](https://progenetix.org/services/ids/geo:GPL6801), [geo:GSE19399](https://progenetix.org/services/ids/geo:GSE19399), [geo:GSM491153](https://progenetix.org/services/ids/geo:GSM491153) |
 | arrayexpress | EBI ArrayExpress [^4] | arrayexpress:E-MEXP-1008 |
 | cellosaurus      | Cellosaurus - a knowledge resource on cell lines [^5]| cellosaurus:CVCL_1650 |
 | Uberon | Uberon Anatomical Ontology [^6] |UBERON:0000992|
@@ -50,7 +50,7 @@ but now extended based on the whole "neoplasia" subtree of the NCI Thesaurus (`N
 
 #### Current NCIt sample codes
 
-* [progenetix.org/services/collations?filters=NCIT&output=text](https://progenetix.org/services/collations?filters=NCIT&output=text)
+* [progenetix.org/services/collations?collationTypes=NCIT&output=text](https://progenetix.org/services/collations?collationTypes=NCIT&output=text)
 
 ### ICD coding of tumor samples
 
@@ -61,9 +61,9 @@ The mappings used here for the ICD morphology codings (mapped to ICDMORPHOLOGY a
 #### Current ICD-O sample codes
 
 * ICD-O Morphologies
-  - [progenetix.org/services/collations?filters=icdom&output=text](https://progenetix.org/services/collations/?filters=icdom&output=text)
+  - [progenetix.org/services/collations?collationTypes=icdom&output=text](https://progenetix.org/services/collations/?collationTypes=icdom&output=text)
 * ICD-O Topographies
-  - [progenetix.org/services/collations/?filters=icdot&method=ids&output=text](https://progenetix.org/services/collations/?filters=icdot&method=ids&output=text)
+  - [progenetix.org/services/collations/?collationTypes=icdot&method=ids&output=text](https://progenetix.org/services/collations/?collationTypes=icdot&method=ids&output=text)
 
 ### UBERON codes
 
@@ -72,7 +72,7 @@ are detailed in the related [icdot2uberon](https://github.com/progenetix/icdot2u
 
 #### Current UBERON sample codes
 
-* [progenetix.org/services/collations?filters=UBERON&method=counts&output=text](https://progenetix.org/services/collations?filters=UBERON&method=counts&output=text)
+* [progenetix.org/services/collations?collationTypes=UBERON&method=counts&output=text](https://progenetix.org/services/collations?collationTypes=UBERON&method=counts&output=text)
 
 --------------------------------------------------------------------------------
 
