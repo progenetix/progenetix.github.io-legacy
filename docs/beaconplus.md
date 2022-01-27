@@ -70,6 +70,18 @@ more complex terms are only available through `PUT` requests.
 ],
 ```
 
+#### Hierarchical Terminologies in Filter Queries
+
+Hierarchical terminologies allow queries at different levels, to include all its children terms. The Progenetix query filter system adopts this inclusion logic if the classification / code type is hierarchy-based. However, the `includeDescendantTerms` pragma can be used to modify this behaviour - globally
+if provided in a `GET` request (`&includeDescendantTerms=false`) or as part of
+filter objects (see above).
+
+Examples for codes with hierarchical treatment within the filter space are:
+
+* NCIt
+  - true, deep hierarchical ontology of cancer classifications
+* Cellosaurus
+  - derived cell lines are also accessible through the code of their parental line
 
 --------------------------------------------------------------------------------
 
