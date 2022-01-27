@@ -55,7 +55,7 @@ for the main direct data access scenarios.
 
 #### Download CNV segments for a given collation (diagnosis, study...)
 
-The different filter options are described on the [**Filter Documentation**](/doc/filters-documentation.html)
+The different filter options are described on the [**Filter Documentation**](https://docs.progenetix.org/en/latest/beaconplus.html#filters-filters-filtering-terms)
 page.
 
 * Constructor: `progenetix.org/beacon/variants/?filters=___ID___&output=___method___`

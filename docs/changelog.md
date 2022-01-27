@@ -14,7 +14,8 @@ filters `includeDescendantTerms` pragma, which can be set to _false_ if one only
 wants to query for the term itself and exclude any child terms from the matching.
 
 Please be aware that this can only be applied globally and will affect all filtering
-terms used in a query.
+terms used in a query. More information is available in the [Filtering Terms](beaconplus.md#filters-filters-filtering-terms) documentation.
+
 
 ## 2022-01-17: Introducing `variant_state` classes for CNVs
 
