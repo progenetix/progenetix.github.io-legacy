@@ -52,6 +52,9 @@ collections:
 
 collections_dir: pages  # optional; here, all collections are inside "/pages"
 
+exclude:
+  - docs
+
 # navigation blocks can be used to separate different categories and add e.g.
 # external link block(s), in combination with a properly modified layout
 
