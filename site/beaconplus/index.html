@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Michael Baudis">
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>BeaconPlus - Progenetix Documentation</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "BeaconPlus";
+    var mkdocs_page_input_path = "beaconplus.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Progenetix Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../use-cases/">Use Case Examples</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../services/">Services</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../classifications-and-ontologies/">Classifications and Ontologies</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../publication-collection/">Publication Collection</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../changelog/">Changelog</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">BeaconPlus</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#beaconplus-data-query-model">BeaconPlus Data / Query Model</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#filters-filters-filtering-terms">filters Filters / Filtering Terms</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#example">Example</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#hierarchical-terminologies-in-filter-queries">Hierarchical Terminologies in Filter Queries</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#beacon-api">Beacon API</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#beacon-v2-path-examples-in-progenetix">Beacon v2: Path Examples in Progenetix</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#base">Base /</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#base-filtering_terms">Base /filtering_terms</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#base-biosamples">Base /biosamples</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#base-individuals">Base /individuals</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#base-variants">Base /variants</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#base-analyses-or-callsets">Base /analyses (or /callsets)</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="" href="http://progenetix.org">Progenetix Site</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="" href="http://info.baudisgroup.org">Baudisgroup</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Progenetix Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>BeaconPlus</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="beacon-discovery-services-for-genomic-data">Beacon - Discovery Services for Genomic Data</h1>
+<p><img align="right" style="float: right; max-width: 25px; margin-top: -20px;" src="http://info.progenetix.org/assets/img/logo_beacon.png" />The Beacon protocol defines an open standard for genomics data discovery,
+developed by members of the Global Alliance for Genomics & Health. Since 2016,
+the Beacon protocols is being developed through the
+<a href="https://beacon-project.io">ELIXIR Beacon project</a> as a GA4GH driver project.</p>
+
+<p>As part of the project, since early 2016 the <a href="http://info.baudisgroup.org">Computational Cytogenetics and Oncogenomics Group</a> at the University of Zurich develops the
+<a href="https://beacon.progenetix.org/ui/">Beacon<sup><span style="color: #d00;">+</span></sup> demonstrator</a>,
+to demonstrate current functionality and future Beacon protocol extensions.</p>
+<p>The Beacon<sup><span style="color: #d00;">+</span></sup> implementation is a
+custom front end on top of the <a href="https://progenetix.org">Progenetix</a>
+dataset, with emphasis on structural genome variations from cancer samples.</p>
+<p>On 2020-01-20,  Beacon<sup><span style="color: #d00;">+</span></sup> became part
+of the <a href="https://beacon-network.elixir-europe.org">ELIXIR Beacon Network</a>.</p>
+<h2 id="beaconplus-data-query-model">BeaconPlus Data / Query Model</h2>
+<p>The Progenetix / Beaconplus query model utilises the <a href="https://schemablocks.org/standards/ga4gh-data-model.html">GA4GH core data model</a> for genomic and (biomedical, procedural) queries and data delivery.</p>
+<p>The GA4GH data model for genomics recommends the use of a principle object hierarchy, consisting of</p>
+<ul>
+<li><code>variant</code> (a.k.a. <em>genomicVariation</em>)<ul>
+<li>a single molecular observation, e.g. a genomic variant observed in the analysis of the DNA from a biosample</li>
+<li>mostly corresponding to the "allele" concept, but with alternate use similar to that in VCF (e.g. CNV are no typical "allelic variants")</li>
+<li>in Progenetix identical variants from different sampleas are identified through
+a compact digest (<code>variantInternalId</code>) and can be used to retrieve those distinct
+variants (c.f. "line in VCF")</li>
+</ul>
+</li>
+<li><code>callset</code><ul>
+<li>the entirety of all variants, observed in a single experiment on a single sample</li>
+<li>a <em>callset</em> can be compared to a data column in a <strong>VCF</strong> variant annotation file</li>
+<li><em>callset</em> has an optional position in the object hierarchy, since <em>variants</em> describe biological observations in a biosample</li>
+</ul>
+</li>
+<li><code>biosample</code><ul>
+<li>a reference to a physical biological specimen on which analyses are performed</li>
+</ul>
+</li>
+<li><code>individual</code><ul>
+<li>in a typical use a human subject from which the biosample(s) was/were extracted</li>
+</ul>
+</li>
+</ul>
+<p>In the Progenetix backend we mirror the GA4GH data model in the storage system, consisting of the corresponding</p>
+<ul>
+<li>variants</li>
+<li>callsets (analyses)</li>
+<li>biosamples</li>
+<li>individuals</li>
+</ul>
+<p>collections of MongoDB databases. These collections are addressed by scoped queries.</p>
+<h3 id="filters-filters-filtering-terms"><code>filters</code> Filters / Filtering Terms</h3>
+<p>Filters represent a way to allow the resource provider to direct "self-scoped" query values to the corresponding attributes in their backend resource. In the Progenetix implementation, a lookup table followed by scope assignment is used to map prefixed filter values to the correct  attributes and collections. Most of the filter options are
+based on ontology terms or identifiers in CURIE format (e.g. <code>NCIT:C4033</code>, <code>cellosaurus:CVCL_0030</code> or <code>PMID:16004614</code>). For use case examples please
+look below; documentation of available ontologies and how to find out about available
+terms can be found on the <a href="../classifications-and-ontologies/">Classifications and Ontologies</a> page.</p>
+<p>In Beacon v2, the new <code>FilteringTerms</code> schema adds options to specify different types of filters (<code>OntologyFilter</code>, <code>AlphanumericFilter</code>, <code>CustomFilter</code>) which can
+contain a number of parameters to define e.g. scope or matching behaviour. These
+more complex terms are only available through <code>PUT</code> requests.</p>
+<h5 id="example">Example</h5>
+<pre><code>&quot;filters&quot;: [
+    {
+        &quot;id&quot;: &quot;NCIT:C4536&quot;,
+        &quot;scope&quot;: &quot;biosamples&quot;,
+        &quot;includeDescendantTerms&quot;: false
+    }
+],
+</code></pre>
+<h4 id="hierarchical-terminologies-in-filter-queries">Hierarchical Terminologies in Filter Queries</h4>
+<p>Hierarchical terminologies allow queries at different levels, to include all its children terms. The Progenetix query filter system adopts this inclusion logic if the classification / code type is hierarchy-based. However, the <code>includeDescendantTerms</code> pragma can be used to modify this behaviour - globally
+if provided in a <code>GET</code> request (<code>&amp;includeDescendantTerms=false</code>) or as part of
+filter objects (see above).</p>
+<p>Examples for codes with hierarchical treatment within the filter space are:</p>
+<ul>
+<li>NCIt</li>
+<li>true, deep hierarchical ontology of cancer classifications</li>
+<li>Cellosaurus</li>
+<li>derived cell lines are also accessible through the code of their parental line</li>
+</ul>
+<hr />
+<h2 id="beacon-api">Beacon API</h2>
+<h3 id="beacon-v2-path-examples-in-progenetix">Beacon v2: Path Examples in Progenetix</h3>
+<p>The Beacon v2 protocol uses a REST path structure for consistant data access.</p>
+<p>The Beacon+ implementation - developed oin the <a href="https://github.com/progenetix/bycon/"><code>bycon</code> project</a>
+implements an expanding set of those Beacon v2 paths for the <a href="http://progenetix.org">Progenetix</a>
+resource.</p>
+<hr />
+<h4 id="base">Base <code>/</code></h4>
+<p>The root path provides the standard <code>BeaconInfoResponse</code>.</p>
+<ul>
+<li><a href="https://progenetix.org/beacon/">/</a></li>
+</ul>
+<hr />
+<h4 id="base-filtering_terms">Base <code>/filtering_terms</code></h4>
+<h5 id="filtering_terms"><code>/filtering_terms/</code></h5>
+<ul>
+<li><a href="https://progenetix.org/beacon/filtering_terms/">/filtering_terms/</a></li>
+</ul>
+<h5 id="filtering_terms-query"><code>/filtering_terms/</code> + query</h5>
+<ul>
+<li><a href="https://progenetix.org/beacon/filtering_terms/?filters=PMID">/filtering_terms/?filters=PMID</a></li>
+<li><a href="https://progenetix.org/beacon/filtering_terms/?filters=NCIT,icdom">/filtering_terms/?filters=NCIT,icdom</a></li>
+</ul>
+<hr />
+<h4 id="base-biosamples">Base <code>/biosamples</code></h4>
+<h5 id="biosamples-query"><code>/biosamples/</code> + query</h5>
+<ul>
+<li><a href="https://progenetix.org/beacon/biosamples/?filters=cellosaurus:CVCL_0004">/biosamples/?filters=cellosaurus:CVCL_0004</a></li>
+<li>this example retrieves all biosamples having an annotation for the Cellosaurus <em>CVCL_0004</em>
+  identifier (K562)</li>
+</ul>
+<h5 id="biosamplesid"><code>/biosamples/{id}/</code></h5>
+<ul>
+<li><a href="http://progenetix.org/beacon/biosamples/pgxbs-kftva5c9/">/biosamples/pgxbs-kftva5c9/</a></li>
+<li>retrieval of a single biosample</li>
+</ul>
+<h5 id="biosamplesidvariants-biosamplesidvariants_in_sample"><code>/biosamples/{id}/variants/</code> &amp; <code>/biosamples/{id}/variants_in_sample/</code></h5>
+<ul>
+<li><a href="http://progenetix.org/beacon/biosamples/pgxbs-kftva5c9/variants/">/biosamples/pgxbs-kftva5c9/variants/</a></li>
+<li><a href="http://progenetix.org/beacon/biosamples/pgxbs-kftva5c9/variants_in_sample/">/biosamples/pgxbs-kftva5c9/variants_in_sample/</a></li>
+<li>retrieval of all variants from a single biosample</li>
+<li>currently - and especially since for a mostly CNV containing resource - <code>variants</code> means "variant instances" (or as in the early v2 draft <code>variantsInSample</code>)</li>
+</ul>
+<h5 id="biosamplesidanalyses"><code>/biosamples/{id}/analyses/</code></h5>
+<ul>
+<li><a href="http://progenetix.org/beacon/biosamples/pgxbs-kftva5c9/variants/">/biosamples/pgxbs-kftva5c9/analyses/</a></li>
+</ul>
+<hr />
+<h4 id="base-individuals">Base <code>/individuals</code></h4>
+<h5 id="individuals-query"><code>/individuals/</code> + query</h5>
+<ul>
+<li><a href="https://progenetix.org/beacon/individuals/?filters=NCIT:C7541">/individuals/?filters=NCIT:C7541</a></li>
+<li>this example retrieves all individuals having an annotation associated with <em>NCIT:C7541</em> (retinoblastoma)</li>
+<li>in Progenetix, this particular code will be part of the annotation for the <em>biosample(s)</em> associated with the returned individual</li>
+<li><a href="https://progenetix.org/beacon/individuals/?filters=PATO:0020001,NCIT:C9291">/individuals/?filters=PATO:0020001,NCIT:C9291</a></li>
+<li>this query returns information about individuals with an anal carcinoma (<strong>NCIT:C9291</strong>) and a known male genotypic sex (<strong>PATO:0020001</strong>)</li>
+<li>in Progenetix, the information about its sex is associated with the <em>Individual</em> object (and rtherefore in the <em>individuals</em> collection), whereas the information about the cancer type is a property of the <em>Biosample</em> (and therefore stored in the <em>biosamples</em> collection)</li>
+</ul>
+<h5 id="individualsid"><code>/individuals/{id}/</code></h5>
+<ul>
+<li><a href="http://progenetix.org/beacon/biosamples/pgxind-kftx25hb/">/biosamples/pgxind-kftx25hb/</a></li>
+<li>retrieval of a single individual</li>
+</ul>
+<h5 id="individualsidvariants-individualsidvariants_in_sample"><code>/individuals/{id}/variants/</code> &amp; <code>/individuals/{id}/variants_in_sample/</code></h5>
+<ul>
+<li><a href="http://progenetix.org/beacon/individuals/pgxind-kftx25hb/variants/">/individuals/pgxind-kftx25hb/variants/</a></li>
+<li><a href="http://progenetix.org/beacon/individuals/pgxind-kftx25hb/variants_in_sample/">/individuals/pgxind-kftx25hb/variants_in_sample/</a></li>
+<li>retrieval of all variants from a single individual</li>
+<li>currently - and especially since for a mostly CNV containing resource - <code>variants</code> means "variant instances" (or as in the early v2 draft <code>variantsInSample</code>)</li>
+</ul>
+<hr />
+<h4 id="base-variants">Base <code>/variants</code></h4>
+<p>There is currently (April 2021) still some discussion about the implementation and naming
+of the different types of genomic variant endpoints. Since the Progenetix collections
+follow a "variant observations" principle all variant requests are directed against
+the local <code>variants</code> collection.</p>
+<p>If using <code>g_variants</code> or <code>variants_in_sample</code>, those will be treated as aliases.</p>
+<h5 id="variants-query"><code>/variants/</code> + query</h5>
+<ul>
+<li><a href="http://progenetix.org/beacon/variants/?assemblyId=GRCh38&amp;referenceName=17&amp;variantType=DEL&amp;filterLogic=AND&amp;start=7500000&amp;start=7676592&amp;end=7669607&amp;end=7800000">/variants/?assemblyId=GRCh38&amp;referenceName=17&amp;variantType=DEL&amp;filterLogic=AND&amp;start=7500000&amp;start=7676592&amp;end=7669607&amp;end=7800000</a></li>
+<li>This is an example for a Beacon "Bracket Query" which will return focal deletions in the TP53 locus (by position).</li>
+</ul>
+<h5 id="variantsid-or-variants_in_sampleid-or-g_variantsid"><code>/variants/{id}/</code> or <code>/variants_in_sample/{id}</code> or <code>/g_variants/{id}/</code></h5>
+<ul>
+<li><a href="http://progenetix.org/beacon/variants/5f5a35586b8c1d6d377b77f6/">/variants/5f5a35586b8c1d6d377b77f6/</a></li>
+<li><a href="http://progenetix.org/beacon/variants_in_sample/5f5a35586b8c1d6d377b77f6/">/variants_in_sample/5f5a35586b8c1d6d377b77f6/</a></li>
+</ul>
+<h5 id="variantsidbiosamples-variants_in_sampleidbiosamples"><code>/variants/{id}/biosamples/</code> &amp; <code>variants_in_sample/{id}/biosamples/</code></h5>
+<ul>
+<li><a href="http://progenetix.org/beacon/variants/5f5a35586b8c1d6d377b77f6/biosamples/">/variants/5f5a35586b8c1d6d377b77f6/biosamples/</a></li>
+<li><a href="http://progenetix.org/beacon/variants_in_sample/5f5a35586b8c1d6d377b77f6/biosamples/">/variants_in_sample/5f5a35586b8c1d6d377b77f6/biosamples/</a></li>
+</ul>
+<hr />
+<h4 id="base-analyses-or-callsets">Base <code>/analyses</code> (or <code>/callsets</code>)</h4>
+<p>The Beacon v2 <code>/analyses</code> endpoint accesses the Progenetix <code>callsets</code> collection
+documents, i.e. information about the genomic variants derived from a single
+analysis. In Progenetix the main use of these documents is the storage of e.g.
+CNV statistics or binned genome calls.</p>
+<h5 id="analyses-query"><code>/analyses/</code> + query</h5>
+<ul>
+<li><a href="https://progenetix.org/beacon/analyses/?filters=cellosaurus:CVCL_0004">/analyses/?filters=cellosaurus:CVCL_0004</a></li>
+<li>this example retrieves all biosamples having an annotation for the Cellosaurus <em>CVCL_0004</em>
+  identifier (K562)</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../changelog/" class="btn btn-neutral" title="Changelog"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>&copy; Copyright 2022, Michael Baudis and progenetix.org</p>
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../changelog/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
