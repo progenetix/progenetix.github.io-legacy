@@ -65,9 +65,8 @@ nav_cat_blocks: # comma-separated "label,type,label_visibility"
 
 General:
   about: About Progenetix
-  'https://docs.progenetix.org/en/latest/use-cases.html': Use Case Examples
-  documentation: Documentation
-  'http://docs.progenetix.org': NEW Documentation
+  'https://docs.progenetix.org/use-cases/': Use Case Examples
+  'http://docs.progenetix.org': Documentation
   news: News
   'http://progenetix.org': Progenetix Data
   'http://progenetix.org/subsets/biosubsets#is_sub': Cancer CNV Profiles
