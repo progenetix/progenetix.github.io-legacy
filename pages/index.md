@@ -17,7 +17,8 @@ date:   2022-02-01
 {% assign cat_posts = cat_posts | sort: 'date' | reverse %}
 {% assign post_counter = 0 %}
 
-{%- for post in cat_posts -%}
+<!-- {%- for post in cat_posts -%} -->
+{%- for post in site.posts -%}
   {%- unless post_counter > 30 -%}
     {%- unless post.tags contains '.prepend' or post.tags contains '.append' -%}
       {% assign post_counter = post_counter | plus: 1 %}
