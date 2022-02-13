@@ -23,8 +23,8 @@ collation CNV frequencies.
 <!--more-->
 
 The resource uses a standard [CNV binning model](/doc/genomic_intervals.html)
-with (in GRCh38) 3102 intervals of 1MB default size. For the clustering of both status and
-frequency values, gain and loss intervals are treated independently, resulting in 6204
+with (in GRCh38) 3106[^1] intervals of 1MB default size. For the clustering of both status and
+frequency values, gain and loss intervals are treated independently, resulting in 6212[^1]
 values per sample (or collation) for the generation of a clustering matrix:
 
 * for sample clustering, the cluster matrix for each sample (line) consists of the
@@ -61,3 +61,7 @@ For visualization, while clustering is performed on the matrix with separate val
 Clustering can be omitted by setting `Cluster Tree Width` to `0`.
 
 More information is made availanble in the [Use Cases](/categories/usecases.html) category.
+
+[^1]: Before 2022-02-11 there where 3102 (or 6204) intervals. After this, a changed algorithm lead to
+avoidance of centromere-spanning intervals, i.e. shortened last intervals assigned to the chromosomal
+p-arm and downstream shifts of interval positions.
