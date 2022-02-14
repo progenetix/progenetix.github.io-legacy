@@ -65,7 +65,7 @@ nav_cat_blocks: # comma-separated "label,type,label_visibility"
 
 General:
   'http://docs.progenetix.org/': Documentation Home
-  'http://docs.progenetix.org/blog/': News
+  'http://docs.progenetix.org/news/': News
   'http://docs.progenetix.org/use-cases/': Use Case Examples
   'http://docs.progenetix.org/services/': 'Services & API'
   'http://docs.progenetix.org/classifications-and-ontologies/': 'Classifications, Ontologies & Standards'
