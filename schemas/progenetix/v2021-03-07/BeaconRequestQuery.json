@@ -1,0 +1,91 @@
+{
+   "$id" : "https://progenetix.org/services/schemas/BeaconRequestQuery/v2021-03-07",
+   "$schema" : "https://json-schema.org/draft/2020-12/schema",
+   "description" : "Description pending\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "ELIXIR Beacon project team",
+            "id" : "https://beacon-project.io/categories/people.html"
+         },
+         {
+            "description" : "Jordi Rambla",
+            "id" : "github:@jrambla"
+         },
+         {
+            "description" : "Sabele de la Torre",
+            "id" : "github:@sdelatorrep"
+         },
+         {
+            "description" : "Mamana Mbiyavanga",
+            "id" : "github:@mamanambiya"
+         },
+         {
+            "description" : "Michael Baudis",
+            "id" : "orcid:0000-0002-9903-4248"
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "Beacon v2",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         },
+         {
+            "description" : "Progenetix `bycon` project",
+            "id" : "https://github.com/progenetix/bycon/"
+         }
+      ],
+      "sb_status" : "community",
+      "used_by" : [
+         {
+            "description" : "Progenetix database schema (Beacon+ backend)",
+            "id" : "https://github.com/progenetix/schemas/"
+         }
+      ]
+   },
+   "properties" : {
+      "analysis" : {
+         "$ref" : "BeaconAnalysisFields.yaml#/properties"
+      },
+      "biosample" : {
+         "$ref" : "BeaconBiosampleFields.yaml#/properties"
+      },
+      "cohort" : {
+         "$ref" : "BeaconCohortFields.yaml#/properties"
+      },
+      "customFilters" : {
+         "$ref" : "BeaconFilters.yaml#/schemas/CustomFilters"
+      },
+      "datasets" : {
+         "$ref" : "BeaconRequestDatasets.yaml#/properties"
+      },
+      "filters" : {
+         "$ref" : "BeaconFilters.yaml#/schemas/Filters"
+      },
+      "g_variant" : {
+         "$ref" : "BeaconGenomicVariantFields.yaml#/properties"
+      },
+      "individual" : {
+         "$ref" : "BeaconIndividualFields.yaml#/properties"
+      },
+      "interactor" : {
+         "$ref" : "BeaconInteractorFields.yaml#/properties"
+      },
+      "pagination" : {
+         "$ref" : "BeaconPagination.yaml#/properties"
+      },
+      "run" : {
+         "$ref" : "BeaconRunFields.yaml#/properties"
+      },
+      "variant_in_sample" : {
+         "$ref" : "BeaconVariantInSampleFields.yaml#/properties"
+      },
+      "variant_interpretation" : {
+         "$ref" : "BeaconVariantInterpretationFields.yaml#/properties"
+      }
+   },
+   "title" : "BeaconRequestQuery",
+   "type" : "object"
+}
+

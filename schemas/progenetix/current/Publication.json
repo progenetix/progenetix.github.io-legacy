@@ -1,0 +1,107 @@
+{
+   "$id" : "https://progenetix.org/services/schemas/Publication/v2020-12-08",
+   "$schema" : "https://json-schema.org/draft/2020-12/schema",
+   "description" : "A Publication represents basic information about a scientific article used in the Progenetix resource to indicate and annotate sources for genomic screening experiments.\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "Michael Baudis",
+            "id" : "orcid:0000-0002-9903-4248"
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "Progenetix `bycon` project",
+            "id" : "https://github.com/progenetix/bycon/"
+         }
+      ],
+      "sb_status" : "community",
+      "used_by" : [
+         {
+            "description" : "Progenetix database schema (Beacon+ backend)",
+            "id" : "https://github.com/progenetix/schemas/"
+         }
+      ]
+   },
+   "properties" : {
+      "abstract" : {
+         "type" : "string"
+      },
+      "affiliation" : {
+         "type" : "string"
+      },
+      "authors" : {
+         "examples" : [
+            "Weber RG, Bostrom J, Wolter M, Baudis M, Collins VP, Reifenberger G, Lichter P."
+         ],
+         "type" : "string"
+      },
+      "contact" : {
+         "description" : "Name of contact (e.g. corresponding author). TODO: With email, affiliation ... into new address schema, in provenance?\n",
+         "type" : "string"
+      },
+      "email" : {
+         "type" : "string"
+      },
+      "id" : {
+         "examples" : [
+            "PMID:22824167"
+         ],
+         "type" : "string"
+      },
+      "info" : {
+         "type" : "object"
+      },
+      "journal" : {
+         "examples" : [
+            "Proc. Natl. Acad. Sci. U.S.A. 94(26), 1997"
+         ],
+         "type" : "string"
+      },
+      "label" : {
+         "description" : "An optional informative shortened concatenation of authors / year / title, to be used for labels etc.\n",
+         "examples" : [
+            "Peralta R, Baudis M, Vazquez G, Juarez S, Ortiz R, Decanini et al. (2010): Increased expression of cellular retinol-binding protein 1 in laryngeal squamous cell carcinoma."
+         ],
+         "type" : "string"
+      },
+      "note" : {
+         "type" : "string"
+      },
+      "pmcid" : {
+         "description" : "Id of article in PMC, if there. TODO: into `external_references`?\n",
+         "type" : "string"
+      },
+      "provenance" : {
+         "$ref" : "Provenance.yaml#/properties"
+      },
+      "pubmedid" : {
+         "examples" : [
+            "22824167"
+         ],
+         "type" : "string"
+      },
+      "status" : {
+         "type" : "string"
+      },
+      "title" : {
+         "type" : "string"
+      },
+      "updated" : {
+         "examples" : [
+            "2020-09-10T17:44:10.170Z"
+         ],
+         "format" : "date-time",
+         "type" : "string"
+      },
+      "year" : {
+         "examples" : [
+            "2021"
+         ],
+         "type" : "string"
+      }
+   },
+   "title" : "Publication"
+}
+
