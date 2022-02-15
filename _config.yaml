@@ -1,0 +1,140 @@
+title: 'Progenetix - Structural Cancer Genomics Resources'
+label: '' # Progenetix :: Info
+tagline: 'Progenetix Documentation Pages'
+description: |
+  Code & info website of the progenetix.org cancer genomics information resource : baudisgroup @ UZH & SIB
+show_downloads: true
+google_analytics: UA-572981-2
+plugins:
+ - jekyll-seo-tag
+keywords:
+  - genomics
+  - cancer
+  - CGH
+  - arrays
+  - Beacon
+  - Baudis
+  - DNA
+  - 'data sharing'
+  - 'FAIR'
+  - GA4GH
+  - Zurich
+  - SIB
+  - Swiss Institute of Bioinformatics
+  - UZH
+  - University of Zurich
+site_domain_name: info.progenetix.org
+url: 'http://info.progenetix.org'
+google_search_code: >
+  <script async src="https://cse.google.com/cse.js?cx=29234d8c2ee43f948"></script>
+  <div class="gcse-search"></div>
+baseurl: ""
+site_parent_link: 'http://progenetix.org'
+site_parent_link_name: 'Progenetix Data'
+
+# instructions for processing specific directories
+
+include:        # usually only pages in / and /_posts are "seen" => processed
+  - categories  # contains landing pages for each category
+  - tags        # contains landing pages for each tag
+
+# Collections are used to organise pages into logical groups; these do not need
+# to have a relation to the "categories", though this is highly recommended
+# Collection directories reside in "/collections_dir/_(collection name)".
+
+collections:
+  doc:
+    output: true
+    permalink: /doc/:path/
+  schemas:
+    output: true
+    permalink: /schemas/:path/
+
+collections_dir: pages  # optional; here, all collections are inside "/pages"
+
+exclude:
+  - docs
+
+# navigation blocks can be used to separate different categories and add e.g.
+# external link block(s), in combination with a properly modified layout
+
+nav_cat_blocks: # comma-separated "label,type,label_visibility"
+  General: 'General,categories,hide'
+  related_sites: 'Related Sites,related_sites,show'
+  github_projects: 'Github Projects,github_projects,show'
+
+General:
+  'http://docs.progenetix.org/': Documentation Home
+  'http://docs.progenetix.org/news/': News
+  'http://docs.progenetix.org/use-cases/': Use Case Examples
+  'http://docs.progenetix.org/services/': 'Services & API'
+  'http://docs.progenetix.org/classifications-and-ontologies/': 'Classifications, Ontologies & Standards'
+  'http://docs.progenetix.org/publication-collection/': 'Publication Collection'
+  'http://docs.progenetix.org/changelog/': 'Changelog'
+  'http://docs.progenetix.org/beaconplus/': 'Beacon+ &amp; bycon'
+  'http://docs.progenetix.org/technical-notes/': 'Technical Notes'
+  'http://progenetix.org': Progenetix Data
+  'http://progenetix.org/subsets/biosubsets#is_sub': Cancer CNV Profiles
+  'http://progenetix.org/biosamples/#is_sub': Search Samples
+  'http://progenetix.org/publications/': Publication DB
+
+related_sites:
+  'Baudisgroup @ UZH': 'http://info.baudisgroup.org'
+  'Beacon<span style="color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org/ui/'
+  'SchemaBlocks {S}[B]': 'http://schemablocks.org'
+  'Beacon Project': 'http://beacon-project.io'
+
+github_projects:
+  baudisgroup: 'http://github.com/baudisgroup/'
+  progenetix: 'http://github.com/progenetix/'
+  'ELIXIR Beacon': 'https://github.com/ga4gh-beacon/'
+
+categories-date-sorted:
+  - news
+  - statistics
+  - about
+  - documentation
+
+tags-date-sorted:
+  - API
+  - documentation
+
+cloud_tags:
+  - API
+  - article
+  - Beacon
+  - Beacon_v2
+  - BeaconPlus
+  - bycon
+  - code
+  - identifiers
+  - documentation
+  - downloads
+  - graphics
+  - GA4GH
+  - maps
+  - ontologies
+  - licensing
+  - statistics
+  - schemas
+  - services
+  - tools
+  - website
+  - Perl
+  - R
+  - JavaScript
+  - Python
+  - TCGA
+
+# additional Jekyll instructions
+
+plugins:
+ - jekyll-seo-tag
+type: website
+navigation_max_items: 4 # number of shown links in current category
+emptyArray: []          # dummy element for array initialisation
+
+# local build specific
+include:
+  - .htaccess
+# markdown: kramdown

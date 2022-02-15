@@ -1,0 +1,83 @@
+---
+title: 'How to cite Progenetix?'
+date: 2021-10-12
+layout: default
+author: '@mbaudis'
+permalink: /citation.html
+categories:
+  - documentation
+  - about
+tags:
+  - progenetix
+  - arraymap
+  - guide
+  - publications
+  - citation
+  - .featured
+---
+
+## How to cite Progenetix?
+
+Recent publications by the Progenetix team can be found on the [baudisgroup website](http://info.baudisgroup.org/categories/publications.html).
+
+*New in October 2021:* There is now a new Progenetix publication listing page which contains links to articles
+that [cite or use Progenetix](https://progenetix.org/publications/progenetixuse/) and
+resources from this "ecosystem." Please [let us know](mailto:contact@progenetix.org)
+if you are aware of other such cases - frequently the publications do not use
+a proper citation format but just refer to "according tho the Progenetix resource"
+or similar in the text.
+
+#### _Progenetix_
+
+For any use of the Progenetix data, e.g. as a reference for aberration frequencies in a certain locus, it is necessary to cite __both__ the website and the original _Bioinformatics_ publication:
+
+* Baudis, M., & Cleary, M. L. (2001). Progenetix.net: an online repository for molecular cytogenetic aberration data. Bioinformatics, 17(12), 1228-1229.
+* Progenetix oncogenomic online resource: _progenetix.org_. Baudis M _et al._ ({{ site.time | date: '%Y' }})
+
+Depending on the context (e.g. direct use of recent data), the more recent resource publications could/should be cited, too:
+
+* Qingyao Huang, Paula Carrio-Cordo, Bo Gao, Rahel Paloots, Michael Baudis. *The Progenetix oncogenomic resource in 2021*. _Database_, Volume 2021, 2021, baab043
+* Cai H, Kumar N, Ai N, Gupta S, Rath P, Baudis M. *Progenetix: 12 years of oncogenomic data curation.* _Nucleic Acids Res_ (2014) Jan;42
+
+In case of citation restrictions, you may just use the Bioinformatics citation, and put the website in the text. A proper citation would look e.g. like:
+
+```
+... according to the Progenetix resource ([1]; www.progenetix.org), copy number ...
+```
+
+... and in the citations:
+
+* Baudis, M., & Cleary, M. L. (2001). Progenetix.net: an online repository for molecular cytogenetic aberration data. Bioinformatics, 17(12), 1228-1229.
+
+
+#### _arrayMap_
+
+Now again being subsumed into the main Progenetix collection, the [arrayMap project](https://github.com/progenetix/progenetix.github.io/edit/master/pages/_doc/progenetix-citation.md) was initiated to build a cancer genomic profile resource where probe-level data are available.
+
+From 2021 on please use the general Progenetic citation instructions as detailed above.
+
+##### Legacy
+
+Previously, for arrayMap data the same rules applied as for Progenetix, i.e. citation of the article and the website:
+
+* Cai, H., Kumar, N., & Baudis, M. 2012. arrayMap: A Reference Resource for Genomic Copy Number Imbalances in Human Malignancies. PLoS One 7(5), e36944.
+* arrayMap: Genomic arrays for copy number profiling in human cancer: _arraymap.org_. Baudis M _et al._ ({{ site.time | date: '%Y' }})
+
+
+<div style="float: right;">
+
+<a href="https://europepmc.org/search?query=Progenetix" taget="_BLANK">
+<img class="textButton" style="width: 32px; height: auto; padding: 0px; margin-left: 10px; float: right;" src="http://progenetix.org/p/EuropePMC_64x64.png" />
+</a>
+
+
+<a href="https://scholar.google.com/scholar?hl=en&num=50&as_sdt=0%2C5&as_ylo=2001&q=%2BProgenetix+cancer+-progenetic" taget="_BLANK">
+<img class="textButton" style="width: 32px; height: auto; padding: 0px; margin-left: 10px; float: right;" src="http://progenetix.org/p/gscholar_64x64.png" />
+</a>
+
+
+<a href="https://ncbi.nlm.nih.gov/pubmed/?term=Progenetix+NOT+progenetic" taget="_BLANK">
+<img class="textButton" style="width: 32px; height: auto; padding: 0px; margin-left: 10px; float: right;" src="http://progenetix.org/p/pubmed_logo_64x64.png" />
+</a>
+
+</div>
